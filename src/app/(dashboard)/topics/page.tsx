@@ -7,7 +7,7 @@ import { Progress } from '@/components/ui/progress'
 import { cn, getSubjectColor, getLevelColor } from '@/lib/utils'
 import { Lock, CheckCircle2, BookOpen } from 'lucide-react'
 import type { Topic, TopicProgress } from '@/types'
-import { LEVEL_LABELS } from '@/types'
+import { levelLabel } from '@/types'
 
 export default async function TopicsPage() {
   const supabase = await createClient()
@@ -23,8 +23,7 @@ export default async function TopicsPage() {
     (progress ?? []).map(p => [p.topic_id, p])
   )
 
-  const fisica  = (topics ?? []).filter(t => t.subject === 'fisica')
-  const quimica = (topics ?? []).filter(t => t.subject === 'quimica')
+  const bySubject = (subject: string) => (topics ?? []).filter(t => t.subject === subject)
 
   const totalUnlocked = (progress ?? []).filter(p => p.is_unlocked).length
 
@@ -45,9 +44,12 @@ export default async function TopicsPage() {
       <Progress value={(totalUnlocked / 75) * 100} className="h-2" />
 
       {[
-        { label: 'Física', topics: fisica, subject: 'fisica' },
-        { label: 'Química', topics: quimica, subject: 'quimica' },
-      ].map(section => (
+        { label: 'Física',      topics: bySubject('fisica'),   subject: 'fisica' },
+        { label: 'Química',     topics: bySubject('quimica'),  subject: 'quimica' },
+        { label: 'Geología',    topics: bySubject('geologia'), subject: 'geologia' },
+        { label: 'Biología',    topics: bySubject('biologia'), subject: 'biologia' },
+        { label: 'Transversal', topics: bySubject('general'),  subject: 'general' },
+      ].filter(section => section.topics.length > 0).map(section => (
         <section key={section.subject}>
           <h2 className="text-lg font-semibold mb-4">
             {section.label}
@@ -87,7 +89,7 @@ export default async function TopicsPage() {
                           </Badge>
                           {unlocked && (
                             <Badge className={cn('text-xs px-1.5 py-0', getLevelColor(level))}>
-                              {LEVEL_LABELS[level]}
+                              {levelLabel(level)}
                             </Badge>
                           )}
                         </div>

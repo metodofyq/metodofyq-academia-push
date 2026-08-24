@@ -38,3 +38,6 @@ next-env.d.ts
 .branches
 .temp
 supabase/.env
+
+# fuente bruta de temas (con imágenes en base64) — ya cargada en Supabase Storage
+metodofyq_tema19.jsx

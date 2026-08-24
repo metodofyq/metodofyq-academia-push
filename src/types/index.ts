@@ -1,6 +1,13 @@
-import type { Database, ExerciseOption } from './database'
+import type { Database } from './database'
 
-export type { ExerciseOption }
+// database.ts es generado por `supabase gen types` (Json genérico para las
+// columnas jsonb) — este shape concreto de `exercises.options` se mantiene
+// aquí para no perderlo en la próxima regeneración.
+export type ExerciseOption = {
+  id: string
+  text: string
+  is_correct: boolean
+}
 
 export type Profile     = Database['public']['Tables']['profiles']['Row']
 export type Topic       = Database['public']['Tables']['topics']['Row']
@@ -42,17 +49,26 @@ export type StudentKPI = {
 
 export type SM2Grade = 0 | 1 | 2 | 3 | 4 | 5
 
-export const LEVEL_LABELS: Record<number, string> = {
-  0: 'N0 - Introducción',
-  1: 'N1 - Básico',
-  2: 'N2 - Intermedio',
-  3: 'N3 - Avanzado',
-  4: 'N4 - Examen',
+export const LEVEL_LABELS: Record<string, string> = {
+  '0':   'N0 - Introducción',
+  '0.5': 'N0.5 - Infografía',
+  '1':   'N1 - Básico',
+  '2':   'N2 - Intermedio',
+  '2.5': 'N2.5 - Tarjetas',
+  '3':   'N3 - Avanzado',
+  '4':   'N4 - Examen',
+}
+
+export function levelLabel(level: number): string {
+  return LEVEL_LABELS[String(level)] ?? LEVEL_LABELS['0']
 }
 
 export const SUBJECT_LABELS: Record<string, string> = {
-  fisica:  'Física',
-  quimica: 'Química',
+  fisica:   'Física',
+  quimica:  'Química',
+  geologia: 'Geología',
+  biologia: 'Biología',
+  general:  'Transversal',
 }
 
 export const STUDY_PLAN_TOPICS_COUNT = 40

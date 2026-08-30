@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
-import { Users, BookOpen, BarChart3, Upload, ArrowLeft } from 'lucide-react'
+import { Users, BookOpen, BarChart3, Upload, ArrowLeft, Trophy } from 'lucide-react'
 import { calculateAccuracyPercent } from '@/lib/utils'
 import type { Profile } from '@/types'
 
@@ -64,7 +64,7 @@ export default async function TeacherDashboardPage() {
     <div className="max-w-5xl mx-auto space-y-8 p-6">
       <div className="flex items-center gap-3">
         <Button variant="ghost" size="icon" asChild>
-          <Link href="/dashboard"><ArrowLeft className="h-4 w-4" /></Link>
+          <Link href="/overview"><ArrowLeft className="h-4 w-4" /></Link>
         </Button>
         <div>
           <h1 className="text-2xl font-bold">Panel del Profesor</h1>
@@ -73,11 +73,12 @@ export default async function TeacherDashboardPage() {
       </div>
 
       {/* Overview cards */}
-      <div className="grid gap-4 sm:grid-cols-3">
+      <div className="grid gap-4 sm:grid-cols-4">
         {[
           { label: 'Alumnos activos', value: totalStudents, icon: Users,    color: 'text-blue-600' },
           { label: '% Acierto medio', value: `${avgAccuracy}%`, icon: BarChart3, color: 'text-green-600' },
           { label: 'Materiales',      value: 'Subir', icon: Upload,  color: 'text-purple-600', href: '/teacher/materials' },
+          { label: 'Medallero',       value: 'Otorgar', icon: Trophy, color: 'text-amber-600', href: '/teacher/medallas' },
         ].map(s => (
           <Card key={s.label}>
             <CardContent className="pt-6 flex items-center gap-4">

@@ -20,6 +20,8 @@ interface Props {
   topicId: string
   studentId: string
   incluirNivel4: boolean
+  temaCode?: string
+  temaTitulo?: string
 }
 
 const accent = { 2: { text: 'text-orange-600', border: 'border-orange-600', bg: 'bg-orange-600' }, 3: { text: 'text-green-600', border: 'border-green-600', bg: 'bg-green-600' } }
@@ -27,7 +29,7 @@ const accent = { 2: { text: 'text-orange-600', border: 'border-orange-600', bg: 
 // N2 (esquema) y N3 (redacción completa con imágenes) comparten el mismo
 // motor: leer un texto de referencia y luego reescribirlo de memoria, con
 // corrección palabra a palabra y teclado de símbolos especiales.
-export function DictadoCorrector({ nivel, texto, imagenesAncladas, topicId, studentId, incluirNivel4 }: Props) {
+export function DictadoCorrector({ nivel, texto, imagenesAncladas, topicId, studentId, incluirNivel4, temaCode, temaTitulo }: Props) {
   const router = useRouter()
   const c = accent[nivel]
 
@@ -76,7 +78,7 @@ export function DictadoCorrector({ nivel, texto, imagenesAncladas, topicId, stud
   }
 
   return (
-    <NivelShell nivel={nivel}>
+    <NivelShell nivel={nivel} temaCode={temaCode} temaTitulo={temaTitulo}>
       {fase === 'lectura' && (
         <>
           {nivel === 3 && (

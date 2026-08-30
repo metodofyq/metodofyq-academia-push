@@ -25,14 +25,19 @@ export default function Header() {
           <a href="/recursos" className="text-gray-700 hover:text-blue-900">Recursos gratuitos</a>
           <a href="/prueba" className="text-gray-700 hover:text-blue-900">Prueba nuestro sistema</a>
         </nav>
-        <a
-          href="https://buy.stripe.com/test/placeholder"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-blue-900 text-white px-6 py-2 rounded-lg hover:bg-blue-800 font-semibold"
-        >
-          Inscribirse
-        </a>
+        <div className="flex items-center gap-4">
+          <a href="/login" className="text-sm font-medium text-gray-700 hover:text-blue-900">
+            Iniciar sesión
+          </a>
+          <a
+            href="https://buy.stripe.com/test/placeholder"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-900 text-white px-6 py-2 rounded-lg hover:bg-blue-800 font-semibold"
+          >
+            Inscribirse
+          </a>
+        </div>
       </div>
     </header>
   );

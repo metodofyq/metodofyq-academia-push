@@ -13,7 +13,7 @@ export default async function TeacherLayout({ children }: { children: React.Reac
     .single()
 
   if (!profile || !['teacher', 'admin'].includes(profile.role)) {
-    redirect('/dashboard')
+    redirect('/overview')
   }
 
   return <>{children}</>

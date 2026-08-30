@@ -1,16 +1,10 @@
-'use client'
-
-import { useState, useTransition } from 'react'
-import { useRouter } from 'next/navigation'
 import { format, parseISO, isToday, isPast, isFuture } from 'date-fns'
 import { es } from 'date-fns/locale'
-import { deleteStudyPlan } from '@/lib/actions/study-plan'
 import { Card, CardContent } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Progress } from '@/components/ui/progress'
 import { cn, getSubjectColor } from '@/lib/utils'
-import { Calendar, CheckCircle2, Clock, Trash2 } from 'lucide-react'
+import { Calendar, CheckCircle2, Clock } from 'lucide-react'
 import type { StudyPlan, StudyPlanTopic, Topic } from '@/types'
 
 interface Props {
@@ -19,11 +13,7 @@ interface Props {
   studentId: string
 }
 
-export function ActivePlanView({ plan, planTopics, studentId }: Props) {
-  const router = useRouter()
-  const [pending, startTransition] = useTransition()
-  const [showConfirm, setShowConfirm] = useState(false)
-
+export function ActivePlanView({ planTopics }: Props) {
   const sorted = [...planTopics].sort((a, b) => a.order_index - b.order_index)
   const past    = sorted.filter(pt => pt.scheduled_date && isPast(parseISO(pt.scheduled_date)) && !isToday(parseISO(pt.scheduled_date!)))
   const today   = sorted.filter(pt => pt.scheduled_date && isToday(parseISO(pt.scheduled_date!)))
@@ -31,13 +21,6 @@ export function ActivePlanView({ plan, planTopics, studentId }: Props) {
 
   const completedCount = past.length + today.length
   const progress = Math.round((completedCount / sorted.length) * 100)
-
-  function handleDelete() {
-    startTransition(async () => {
-      await deleteStudyPlan(plan.id)
-      router.refresh()
-    })
-  }
 
   return (
     <div className="space-y-6">
@@ -66,23 +49,6 @@ export function ActivePlanView({ plan, planTopics, studentId }: Props) {
           <p className="text-sm text-center text-muted-foreground py-2">
             …y {future.length - 10} temas más
           </p>
-        )}
-      </div>
-
-      {/* Delete plan */}
-      <div className="pt-4 border-t">
-        {!showConfirm ? (
-          <Button variant="outline" size="sm" onClick={() => setShowConfirm(true)} className="text-muted-foreground">
-            <Trash2 className="h-4 w-4 mr-2" /> Eliminar plan y crear uno nuevo
-          </Button>
-        ) : (
-          <div className="flex items-center gap-3">
-            <p className="text-sm text-muted-foreground">¿Seguro? Perderás el historial del plan actual.</p>
-            <Button variant="destructive" size="sm" onClick={handleDelete} disabled={pending}>
-              {pending ? 'Eliminando…' : 'Sí, eliminar'}
-            </Button>
-            <Button variant="outline" size="sm" onClick={() => setShowConfirm(false)}>Cancelar</Button>
-          </div>
         )}
       </div>
     </div>

@@ -40,7 +40,7 @@ export async function updateSession(request: NextRequest) {
   // Redirect authenticated users away from auth pages
   if (user && (pathname === '/login' || pathname === '/register')) {
     const url = request.nextUrl.clone()
-    url.pathname = '/dashboard'
+    url.pathname = '/overview'
     return NextResponse.redirect(url)
   }
 
@@ -54,7 +54,7 @@ export async function updateSession(request: NextRequest) {
 
     if (!profile || !['teacher', 'admin'].includes(profile.role)) {
       const url = request.nextUrl.clone()
-      url.pathname = '/dashboard'
+      url.pathname = '/overview'
       return NextResponse.redirect(url)
     }
   }

@@ -36,7 +36,7 @@ export function NivelesGrid({ topicId, currentLevel, incluirNivel4 }: Props) {
                 <div className="flex items-center gap-2">
                   <span className="text-xl">{meta.emoji}</span>
                   <span className={cn('text-[10px] font-extrabold tracking-wide text-white rounded-full px-2 py-0.5', meta.badge)}>
-                    {meta.label.toUpperCase()}
+                    {meta.corto.toUpperCase()}
                   </span>
                   {esActual && (
                     <span className="ml-auto text-[10px] font-semibold text-muted-foreground">
@@ -45,8 +45,8 @@ export function NivelesGrid({ topicId, currentLevel, incluirNivel4 }: Props) {
                   )}
                   {!accesible && <Lock className="ml-auto h-3.5 w-3.5 text-muted-foreground" />}
                 </div>
-                <div className="font-semibold text-sm">{meta.titulo}</div>
-                <div className="text-xs text-muted-foreground leading-snug">{meta.desc}</div>
+                <div className="font-semibold text-sm">{meta.label}</div>
+                <div className="text-xs text-muted-foreground leading-snug">{meta.titulo}</div>
               </CardContent>
             </Card>
           )

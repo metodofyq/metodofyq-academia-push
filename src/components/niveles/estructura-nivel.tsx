@@ -17,6 +17,8 @@ interface Props {
   topicId: string
   studentId: string
   incluirNivel4: boolean
+  temaCode?: string
+  temaTitulo?: string
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -25,7 +27,7 @@ function shuffle<T>(arr: T[]): T[] {
 
 // N0 (solo índice) y N1 (índice + palabras clave) comparten el mismo
 // mecanismo: reconstruir la estructura eligiendo entre opciones mezcladas.
-export function EstructuraNivel({ nivel, estructura, keywords, topicId, studentId, incluirNivel4 }: Props) {
+export function EstructuraNivel({ nivel, estructura, keywords, topicId, studentId, incluirNivel4, temaCode, temaTitulo }: Props) {
   const router = useRouter()
   const incluirKeywords = nivel === 1
 
@@ -86,7 +88,7 @@ export function EstructuraNivel({ nivel, estructura, keywords, topicId, studentI
   }
 
   return (
-    <NivelShell nivel={nivel}>
+    <NivelShell nivel={nivel} temaCode={temaCode} temaTitulo={temaTitulo}>
       {fase === 'lectura' && (
         <>
           <div className="bg-white border rounded-xl p-4 space-y-3">

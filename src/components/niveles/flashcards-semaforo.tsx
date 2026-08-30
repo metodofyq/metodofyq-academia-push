@@ -15,6 +15,8 @@ interface Props {
   topicId: string
   studentId: string
   incluirNivel4: boolean
+  temaCode?: string
+  temaTitulo?: string
 }
 
 const SEMAFORO = [
@@ -23,7 +25,7 @@ const SEMAFORO = [
   { color: 'verde' as const,    emoji: '🟢', label: 'Lo recuerdo',    bg: 'bg-green-50',  border: 'border-green-300',  text: 'text-green-600' },
 ]
 
-export function FlashcardsSemaforo({ texto, topicId, studentId, incluirNivel4 }: Props) {
+export function FlashcardsSemaforo({ texto, topicId, studentId, incluirNivel4, temaCode, temaTitulo }: Props) {
   const router = useRouter()
   const base = useMemo(() => extraerTarjetas(texto), [texto])
 
@@ -81,7 +83,7 @@ export function FlashcardsSemaforo({ texto, topicId, studentId, incluirNivel4 }:
 
   if (total === 0) {
     return (
-      <NivelShell nivel={2.5}>
+      <NivelShell nivel={2.5} temaCode={temaCode} temaTitulo={temaTitulo}>
         <p className="text-muted-foreground text-sm">No se han podido extraer tarjetas del contenido de este tema.</p>
       </NivelShell>
     )
@@ -94,7 +96,7 @@ export function FlashcardsSemaforo({ texto, topicId, studentId, incluirNivel4 }:
     const verdesRonda = tarjetas.filter((t) => t.semaforo === 'verde').length
 
     return (
-      <NivelShell nivel={2.5} titulo={`Fin de vuelta ${vuelta}`}>
+      <NivelShell nivel={2.5} temaCode={temaCode} temaTitulo={temaTitulo} titulo={`Fin de vuelta ${vuelta}`}>
         <div className="bg-slate-200 rounded-full h-2.5 overflow-hidden">
           <div className="bg-gradient-to-r from-green-500 to-green-600 h-full rounded-full transition-all" style={{ width: `${(verdes / total) * 100}%` }} />
         </div>
@@ -131,7 +133,7 @@ export function FlashcardsSemaforo({ texto, topicId, studentId, incluirNivel4 }:
   }
 
   return (
-    <NivelShell nivel={2.5} desc={`${vuelta > 1 ? `Vuelta ${vuelta} · ` : ''}Tarjeta ${indice + 1} de ${pendientes.length} · ${verdes}/${total} en verde`}>
+    <NivelShell nivel={2.5} temaCode={temaCode} temaTitulo={temaTitulo} desc={`${vuelta > 1 ? `Vuelta ${vuelta} · ` : ''}Tarjeta ${indice + 1} de ${pendientes.length} · ${verdes}/${total} en verde`}>
       <div className="bg-slate-200 rounded-full h-2 overflow-hidden">
         <div className="bg-gradient-to-r from-green-500 to-green-600 h-full rounded-full transition-all" style={{ width: `${(verdes / total) * 100}%` }} />
       </div>

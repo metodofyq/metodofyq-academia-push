@@ -5,8 +5,9 @@ export type NivelValue = (typeof NIVEL_ORDER)[number]
 export const UMBRAL_SUPERACION = 0.9
 
 export type NivelMeta = {
-  label: string
-  titulo: string
+  corto: string   // "N0" — para espacios reducidos (pill, sidebar)
+  label: string   // "Nivel 0" — identificador principal, se muestra como título
+  titulo: string  // "Índice" — nombre descriptivo, ahora secundario
   desc: string
   emoji: string
   badge: string   // fondo del badge de nivel activo
@@ -18,13 +19,13 @@ export type NivelMeta = {
 // Nota: las clases van completas (no compuestas dinámicamente) porque
 // Tailwind necesita verlas literalmente en el código para no purgarlas.
 export const NIVEL_META: Record<string, NivelMeta> = {
-  '0':   { label: 'N0',   titulo: 'Índice',                  desc: 'Reproduce la estructura del tema',      emoji: '🗂️', badge: 'bg-blue-600',   border: 'border-blue-600',   text: 'text-blue-600',   bg: 'bg-blue-50' },
-  '0.5': { label: 'N0.5', titulo: 'Infografía resumen',      desc: 'Repasa el tema en imágenes',            emoji: '🖼️', badge: 'bg-sky-500',    border: 'border-sky-500',    text: 'text-sky-600',    bg: 'bg-sky-50' },
-  '1':   { label: 'N1',   titulo: 'Palabras clave',          desc: 'Identifica las ideas de cada apartado', emoji: '🔑', badge: 'bg-violet-600', border: 'border-violet-600', text: 'text-violet-600', bg: 'bg-violet-50' },
-  '2':   { label: 'N2',   titulo: 'Conceptos clave',         desc: 'Redacta el desarrollo esquemático',     emoji: '📝', badge: 'bg-orange-600', border: 'border-orange-600', text: 'text-orange-600', bg: 'bg-orange-50' },
-  '2.5': { label: 'N2.5', titulo: 'Tarjetas de aprendizaje', desc: 'Memoriza con tarjetas y semáforo',      emoji: '🃏', badge: 'bg-cyan-600',   border: 'border-cyan-600',   text: 'text-cyan-600',   bg: 'bg-cyan-50' },
-  '3':   { label: 'N3',   titulo: 'Redacción final',         desc: 'Escribe el tema completo de memoria',   emoji: '✍️', badge: 'bg-green-600',  border: 'border-green-600',  text: 'text-green-600',  bg: 'bg-green-50' },
-  '4':   { label: 'N4',   titulo: 'Legislación',             desc: 'Normativa específica de tu CCAA',       emoji: '⚖️', badge: 'bg-slate-600',  border: 'border-slate-600',  text: 'text-slate-600',  bg: 'bg-slate-50' },
+  '0':   { corto: 'N0',   label: 'Nivel 0',   titulo: 'Índice',                  desc: 'Reproduce la estructura del tema',      emoji: '🗂️', badge: 'bg-blue-600',   border: 'border-blue-600',   text: 'text-blue-600',   bg: 'bg-blue-50' },
+  '0.5': { corto: 'N0.5', label: 'Nivel 0.5', titulo: 'Infografía resumen',      desc: 'Repasa el tema en imágenes',            emoji: '🖼️', badge: 'bg-sky-500',    border: 'border-sky-500',    text: 'text-sky-600',    bg: 'bg-sky-50' },
+  '1':   { corto: 'N1',   label: 'Nivel 1',   titulo: 'Palabras clave',          desc: 'Identifica las ideas de cada apartado', emoji: '🔑', badge: 'bg-violet-600', border: 'border-violet-600', text: 'text-violet-600', bg: 'bg-violet-50' },
+  '2':   { corto: 'N2',   label: 'Nivel 2',   titulo: 'Conceptos clave',         desc: 'Redacta el desarrollo esquemático',     emoji: '📝', badge: 'bg-orange-600', border: 'border-orange-600', text: 'text-orange-600', bg: 'bg-orange-50' },
+  '2.5': { corto: 'N2.5', label: 'Nivel 2.5', titulo: 'Tarjetas de aprendizaje', desc: 'Memoriza con tarjetas y semáforo',      emoji: '🃏', badge: 'bg-cyan-600',   border: 'border-cyan-600',   text: 'text-cyan-600',   bg: 'bg-cyan-50' },
+  '3':   { corto: 'N3',   label: 'Nivel 3',   titulo: 'Redacción final',         desc: 'Escribe el tema completo de memoria',   emoji: '✍️', badge: 'bg-green-600',  border: 'border-green-600',  text: 'text-green-600',  bg: 'bg-green-50' },
+  '4':   { corto: 'N4',   label: 'Nivel 4',   titulo: 'Legislación',             desc: 'Normativa específica de tu CCAA',       emoji: '⚖️', badge: 'bg-slate-600',  border: 'border-slate-600',  text: 'text-slate-600',  bg: 'bg-slate-50' },
 }
 
 export function nivelKey(nivel: number): string {

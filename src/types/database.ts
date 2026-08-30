@@ -427,6 +427,48 @@ export type Database = {
           },
         ]
       }
+      medallas: {
+        Row: {
+          created_at: string
+          emoji: string
+          id: string
+          nombre: string
+          otorgada_por: string | null
+          student_id: string
+        }
+        Insert: {
+          created_at?: string
+          emoji?: string
+          id?: string
+          nombre: string
+          otorgada_por?: string | null
+          student_id: string
+        }
+        Update: {
+          created_at?: string
+          emoji?: string
+          id?: string
+          nombre?: string
+          otorgada_por?: string | null
+          student_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "medallas_otorgada_por_fkey"
+            columns: ["otorgada_por"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "medallas_student_id_fkey"
+            columns: ["student_id"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       pricing: {
         Row: {
           created_at: string | null

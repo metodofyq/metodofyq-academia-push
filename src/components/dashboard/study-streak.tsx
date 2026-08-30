@@ -1,24 +1,9 @@
 import { Flame } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
-import { format, subDays, parseISO } from 'date-fns'
+import { computeStreak } from '@/lib/dashboard/streak'
 
 interface Props {
   completedDates: string[]
-}
-
-function computeStreak(dates: string[]): number {
-  if (dates.length === 0) return 0
-  const unique = [...new Set(dates)].sort().reverse()
-  let streak = 0
-  let cursor = format(new Date(), 'yyyy-MM-dd')
-
-  for (const d of unique) {
-    if (d === cursor) {
-      streak++
-      cursor = format(subDays(parseISO(cursor), 1), 'yyyy-MM-dd')
-    } else break
-  }
-  return streak
 }
 
 export function StudyStreak({ completedDates }: Props) {

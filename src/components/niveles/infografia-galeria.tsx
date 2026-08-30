@@ -12,10 +12,12 @@ interface Props {
   topicId: string
   studentId: string
   incluirNivel4: boolean
+  temaCode?: string
+  temaTitulo?: string
 }
 
 // Nivel 0.5 es repaso, no evaluación: se marca como completado sin umbral.
-export function InfografiaGaleria({ imagenes, topicId, studentId, incluirNivel4 }: Props) {
+export function InfografiaGaleria({ imagenes, topicId, studentId, incluirNivel4, temaCode, temaTitulo }: Props) {
   const router = useRouter()
   const [mostrarPopup, setMostrarPopup] = useState(true)
   const [avanzando, setAvanzando] = useState(false)
@@ -32,7 +34,7 @@ export function InfografiaGaleria({ imagenes, topicId, studentId, incluirNivel4 
   }
 
   return (
-    <NivelShell nivel={0.5}>
+    <NivelShell nivel={0.5} temaCode={temaCode} temaTitulo={temaTitulo}>
       {mostrarPopup && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-5">
           <div className="bg-white rounded-2xl p-6 max-w-sm text-center shadow-2xl">

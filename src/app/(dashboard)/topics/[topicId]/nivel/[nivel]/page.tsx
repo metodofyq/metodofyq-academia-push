@@ -57,14 +57,17 @@ export default async function NivelPage({ params }: Props) {
     </div>
   )
 
+  const temaCode = topic.code
+  const temaTitulo = topic.title
+
   if (nivel === 0) {
     if (!estructura) return contenidoNoDisponible
-    return <EstructuraNivel nivel={0} estructura={estructura} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} />
+    return <EstructuraNivel nivel={0} estructura={estructura} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
   }
 
   if (nivel === 1) {
     if (!estructura || !keywords) return contenidoNoDisponible
-    return <EstructuraNivel nivel={1} estructura={estructura} keywords={keywords} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} />
+    return <EstructuraNivel nivel={1} estructura={estructura} keywords={keywords} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
   }
 
   if (nivel === 0.5) {
@@ -75,17 +78,17 @@ export default async function NivelPage({ params }: Props) {
       .order('order_index')
     if (!infografias || infografias.length === 0) return contenidoNoDisponible
     const imagenes = infografias.map((i) => ({ label: i.label, url: getTopicMediaUrl(i.storage_path) }))
-    return <InfografiaGaleria imagenes={imagenes} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} />
+    return <InfografiaGaleria imagenes={imagenes} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
   }
 
   if (nivel === 2) {
     if (!nivel2Texto) return contenidoNoDisponible
-    return <DictadoCorrector nivel={2} texto={nivel2Texto} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} />
+    return <DictadoCorrector nivel={2} texto={nivel2Texto} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
   }
 
   if (nivel === 2.5) {
     if (!nivel2Texto) return contenidoNoDisponible
-    return <FlashcardsSemaforo texto={nivel2Texto} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} />
+    return <FlashcardsSemaforo texto={nivel2Texto} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
   }
 
   if (nivel === 3) {
@@ -98,7 +101,7 @@ export default async function NivelPage({ params }: Props) {
     const imagenesAncladas = (n3Images ?? []).map((im) => ({
       anchor: im.anchor_text, caption: im.caption, dibujar: im.dibujar_hint, url: getTopicMediaUrl(im.storage_path),
     }))
-    return <DictadoCorrector nivel={3} texto={nivel3Texto} imagenesAncladas={imagenesAncladas} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} />
+    return <DictadoCorrector nivel={3} texto={nivel3Texto} imagenesAncladas={imagenesAncladas} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
   }
 
   // nivel === 4
@@ -109,5 +112,5 @@ export default async function NivelPage({ params }: Props) {
     .eq('ccaa', profile?.ccaa ?? '')
     .maybeSingle()
 
-  return <LegislacionNivel4 grupo={profile?.grupo ?? null} ccaa={profile?.ccaa ?? null} contenido={legislacion?.content_md ?? null} />
+  return <LegislacionNivel4 grupo={profile?.grupo ?? null} ccaa={profile?.ccaa ?? null} contenido={legislacion?.content_md ?? null} temaCode={temaCode} temaTitulo={temaTitulo} />
 }

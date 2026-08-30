@@ -331,6 +331,7 @@ export type Database = {
       level_attempts: {
         Row: {
           completed_at: string
+          duration_seconds: number | null
           id: string
           level: number
           score_pct: number
@@ -339,6 +340,7 @@ export type Database = {
         }
         Insert: {
           completed_at?: string
+          duration_seconds?: number | null
           id?: string
           level: number
           score_pct?: number
@@ -347,6 +349,7 @@ export type Database = {
         }
         Update: {
           completed_at?: string
+          duration_seconds?: number | null
           id?: string
           level?: number
           score_pct?: number

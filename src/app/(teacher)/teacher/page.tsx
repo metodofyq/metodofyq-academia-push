@@ -1,25 +1,21 @@
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
+import { getStudentMetrics, type StudentMetrics } from '@/lib/teacher/metrics'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { Progress } from '@/components/ui/progress'
-import { Users, BookOpen, BarChart3, Upload, ArrowLeft, Trophy } from 'lucide-react'
-import { calculateAccuracyPercent } from '@/lib/utils'
+import { Users, BookOpen, Clock, Upload, ArrowLeft, Trophy, UserPlus } from 'lucide-react'
+import { formatDate, formatDuration } from '@/lib/utils'
 import type { Profile } from '@/types'
 
 interface StudentKPI {
   student: Profile
-  topicsStarted: number
-  exercises: number
-  correct: number
-  lastActive: string | null
+  metrics: StudentMetrics
 }
 
 export default async function TeacherDashboardPage() {
   const supabase = await createClient()
 
-  // Fetch all students
   const { data: students } = await supabase
     .from('profiles')
     .select('*')
@@ -27,38 +23,12 @@ export default async function TeacherDashboardPage() {
     .order('created_at', { ascending: false })
 
   const kpis: StudentKPI[] = []
-
   for (const student of (students ?? []) as Profile[]) {
-    const [
-      { count: topicsStarted },
-      { count: exercises },
-      { count: correct },
-      { data: lastActivity },
-    ] = await Promise.all([
-      supabase.from('topic_progress').select('*', { count: 'exact', head: true })
-        .eq('student_id', student.id).eq('is_unlocked', true),
-      supabase.from('exercise_attempts').select('*', { count: 'exact', head: true })
-        .eq('student_id', student.id),
-      supabase.from('exercise_attempts').select('*', { count: 'exact', head: true })
-        .eq('student_id', student.id).eq('is_correct', true),
-      supabase.from('exercise_attempts').select('attempted_at')
-        .eq('student_id', student.id).order('attempted_at', { ascending: false }).limit(1),
-    ])
-
-    kpis.push({
-      student,
-      topicsStarted: topicsStarted ?? 0,
-      exercises:     exercises ?? 0,
-      correct:       correct ?? 0,
-      lastActive:    lastActivity?.[0]?.attempted_at ?? null,
-    })
+    kpis.push({ student, metrics: await getStudentMetrics(supabase, student.id) })
   }
 
-  // Aggregate stats
   const totalStudents = kpis.length
-  const avgAccuracy   = kpis.length > 0
-    ? Math.round(kpis.reduce((s, k) => s + calculateAccuracyPercent(k.correct, k.exercises), 0) / kpis.length)
-    : 0
+  const totalTimeSeconds = kpis.reduce((s, k) => s + k.metrics.totalDurationSeconds, 0)
 
   return (
     <div className="max-w-5xl mx-auto space-y-8 p-6">
@@ -73,16 +43,17 @@ export default async function TeacherDashboardPage() {
       </div>
 
       {/* Overview cards */}
-      <div className="grid gap-4 sm:grid-cols-4">
+      <div className="grid gap-4 sm:grid-cols-5">
         {[
-          { label: 'Alumnos activos', value: totalStudents, icon: Users,    color: 'text-blue-600' },
-          { label: '% Acierto medio', value: `${avgAccuracy}%`, icon: BarChart3, color: 'text-green-600' },
-          { label: 'Materiales',      value: 'Subir', icon: Upload,  color: 'text-purple-600', href: '/teacher/materials' },
-          { label: 'Medallero',       value: 'Otorgar', icon: Trophy, color: 'text-amber-600', href: '/teacher/medallas' },
+          { label: 'Alumnos activos', value: totalStudents, icon: Users, color: 'text-blue-600' },
+          { label: 'Tiempo total dedicado', value: formatDuration(totalTimeSeconds), icon: Clock, color: 'text-indigo-600' },
+          { label: 'Añadir alumno', value: '+ Nuevo', icon: UserPlus, color: 'text-blue-600', href: '/teacher/students/new' },
+          { label: 'Materiales', value: 'Subir', icon: Upload, color: 'text-purple-600', href: '/teacher/materials' },
+          { label: 'Medallero', value: 'Otorgar', icon: Trophy, color: 'text-amber-600', href: '/teacher/medallas' },
         ].map(s => (
           <Card key={s.label}>
             <CardContent className="pt-6 flex items-center gap-4">
-              <div className={`p-3 rounded-lg bg-muted`}>
+              <div className="p-3 rounded-lg bg-muted">
                 <s.icon className={`h-5 w-5 ${s.color}`} />
               </div>
               <div>
@@ -110,45 +81,40 @@ export default async function TeacherDashboardPage() {
         </CardHeader>
         <CardContent>
           <div className="space-y-3">
-            {kpis.slice(0, 10).map(kpi => {
-              const accuracy = calculateAccuracyPercent(kpi.correct, kpi.exercises)
-              return (
-                <div key={kpi.student.id} className="flex items-center gap-4 py-2 border-b last:border-0">
-                  <div className="flex-1 min-w-0">
-                    <p className="font-medium text-sm truncate">
-                      {kpi.student.full_name ?? kpi.student.email}
-                    </p>
-                    <p className="text-xs text-muted-foreground">
-                      {kpi.lastActive
-                        ? `Activo: ${new Date(kpi.lastActive).toLocaleDateString('es-ES')}`
-                        : 'Sin actividad'}
-                    </p>
-                  </div>
-                  <div className="shrink-0 text-right text-sm space-y-1">
-                    <div className="flex items-center gap-2">
-                      <BookOpen className="h-3.5 w-3.5 text-muted-foreground" />
-                      <span>{kpi.topicsStarted} temas</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <span className="text-muted-foreground">{kpi.exercises} ejercicios</span>
-                    </div>
-                  </div>
-                  <div className="w-24 shrink-0 space-y-1">
-                    <div className="flex justify-between text-xs">
-                      <span className="text-muted-foreground">Acierto</span>
-                      <span className="font-medium">{accuracy}%</span>
-                    </div>
-                    <Progress value={accuracy} className="h-1.5" />
-                  </div>
-                  <Badge
-                    variant={accuracy >= 70 ? 'default' : accuracy >= 50 ? 'secondary' : 'destructive'}
-                    className="shrink-0 text-xs"
-                  >
-                    {accuracy >= 70 ? 'Bien' : accuracy >= 50 ? 'Regular' : 'Atención'}
-                  </Badge>
+            {kpis.slice(0, 10).map(kpi => (
+              <div key={kpi.student.id} className="flex items-center gap-4 py-2 border-b last:border-0">
+                <div className="flex-1 min-w-0">
+                  <p className="font-medium text-sm truncate">
+                    {kpi.student.full_name ?? kpi.student.email}
+                  </p>
+                  <p className="text-xs text-muted-foreground">
+                    {kpi.metrics.lastActive
+                      ? `Activo: ${formatDate(kpi.metrics.lastActive)}`
+                      : 'Sin actividad'}
+                  </p>
                 </div>
-              )
-            })}
+                <div className="shrink-0 text-right text-sm space-y-1">
+                  <div className="flex items-center gap-2">
+                    <BookOpen className="h-3.5 w-3.5 text-muted-foreground" />
+                    <span>{kpi.metrics.topicsStarted} temas</span>
+                  </div>
+                  <div className="flex items-center gap-2 text-muted-foreground">
+                    <Clock className="h-3.5 w-3.5" />
+                    <span>{formatDuration(kpi.metrics.totalDurationSeconds)}</span>
+                  </div>
+                </div>
+                <div className="shrink-0 text-center">
+                  <div className="text-sm font-medium">{kpi.metrics.levelsCompleted}</div>
+                  <div className="text-[11px] text-muted-foreground">niveles</div>
+                </div>
+                <Badge
+                  variant={kpi.metrics.avgScore >= 70 ? 'default' : kpi.metrics.avgScore >= 50 ? 'secondary' : 'destructive'}
+                  className="shrink-0 text-xs"
+                >
+                  {kpi.metrics.levelsCompleted > 0 ? `${kpi.metrics.avgScore}%` : 'Sin datos'}
+                </Badge>
+              </div>
+            ))}
             {kpis.length === 0 && (
               <p className="text-center py-8 text-muted-foreground">
                 Todavía no hay alumnos registrados.

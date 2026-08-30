@@ -30,6 +30,7 @@ function shuffle<T>(arr: T[]): T[] {
 export function EstructuraNivel({ nivel, estructura, keywords, topicId, studentId, incluirNivel4, temaCode, temaTitulo }: Props) {
   const router = useRouter()
   const incluirKeywords = nivel === 1
+  const [inicio] = useState(() => Date.now())
 
   const [slots] = useState<Slot[]>(() => {
     const s: Slot[] = []
@@ -80,6 +81,7 @@ export function EstructuraNivel({ nivel, estructura, keywords, topicId, studentI
     try {
       await completeLevel({
         studentId, topicId, level: nivel, scorePct: pct || 100, incluirNivel4,
+        durationSeconds: (Date.now() - inicio) / 1000,
       })
       router.push(siguiente !== null ? `/topics/${topicId}/nivel/${siguiente}` : `/topics/${topicId}`)
     } finally {

@@ -21,12 +21,13 @@ export function InfografiaGaleria({ imagenes, topicId, studentId, incluirNivel4,
   const router = useRouter()
   const [mostrarPopup, setMostrarPopup] = useState(true)
   const [avanzando, setAvanzando] = useState(false)
+  const [inicio] = useState(() => Date.now())
   const siguiente: NivelValue | null = nextNivel(0.5, incluirNivel4)
 
   const avanzar = async () => {
     setAvanzando(true)
     try {
-      await completeLevel({ studentId, topicId, level: 0.5, scorePct: 100, incluirNivel4 })
+      await completeLevel({ studentId, topicId, level: 0.5, scorePct: 100, incluirNivel4, durationSeconds: (Date.now() - inicio) / 1000 })
       router.push(siguiente !== null ? `/topics/${topicId}/nivel/${siguiente}` : `/topics/${topicId}`)
     } finally {
       setAvanzando(false)

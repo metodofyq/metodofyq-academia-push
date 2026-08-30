@@ -42,6 +42,7 @@ export function DictadoCorrector({ nivel, texto, imagenesAncladas, topicId, stud
   const [escritura, setEscritura] = useState('')
   const [resultado, setResultado] = useState<PalabraCorregida[] | null>(null)
   const [avanzando, setAvanzando] = useState(false)
+  const [inicio] = useState(() => Date.now())
   const textareaRef = useRef<HTMLTextAreaElement>(null)
 
   const insertarSimbolo = (s: string) => {
@@ -70,7 +71,7 @@ export function DictadoCorrector({ nivel, texto, imagenesAncladas, topicId, stud
   const avanzar = async () => {
     setAvanzando(true)
     try {
-      await completeLevel({ studentId, topicId, level: nivel, scorePct: porcentaje * 100, incluirNivel4 })
+      await completeLevel({ studentId, topicId, level: nivel, scorePct: porcentaje * 100, incluirNivel4, durationSeconds: (Date.now() - inicio) / 1000 })
       router.push(siguiente !== null ? `/topics/${topicId}/nivel/${siguiente}` : `/topics/${topicId}`)
     } finally {
       setAvanzando(false)

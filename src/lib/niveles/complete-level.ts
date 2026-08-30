@@ -7,6 +7,7 @@ type CompleteLevelArgs = {
   level: NivelValue
   scorePct: number
   incluirNivel4: boolean
+  durationSeconds?: number
 }
 
 // Registra la finalización de un subnivel interactivo y avanza
@@ -18,6 +19,7 @@ export async function completeLevel({
   level,
   scorePct,
   incluirNivel4,
+  durationSeconds,
 }: CompleteLevelArgs): Promise<{ siguienteNivel: NivelValue | null }> {
   const supabase = createClient()
 
@@ -26,6 +28,7 @@ export async function completeLevel({
     topic_id: topicId,
     level,
     score_pct: Math.round(scorePct),
+    duration_seconds: durationSeconds != null ? Math.round(durationSeconds) : null,
   })
 
   const { data: progress } = await supabase

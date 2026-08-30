@@ -36,6 +36,7 @@ export function FlashcardsSemaforo({ texto, topicId, studentId, incluirNivel4, t
   const [girada, setGirada] = useState(false)
   const [fase, setFase] = useState<'repaso' | 'resumen'>('repaso')
   const [avanzando, setAvanzando] = useState(false)
+  const [inicio] = useState(() => Date.now())
 
   const idxReal = pendientes[indice]
   const actual = tarjetas[idxReal]
@@ -46,7 +47,7 @@ export function FlashcardsSemaforo({ texto, topicId, studentId, incluirNivel4, t
   const avanzar = async () => {
     setAvanzando(true)
     try {
-      await completeLevel({ studentId, topicId, level: 2.5, scorePct: 100, incluirNivel4 })
+      await completeLevel({ studentId, topicId, level: 2.5, scorePct: 100, incluirNivel4, durationSeconds: (Date.now() - inicio) / 1000 })
       router.push(siguiente !== null ? `/topics/${topicId}/nivel/${siguiente}` : `/topics/${topicId}`)
     } finally {
       setAvanzando(false)

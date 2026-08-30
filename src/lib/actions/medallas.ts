@@ -1,19 +1,7 @@
 'use server'
 
 import { revalidatePath } from 'next/cache'
-import { createClient } from '@/lib/supabase/server'
-
-async function requireTeacher() {
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
-  if (!user) return { supabase, user: null, error: 'No autenticado' }
-
-  const { data: profile } = await supabase.from('profiles').select('role').eq('id', user.id).single()
-  if (!profile || !['teacher', 'admin'].includes(profile.role)) {
-    return { supabase, user: null, error: 'No autorizado' }
-  }
-  return { supabase, user, error: null }
-}
+import { requireTeacher } from '@/lib/auth/require-teacher'
 
 export async function grantMedal(studentId: string, nombre: string, emoji: string) {
   const { supabase, user, error } = await requireTeacher()

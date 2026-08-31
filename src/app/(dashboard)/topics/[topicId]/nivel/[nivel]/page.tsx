@@ -8,7 +8,7 @@ import { InfografiaGaleria } from '@/components/niveles/infografia-galeria'
 import { DictadoCorrector } from '@/components/niveles/dictado-corrector'
 import { FlashcardsSemaforo } from '@/components/niveles/flashcards-semaforo'
 import { LegislacionNivel4 } from '@/components/niveles/legislacion-nivel4'
-import type { Apartado } from '@/lib/niveles/texto'
+import type { Apartado, Tarjeta } from '@/lib/niveles/texto'
 
 interface Props {
   params: Promise<{ topicId: string; nivel: string }>
@@ -45,6 +45,7 @@ export default async function NivelPage({ params }: Props) {
   const keywords = contentOf(1)?.keywords as Record<string, string> | undefined
   const nivel2Texto = contentOf(2)?.texto as string | undefined
   const nivel3Texto = contentOf(3)?.texto as string | undefined
+  const tarjetasCuradas = contentOf(2.5)?.flashcards as Tarjeta[] | undefined
 
   const contenidoNoDisponible = (
     <div className="max-w-2xl mx-auto space-y-4">
@@ -87,8 +88,8 @@ export default async function NivelPage({ params }: Props) {
   }
 
   if (nivel === 2.5) {
-    if (!nivel2Texto) return contenidoNoDisponible
-    return <FlashcardsSemaforo texto={nivel2Texto} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
+    if (!nivel2Texto && !tarjetasCuradas) return contenidoNoDisponible
+    return <FlashcardsSemaforo texto={nivel2Texto ?? ''} tarjetasCuradas={tarjetasCuradas} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
   }
 
   if (nivel === 3) {

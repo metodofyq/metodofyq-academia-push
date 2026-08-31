@@ -12,6 +12,7 @@ type TarjetaEstado = Tarjeta & { deuda: number; semaforo: 'rojo' | 'amarillo' | 
 
 interface Props {
   texto: string
+  tarjetasCuradas?: Tarjeta[]
   topicId: string
   studentId: string
   incluirNivel4: boolean
@@ -25,9 +26,9 @@ const SEMAFORO = [
   { color: 'verde' as const,    emoji: '🟢', label: 'Lo recuerdo',    bg: 'bg-green-50',  border: 'border-green-300',  text: 'text-green-600' },
 ]
 
-export function FlashcardsSemaforo({ texto, topicId, studentId, incluirNivel4, temaCode, temaTitulo }: Props) {
+export function FlashcardsSemaforo({ texto, tarjetasCuradas, topicId, studentId, incluirNivel4, temaCode, temaTitulo }: Props) {
   const router = useRouter()
-  const base = useMemo(() => extraerTarjetas(texto), [texto])
+  const base = useMemo(() => tarjetasCuradas ?? extraerTarjetas(texto), [tarjetasCuradas, texto])
 
   const [tarjetas, setTarjetas] = useState<TarjetaEstado[]>(() => base.map((t) => ({ ...t, deuda: 1, semaforo: null })))
   const [vuelta, setVuelta] = useState(1)

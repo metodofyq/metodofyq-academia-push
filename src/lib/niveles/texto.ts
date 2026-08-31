@@ -87,9 +87,9 @@ export type Tarjeta = {
   descripcion: string
 }
 
-// Extrae las tarjetas de conceptos ("Término — primeras palabras / resto de
-// la descripción") a partir del texto del Nivel 2 — igual que en el artifact,
-// las tarjetas del Nivel 2.5 son derivadas, no se guardan aparte en BD.
+// Fallback: extrae tarjetas mecánicamente del texto del Nivel 2 cuando el
+// tema todavía no tiene flashcards curadas por recuperación activa en BD
+// (ver topic_levels.content_json.flashcards para el nivel 2.5).
 export function extraerTarjetas(nivel2Texto: string): Tarjeta[] {
   const tarjetas: Tarjeta[] = []
   const lineas = nivel2Texto.split('\n').filter((l) => l.trim())

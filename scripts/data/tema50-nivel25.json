@@ -1,0 +1,553 @@
+{
+  "tema": "TEMA-50",
+  "nivel": "2.5",
+  "titulo": "Recuperación activa",
+  "flashcards": [
+    {
+      "id": 1,
+      "apartado": "Introducción",
+      "subapartado": "Aplicaciones reales",
+      "pregunta": "¿Qué es la cinética química?",
+      "respuesta": "El estudio de la velocidad con la que transcurren las reacciones químicas."
+    },
+    {
+      "id": 2,
+      "apartado": "Introducción",
+      "subapartado": "Aplicaciones",
+      "pregunta": "Cita tres aplicaciones reales de la cinética química.",
+      "respuesta": "Síntesis industrial, conservación de alimentos, combustión."
+    },
+    {
+      "id": 3,
+      "apartado": "Introducción",
+      "subapartado": "Catálisis sostenible",
+      "pregunta": "¿Cuál es el objetivo de los catalizadores en química sostenible?",
+      "respuesta": "Reducir la energía, residuos y emisiones en procesos químicos."
+    },
+    {
+      "id": 4,
+      "apartado": "Concepto de cinética",
+      "subapartado": "Velocidad de reacción",
+      "pregunta": "¿Qué mide la velocidad de reacción?",
+      "respuesta": "La variación de concentración de reactivos o productos con el tiempo."
+    },
+    {
+      "id": 5,
+      "apartado": "Concepto de cinética",
+      "subapartado": "Cinética vs termodinámica",
+      "pregunta": "¿Qué diferencia hay entre cinética y termodinámica?",
+      "respuesta": "La cinética determina la rapidez; la termodinámica, la viabilidad energética."
+    },
+    {
+      "id": 6,
+      "apartado": "Concepto de cinética",
+      "subapartado": "Termodinámica favorable pero lenta",
+      "pregunta": "¿Puede una reacción ser favorable energéticamente pero transcurrir lentamente?",
+      "respuesta": "Sí, si presenta una elevada energía de activación."
+    },
+    {
+      "id": 7,
+      "apartado": "Mecanismo de reacción",
+      "subapartado": "Definición",
+      "pregunta": "¿Qué es el mecanismo de reacción?",
+      "respuesta": "La sucesión de etapas elementales mediante la que ocurre la transformación global."
+    },
+    {
+      "id": 8,
+      "apartado": "Mecanismo de reacción",
+      "subapartado": "Intermediarios",
+      "pregunta": "¿Qué son los intermediarios de reacción?",
+      "respuesta": "Especies que se forman en una etapa elemental y se consumen en otra."
+    },
+    {
+      "id": 9,
+      "apartado": "Mecanismo de reacción",
+      "subapartado": "Etapa determinante",
+      "pregunta": "¿Cuál es la etapa determinante de una reacción?",
+      "respuesta": "La etapa más lenta del mecanismo, que controla la velocidad global."
+    },
+    {
+      "id": 10,
+      "apartado": "Mecanismo de reacción",
+      "subapartado": "Molecularidad",
+      "pregunta": "¿Qué es la molecularidad de una etapa elemental?",
+      "respuesta": "El número de partículas que intervienen simultáneamente en ella."
+    },
+    {
+      "id": 11,
+      "apartado": "Orden de reacción",
+      "subapartado": "Definición",
+      "pregunta": "¿Qué es el orden de reacción?",
+      "respuesta": "La dependencia experimental de la velocidad respecto a las concentraciones."
+    },
+    {
+      "id": 12,
+      "apartado": "Orden de reacción",
+      "subapartado": "Relación con estequiometría",
+      "pregunta": "¿Coinciden siempre los exponentes de la ley cinética con los coeficientes estequiométricos?",
+      "respuesta": "No, se determinan experimentalmente y pueden ser diferentes."
+    },
+    {
+      "id": 13,
+      "apartado": "Energía de activación",
+      "subapartado": "Definición",
+      "pregunta": "¿Qué es la energía de activación?",
+      "respuesta": "La energía mínima que deben alcanzar las partículas para transformarse en productos."
+    },
+    {
+      "id": 14,
+      "apartado": "Energía de activación",
+      "subapartado": "Complejo activado",
+      "pregunta": "¿Qué es el complejo o estado activado?",
+      "respuesta": "Una configuración inestable donde algunos enlaces se rompen y otros se forman."
+    },
+    {
+      "id": 15,
+      "apartado": "Energía de activación",
+      "subapartado": "Relación Ea y velocidad",
+      "pregunta": "¿Cómo afecta la energía de activación a la velocidad de reacción?",
+      "respuesta": "Cuanto menor sea Ea, mayor será la proporción de partículas que supera la barrera."
+    },
+    {
+      "id": 16,
+      "apartado": "Perfil energético",
+      "subapartado": "Reacción exotérmica",
+      "pregunta": "¿Cuál es la diferencia energética en una reacción exotérmica?",
+      "respuesta": "Los reactivos tienen más energía que los productos."
+    },
+    {
+      "id": 17,
+      "apartado": "Colisiones moleculares",
+      "subapartado": "Colisiones eficaces",
+      "pregunta": "¿Qué condiciones debe cumplir una colisión para ser eficaz?",
+      "respuesta": "Energía ≥ Ea y orientación molecular adecuada."
+    },
+    {
+      "id": 18,
+      "apartado": "Colisiones moleculares",
+      "subapartado": "Orientación molecular",
+      "pregunta": "¿Qué es el factor estérico?",
+      "respuesta": "La fracción de colisiones con disposición espacial adecuada para reaccionar."
+    },
+    {
+      "id": 19,
+      "apartado": "Colisiones moleculares",
+      "subapartado": "Maxwell-Boltzmann",
+      "pregunta": "¿Qué describe la distribución de Maxwell-Boltzmann?",
+      "respuesta": "Cómo se reparten las energías de las partículas en un sistema."
+    },
+    {
+      "id": 20,
+      "apartado": "Temperatura",
+      "subapartado": "Efecto en colisiones eficaces",
+      "pregunta": "¿Cómo afecta el aumento de temperatura al número de colisiones eficaces?",
+      "respuesta": "Aumenta significativamente la fracción de partículas con E ≥ Ea."
+    },
+    {
+      "id": 21,
+      "apartado": "Concentración",
+      "subapartado": "Efecto en velocidad",
+      "pregunta": "¿Por qué aumenta la velocidad al aumentar la concentración?",
+      "respuesta": "Más partículas por unidad de volumen implica más choques frecuentes."
+    },
+    {
+      "id": 22,
+      "apartado": "Concentración",
+      "subapartado": "Ley cinética",
+      "pregunta": "¿Qué determina cómo afecta la concentración a la velocidad?",
+      "respuesta": "La ley de velocidad y el orden de reacción."
+    },
+    {
+      "id": 23,
+      "apartado": "Presión",
+      "subapartado": "Sistemas gaseosos",
+      "pregunta": "¿Cómo afecta la presión en sistemas gaseosos?",
+      "respuesta": "Aumenta la concentración efectiva e incrementa la frecuencia de choques."
+    },
+    {
+      "id": 24,
+      "apartado": "Estado de transición",
+      "subapartado": "Definición",
+      "pregunta": "¿Qué es el estado de transición?",
+      "respuesta": "La configuración molecular de máxima energía en la coordenada de reacción."
+    },
+    {
+      "id": 25,
+      "apartado": "Estado de transición",
+      "subapartado": "Características",
+      "pregunta": "¿Cuáles son las características del estado de transición?",
+      "respuesta": "Extremadamente inestable, vida muy breve, puede evolucionar a productos o reactivos."
+    },
+    {
+      "id": 26,
+      "apartado": "Comparación teorías",
+      "subapartado": "Colisiones vs estado transición",
+      "pregunta": "¿Qué enfatiza la teoría de colisiones?",
+      "respuesta": "La frecuencia, energía y orientación de los choques."
+    },
+    {
+      "id": 27,
+      "apartado": "Comparación teorías",
+      "subapartado": "Complementariedad",
+      "pregunta": "¿Son complementarias ambas teorías?",
+      "respuesta": "Sí, ambas relacionan la reacción con la superación de una barrera energética."
+    },
+    {
+      "id": 28,
+      "apartado": "Velocidad media",
+      "subapartado": "Fórmula",
+      "pregunta": "¿Cuál es la fórmula de la velocidad media?",
+      "respuesta": "v = ±ΔC/Δt, donde ΔC es la variación de concentración y Δt el intervalo de tiempo."
+    },
+    {
+      "id": 29,
+      "apartado": "Velocidad instantánea",
+      "subapartado": "Fórmula",
+      "pregunta": "¿Cuál es la fórmula de la velocidad instantánea?",
+      "respuesta": "v = ±dC/dt, pendiente de la tangente a la curva concentración-tiempo."
+    },
+    {
+      "id": 30,
+      "apartado": "Unidades",
+      "subapartado": "Velocidad",
+      "pregunta": "¿Cuál es la unidad habitual de la velocidad de reacción?",
+      "respuesta": "mol·L⁻¹·s⁻¹"
+    },
+    {
+      "id": 31,
+      "apartado": "Estequiometría",
+      "subapartado": "Normalización",
+      "pregunta": "¿Por qué se normalizan las velocidades con coeficientes estequiométricos?",
+      "respuesta": "Para expresar de forma única la evolución global del sistema."
+    },
+    {
+      "id": 32,
+      "apartado": "Ley de velocidad",
+      "subapartado": "Expresión",
+      "pregunta": "¿Cuál es la expresión general de la ley de velocidad?",
+      "respuesta": "v = k·[A]m·[B]n, donde k es la constante cinética y m, n son los órdenes parciales."
+    },
+    {
+      "id": 33,
+      "apartado": "Orden global",
+      "subapartado": "Definición",
+      "pregunta": "¿Qué es el orden global?",
+      "respuesta": "La suma de los órdenes parciales de reacción (m+n)."
+    },
+    {
+      "id": 34,
+      "apartado": "Constante cinética",
+      "subapartado": "Significado",
+      "pregunta": "¿Qué caracteriza la constante cinética (k)?",
+      "respuesta": "La rapidez de la reacción para unas condiciones determinadas."
+    },
+    {
+      "id": 35,
+      "apartado": "Constante cinética",
+      "subapartado": "Dependencias",
+      "pregunta": "¿De qué depende la constante cinética k?",
+      "respuesta": "De la naturaleza del proceso, la temperatura y la presencia de catalizadores."
+    },
+    {
+      "id": 36,
+      "apartado": "Método velocidades iniciales",
+      "subapartado": "Propósito",
+      "pregunta": "¿Cuál es el objetivo del método de velocidades iniciales?",
+      "respuesta": "Determinar experimentalmente los órdenes de reacción."
+    },
+    {
+      "id": 37,
+      "apartado": "Naturaleza de reactivos",
+      "subapartado": "Importancia",
+      "pregunta": "¿Qué aspecto de los reactivos influye en la velocidad?",
+      "respuesta": "Su estructura molecular, polaridad, energía de enlaces y complejidad electrónica."
+    },
+    {
+      "id": 38,
+      "apartado": "Energía de enlaces",
+      "subapartado": "Efecto",
+      "pregunta": "¿Cómo afecta la energía de enlace a la velocidad?",
+      "respuesta": "Enlaces fuertes requieren más energía para romperse, ralentizando la reacción."
+    },
+    {
+      "id": 39,
+      "apartado": "Reacciones iónicas",
+      "subapartado": "Velocidad",
+      "pregunta": "¿Por qué suelen ser rápidas las reacciones entre iones?",
+      "respuesta": "Porque las especies ya están separadas e interactúan con facilidad."
+    },
+    {
+      "id": 40,
+      "apartado": "Reacciones covalentes",
+      "subapartado": "Velocidad",
+      "pregunta": "¿De qué depende más la velocidad en reacciones covalentes?",
+      "respuesta": "De la orientación molecular y la energía disponible para romper/formar enlaces."
+    },
+    {
+      "id": 41,
+      "apartado": "Estado físico",
+      "subapartado": "Sistemas homogéneos",
+      "pregunta": "¿Qué ventaja tiene un sistema homogéneo?",
+      "respuesta": "Los reactivos están en la misma fase, el contacto molecular es más eficaz."
+    },
+    {
+      "id": 42,
+      "apartado": "Estado físico",
+      "subapartado": "Sistemas heterogéneos",
+      "pregunta": "¿Dónde ocurre la reacción en un sistema heterogéneo?",
+      "respuesta": "En la superficie de separación entre fases."
+    },
+    {
+      "id": 43,
+      "apartado": "Superficie de contacto",
+      "subapartado": "Efecto",
+      "pregunta": "¿Cómo afecta el pulverizar un sólido a su velocidad de reacción?",
+      "respuesta": "Aumenta la superficie de contacto, incrementando la velocidad."
+    },
+    {
+      "id": 44,
+      "apartado": "Concentración",
+      "subapartado": "Proporcionalidad",
+      "pregunta": "¿Es el efecto de la concentración siempre directamente proporcional?",
+      "respuesta": "No, depende de la ley de velocidad y el orden de reacción."
+    },
+    {
+      "id": 45,
+      "apartado": "Frecuencia de colisiones",
+      "subapartado": "Aumento",
+      "pregunta": "¿Qué aumenta cuando se incrementa la concentración?",
+      "respuesta": "La frecuencia de colisiones y la probabilidad de choques eficaces."
+    },
+    {
+      "id": 46,
+      "apartado": "Ecuación de Arrhenius",
+      "subapartado": "Expresión",
+      "pregunta": "¿Cuál es la ecuación de Arrhenius?",
+      "respuesta": "k = A·e^(-Ea/RT), donde A es el factor preexponencial."
+    },
+    {
+      "id": 47,
+      "apartado": "Factor preexponencial",
+      "subapartado": "Significado",
+      "pregunta": "¿Qué recoge el factor preexponencial (A)?",
+      "respuesta": "La frecuencia de encuentros y la probabilidad de orientación adecuada."
+    },
+    {
+      "id": 48,
+      "apartado": "Efecto temperatura",
+      "subapartado": "Energía cinética",
+      "pregunta": "¿Qué ocurre al aumentar la temperatura?",
+      "respuesta": "Aumenta la energía cinética media de las partículas y la fracción con E ≥ Ea."
+    },
+    {
+      "id": 49,
+      "apartado": "Arrhenius lineal",
+      "subapartado": "Forma",
+      "pregunta": "¿Cuál es la forma lineal de la ecuación de Arrhenius?",
+      "respuesta": "ln k = ln A - (Ea/R)·(1/T)"
+    },
+    {
+      "id": 50,
+      "apartado": "Determinación Ea",
+      "subapartado": "Método",
+      "pregunta": "¿Cómo se determina experimentalmente la energía de activación?",
+      "respuesta": "Representando ln k frente a 1/T; la pendiente es -Ea/R."
+    },
+    {
+      "id": 51,
+      "apartado": "Catalizadores",
+      "subapartado": "Mecanismo",
+      "pregunta": "¿Cómo aumentan la velocidad los catalizadores?",
+      "respuesta": "Proporcionando un mecanismo alternativo con menor energía de activación."
+    },
+    {
+      "id": 52,
+      "apartado": "Catalizadores",
+      "subapartado": "Consumo global",
+      "pregunta": "¿Se consume globalmente un catalizador durante la reacción?",
+      "respuesta": "No, no se consume ni modifica sus niveles energéticos inicial y final."
+    },
+    {
+      "id": 53,
+      "apartado": "Catalizadores",
+      "subapartado": "Equilibrio químico",
+      "pregunta": "¿Afecta el catalizador a la posición del equilibrio?",
+      "respuesta": "No, pero permite alcanzarlo más rápidamente."
+    },
+    {
+      "id": 54,
+      "apartado": "Catálisis homogénea",
+      "subapartado": "Definición",
+      "pregunta": "¿Qué es la catálisis homogénea?",
+      "respuesta": "Cuando catalizador y reactivos están en la misma fase."
+    },
+    {
+      "id": 55,
+      "apartado": "Catálisis heterogénea",
+      "subapartado": "Definición",
+      "pregunta": "¿Qué es la catálisis heterogénea?",
+      "respuesta": "Cuando catalizador y reactivos están en diferentes fases."
+    },
+    {
+      "id": 56,
+      "apartado": "Enzimas",
+      "subapartado": "Rol",
+      "pregunta": "¿Qué función cumplen las enzimas?",
+      "respuesta": "Actúan como catalizadores biológicos altamente específicos."
+    },
+    {
+      "id": 57,
+      "apartado": "Curvas concentración-tiempo",
+      "subapartado": "Interpretación",
+      "pregunta": "¿Qué representan las curvas concentración-tiempo?",
+      "respuesta": "La evolución de la reacción en función del tiempo."
+    },
+    {
+      "id": 58,
+      "apartado": "Pendiente secante",
+      "subapartado": "Significado",
+      "pregunta": "¿Qué indica la pendiente de una secante en una curva c-t?",
+      "respuesta": "La velocidad media en ese intervalo de tiempo."
+    },
+    {
+      "id": 59,
+      "apartado": "Pendiente tangente",
+      "subapartado": "Significado",
+      "pregunta": "¿Qué indica la pendiente de la tangente en una curva c-t?",
+      "respuesta": "La velocidad instantánea en ese punto."
+    },
+    {
+      "id": 60,
+      "apartado": "Seguimiento continuo",
+      "subapartado": "Definición",
+      "pregunta": "¿Qué es el seguimiento continuo de una reacción?",
+      "respuesta": "Medir la propiedad durante la reacción sin interrumpirla."
+    },
+    {
+      "id": 61,
+      "apartado": "Seguimiento discontinuo",
+      "subapartado": "Definición",
+      "pregunta": "¿Qué es el seguimiento discontinuo?",
+      "respuesta": "Extraer muestras (alícuotas) a distintos tiempos y analizarlas."
+    },
+    {
+      "id": 62,
+      "apartado": "Alícuotas",
+      "subapartado": "Propósito",
+      "pregunta": "¿Cuál es el objetivo de extraer alícuotas?",
+      "respuesta": "Detener la reacción y determinar la concentración mediante técnicas analíticas."
+    },
+    {
+      "id": 63,
+      "apartado": "Valoración",
+      "subapartado": "Aplicación",
+      "pregunta": "¿Qué es la valoración en el contexto de cinética?",
+      "respuesta": "Un método para determinar la concentración de reactivos o productos."
+    },
+    {
+      "id": 64,
+      "apartado": "Métodos físicos",
+      "subapartado": "Reacciones gaseosas",
+      "pregunta": "¿Qué métodos se emplean para reacciones gaseosas?",
+      "respuesta": "Variaciones de presión y volumen."
+    },
+    {
+      "id": 65,
+      "apartado": "Espectrofotometría",
+      "subapartado": "Principio",
+      "pregunta": "¿En qué se basa la espectrofotometría?",
+      "respuesta": "En medir la absorbancia de una especie para determinar su concentración."
+    },
+    {
+      "id": 66,
+      "apartado": "Ley de Beer-Lambert",
+      "subapartado": "Expresión",
+      "pregunta": "¿Cuál es la expresión de la ley de Beer-Lambert?",
+      "respuesta": "A = ε·l·c, donde A es absorbancia, ε es absorción molar, l es paso de luz y c es concentración."
+    },
+    {
+      "id": 67,
+      "apartado": "Conductimetría",
+      "subapartado": "Aplicación",
+      "pregunta": "¿Cuándo se usa la conductimetría?",
+      "respuesta": "Cuando la reacción implica variación de concentración de especies iónicas."
+    },
+    {
+      "id": 68,
+      "apartado": "pH",
+      "subapartado": "Aplicación",
+      "pregunta": "¿Cuándo se usa la medida de pH?",
+      "respuesta": "Cuando la reacción implica variación de concentración de protones (H⁺)."
+    },
+    {
+      "id": 69,
+      "apartado": "Selección del método",
+      "subapartado": "Criterios",
+      "pregunta": "¿Qué criterios guían la selección del método?",
+      "respuesta": "Sensibilidad, selectividad, precisión y naturaleza del sistema."
+    },
+    {
+      "id": 70,
+      "apartado": "Relación propiedad-concentración",
+      "subapartado": "Importancia",
+      "pregunta": "¿Por qué es importante la relación entre propiedad medida y concentración?",
+      "respuesta": "Permite calcular la velocidad de reacción a partir de datos experimentales."
+    },
+    {
+      "id": 71,
+      "apartado": "Propuesta didáctica",
+      "subapartado": "Debate",
+      "pregunta": "¿Cuál es el tema del debate científico propuesto?",
+      "respuesta": "Catalizadores en procesos industriales vs. transición energética y sostenibilidad."
+    },
+    {
+      "id": 72,
+      "apartado": "Hidrógeno verde",
+      "subapartado": "Rol",
+      "pregunta": "¿Qué representa el hidrógeno verde en la propuesta didáctica?",
+      "respuesta": "Un ejemplo de tecnología de transición energética con implicaciones cinéticas."
+    },
+    {
+      "id": 73,
+      "apartado": "Argumentación",
+      "subapartado": "Datos",
+      "pregunta": "¿Sobre qué datos debe argumentarse en el debate?",
+      "respuesta": "Datos cinéticos, gráficas concentración-tiempo, noticias científicas e informes de eficiencia."
+    },
+    {
+      "id": 74,
+      "apartado": "Diferenciación",
+      "subapartado": "Tipos de argumento",
+      "pregunta": "¿Qué debe diferenciarse en la argumentación?",
+      "respuesta": "Hechos, opiniones e inferencias."
+    },
+    {
+      "id": 75,
+      "apartado": "Inclusión",
+      "subapartado": "Estrategias",
+      "pregunta": "¿Qué apoyos se ofrecen para favorecer la inclusión?",
+      "respuesta": "Apoyos visuales, guías de argumentación, roles cooperativos, participación oral y escrita."
+    },
+    {
+      "id": 76,
+      "apartado": "Evaluación",
+      "subapartado": "Instrumento",
+      "pregunta": "¿Con qué instrumento se evalúa la actividad?",
+      "respuesta": "Rúbrica de argumentación científica."
+    },
+    {
+      "id": 77,
+      "apartado": "Integración",
+      "subapartado": "Enfoque",
+      "pregunta": "¿Qué integra este tema?",
+      "respuesta": "Rigor disciplinar, aplicación tecnológica y formación competencial."
+    },
+    {
+      "id": 78,
+      "apartado": "Conclusiones",
+      "subapartado": "Aplicación",
+      "pregunta": "¿Cuál es la aplicación práctica de entender la cinética química?",
+      "respuesta": "Interpretar y controlar la evolución de reacciones en ciencia, industria y medio ambiente."
+    }
+  ]
+}

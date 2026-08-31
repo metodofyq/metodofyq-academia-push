@@ -1,0 +1,168 @@
+{
+  "tema": "TEMA-50",
+  "nivel": "3.5",
+  "titulo": "Reconstrucción científica",
+  "flashcards": [
+    {
+      "id": 1,
+      "apartado": "Introducción",
+      "subapartado": "Relación micro-macro",
+      "pregunta": "¿Cómo conecta la cinética química el mecanismo molecular con la velocidad observable?",
+      "respuesta": "La cinética relaciona los procesos moleculares (colisiones, ruptura/formación de enlaces) con cambios macroscópicos observables (variación de concentración). Esto permite explicar por qué las condiciones microscópicas determinan el comportamiento cinético del sistema."
+    },
+    {
+      "id": 2,
+      "apartado": "Introducción",
+      "subapartado": "Catálisis sostenible",
+      "pregunta": "¿Por qué son importantes los catalizadores heterogéneos y biocatalizadores en la química sostenible contemporánea?",
+      "respuesta": "Permiten aumentar la selectividad de las reacciones y reducir la energía necesaria, los residuos y las emisiones en procesos químicos. Esto es crucial para desarrollar síntesis industriales más eficientes y con menor impacto ambiental."
+    },
+    {
+      "id": 3,
+      "apartado": "Marco legislativo",
+      "subapartado": "Aplicabilidad en Comunitat Valenciana",
+      "pregunta": "¿Cómo se concreta en Comunitat Valenciana el marco estatal de enseñanza de cinética química?",
+      "respuesta": "Los Decretos 107/2022 y 108/2022 de la Comunitat Valenciana concretan los currículos estatales (LOMLOE, RD 217/2022 y 243/2022) situando específicamente la cinética química en las asignaturas de Física y Química en ESO y Química en Bachillerato."
+    },
+    {
+      "id": 4,
+      "apartado": "Concepto de cinética",
+      "subapartado": "Relación cinética-termodinámica",
+      "pregunta": "Explica por qué una reacción termodinámicamente favorable puede no ocurrir espontáneamente en el laboratorio.",
+      "respuesta": "Porque aunque la termodinámica garantiza que los productos tienen menor energía libre, la cinética indica que la reacción requiere superar una elevada energía de activación. Por ello, el proceso es termodinámicamente viable pero cinéticamente muy lento."
+    },
+    {
+      "id": 5,
+      "apartado": "Mecanismo de reacción",
+      "subapartado": "Información que aporta la ley cinética",
+      "pregunta": "¿Qué información sobre el mecanismo de reacción nos proporciona la ley de velocidad experimental?",
+      "respuesta": "La ley cinética experimental aporta pistas sobre el mecanismo: los órdenes parciales observados pueden relacionarse con las molecularidades de las etapas elementales si se conoce cuál es la etapa determinante, permitiendo proponer un mecanismo compatible con los datos cinéticos medidos."
+    },
+    {
+      "id": 6,
+      "apartado": "Energía de activación",
+      "subapartado": "Perfil energético e interpretación",
+      "pregunta": "¿Qué diferencia hay entre la altura de la barrera energética y el balance energético global de una reacción exotérmica?",
+      "respuesta": "La barrera energética (Ea) es la distancia vertical desde reactivos hasta estado de transición, determinando la velocidad. El balance global es la diferencia entre energía de productos y reactivos, determinando si la reacción es exotérmica o endotérmica. Ambos son independientes."
+    },
+    {
+      "id": 7,
+      "apartado": "Colisiones moleculares",
+      "subapartado": "Orientación molecular y factor estérico",
+      "pregunta": "¿Por qué el bromometano reacciona más rápidamente que el bromuro de terc-butilo en la reacción del ion hidróxido?",
+      "respuesta": "Aunque ambos tienen la misma energía de activación, el bromometano es menos voluminoso, permitiendo que el OH⁻ se aproxime correctamente al carbono para el ataque nucleófilo. El bromuro de terc-butilo, con grupos voluminosos, tiene factor estérico menor, reduciendo colisiones eficaces."
+    },
+    {
+      "id": 8,
+      "apartado": "Colisiones moleculares",
+      "subapartado": "Distribución Maxwell-Boltzmann y temperatura",
+      "pregunta": "¿Cómo explica la distribución de Maxwell-Boltzmann el efecto exponencial de la temperatura en la velocidad de reacción?",
+      "respuesta": "Según Maxwell-Boltzmann, la fracción de moléculas con energía E ≥ Ea aumenta exponencialmente con temperatura. Pequeños aumentos de T producen grandes aumentos en esta fracción, duplicando o triplicando el número de colisiones eficaces, lo que explica la sensibilidad cinética a temperatura."
+    },
+    {
+      "id": 9,
+      "apartado": "Estado de transición",
+      "subapartado": "Inestabilidad y evolución",
+      "pregunta": "¿Por qué el estado de transición es crucial en la teoría de la reactividad, a pesar de su existencia extremadamente breve?",
+      "respuesta": "Aunque existe fracciones de segundo, el estado de transición determina la barrera energética a superar. Su energía relativa respecto a reactivos define Ea, y su estructura geométrica explica por qué ciertas orientaciones moleculares conducen a reacción mientras otras no, unificando los conceptos de energía y orientación."
+    },
+    {
+      "id": 10,
+      "apartado": "Velocidad de reacción",
+      "subapartado": "Normalización estequiométrica",
+      "pregunta": "¿Por qué es necesario normalizar la velocidad con los coeficientes estequiométricos?",
+      "respuesta": "Para una reacción ajustada aA + bB → cC + dD, los reactivos se consumen a diferentes ritmos relativos (a, b) y los productos se forman a ritmos diferentes (c, d). Normalizar asegura que todas las especies den la misma velocidad de reacción global, permitiendo una descripción única del proceso."
+    },
+    {
+      "id": 11,
+      "apartado": "Ley de velocidad",
+      "subapartado": "Órdenes experimentales vs coeficientes",
+      "pregunta": "¿Por qué los órdenes de reacción experimentales frecuentemente no coinciden con los coeficientes estequiométricos?",
+      "respuesta": "Porque el orden experimental refleja el mecanismo (secuencia de etapas elementales), no la reacción global. Solo si la reacción es elemental coinciden orden y coeficientes. Reacciones que proceden por múltiples etapas tienen órdenes parciales determinados por la etapa lenta, no por la estequiometría."
+    },
+    {
+      "id": 12,
+      "apartado": "Naturaleza de reactivos",
+      "subapartado": "Efecto de estructura molecular",
+      "pregunta": "¿Cómo determina la estructura molecular la velocidad de una reacción química?",
+      "respuesta": "La estructura molecular afecta: (1) energía de enlaces a romper, (2) polaridad y capacidad de interacción electrostática, (3) accesibilidad de centros reactivos, (4) capacidad para estabilizar intermediarios. Estructuras rígidas o con enlaces fuertes suelen reaccionar más lentamente que moléculas flexibles."
+    },
+    {
+      "id": 13,
+      "apartado": "Estado físico",
+      "subapartado": "Superficie en sistemas heterogéneos",
+      "pregunta": "¿Por qué pulverizar un sólido aumenta su velocidad de reacción con una disolución?",
+      "respuesta": "En sistemas heterogéneos, la reacción ocurre en la interfaz. Pulverizar aumenta drásticamente la superficie de contacto disponible, permitiendo más moléculas del reactivo disuelto interactuar simultáneamente con el sólido, multiplicando la frecuencia de colisiones eficaces por unidad de tiempo."
+    },
+    {
+      "id": 14,
+      "apartado": "Concentración",
+      "subapartado": "Dependencia no lineal",
+      "pregunta": "¿Por qué una reacción de orden 2 es más sensible a cambios de concentración que una de orden 1?",
+      "respuesta": "En una reacción de orden 1, v = k[A], duplicar concentración duplica velocidad. En orden 2, v = k[A]², duplicar concentración la cuadruplica. Matemáticamente, el exponente determina la potencia de aumento. Esto refleja que en orden 2 intervienen simultáneamente dos moléculas, aumentando sensibilidad a concentración."
+    },
+    {
+      "id": 15,
+      "apartado": "Temperatura",
+      "subapartado": "Ecuación de Arrhenius y factor A",
+      "pregunta": "¿Qué representa físicamente el factor preexponencial (A) en la ecuación de Arrhenius?",
+      "respuesta": "A representa la frecuencia de encuentros entre moléculas multiplicada por la fracción de choques con orientación correcta. No depende de Ea sino de la naturaleza de los reactivos y temperatura. Es el 'intento de reacción' por unidad de tiempo, independiente de la barrera energética."
+    },
+    {
+      "id": 16,
+      "apartado": "Temperatura",
+      "subapartado": "Determinación experimental de Ea",
+      "pregunta": "¿Cómo permite la forma lineal de Arrhenius determinar experimentalmente la energía de activación?",
+      "respuesta": "Midiendo k a diferentes temperaturas y representando ln k frente a 1/T, se obtiene una recta cuya pendiente es -Ea/R. Esta linealizac permite: (1) determinar Ea gráficamente, (2) verificar que la reacción sigue Arrhenius, (3) predecir k a temperaturas no medidas."
+    },
+    {
+      "id": 17,
+      "apartado": "Catalizadores",
+      "subapartado": "Mecanismo alternativo",
+      "pregunta": "¿Cómo logra un catalizador aumentar la velocidad sin ser consumido ni modificar el equilibrio?",
+      "respuesta": "El catalizador proporciona un mecanismo alternativo que evita la configuración de alta energía de la reacción no catalizada. Aunque forma intermediarios, estos tienen energía más baja, reduciendo Ea. La ausencia de consumo neto permite catalizar repetidamente; no afecta equilibrio pues reduce Ea de ambas direcciones."
+    },
+    {
+      "id": 18,
+      "apartado": "Métodos prácticos",
+      "subapartado": "Seguimiento continuo vs discontinuo",
+      "pregunta": "¿Cuáles son las ventajas y desventajas de seguimiento continuo vs discontinuo de una reacción?",
+      "respuesta": "Continuo: no perturba la reacción, datos densos, automatizable. Desventaja: requiere propiedad medible continuamente. Discontinuo: aplicable a más reacciones (alícuotas+valoración), pero perturba sistemas, puntos dispersos. La elección depende de naturaleza del sistema y precisión requerida."
+    },
+    {
+      "id": 19,
+      "apartado": "Métodos instrumentales",
+      "subapartado": "Selección según sistema",
+      "pregunta": "¿Cómo se elige entre espectrofotometría, conductimetría y pH-metría para seguir una reacción?",
+      "respuesta": "Espectrofotometría: si hay especie con absorción característica. Conductimetría: si cambia concentración de iones. pH-metría: si varía [H⁺]. La selección se basa en qué propiedad cambia significativamente durante la reacción y en sensibilidad, selectividad y precisión requeridas para el análisis."
+    },
+    {
+      "id": 20,
+      "apartado": "Propuesta didáctica",
+      "subapartado": "Debate fundamentado en cinética",
+      "pregunta": "¿Por qué el debate sobre catalizadores y transición energética es apropiado para enseñar cinética de forma competencial?",
+      "respuesta": "Conecta cinética con realidad contemporánea (hidrógeno verde, sostenibilidad). Obliga a diferenciar hechos (datos cinéticos), opiniones (viabilidad ambiental) e inferencias (proyecciones futuras). Desarrolla argumentación científica rigurosa usando gráficas, datos y mecanismos, integrando conocimiento disciplinar con competencia STEM."
+    },
+    {
+      "id": 21,
+      "apartado": "Argumentación inclusiva",
+      "subapartado": "Evaluación competencial",
+      "pregunta": "¿Qué pretende una rúbrica de argumentación científica al evaluar esta actividad?",
+      "respuesta": "Más que memorización, evalúa: (1) comprensión de cinética aplicada, (2) capacidad de buscar/interpretar datos, (3) distinción entre evidencia, opinión e inferencia, (4) comunicación clara (oral/escrita), (5) inclusión de puntos de vista diversos. Valoriza pensamiento crítico fundamentado sobre memorización."
+    },
+    {
+      "id": 22,
+      "apartado": "Síntesis conceptual",
+      "subapartado": "Control cinético en la industria",
+      "pregunta": "¿Cómo sintetizarías el concepto central de cinética: la relación entre estructura molecular, energía y velocidad?",
+      "respuesta": "La cinética química conecta lo molecular con lo observable: la estructura de las moléculas y la energía de activación determinan la velocidad con que ocurren las transformaciones. Conocer este vínculo permite predecir y controlar reacciones, optimizando procesos industriales con eficiencia, selectividad y sostenibilidad."
+    },
+    {
+      "id": 23,
+      "apartado": "Conclusiones",
+      "subapartado": "Aplicabilidad contemporánea",
+      "pregunta": "¿Por qué la cinética química es fundamental para abordar retos energéticos y ambientales del siglo XXI?",
+      "respuesta": "La energía, residuos y emisiones en procesos químicos dependen de la velocidad de reacción y de catalizadores. Entender cinética permite diseñar síntesis más rápidas, selectivas y con menor consumo energético. Es esencial para desarrollar combustibles verdes, captura de CO₂ y química sostenible que reduzca impacto ambiental."
+    }
+  ]
+}

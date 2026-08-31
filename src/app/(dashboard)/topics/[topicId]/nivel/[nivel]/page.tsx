@@ -46,6 +46,7 @@ export default async function NivelPage({ params }: Props) {
   const nivel2Texto = contentOf(2)?.texto as string | undefined
   const nivel3Texto = contentOf(3)?.texto as string | undefined
   const tarjetasCuradas = contentOf(2.5)?.flashcards as Tarjeta[] | undefined
+  const tarjetasN35 = contentOf(3.5)?.flashcards as Tarjeta[] | undefined
 
   const contenidoNoDisponible = (
     <div className="max-w-2xl mx-auto space-y-4">
@@ -89,7 +90,7 @@ export default async function NivelPage({ params }: Props) {
 
   if (nivel === 2.5) {
     if (!nivel2Texto && !tarjetasCuradas) return contenidoNoDisponible
-    return <FlashcardsSemaforo texto={nivel2Texto ?? ''} tarjetasCuradas={tarjetasCuradas} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
+    return <FlashcardsSemaforo nivel={2.5} texto={nivel2Texto} tarjetasCuradas={tarjetasCuradas} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
   }
 
   if (nivel === 3) {
@@ -103,6 +104,11 @@ export default async function NivelPage({ params }: Props) {
       anchor: im.anchor_text, caption: im.caption, dibujar: im.dibujar_hint, url: getTopicMediaUrl(im.storage_path),
     }))
     return <DictadoCorrector nivel={3} texto={nivel3Texto} imagenesAncladas={imagenesAncladas} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
+  }
+
+  if (nivel === 3.5) {
+    if (!tarjetasN35) return contenidoNoDisponible
+    return <FlashcardsSemaforo nivel={3.5} tarjetasCuradas={tarjetasN35} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
   }
 
   // nivel === 4

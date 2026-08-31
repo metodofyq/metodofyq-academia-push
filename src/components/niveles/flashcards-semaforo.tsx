@@ -11,7 +11,8 @@ import { nextNivel, type NivelValue } from '@/lib/niveles/constants'
 type TarjetaEstado = Tarjeta & { deuda: number; semaforo: 'rojo' | 'amarillo' | 'verde' | null }
 
 interface Props {
-  texto: string
+  nivel: 2.5 | 3.5
+  texto?: string
   tarjetasCuradas?: Tarjeta[]
   topicId: string
   studentId: string
@@ -26,9 +27,12 @@ const SEMAFORO = [
   { color: 'verde' as const,    emoji: '🟢', label: 'Lo recuerdo',    bg: 'bg-green-50',  border: 'border-green-300',  text: 'text-green-600' },
 ]
 
-export function FlashcardsSemaforo({ texto, tarjetasCuradas, topicId, studentId, incluirNivel4, temaCode, temaTitulo }: Props) {
+export function FlashcardsSemaforo({ nivel, texto, tarjetasCuradas, topicId, studentId, incluirNivel4, temaCode, temaTitulo }: Props) {
   const router = useRouter()
-  const base = useMemo(() => tarjetasCuradas ?? extraerTarjetas(texto), [tarjetasCuradas, texto])
+  const base = useMemo(
+    () => tarjetasCuradas ?? (nivel === 2.5 && texto ? extraerTarjetas(texto) : []),
+    [tarjetasCuradas, texto, nivel]
+  )
 
   const [tarjetas, setTarjetas] = useState<TarjetaEstado[]>(() => base.map((t) => ({ ...t, deuda: 1, semaforo: null })))
   const [vuelta, setVuelta] = useState(1)
@@ -43,12 +47,12 @@ export function FlashcardsSemaforo({ texto, tarjetasCuradas, topicId, studentId,
   const actual = tarjetas[idxReal]
   const verdes = tarjetas.filter((t) => t.deuda === 0).length
   const total = tarjetas.length
-  const siguiente: NivelValue | null = nextNivel(2.5, incluirNivel4)
+  const siguiente: NivelValue | null = nextNivel(nivel, incluirNivel4)
 
   const avanzar = async () => {
     setAvanzando(true)
     try {
-      await completeLevel({ studentId, topicId, level: 2.5, scorePct: 100, incluirNivel4, durationSeconds: (Date.now() - inicio) / 1000 })
+      await completeLevel({ studentId, topicId, level: nivel, scorePct: 100, incluirNivel4, durationSeconds: (Date.now() - inicio) / 1000 })
       router.push(siguiente !== null ? `/topics/${topicId}/nivel/${siguiente}` : `/topics/${topicId}`)
     } finally {
       setAvanzando(false)
@@ -85,7 +89,7 @@ export function FlashcardsSemaforo({ texto, tarjetasCuradas, topicId, studentId,
 
   if (total === 0) {
     return (
-      <NivelShell nivel={2.5} temaCode={temaCode} temaTitulo={temaTitulo}>
+      <NivelShell nivel={nivel} temaCode={temaCode} temaTitulo={temaTitulo}>
         <p className="text-muted-foreground text-sm">No se han podido extraer tarjetas del contenido de este tema.</p>
       </NivelShell>
     )
@@ -98,7 +102,7 @@ export function FlashcardsSemaforo({ texto, tarjetasCuradas, topicId, studentId,
     const verdesRonda = tarjetas.filter((t) => t.semaforo === 'verde').length
 
     return (
-      <NivelShell nivel={2.5} temaCode={temaCode} temaTitulo={temaTitulo} titulo={`Fin de vuelta ${vuelta}`}>
+      <NivelShell nivel={nivel} temaCode={temaCode} temaTitulo={temaTitulo} titulo={`Fin de vuelta ${vuelta}`}>
         <div className="bg-slate-200 rounded-full h-2.5 overflow-hidden">
           <div className="bg-gradient-to-r from-green-500 to-green-600 h-full rounded-full transition-all" style={{ width: `${(verdes / total) * 100}%` }} />
         </div>
@@ -135,7 +139,7 @@ export function FlashcardsSemaforo({ texto, tarjetasCuradas, topicId, studentId,
   }
 
   return (
-    <NivelShell nivel={2.5} temaCode={temaCode} temaTitulo={temaTitulo} desc={`${vuelta > 1 ? `Vuelta ${vuelta} · ` : ''}Tarjeta ${indice + 1} de ${pendientes.length} · ${verdes}/${total} en verde`}>
+    <NivelShell nivel={nivel} temaCode={temaCode} temaTitulo={temaTitulo} desc={`${vuelta > 1 ? `Vuelta ${vuelta} · ` : ''}Tarjeta ${indice + 1} de ${pendientes.length} · ${verdes}/${total} en verde`}>
       <div className="bg-slate-200 rounded-full h-2 overflow-hidden">
         <div className="bg-gradient-to-r from-green-500 to-green-600 h-full rounded-full transition-all" style={{ width: `${(verdes / total) * 100}%` }} />
       </div>

@@ -1,5 +1,7 @@
-// Carga flashcards curadas (recuperación activa) para el Nivel 2.5 de un
-// tema, desde un JSON con el formato {tema, nivel, titulo, flashcards:[...]}.
+// Carga flashcards curadas (recuperación activa o reconstrucción científica)
+// para el Nivel 2.5 o 3.5 de un tema, desde un JSON con el formato
+// {tema, nivel, titulo, flashcards:[...]}. El nivel (2.5 o 3.5) se lee del
+// propio fichero.
 // Uso: npx tsx scripts/load-flashcards.ts scripts/data/tema19-nivel25.json
 import { createClient } from "@supabase/supabase-js";
 import * as dotenv from "dotenv";
@@ -23,6 +25,12 @@ type FlashcardCurada = {
   pregunta: string;
   respuesta: string;
   tipo_pregunta?: string;
+  tipo_flashcard?: string;
+};
+
+const TITULOS_NIVEL: Record<string, string> = {
+  "2.5": "Tarjetas de aprendizaje",
+  "3.5": "Reconstrucción científica",
 };
 
 async function main() {
@@ -34,11 +42,17 @@ async function main() {
 
   const raw = JSON.parse(fs.readFileSync(path.resolve(file), "utf-8")) as {
     tema: string;
+    nivel: string;
     titulo: string;
     flashcards: FlashcardCurada[];
   };
 
-  console.log(`🃏 Cargando Nivel 2.5 de ${raw.tema} (${raw.flashcards.length} flashcards)...`);
+  const nivel = Number(raw.nivel);
+  if (![2.5, 3.5].includes(nivel)) {
+    throw new Error(`nivel inválido en el JSON: "${raw.nivel}" (debe ser "2.5" o "3.5")`);
+  }
+
+  console.log(`🃏 Cargando Nivel ${raw.nivel} de ${raw.tema} (${raw.flashcards.length} flashcards)...`);
 
   const { data: topic, error: topicError } = await supabase
     .from("topics")
@@ -49,26 +63,26 @@ async function main() {
 
   // Mismo shape que usa el componente FlashcardsSemaforo (termino/descripcion).
   const flashcards = raw.flashcards.map((f) => ({
-    id: `curada_${raw.tema}_${f.id}`,
+    id: `curada_${raw.tema}_n${raw.nivel}_${f.id}`,
     apartado: f.apartado,
     subapartado: f.subapartado ?? "",
     termino: f.pregunta,
     descripcion: f.respuesta,
-    tipo: f.tipo_pregunta ?? null,
+    tipo: f.tipo_pregunta ?? f.tipo_flashcard ?? null,
   }));
 
   const { error } = await supabase.from("topic_levels").upsert(
     {
       topic_id: topic.id,
-      level: 2.5,
-      title: "Tarjetas de aprendizaje",
+      level: nivel,
+      title: TITULOS_NIVEL[raw.nivel] ?? "Tarjetas",
       content_json: { flashcards },
     },
     { onConflict: "topic_id,level" }
   );
   if (error) throw error;
 
-  console.log(`✅ ${flashcards.length} flashcards curadas cargadas para ${raw.tema}.`);
+  console.log(`✅ ${flashcards.length} flashcards curadas cargadas en Nivel ${raw.nivel} de ${raw.tema}.`);
 }
 
 main().catch((err) => {

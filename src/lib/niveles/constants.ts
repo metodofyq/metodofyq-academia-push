@@ -1,5 +1,5 @@
 // Subniveles de estudio de un tema, en orden de progresión.
-export const NIVEL_ORDER = [0, 0.5, 1, 2, 2.5, 3, 4] as const
+export const NIVEL_ORDER = [0, 0.5, 1, 2, 2.5, 3, 3.5, 4] as const
 export type NivelValue = (typeof NIVEL_ORDER)[number]
 
 export const UMBRAL_SUPERACION = 0.9
@@ -25,6 +25,7 @@ export const NIVEL_META: Record<string, NivelMeta> = {
   '2':   { corto: 'N2',   label: 'Nivel 2',   titulo: 'Conceptos clave',         desc: 'Redacta el desarrollo esquemático',     emoji: '📝', badge: 'bg-orange-600', border: 'border-orange-600', text: 'text-orange-600', bg: 'bg-orange-50' },
   '2.5': { corto: 'N2.5', label: 'Nivel 2.5', titulo: 'Tarjetas de aprendizaje', desc: 'Memoriza con tarjetas y semáforo',      emoji: '🃏', badge: 'bg-cyan-600',   border: 'border-cyan-600',   text: 'text-cyan-600',   bg: 'bg-cyan-50' },
   '3':   { corto: 'N3',   label: 'Nivel 3',   titulo: 'Redacción final',         desc: 'Escribe el tema completo de memoria',   emoji: '✍️', badge: 'bg-green-600',  border: 'border-green-600',  text: 'text-green-600',  bg: 'bg-green-50' },
+  '3.5': { corto: 'N3.5', label: 'Nivel 3.5', titulo: 'Reconstrucción científica', desc: 'Entrena explicar y justificar, no solo recordar', emoji: '🧩', badge: 'bg-teal-600',   border: 'border-teal-600',   text: 'text-teal-600',   bg: 'bg-teal-50' },
   '4':   { corto: 'N4',   label: 'Nivel 4',   titulo: 'Legislación',             desc: 'Normativa específica de tu CCAA',       emoji: '⚖️', badge: 'bg-slate-600',  border: 'border-slate-600',  text: 'text-slate-600',  bg: 'bg-slate-50' },
 }
 

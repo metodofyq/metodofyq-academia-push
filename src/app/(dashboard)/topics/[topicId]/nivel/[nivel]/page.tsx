@@ -2,7 +2,7 @@ import { notFound, redirect } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
 import { getTopicMediaUrl } from '@/lib/niveles/media'
-import { NIVEL_ORDER, isNivelAccesible } from '@/lib/niveles/constants'
+import { NIVEL_ORDER } from '@/lib/niveles/constants'
 import { EstructuraNivel } from '@/components/niveles/estructura-nivel'
 import { InfografiaGaleria } from '@/components/niveles/infografia-galeria'
 import { DictadoCorrector } from '@/components/niveles/dictado-corrector'
@@ -35,9 +35,9 @@ export default async function NivelPage({ params }: Props) {
   const currentLevel = progress?.current_level != null ? Number(progress.current_level) : 0
   const incluirNivel4 = profile?.grupo === 2
 
-  if (!isNivelAccesible(nivel, currentLevel)) {
-    redirect(`/topics/${topicId}`)
-  }
+  // Acceso libre: el opositor puede abrir cualquier nivel en cualquier orden.
+  // currentLevel se sigue usando para resaltar el nivel "recomendado" y para
+  // calcular nextNivel() al completar un nivel.
 
   const levelRow = (levelVal: number) => allLevels?.find((l) => Number(l.level) === levelVal)
   const contentOf = (levelVal: number) => levelRow(levelVal)?.content_json as Record<string, unknown> | null | undefined

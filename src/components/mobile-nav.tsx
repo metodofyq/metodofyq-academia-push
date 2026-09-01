@@ -6,27 +6,31 @@ import { Menu, X, LogOut } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 
+interface NavItem {
+  href?: string
+  label: string
+  children?: Array<{ href: string; label: string }>
+}
+
 interface MobileNavProps {
-  navItems: Array<{
-    href?: string
-    label: string
-    icon: React.ReactNode
-    children?: Array<{
-      href: string
-      label: string
-      icon: React.ReactNode
-    }>
-  }>
+  navItems: NavItem[]
   userName?: string
   isTeacher?: boolean
 }
 
+const iconEmojis: Record<string, string> = {
+  'Visión general': '🏠',
+  'Tareas diarias': '✓',
+  'Temas': '📚',
+  'Todos los temas': '📖',
+  'Mis temas': '✓',
+  'Medallero': '🏆',
+  'Mi plan': '📅',
+  'Perfil': '👤',
+}
+
 export function MobileNav({ navItems, userName, isTeacher }: MobileNavProps) {
   const [isOpen, setIsOpen] = useState(false)
-
-  const allLinks = navItems.flatMap(item =>
-    item.children ?? (item.href ? [{ href: item.href, label: item.label, icon: item.icon }] : [])
-  )
 
   return (
     <>
@@ -78,7 +82,7 @@ export function MobileNav({ navItems, userName, isTeacher }: MobileNavProps) {
                     return (
                       <div key={item.label} className="pt-2">
                         <div className="flex items-center gap-3 px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-                          {item.icon}
+                          <span>{iconEmojis[item.label] || '📌'}</span>
                           {item.label}
                         </div>
                         {item.children.map(child => (
@@ -88,7 +92,7 @@ export function MobileNav({ navItems, userName, isTeacher }: MobileNavProps) {
                             className="flex items-center gap-3 rounded-md pl-9 pr-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground transition-colors"
                             onClick={() => setIsOpen(false)}
                           >
-                            {child.icon}
+                            <span>{iconEmojis[child.label] || '✓'}</span>
                             {child.label}
                           </Link>
                         ))}
@@ -98,12 +102,12 @@ export function MobileNav({ navItems, userName, isTeacher }: MobileNavProps) {
 
                   return (
                     <Link
-                      key={item.href}
+                      key={item.href || item.label}
                       href={item.href || '#'}
                       className="flex items-center gap-3 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
-                      {item.icon}
+                      <span>{iconEmojis[item.label] || '📌'}</span>
                       {item.label}
                     </Link>
                   )

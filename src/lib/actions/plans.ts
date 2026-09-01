@@ -115,3 +115,100 @@ export async function addTopicToStudentPlan(studentId: string, topicId: string, 
   revalidatePath('/teacher/plans')
   return { error: null }
 }
+
+export async function removeTopicFromStudentPlan(studentId: string, topicId: string) {
+  const { error: authError } = await requireTeacher()
+  if (authError) return { error: authError }
+
+  const admin = createAdminClient()
+
+  // Obtener el plan activo
+  const { data: plan, error: planError } = await admin
+    .from('study_plans')
+    .select('id')
+    .eq('student_id', studentId)
+    .eq('is_active', true)
+    .single()
+
+  if (planError || !plan) return { error: 'Plan de estudio no encontrado.' }
+
+  // Eliminar el tema
+  const { error: deleteError } = await admin
+    .from('study_plan_topics')
+    .delete()
+    .eq('study_plan_id', plan.id)
+    .eq('topic_id', topicId)
+
+  if (deleteError) return { error: 'No se pudo eliminar el tema.' }
+
+  revalidatePath('/teacher/plans')
+  revalidatePath('/teacher/students')
+  return { error: null }
+}
+
+export async function updateTopicScheduleDate(
+  studentId: string,
+  topicId: string,
+  scheduledDate: string
+) {
+  const { error: authError } = await requireTeacher()
+  if (authError) return { error: authError }
+
+  const admin = createAdminClient()
+
+  // Obtener el plan activo
+  const { data: plan, error: planError } = await admin
+    .from('study_plans')
+    .select('id')
+    .eq('student_id', studentId)
+    .eq('is_active', true)
+    .single()
+
+  if (planError || !plan) return { error: 'Plan de estudio no encontrado.' }
+
+  // Actualizar la fecha
+  const { error: updateError } = await admin
+    .from('study_plan_topics')
+    .update({ scheduled_date: scheduledDate })
+    .eq('study_plan_id', plan.id)
+    .eq('topic_id', topicId)
+
+  if (updateError) return { error: 'No se pudo actualizar la fecha.' }
+
+  revalidatePath('/teacher/plans')
+  return { error: null }
+}
+
+export async function reorderStudentPlanTopics(
+  studentId: string,
+  topics: Array<{ topicId: string; orderIndex: number }>
+) {
+  const { error: authError } = await requireTeacher()
+  if (authError) return { error: authError }
+
+  const admin = createAdminClient()
+
+  // Obtener el plan activo
+  const { data: plan, error: planError } = await admin
+    .from('study_plans')
+    .select('id')
+    .eq('student_id', studentId)
+    .eq('is_active', true)
+    .single()
+
+  if (planError || !plan) return { error: 'Plan de estudio no encontrado.' }
+
+  // Actualizar order_index para cada tema
+  for (const { topicId, orderIndex } of topics) {
+    const { error: updateError } = await admin
+      .from('study_plan_topics')
+      .update({ order_index: orderIndex })
+      .eq('study_plan_id', plan.id)
+      .eq('topic_id', topicId)
+
+    if (updateError) return { error: `No se pudo reordenar los temas.` }
+  }
+
+  revalidatePath('/teacher/plans')
+  return { error: null }
+}

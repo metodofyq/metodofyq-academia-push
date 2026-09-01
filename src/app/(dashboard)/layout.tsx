@@ -6,6 +6,7 @@ import { Home, CheckSquare, BookOpen, ListChecks, Trophy, CalendarDays, User, Lo
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import { computeStreak } from '@/lib/dashboard/streak'
+import { MobileNav } from '@/components/mobile-nav'
 
 type NavLink = { href: string; label: string; icon: typeof Home }
 type NavEntry = NavLink | { label: string; icon: typeof Home; children: NavLink[] }
@@ -117,18 +118,16 @@ export default async function DashboardLayout({ children }: { children: React.Re
       {/* Main content */}
       <main className="flex-1 overflow-auto">
         {/* Mobile header */}
-        <header className="md:hidden sticky top-0 z-10 border-b bg-background px-4 py-3 flex items-center justify-between">
+        <header className="md:hidden sticky top-0 z-50 border-b bg-background px-4 py-3 flex items-center justify-between">
           <Link href="/overview" className="flex items-center gap-2">
             <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-xs">FQ</div>
             <span className="font-bold">Método FyQ</span>
           </Link>
-          <div className="flex gap-1">
-            {mobileLinks.map(item => (
-              <Link key={item.href} href={item.href} className="p-2 rounded-md hover:bg-accent">
-                <item.icon className="h-4 w-4" />
-              </Link>
-            ))}
-          </div>
+          <MobileNav
+            navItems={nav}
+            userName={profile?.full_name ?? user.email}
+            isTeacher={profile?.role === 'teacher' || profile?.role === 'admin'}
+          />
         </header>
         <div className="p-6">{children}</div>
       </main>

@@ -1,13 +1,14 @@
 'use client'
 
 import { useState, useTransition } from 'react'
+import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { Trash2, Plus, GripVertical } from 'lucide-react'
-import { updateStudentPlan, addTopicToStudentPlan, removeTopicFromStudentPlan, reorderStudentPlanTopics } from '@/lib/actions/plans'
+import { Trash2, Plus, GripVertical, ArrowUp, ArrowDown } from 'lucide-react'
+import { addTopicToStudentPlan, removeTopicFromStudentPlan, reorderStudentPlanTopics, updateTopicScheduleDate } from '@/lib/actions/plans'
 
 interface PlanTopic {
   id: string
@@ -38,6 +39,7 @@ export function EditStudentPlan({
   availableTopics,
   onClose,
 }: EditStudentPlanProps) {
+  const router = useRouter()
   const [pending, startTransition] = useTransition()
   const [topics, setTopics] = useState<PlanTopic[]>(currentTopics)
   const [showAddModal, setShowAddModal] = useState(false)
@@ -51,26 +53,32 @@ export function EditStudentPlan({
     if (!selectedTopicId || !selectedDate) return
 
     startTransition(async () => {
-      await addTopicToStudentPlan(studentId, selectedTopicId, selectedDate)
-      setSelectedTopicId('')
-      setSelectedDate('')
-      setShowAddModal(false)
-      // Refresh en el componente padre
-      onClose()
+      const result = await addTopicToStudentPlan(studentId, selectedTopicId, selectedDate)
+      if (!result?.error) {
+        setSelectedTopicId('')
+        setSelectedDate('')
+        setShowAddModal(false)
+        // Refrescar página después de agregar
+        router.refresh()
+      }
     })
   }
 
   function handleRemoveTopic(topicId: string) {
     startTransition(async () => {
-      await removeTopicFromStudentPlan(studentId, topicId)
-      onClose()
+      const result = await removeTopicFromStudentPlan(studentId, topicId)
+      if (!result?.error) {
+        router.refresh()
+      }
     })
   }
 
   function handleUpdateDate(topicId: string, newDate: string) {
     startTransition(async () => {
-      await updateTopicScheduleDate(studentId, topicId, newDate)
-      onClose()
+      const result = await updateTopicScheduleDate(studentId, topicId, newDate)
+      if (!result?.error) {
+        router.refresh()
+      }
     })
   }
 
@@ -83,11 +91,26 @@ export function EditStudentPlan({
     setTopics(reordered)
 
     startTransition(async () => {
-      await reorderStudentPlanTopics(
+      const result = await reorderStudentPlanTopics(
         studentId,
         reordered.map(t => ({ topicId: t.topic_id, orderIndex: t.order_index }))
       )
+      if (!result?.error) {
+        router.refresh()
+      }
     })
+  }
+
+  function handleMoveUp(idx: number) {
+    if (idx > 0) {
+      handleReorder(idx, idx - 1)
+    }
+  }
+
+  function handleMoveDown(idx: number) {
+    if (idx < topics.length - 1) {
+      handleReorder(idx, idx + 1)
+    }
   }
 
   return (
@@ -123,14 +146,35 @@ export function EditStudentPlan({
                       disabled={pending}
                     />
                   </div>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    onClick={() => handleRemoveTopic(topic.topic_id)}
-                    disabled={pending}
-                  >
-                    <Trash2 className="h-4 w-4 text-destructive" />
-                  </Button>
+                  <div className="flex gap-1">
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={() => handleMoveUp(idx)}
+                      disabled={pending || idx === 0}
+                      title="Mover hacia arriba"
+                    >
+                      <ArrowUp className="h-4 w-4" />
+                    </Button>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={() => handleMoveDown(idx)}
+                      disabled={pending || idx === topics.length - 1}
+                      title="Mover hacia abajo"
+                    >
+                      <ArrowDown className="h-4 w-4" />
+                    </Button>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      onClick={() => handleRemoveTopic(topic.topic_id)}
+                      disabled={pending}
+                      title="Eliminar tema"
+                    >
+                      <Trash2 className="h-4 w-4 text-destructive" />
+                    </Button>
+                  </div>
                 </div>
               ))}
             </div>
@@ -210,14 +254,4 @@ export function EditStudentPlan({
       </Button>
     </div>
   )
-}
-
-// Server action para actualizar fecha
-async function updateTopicScheduleDate(
-  studentId: string,
-  topicId: string,
-  scheduledDate: string
-) {
-  'use server'
-  // TODO: Implementar en plans.ts
 }

@@ -73,7 +73,7 @@ export async function updateStudentPlan(studentId: string, topicIds: string[]) {
   return { error: null }
 }
 
-export async function addTopicToStudentPlan(studentId: string, topicId: string, weeksFromNow: number = 0) {
+export async function addTopicToStudentPlan(studentId: string, topicId: string, scheduledDateOrWeeks: string | number = 0) {
   const { error: authError } = await requireTeacher()
   if (authError) return { error: authError }
 
@@ -95,9 +95,17 @@ export async function addTopicToStudentPlan(studentId: string, topicId: string, 
   const topics = (plan.study_plan_topics ?? []) as { order_index: number }[]
   const nextOrderIndex = topics.length > 0 ? Math.max(...topics.map(t => t.order_index)) + 1 : 1
 
-  // Calcular la fecha programada (X semanas desde hoy)
-  const scheduledDate = new Date()
-  scheduledDate.setDate(scheduledDate.getDate() + weeksFromNow * 7)
+  // Calcular la fecha programada
+  let scheduledDate: string
+  if (typeof scheduledDateOrWeeks === 'string') {
+    // Si es una fecha string (ej: "2026-09-15")
+    scheduledDate = scheduledDateOrWeeks
+  } else {
+    // Si es un número de semanas desde hoy
+    const date = new Date()
+    date.setDate(date.getDate() + scheduledDateOrWeeks * 7)
+    scheduledDate = date.toISOString().split('T')[0]
+  }
 
   // Agregar el tema
   const { error: insertError } = await admin
@@ -106,7 +114,7 @@ export async function addTopicToStudentPlan(studentId: string, topicId: string, 
       study_plan_id: plan.id,
       topic_id: topicId,
       order_index: nextOrderIndex,
-      scheduled_date: scheduledDate.toISOString().split('T')[0],
+      scheduled_date: scheduledDate,
     })
 
   if (insertError) return { error: 'No se pudo agregar el tema al plan.' }

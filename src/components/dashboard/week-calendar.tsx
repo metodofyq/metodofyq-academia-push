@@ -4,7 +4,6 @@ import { cn } from '@/lib/utils'
 import { nivelesDelDia } from '@/lib/dashboard/schedule'
 
 interface Props {
-  // fecha (yyyy-MM-dd) -> lista de niveles con level_attempts ese día
   attemptsByDate: Record<string, number[]>
 }
 
@@ -13,7 +12,7 @@ const DIA_LABELS = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom']
 export function WeekCalendar({ attemptsByDate }: Props) {
   const today = startOfDay(new Date())
   const currentMonday = startOfWeek(today, { weekStartsOn: 1 })
-  const start = addDays(currentMonday, -7) // lunes de la semana anterior
+  const start = addDays(currentMonday, -7)
 
   const dias = Array.from({ length: 21 }, (_, i) => addDays(start, i))
   const semanas = [dias.slice(0, 7), dias.slice(7, 14), dias.slice(14, 21)]

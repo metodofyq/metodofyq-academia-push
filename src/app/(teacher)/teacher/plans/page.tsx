@@ -19,6 +19,12 @@ export default async function PlansPage() {
     return <div>Error al cargar estudiantes</div>
   }
 
+  // Obtener todos los temas disponibles
+  const { data: allTopics } = await supabase
+    .from('topics')
+    .select('id, code, title')
+    .order('code')
+
   // Para cada estudiante, obtener su plan actual
   const studentsWithPlans = await Promise.all(
     (students || []).map(async (student) => {
@@ -70,6 +76,7 @@ export default async function PlansPage() {
               key={student.id}
               student={student}
               initialPlanTopics={student.topics}
+              availableTopics={allTopics || []}
               planId={student.plan?.id}
             />
           ))

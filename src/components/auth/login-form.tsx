@@ -77,12 +77,19 @@ export function LoginForm() {
           <Button type="submit" className="w-full" disabled={loading}>
             {loading ? 'Entrando…' : 'Entrar'}
           </Button>
-          <p className="text-sm text-muted-foreground text-center">
-            ¿No tienes cuenta?{' '}
-            <Link href="/register" className="text-primary hover:underline font-medium">
-              Regístrate
-            </Link>
-          </p>
+          <div className="w-full space-y-2">
+            <p className="text-sm text-muted-foreground text-center">
+              ¿No tienes cuenta?{' '}
+              <Link href="/register" className="text-primary hover:underline font-medium">
+                Regístrate
+              </Link>
+            </p>
+            <p className="text-sm text-muted-foreground text-center">
+              <Link href="/forgot-password" className="text-primary hover:underline font-medium">
+                ¿Olvidaste tu contraseña?
+              </Link>
+            </p>
+          </div>
         </CardFooter>
       </form>
     </Card>

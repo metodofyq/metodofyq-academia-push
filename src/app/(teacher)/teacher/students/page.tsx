@@ -7,6 +7,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { ArrowLeft, UserPlus, Pencil, BookOpen, Clock } from 'lucide-react'
 import { formatDate, formatDuration } from '@/lib/utils'
+import { DeleteStudentButton } from '@/components/teacher/delete-student-button'
 
 export default async function StudentsPage() {
   const supabase = await createClient()
@@ -63,11 +64,14 @@ export default async function StudentsPage() {
                     {s.ccaa && <Badge variant="outline" className="text-xs">{s.ccaa}</Badge>}
                   </div>
                 </div>
-                <Button variant="outline" size="sm" asChild>
-                  <Link href={`/teacher/students/${s.id}/edit`}>
-                    <Pencil className="h-3.5 w-3.5 mr-1.5" /> Editar
-                  </Link>
-                </Button>
+                <div className="flex gap-2">
+                  <Button variant="outline" size="sm" asChild>
+                    <Link href={`/teacher/students/${s.id}/edit`}>
+                      <Pencil className="h-3.5 w-3.5 mr-1.5" /> Editar
+                    </Link>
+                  </Button>
+                  <DeleteStudentButton studentId={s.id} studentName={s.full_name ?? s.email} />
+                </div>
               </div>
 
               <div className="flex items-center gap-4 text-xs text-muted-foreground border-t pt-2.5">

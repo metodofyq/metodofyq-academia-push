@@ -62,44 +62,64 @@ export async function createStudent(input: StudentInput) {
 
   if (updateError) return { error: updateError.message }
 
-  // Auto-asignar Tema 50 y 54
-  const { data: temas, error: temasError } = await admin
-    .from('topics')
-    .select('id, code')
-    .in('code', ['TEMA-50', 'TEMA-54'])
+  // Auto-asignar Tema 50 y 54 (Semana 1 y 2)
+  try {
+    const { data: temas, error: temasError } = await admin
+      .from('topics')
+      .select('id, code')
+      .in('code', ['TEMA-50', 'TEMA-54'])
+      .limit(10)
 
-  if (temasError || !temas || temas.length < 2) {
-    return { error: 'No se pudo obtener los temas por defecto.' }
-  }
+    if (temasError) {
+      console.error('Error fetching topics:', temasError)
+      return { error: 'Error al obtener los temas por defecto.' }
+    }
 
-  const tema50 = temas.find(t => t.code === 'TEMA-50')
-  const tema54 = temas.find(t => t.code === 'TEMA-54')
+    if (!temas || temas.length === 0) {
+      console.warn('No topics found with codes TEMA-50, TEMA-54')
+      return { error: 'Los temas TEMA-50 y TEMA-54 no existen en la base de datos.' }
+    }
 
-  if (!tema50 || !tema54) {
-    return { error: 'No se encontraron los temas por defecto.' }
-  }
+    const tema50 = temas.find(t => t.code === 'TEMA-50')
+    const tema54 = temas.find(t => t.code === 'TEMA-54')
 
-  // Crear study plan
-  const { data: studyPlan, error: studyPlanError } = await admin
-    .from('study_plans')
-    .insert({ student_id: userId, is_active: true })
-    .select('id')
-    .single()
+    if (!tema50 || !tema54) {
+      console.warn('Missing required topics. Tema50:', !!tema50, 'Tema54:', !!tema54)
+      return { error: 'Falta al menos uno de los temas por defecto (TEMA-50 o TEMA-54).' }
+    }
 
-  if (studyPlanError || !studyPlan) {
-    return { error: 'No se pudo crear el plan de estudio.' }
-  }
+    // Crear study plan
+    const { data: studyPlan, error: studyPlanError } = await admin
+      .from('study_plans')
+      .insert({ student_id: userId, is_active: true })
+      .select('id')
+      .single()
 
-  // Asignar temas
-  const { error: topicsError } = await admin
-    .from('study_plan_topics')
-    .insert([
-      { study_plan_id: studyPlan.id, topic_id: tema50.id, order_index: 1 },
-      { study_plan_id: studyPlan.id, topic_id: tema54.id, order_index: 2 },
-    ])
+    if (studyPlanError || !studyPlan) {
+      console.error('Error creating study plan:', studyPlanError)
+      return { error: 'No se pudo crear el plan de estudio.' }
+    }
 
-  if (topicsError) {
-    return { error: 'No se pudo asignar los temas al plan.' }
+    // Asignar temas (Tema 50 semana 1, Tema 54 semana 2)
+    const today = new Date()
+    const week1Start = new Date(today)
+    const week2Start = new Date(today)
+    week2Start.setDate(week2Start.getDate() + 7)
+
+    const { error: topicsError } = await admin
+      .from('study_plan_topics')
+      .insert([
+        { study_plan_id: studyPlan.id, topic_id: tema50.id, order_index: 1, scheduled_date: week1Start.toISOString().split('T')[0] },
+        { study_plan_id: studyPlan.id, topic_id: tema54.id, order_index: 2, scheduled_date: week2Start.toISOString().split('T')[0] },
+      ])
+
+    if (topicsError) {
+      console.error('Error assigning topics:', topicsError)
+      return { error: 'No se pudo asignar los temas al plan de estudio.' }
+    }
+  } catch (err) {
+    console.error('Unexpected error in topic assignment:', err)
+    return { error: 'Error inesperado al asignar los temas.' }
   }
 
   revalidatePath('/teacher/students')

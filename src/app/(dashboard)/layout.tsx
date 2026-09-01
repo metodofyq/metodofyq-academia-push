@@ -10,6 +10,7 @@ import { MobileNav } from '@/components/mobile-nav'
 
 type NavLink = { href: string; label: string; icon: typeof Home }
 type NavEntry = NavLink | { label: string; icon: typeof Home; children: NavLink[] }
+type SimpleNavItem = { href?: string; label: string; children?: Array<{ href: string; label: string }> }
 
 const nav: NavEntry[] = [
   { href: '/overview',  label: 'Visión general', icon: Home },
@@ -26,6 +27,13 @@ const nav: NavEntry[] = [
 ]
 
 const mobileLinks: NavLink[] = nav.flatMap(item => 'children' in item ? item.children : [item])
+
+// Version sin iconos para pasar a client components
+const navForMobile: SimpleNavItem[] = nav.map(item =>
+  'children' in item
+    ? { label: item.label, children: item.children.map(c => ({ href: c.href, label: c.label })) }
+    : { href: item.href, label: item.label }
+)
 
 export default async function DashboardLayout({ children }: { children: React.ReactNode }) {
   const supabase = await createClient()
@@ -124,7 +132,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
             <span className="font-bold">Método FyQ</span>
           </Link>
           <MobileNav
-            navItems={nav}
+            navItems={navForMobile}
             userName={profile?.full_name ?? user.email}
             isTeacher={profile?.role === 'teacher' || profile?.role === 'admin'}
           />

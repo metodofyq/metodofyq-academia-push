@@ -1,0 +1,168 @@
+{
+  "tema": "TEMA-54",
+  "nivel": "3.5",
+  "titulo": "Reconstrucción científica",
+  "flashcards": [
+    {
+      "id": 1,
+      "apartado": "Introducción",
+      "subapartado": "Importancia del equilibrio",
+      "pregunta": "¿Por qué el equilibrio químico es fundamental para comprender procesos industriales y naturales?",
+      "respuesta": "Permite interpretar optimización de procesos, solubilidad, precipitación y distribución entre fases. Conecta dinamismo molecular con composición observable y control de sistemas químicos."
+    },
+    {
+      "id": 2,
+      "apartado": "Concepto equilibrio",
+      "subapartado": "Naturaleza dinámica",
+      "pregunta": "¿Cómo puede un sistema mantener composición constante mientras continúan ocurriendo transformaciones?",
+      "respuesta": "Mediante dinamismo molecular: reacciones directa e inversa continúan simultáneamente con igual velocidad, compensando mutuamente sus efectos a nivel macroscópico."
+    },
+    {
+      "id": 3,
+      "apartado": "Interpretación cinética",
+      "subapartado": "Limitaciones",
+      "pregunta": "¿Por qué la interpretación cinética no es suficiente para entender completamente el equilibrio químico?",
+      "respuesta": "Explica cómo se alcanza el equilibrio (evolución de velocidades) pero no determina su posición ni composición final, aspectos que corresponden a la interpretación termodinámica."
+    },
+    {
+      "id": 4,
+      "apartado": "Constante K",
+      "subapartado": "Termodinámica fundamentada",
+      "pregunta": "¿Cómo fundamenta termodinámicamente la ley de acción de masas el concepto de posición del equilibrio?",
+      "respuesta": "Mediante K = (a_C^c · a_D^d) / (a_A^a · a_B^b): el valor de K determina cuantitativamente si predominan productos o reactivos, relacionando composición con energética del sistema."
+    },
+    {
+      "id": 5,
+      "apartado": "Cociente Q",
+      "subapartado": "Predicción de evolución",
+      "pregunta": "¿Cómo utiliza Q la comparación con K para predecir hacia dónde evolucionará un sistema fuera del equilibrio?",
+      "respuesta": "Si Q < K, sistema evoluciona hacia productos (ΔG < 0); si Q > K, hacia reactivos (ΔG > 0); si Q = K, en equilibrio (ΔG = 0). La magnitud relativa entre Q y K predice sentido espontáneo."
+    },
+    {
+      "id": 6,
+      "apartado": "ΔG° y K",
+      "subapartado": "Relación fundamental",
+      "pregunta": "¿Qué significado físico tiene la relación ΔG° = −RT ln K?",
+      "respuesta": "Conecta el cambio energético de la reacción estándar con su equilibrio: K > 1 (exergónico espontáneo) implica ΔG° < 0; K < 1 (endergónico) implica ΔG° > 0; K = 1 significa ΔG° = 0."
+    },
+    {
+      "id": 7,
+      "apartado": "Kc vs Kp",
+      "subapartado": "Interpretación Δn",
+      "pregunta": "¿Por qué el número de moles gaseosos (Δn) es crucial en la relación Kp = Kc · (RT)^Δn?",
+      "respuesta": "Δn refleja cómo varía la concentración de gases con cambios de presión/volumen. Si Δn ≠ 0, concentración y presión de gases se acoplan; si Δn = 0, son independientes."
+    },
+    {
+      "id": 8,
+      "apartado": "Le Châtelier",
+      "subapartado": "Mecanismo mediante Q",
+      "pregunta": "¿Cómo explica el cociente de reacción Q el funcionamiento del principio de Le Châtelier?",
+      "respuesta": "Una perturbación externa modifica Q pero K permanece constante. Si Q ≠ K, el sistema evoluciona hasta restablecer Q = K, lo cual implica que la perturbación se contraresta parcialmente."
+    },
+    {
+      "id": 9,
+      "apartado": "Concentración",
+      "subapartado": "Fundamento molecular",
+      "pregunta": "¿Por qué un aumento de concentración de un reactivo desplaza el equilibrio hacia productos?",
+      "respuesta": "Aumenta la frecuencia de colisiones con el otro reactivo, aumentando velocidad directa > velocidad inversa temporalmente. Sistema evoluciona hacia productos hasta restablecer v_directa = v_inversa."
+    },
+    {
+      "id": 10,
+      "apartado": "Presión volumen",
+      "subapartado": "Δn y desplazamiento",
+      "pregunta": "¿Por qué un cambio de volumen a presión constante solo afecta al equilibrio si Δn ≠ 0?",
+      "respuesta": "Si Δn = 0, presiones parciales de gases permanecen igual (sus concentraciones no cambian). Si Δn ≠ 0, cambio de volumen altera presiones parciales desproporcionadamente, alterando Q y K."
+    },
+    {
+      "id": 11,
+      "apartado": "Gas inerte",
+      "subapartado": "Contraste volumen vs presión",
+      "pregunta": "¿Por qué gas inerte a volumen constante NO desplaza equilibrio pero SÍ a presión constante?",
+      "respuesta": "A V cte, presiones parciales de reactivos no cambian (diluidas en volumen constante, no cambia P_i). A P cte, volumen aumenta, disminuyen presiones parciales, desplazando equilibrio si Δn ≠ 0."
+    },
+    {
+      "id": 12,
+      "apartado": "Temperatura",
+      "subapartado": "Único factor modificador de K",
+      "pregunta": "¿Por qué la temperatura es el único factor externo que modifica realmente el valor de K?",
+      "respuesta": "K depende de ΔG°, que es función solo de T a P fija. Concentración, presión y catalizadores cambian Q pero no K; solo variar T cambia ΔG° y por tanto K, según ecuación Van't Hoff."
+    },
+    {
+      "id": 13,
+      "apartado": "Van't Hoff",
+      "subapartado": "Integración Le Châtelier",
+      "pregunta": "¿Cómo fundamenta la ecuación de Van't Hoff la predicción cualitativa de Le Châtelier para cambios de temperatura?",
+      "respuesta": "d(ln K)/dT = ΔH°/(RT²) muestra: si ΔH° > 0, K aumenta con T (endotérmica, calor como reactivo); si ΔH° < 0, K disminuye (exotérmica, calor como producto). Fundamenta termodinámicamente la intuición cualitativa."
+    },
+    {
+      "id": 14,
+      "apartado": "Catalizadores",
+      "subapartado": "Cinetica vs termodinamica",
+      "pregunta": "¿Por qué un catalizador es un efecto puramente cinético y no termodinámico en el equilibrio?",
+      "respuesta": "Reduce E_a de ambas reacciones por igual, acelerando ambas direcciones. No modifica ΔG°, K, o composición final (termodinámica); solo acelera el camino hacia la misma posición de equilibrio."
+    },
+    {
+      "id": 15,
+      "apartado": "Heterogéneo",
+      "subapartado": "Actividad fases puras",
+      "pregunta": "¿Por qué sólidos y líquidos puros tienen actividad 1 y no aparecen en K heterogéneo?",
+      "respuesta": "Su actividad es constante (no varía con cantidad presente mientras la fase existe). K solo incluye especies cuya actividad cambia: gases (vía P) y iones disueltos (vía c)."
+    },
+    {
+      "id": 16,
+      "apartado": "Cantidad sólido",
+      "subapartado": "Independencia de K",
+      "pregunta": "¿Por qué cambiar la cantidad de un sólido en equilibrio heterogéneo no desplaza el equilibrio?",
+      "respuesta": "El sólido puro tiene actividad = 1 siempre (mientras presente). K depende solo de actividades de gases/iones. Cantidad de sólido no afecta, solo su presencia."
+    },
+    {
+      "id": 17,
+      "apartado": "Solubilidad",
+      "subapartado": "Relación no lineal con Kps",
+      "pregunta": "¿Por qué la solubilidad (mol/L) y Kps no se relacionan linealmente para todos los tipos de sal?",
+      "respuesta": "Kps = [A^(n+)]^m · [B^(m−)]^n; su relación con solubilidad depende de estequiometría (m, n). Para A₂B, s = (Kps/4)^(1/3), no lineal; para AB, s = √Kps. Distintos m,n → distintas relaciones."
+    },
+    {
+      "id": 18,
+      "apartado": "Ion común",
+      "subapartado": "Mecanismo Le Châtelier",
+      "pregunta": "¿Cómo explica Le Châtelier el efecto del ion común: por qué añadir A^(n+) reduce solubilidad de AB(s)?",
+      "respuesta": "Aumenta [A^(n+)], aumenta cociente Q respecto a Kps. Sistema evoluciona hacia reactivos para restablecer Q = Kps, precipitando más AB(s). Menos B^(m−) en disolución: solubilidad disminuye."
+    },
+    {
+      "id": 19,
+      "apartado": "Complejación",
+      "subapartado": "Estrategia de disolución",
+      "pregunta": "¿Cómo la formación de complejos permite disolver un sólido poco soluble mediante una reacción acoplada?",
+      "respuesta": "Formación de complejo [A-L]_n consume A^(n+) libre, disminuyendo [A^(n+)]. Q < Kps, sistema evoluciona hacia productos, disolviendo más AB(s) para restablecer equilibrio. Consuma ión = disolución."
+    },
+    {
+      "id": 20,
+      "apartado": "Ley reparto",
+      "subapartado": "Selectividad en extracción",
+      "pregunta": "¿Por qué la selección apropiada de disolventes permite extraer selectivamente un soluto de una mezcla?",
+      "respuesta": "K_D = C(orgánica)/C(acuosa) varía según soluto y disolventes elegidos. Eligiendo disolventes con K_D alto para soluto A y bajo para impureza B, se logra separación preferencial."
+    },
+    {
+      "id": 21,
+      "apartado": "Síntesis",
+      "subapartado": "Dinámico a observable",
+      "pregunta": "¿Cómo conecta el equilibrio químico el dinamismo molecular continuo con propiedades macroscópicas observables constantes?",
+      "respuesta": "A escala molecular, reacciones directa e inversa continúan constantemente (dinamismo). A escala macroscópica, sus efectos se compensan (v_d = v_i), manteniendo concentraciones, presión, temperatura observables constantes."
+    },
+    {
+      "id": 22,
+      "apartado": "Aplicaciones",
+      "subapartado": "Industria y medio ambiente",
+      "pregunta": "¿Cómo utiliza la industria los principios de equilibrio para optimizar procesos como síntesis de amoníaco?",
+      "respuesta": "Aplicando Le Châtelier: disminuir V (favorece productos en N₂ + 3H₂ → 2NH₃), disminuir T (exotérmica), añadir catalizador (acelera). Combine presión, temperatura y catálisis para maximizar NH₃ rápidamente."
+    },
+    {
+      "id": 23,
+      "apartado": "Conclusión",
+      "subapartado": "Herramienta predictiva",
+      "pregunta": "¿Por qué el equilibrio químico es esencial para predecir y controlar transformaciones reales con criterios científicos?",
+      "respuesta": "Integra cinética (cómo ocurren reacciones) y termodinámica (hacia dónde van). Q, K, ΔG° predicen composición final. Le Châtelier predice efectos de perturbaciones. Fundamenta diseño de procesos eficientes y sostenibles."
+    }
+  ]
+}

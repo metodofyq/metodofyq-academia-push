@@ -2,6 +2,9 @@ import { createClient } from "@supabase/supabase-js";
 import * as dotenv from "dotenv";
 import * as path from "path";
 import { scrapeXtecCourses } from "./scrapers/xtec-scraper";
+import { scrapeAndaluciaCourses } from "./scrapers/andalucia-scraper";
+import { scrapeGaliciaCourses } from "./scrapers/galicia-scraper";
+import { scrapeMadridCourses } from "./scrapers/madrid-scraper";
 
 dotenv.config({ path: path.join(process.cwd(), ".env.local") });
 
@@ -17,9 +20,9 @@ const supabase = createClient(supabaseUrl, supabaseServiceRole);
 
 const communities = [
   { name: "Cataluña", slug: "cataluna", status: "active" },
-  { name: "Andalucía", slug: "andalucia", status: "coming_soon" },
-  { name: "Galicia", slug: "galicia", status: "coming_soon" },
-  { name: "Madrid", slug: "madrid", status: "coming_soon" },
+  { name: "Andalucía", slug: "andalucia", status: "active" },
+  { name: "Galicia", slug: "galicia", status: "active" },
+  { name: "Madrid", slug: "madrid", status: "active" },
   { name: "Valencia", slug: "valencia", status: "coming_soon" },
   { name: "Aragón", slug: "aragon", status: "coming_soon" },
   { name: "Asturias", slug: "asturias", status: "coming_soon" },
@@ -39,7 +42,7 @@ const communities = [
 
 async function seed() {
   try {
-    console.log("🌱 Iniciando seed con datos scraped de XTEC...\n");
+    console.log("🌱 Iniciando seed con datos de múltiples CCAA...\n");
 
     // 1. Seed CCAA
     console.log("📍 Seeding 19 comunidades autónomas...");
@@ -51,36 +54,39 @@ async function seed() {
     if (ccaaError) throw ccaaError;
     console.log(`✅ ${ccaaData?.length} CCAA creadas\n`);
 
-    // Obtener ID de Cataluña
-    const { data: catData } = await supabase
+    // Obtener IDs de CCAA
+    const { data: allCcaa } = await supabase
       .from("autonomous_communities")
-      .select("id")
-      .eq("slug", "cataluna")
-      .single();
+      .select("id, slug");
 
-    if (!catData) throw new Error("Cataluña no encontrada");
+    const ccaaMap = Object.fromEntries(
+      (allCcaa || []).map(c => [c.slug, c.id])
+    );
 
-    // 2. SCRAPEAR XTEC
-    console.log("🌐 Scrapeando XTEC en tiempo real...\n");
-    const scrapedCourses = await scrapeXtecCourses();
+    // 2. SCRAPEAR TODAS LAS CCAA
+    console.log("🌐 Scrapeando todas las CCAA...\n");
+    
+    const catalunyaCourses = await scrapeXtecCourses();
+    const andaluciaCourses = await scrapeAndaluciaCourses();
+    const galiciaCourses = await scrapeGaliciaCourses();
+    const madridCourses = await scrapeMadridCourses();
 
-    if (scrapedCourses.length === 0) {
-      console.warn("⚠️ No se encontraron cursos en XTEC, usando JSON fallback");
-      // Fallback a JSON si scraping falla
-      const fs = require('fs');
-      const seedJson = JSON.parse(fs.readFileSync("seed_data_cataluna_xtec.json", "utf-8"));
-      scrapedCourses.push(...seedJson.courses);
-    }
+    // 3. Preparar y insertar cursos
+    const allCourses = [
+      ...catalunyaCourses.map(c => ({ ...c, ccaa_id: ccaaMap['cataluna'] })),
+      ...andaluciaCourses.map(c => ({ ...c, ccaa_id: ccaaMap['andalucia'] })),
+      ...galiciaCourses.map(c => ({ ...c, ccaa_id: ccaaMap['galicia'] })),
+      ...madridCourses.map(c => ({ ...c, ccaa_id: ccaaMap['madrid'] })),
+    ];
 
-    // 3. Preparar cursos
     console.log("🔄 Preparando cursos...");
-    const coursesWithCcaaId = scrapedCourses.map((course: any) => ({
-      ccaa_id: catData.id,
-      title: course.title || "Curso XTEC",
-      description: course.description || "Curso de formación del Departament d'Educació",
-      provider: "XTEC - Departament d'Educació",
-      provider_name: "XTEC",
-      url: course.url || "https://xtec.gencat.cat/ca/formacio/",
+    const coursesWithCcaaId = allCourses.map((course: any) => ({
+      ccaa_id: course.ccaa_id,
+      title: course.title || "Curso sin título",
+      description: course.description || "Curso de formación",
+      provider: course.provider || "Consejería de Educación",
+      provider_name: course.provider?.split('-')[0] || "Educación",
+      url: course.url || "#",
       hours_certified: course.hours || 25,
       modality: course.modality || "online",
       start_date: course.startDate || "2025-09-15",
@@ -88,17 +94,16 @@ async function seed() {
       registration_deadline: course.registrationDeadline || "2025-09-01",
       vacancies: course.vacancies || 100,
       registration_status: course.registrationStatus || "open",
-      certification: course.certification || "Departament d'Educació",
+      certification: course.certification || "Consejería de Educación",
       specialties: ["Todas"],
       course_type: "formacion_continua",
       compatibility_score: 8,
-      tags: ["xtec", "cataluna", "scrapeado"],
-      source_url: course.url || "https://xtec.gencat.cat/ca/formacio/",
+      tags: ["scrapeado"],
+      source_url: course.url || "#",
       created_at: new Date().toISOString(),
       updated_at: new Date().toISOString(),
     }));
 
-    // 4. Insertar en lotes
     console.log("📤 Insertando cursos en Supabase...");
     const batchSize = 10;
     let totalInserted = 0;
@@ -110,7 +115,10 @@ async function seed() {
         .insert(batch)
         .select();
 
-      if (cursoError) throw cursoError;
+      if (cursoError) {
+        console.error(`Error en lote ${i / batchSize + 1}:`, cursoError);
+        continue;
+      }
       totalInserted += cursoData?.length || 0;
       console.log(`   ✅ Lote ${Math.floor(i / batchSize) + 1}: ${cursoData?.length} cursos`);
     }
@@ -119,8 +127,11 @@ async function seed() {
     console.log("🎉 Seed completado!");
     console.log("\n📊 Resumen:");
     console.log(`   - CCAA: ${ccaaData?.length}`);
-    console.log(`   - Cursos: ${totalInserted}`);
-    console.log(`   - Cataluña: ACTIVO ✅`);
+    console.log(`   - Cursos totales: ${totalInserted}`);
+    console.log(`   - Cataluña: ${catalunyaCourses.length} cursos`);
+    console.log(`   - Andalucía: ${andaluciaCourses.length} cursos`);
+    console.log(`   - Galicia: ${galiciaCourses.length} cursos`);
+    console.log(`   - Madrid: ${madridCourses.length} cursos`);
 
   } catch (error) {
     console.error("\n❌ Error en seed:", error);

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { redirect } from 'next/navigation'
 import { createClient } from '@/lib/supabase/server'
-import { InviteStudentForm } from '@/components/teacher/invite-student-form'
+import { CreateStudentForm } from '@/components/teacher/create-student-form'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft } from 'lucide-react'
 import { CCAA_LIST } from '@/lib/ccaa'
@@ -22,11 +22,11 @@ export default async function NewStudentPage() {
         </Button>
         <div>
           <h1 className="text-2xl font-bold">Nuevo alumno</h1>
-          <p className="text-muted-foreground">Se le enviará un email para activar su cuenta</p>
+          <p className="text-muted-foreground">Se le darán las credenciales para acceder</p>
         </div>
       </div>
 
-      <InviteStudentForm ccaaOptions={CCAA_LIST} />
+      <CreateStudentForm ccaaOptions={CCAA_LIST} />
     </div>
   )
 }

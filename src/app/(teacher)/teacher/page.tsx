@@ -4,7 +4,7 @@ import { getStudentMetrics, type StudentMetrics } from '@/lib/teacher/metrics'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { Users, BookOpen, Clock, Upload, ArrowLeft, Trophy, UserPlus } from 'lucide-react'
+import { Users, BookOpen, Clock, Upload, ArrowLeft, Trophy, UserPlus, FileText } from 'lucide-react'
 import { formatDate, formatDuration } from '@/lib/utils'
 import type { Profile } from '@/types'
 
@@ -48,7 +48,7 @@ export default async function TeacherDashboardPage() {
           { label: 'Alumnos activos', value: totalStudents, icon: Users, color: 'text-blue-600' },
           { label: 'Tiempo total dedicado', value: formatDuration(totalTimeSeconds), icon: Clock, color: 'text-indigo-600' },
           { label: 'Añadir alumno', value: '+ Nuevo', icon: UserPlus, color: 'text-blue-600', href: '/teacher/students/new' },
-          { label: 'Materiales', value: 'Subir', icon: Upload, color: 'text-purple-600', href: '/teacher/materials' },
+          { label: 'Planes de estudio', value: 'Gestionar', icon: FileText, color: 'text-green-600', href: '/teacher/plans' },
           { label: 'Medallero', value: 'Otorgar', icon: Trophy, color: 'text-amber-600', href: '/teacher/medallas' },
         ].map(s => (
           <Card key={s.label}>

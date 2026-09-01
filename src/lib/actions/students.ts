@@ -9,6 +9,7 @@ type StudentInput = {
   fullName: string
   grupo: 1 | 2
   ccaa: string
+  startDate?: string
 }
 
 // Generar contraseña aleatoria segura
@@ -35,7 +36,7 @@ export async function createStudent(input: StudentInput) {
   const { error: authError } = await requireTeacher()
   if (authError) return { error: authError }
 
-  const { email, fullName, grupo, ccaa } = input
+  const { email, fullName, grupo, ccaa, startDate } = input
   const admin = createAdminClient()
   const password = generateRandomPassword()
 
@@ -101,9 +102,8 @@ export async function createStudent(input: StudentInput) {
     }
 
     // Asignar temas (Tema 50 semana 1, Tema 54 semana 2)
-    const today = new Date()
-    const week1Start = new Date(today)
-    const week2Start = new Date(today)
+    const week1Start = startDate ? new Date(startDate) : new Date()
+    const week2Start = new Date(week1Start)
     week2Start.setDate(week2Start.getDate() + 7)
 
     const { error: topicsError } = await admin

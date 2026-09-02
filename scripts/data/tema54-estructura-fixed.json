@@ -1,0 +1,158 @@
+{
+  "tema": "TEMA-54",
+  "titulo": "Equilibrio químico. Constante de equilibrio. Modificaciones externas de los equilibrios. Equilibrios heterogéneos.",
+  "grupo": 2,
+  "niveles": [
+    {
+      "nivel": 0,
+      "titulo": "Índice",
+      "content_json": {
+        "tipo": "indice",
+        "estructura": [
+          {
+            "apartado": "0. Introducción",
+            "subapartados": []
+          },
+          {
+            "apartado": "1. Equilibrio químico",
+            "subapartados": [
+              "1.1. Concepto y características del equilibrio químico",
+              "1.2. Naturaleza dinámica e interpretación cinética del equilibrio químico"
+            ]
+          },
+          {
+            "apartado": "2. Constante de equilibrio",
+            "subapartados": [
+              "2.1. Concepto termodinámico de la constante de equilibrio",
+              "2.2. Cociente de reacción y relación entre ΔG y K",
+              "2.3. Expresión de las constantes de equilibrio: Kc y Kp",
+              "2.4. Relación entre Kc y Kp e interpretación de su valor"
+            ]
+          },
+          {
+            "apartado": "3. Modificaciones externas de los equilibrios",
+            "subapartados": [
+              "3.1. Principio de Le Châtelier",
+              "3.2. Influencia de la concentración, la presión y el volumen",
+              "3.3. Influencia de la temperatura y ecuación de Van't Hoff",
+              "3.4. Efecto de los catalizadores sobre el equilibrio químico"
+            ]
+          },
+          {
+            "apartado": "4. Equilibrios heterogéneos",
+            "subapartados": [
+              "4.1. Concepto y características de los equilibrios heterogéneos",
+              "4.2. Expresión de la constante de equilibrio en sistemas heterogéneos",
+              "4.3. Equilibrios de solubilidad y producto de solubilidad",
+              "4.4. Ley de reparto y distribución entre fases"
+            ]
+          },
+          {
+            "apartado": "5. Conclusión",
+            "subapartados": []
+          }
+        ]
+      }
+    },
+    {
+      "nivel": 1,
+      "titulo": "Palabras clave",
+      "content_json": {
+        "tipo": "palabras_clave",
+        "keywords": {
+          "Sistema en equilibrio": "",
+          "Sistema cerrado": "",
+          "Reacción reversible": "",
+          "Composición constante": "",
+          "Predominio de especies": "",
+          "Equilibrio dinámico": "",
+          "Velocidad directa": "",
+          "Velocidad inversa": "",
+          "Condición cinética de equilibrio": "",
+          "Colisiones eficaces": "",
+          "Dinamismo molecular": "",
+          "Interpretación cinética": "",
+          "Interpretación termodinámica": "",
+          "Ley de acción de masas": "",
+          "Constante termodinámica": "",
+          "Actividad química": "",
+          "Estado estándar": "",
+          "Aproximaciones ideales": "",
+          "Actividades adimensionales": "",
+          "Coeficientes estequiométricos": "",
+          "Posición del equilibrio": "",
+          "Dependencia con temperatura": "",
+          "Cociente de reacción Q": "",
+          "Relación Q-K": "",
+          "Energía libre de Gibbs": "",
+          "Espontaneidad": "",
+          "Condición de equilibrio": "",
+          "Relación termodinámica fundamental": "",
+          "Predominio termodinámico": "",
+          "Aproximación ideal": "",
+          "Definición Kc": "",
+          "Definición Kp": "",
+          "Sólidos y líquidos puros": "",
+          "Relación para gases ideales": "",
+          "Δn gaseoso": "",
+          "Interpretación de valores de K": "",
+          "Principio de Le Châtelier": "",
+          "Perturbación externa": "",
+          "Desplazamiento del equilibrio": "",
+          "Interpretación mediante Q": "",
+          "Restablecimiento": "",
+          "Predicción cualitativa": "",
+          "Aumento de concentración": "",
+          "Disminución de concentración": "",
+          "Presión y volumen en gases": "",
+          "Gas inerte": "",
+          "Relación temperatura-entalpía": "",
+          "Reacción endotérmica": "",
+          "Reacción exotérmica": "",
+          "Ecuación de Van't Hoff": "",
+          "Efecto de la temperatura": "",
+          "Catalizador": "",
+          "Mecanismo alternativo": "",
+          "Tiempo de equilibrio": "",
+          "Invariancia de K": "",
+          "Invariancia de ΔG°": "",
+          "Equilibrio heterogéneo": "",
+          "Sistemas multifásicos": "",
+          "Fases puras": "",
+          "Especies disueltas y gaseosas": "",
+          "Procesos característicos": "",
+          "Distribución entre fases": "",
+          "Expresión de la constante": "",
+          "Especies gaseosas": "",
+          "Especies disueltas": "",
+          "Cantidad de sólido": "",
+          "Equilibrio de solubilidad": "",
+          "Producto de solubilidad": "",
+          "Efecto del ion común": "",
+          "Complejación": "",
+          "Reacciones acopladas": "",
+          "Ley de reparto": "",
+          "Constante de distribución": "",
+          "Extracción líquido-líquido": "",
+          "Selección de disolventes": ""
+        }
+      }
+    },
+    {
+      "nivel": 2,
+      "titulo": "Conceptos clave",
+      "content_json": {
+        "tipo": "desarrollo_esquematico",
+        "texto": "Tema 54. Equilibrio químico. Constante de equilibrio. Modificaciones externas de los equilibrios. Equilibrios heterogéneos.\n\n1. Equilibrio químico\n\n1.1. Concepto y características del equilibrio químico\n\nSistema en equilibrio: mantiene constantes sus propiedades macroscópicas con el tiempo.\nSistema cerrado: no intercambia materia con el entorno, condición necesaria para mantener la composición de equilibrio.\nReacción reversible: aA + bB ⇌ cC + dD, con transformación simultánea en ambos sentidos.\nComposición constante: las concentraciones dejan de variar macroscópicamente una vez alcanzado el equilibrio.\nPredominios de especies: pueden predominar reactivos o productos según la posición del equilibrio.\nEquilibrio dinámico: las reacciones directa e inversa tienen la misma velocidad. Las propiedades macroscópicas permanecen constantes.\n\n1.2. Naturaleza dinámica e interpretación cinética del equilibrio químico\n\nVelocidad directa: inicialmente suele predominar cuando existe mayor concentración de reactivos.\nVelocidad inversa: aumenta conforme se forman productos.\nCondición cinética de equilibrio: v directa = v inversa\nColisiones eficaces: continúan produciéndose en ambos sentidos durante el equilibrio.\nDinamismo molecular: no existe detención de las transformaciones microscópicas.\nInterpretación cinética: explica cómo se alcanza el equilibrio.\nInterpretación termodinámica: determina la posición del equilibrio y su composición.\n\n2. Constante de equilibrio\n\n2.1. Concepto termodinámico de la constante de equilibrio\n\nLey de acción de masas: Guldberg y Waage; relaciona cuantitativamente las actividades de las especies en equilibrio.\nReacción general: aA + bB ⇌ cC + dD\nConstante termodinámica de equilibrio: K = (a_C^c · a_D^d) / (a_A^a · a_B^b)\nActividad química: concentración efectiva de una especie respecto a un estado estándar.\nEstado estándar: referencia utilizada para definir actividades (c° = 1 M, p° = 1 bar).\nAproximaciones ideales: aplicables en muchos sistemas reales.\nActividades adimensionales: las actividades son cocientes entre magnitudes de las mismas unidades; K no tiene unidades.\nCoeficientes estequiométricos: aparecen como exponentes de las actividades.\nPosición del equilibrio: el valor de K informa del predominio relativo de productos o reactivos.\nDependencia con temperatura: K solo varía si se modifica la temperatura.\n\n2.2. Cociente de reacción y relación entre ΔG y K\n\nCociente de reacción Q: misma expresión que K, pero calculada con actividades instantáneas.\nRelación Q-K: permite determinar el sentido de evolución del sistema.\nEnergía libre de Gibbs: ΔG = ΔG° + RT ln Q\nEspontaneidad: el signo de ΔG determina el sentido espontáneo de evolución.\nCondición de equilibrio: ΔG = 0 y Q = K.\nRelación termodinámica fundamental: ΔG° = -RT ln K\nSi Q < K: evolución hacia productos; ΔG < 0 para el sentido directo de la reacción.\nSi Q = K: sistema en equilibrio; ΔG = 0.\nSi Q > K: evolución hacia reactivos; ΔG > 0 para el sentido directo.\nPredominios termodinámicos: K > 1 favorece productos; K < 1 favorece reactivos.\n\n2.3. Expresión de las constantes de equilibrio: Kc y Kp\n\nAproximación ideal: Kc y Kp representan formas prácticas de expresar el equilibrio cuando el comportamiento del sistema puede considerarse ideal.\nConstante Kc: relación adimensional de concentraciones molares en el equilibrio. Kc = [C]^c · [D]^d / ([A]^a · [B]^b)\nConstante Kp: relación adimensional de presiones parciales en equilibrios gaseosos. Kp = (p_C^c · p_D^d) / (p_A^a · p_B^b)\nCoeficientes estequiométricos: determinan los exponentes de cada término.\nSólidos y líquidos puros: su actividad se toma igual a 1 cuando constituyen una fase pura en su estado estándar, por lo que no aparecen en K.\n\n2.4. Relación entre Kc y Kp e interpretación de su valor\n\nRelación para gases ideales: Kp = Kc · (RT)^Δn\nΔn gaseoso: diferencia entre coeficientes estequiométricos de productos y reactivos gaseosos.\nSi Δn = 0: Kp y Kc coinciden numéricamente bajo la formulación operativa habitual.\nK ≫ 1: equilibrio desplazado hacia productos.\nK ≪ 1: equilibrio desplazado hacia reactivos.\nK ≈ 1: cantidades apreciables de reactivos y productos.\n\n3. Modificaciones externas de los equilibrios\n\n3.1. Principio de Le Châtelier\n\nPrincipio de Le Châtelier: un sistema perturbado evoluciona en el sentido que tiende a contrarrestar parcialmente la perturbación.\nPerturbaciones externas: cambios de concentración, presión, volumen o temperatura.\nDesplazamiento del equilibrio: modificación de la composición hasta alcanzar un nuevo estado de equilibrio.\nInterpretación mediante Q: una perturbación varía Q, resultando diferente de K.\nRestablecimiento: el sistema evoluciona hasta recuperar Q = K.\nPredicción cualitativa: permite anticipar el sentido de desplazamiento del equilibrio.\n\n3.2. Influencia de la concentración, la presión y el volumen\n\nAumento de concentración: favorece el sentido que consume la especie añadida.\nDisminución de concentración: favorece el sentido que regenera la especie retirada.\nRetirada de productos: puede favorecer la formación adicional de productos.\nDisminución de volumen / aumento de presión: favorece el miembro con menor número de moles gaseosos.\nAumento de volumen / disminución de presión: favorece el miembro con mayor número de moles gaseosos.\nSi Δn = 0: una variación uniforme del volumen no produce desplazamiento.\nGas inerte a volumen constante: no modifica las presiones parciales de los reactivos; no desplaza el equilibrio.\nGas inerte a presión constante: aumenta el volumen y puede modificar las presiones parciales de las especies reaccionantes.\n\n3.3. Influencia de la temperatura y ecuación de Van't Hoff\n\nRelación temperatura-entalpía: el signo de ΔH° determina cómo varía K con la temperatura.\nReacción endotérmica: ΔH° > 0; el calor puede interpretarse cualitativamente como si fuera un reactivo.\nReacción exotérmica: ΔH° < 0; el calor puede interpretarse cualitativamente como si fuera un producto.\nAumento de temperatura: favorece el sentido endotérmico.\nDisminución de temperatura: favorece el sentido exotérmico.\nEcuación de Van't Hoff: d(ln K)/dT = ΔH° / (RT²)\nSi ΔH° > 0: K aumenta con T\nSi ΔH° < 0: K disminuye con T.\nInterpretación: conecta la predicción de Le Châtelier con el fundamento termodinámico.\n\n3.4. Efecto de los catalizadores sobre el equilibrio químico\n\nCatalizador: modifica la velocidad sin alterar la composición de equilibrio.\nMecanismo alternativo: proporciona una ruta de reacción con menor energía de activación.\nReacción reversible: acelera tanto el proceso directo como el inverso.\nTiempo de equilibrio: disminuye; el sistema alcanza antes el estado de equilibrio.\nInvariancia de K: el catalizador no modifica la constante de equilibrio.\nInvariancia de ΔG°: no altera la diferencia energética entre reactivos y productos.\nPosición del equilibrio: permanece inalterada.\n\n4. Equilibrios heterogéneos\n\n4.1. Concepto y características de los equilibrios heterogéneos\n\nEquilibrio heterogéneo: participan especies pertenecientes a fases diferentes.\nSistemas multifásicos: coexistencia de sólidos, líquidos, gases o disoluciones.\nFases puras: presentan actividad constante (sólidos y líquidos, como el agua).\nEspecies disueltas y gaseosas: su actividad puede variar y afectar al equilibrio.\nProcesos característicos: precipitación, disolución, descomposición térmica y distribución entre fases.\nDistribución entre fases: el equilibrio mantiene constantes las propiedades macroscópicas de cada fase.\n\n4.2. Expresión de la constante de equilibrio en sistemas heterogéneos\n\nConstante de equilibrio: se formula mediante las actividades de las especies participantes.\nSólidos y líquidos puros: actividad igual a la unidad en el estado estándar; se omiten de la expresión explícita.\nEspecies gaseosas: pueden expresarse mediante presiones parciales.\nEspecies disueltas: pueden aproximarse mediante concentraciones en sistemas ideales o diluidos.\nEjemplo: CaCO₃(s) ⇌ CaO(s) + CO₂(g), Kp = p_CO₂\nCantidad de sólido: no altera la posición del equilibrio mientras la fase sólida correspondiente permanezca presente.\n\n4.3. Equilibrios de solubilidad y producto de solubilidad\n\nEquilibrio de solubilidad: equilibrio entre una sal poco soluble y sus iones en disolución.\nExpresión general: A_m B_n(s) ⇌ m A^(n+)(aq) + n B^(m-)(aq)\nProducto de solubilidad: Kps = [A^(n+)]^m · [B^(m-)]^n\nSolubilidad y Kps: están relacionadas, pero su relación cuantitativa depende de la estequiometría de disolución.\nEfecto del ion común: la presencia de uno de los iones desplaza el equilibrio hacia el sólido y disminuye la solubilidad.\nComplejación: disminuye la concentración de ion libre y puede favorecer la disolución del sólido.\nReacciones acopladas: la retirada química de iones disueltos puede desplazar el equilibrio hacia la disolución del sólido.\n\n4.4. Ley de reparto y distribución entre fases\n\nLey de reparto: describe la distribución de un soluto entre dos líquidos inmiscibles o poco miscibles.\nCondición: el soluto debe conservar esencialmente la misma forma molecular en ambas fases.\nTemperatura constante: condición necesaria para mantener constante el coeficiente de reparto.\nConstante de distribución: K_D = C(fase orgánica) / C(fase acuosa)\nDistribución entre fases: depende de la afinidad relativa del soluto por cada disolvente.\nExtracción líquido-líquido: separación de un soluto aprovechando su diferente afinidad y distribución.\nSelección de disolventes: permite separar selectivamente componentes de una mezcla.\n\n5. Conclusión"
+      }
+    },
+    {
+      "nivel": 3,
+      "titulo": "Redacción final",
+      "content_json": {
+        "tipo": "redaccion_completa",
+        "texto": "Tema 54. Equilibrio químico. Constante de equilibrio. Modificaciones externas de los equilibrios. Equilibrios heterogéneos.\n\n0. Introducción\n\nEl equilibrio químico constituye un contenido fundamental para comprender el comportamiento de las reacciones reversibles y las condiciones que determinan la composición de un sistema químico. Su estudio permite interpretar la optimización de procesos industriales, los fenómenos de solubilidad y precipitación y la distribución de sustancias entre distintas fases, así como utilizar modelos cinéticos y termodinámicos, constantes de equilibrio y evidencias experimentales para explicar y predecir la evolución de los sistemas químicos. Este enfoque contribuye al desarrollo de la competencia científica y STEM, al exigir la interpretación de fenómenos mediante modelos, datos y evidencias. Además, principios como Le Châtelier permiten analizar cómo las condiciones externas modifican el estado de equilibrio y optimizar procesos químicos reales. El equilibrio químico conecta el dinamismo molecular con la composición observable y con la posibilidad de predecir y controlar los sistemas químicos.\n\n1. Marco curricular y legislativo\n\nEl tema se enmarca en la normativa vigente estatal y autonómica. La Ley Orgánica 2/2006, modificada por la Ley Orgánica 3/2020, junto con los Reales Decretos 217/2022 y 243/2022, establecen el marco curricular de ESO y Bachillerato. En la Comunitat Valenciana, los Decretos 107/2022 y 108/2022 concretan estos currículos y sitúan el equilibrio químico en la asignatura de Física y Química en ESO y Química en Bachillerato.\n\n2. Equilibrio químico\n\n2.1. Concepto y características del equilibrio químico\n\nUn sistema alcanza el equilibrio químico cuando, en una reacción reversible, sus propiedades macroscópicas y las concentraciones de reactivos y productos permanecen constantes con el tiempo. Para mantener esta composición, el sistema debe estar cerrado respecto a la materia. Esta constancia no implica igualdad de concentraciones: pueden predominar reactivos o productos según la posición del equilibrio. Así, una reacción reversible aA + bB ⇌ cC + dD puede mantener una composición macroscópicamente constante aunque continúen produciéndose transformaciones en ambos sentidos. El equilibrio es, por tanto, dinámico: las reacciones directa e inversa continúan simultáneamente con igual velocidad, de modo que sus efectos se compensan. Por ello, las propiedades macroscópicas permanecen constantes mientras persiste la actividad molecular.\n\n2.2. Naturaleza dinámica e interpretación cinética del equilibrio químico\n\nDesde el punto de vista cinético, una reacción reversible presenta velocidades directa e inversa que evolucionan durante el proceso. Inicialmente, cuando predominan los reactivos, la velocidad directa suele ser mayor; conforme se forman productos, aumenta progresivamente la velocidad inversa hasta alcanzarse la condición: v directa = v inversa. En este estado continúan produciéndose colisiones eficaces en ambos sentidos, manteniéndose el dinamismo molecular característico del equilibrio. La interpretación cinética permite, por tanto, explicar cómo se alcanza el equilibrio mediante la evolución de las velocidades de reacción. Sin embargo, no determina su posición ni la composición final del sistema, aspectos que corresponden a la interpretación termodinámica.\n\n3. Constante de equilibrio\n\n3.1. Concepto termodinámico de la constante de equilibrio\n\nLa ley de acción de masas, formulada por Guldberg y Waage, relaciona cuantitativamente las actividades de las especies presentes en equilibrio. Para una reacción general: aA + bB ⇌ cC + dD, la constante termodinámica de equilibrio se expresa como:\n\nK = (a_C^c · a_D^d) / (a_A^a · a_B^b)\n\ndonde los coeficientes estequiométricos aparecen como exponentes. La actividad química representa la concentración efectiva de una especie respecto a un estado estándar; en condiciones ideales pueden emplearse las aproximaciones a_i = c_i / c° para disoluciones y a_i = p_i / p° para gases, con c° = 1 M y p° = 1 bar. Como las actividades son cocientes entre magnitudes de iguales unidades, son adimensionales y, por tanto, K también es adimensional. Su valor informa de la posición del equilibrio: valores elevados favorecen productos y valores pequeños, reactivos. Para una reacción dada, K solo cambia con la temperatura.\n\n3.2. Cociente de reacción y relación entre ΔG y K\n\nEl cociente de reacción, Q, tiene la misma expresión que K, pero se calcula con las actividades instantáneas del sistema. Su comparación con K permite determinar el sentido espontáneo de evolución. La energía libre de Gibbs determina la espontaneidad de una reacción a presión y temperatura constantes. Su relación con Q es:\n\nΔG = ΔG° + RT ln Q\n\ndonde ΔG es la variación de energía libre, ΔG° la variación estándar, R la constante de los gases, T la temperatura absoluta y Q el cociente de reacción. En el equilibrio, el sistema no presenta tendencia neta a evolucionar, por lo que ΔG = 0 y Q = K, obteniéndose:\n\nΔG° = -RT ln K\n\nEsta expresión muestra que:\n- Si Q < K: evolución hacia productos; ΔG < 0 para el sentido directo de la reacción.\n- Si Q = K: sistema en equilibrio; ΔG = 0.\n- Si Q > K: evolución hacia reactivos; ΔG > 0 para el sentido directo.\n\nEl predominio termodinámico depende del valor de K: K > 1 favorece productos y K < 1 favorece reactivos.\n\n3.3. Expresión de las constantes de equilibrio: Kc y Kp\n\nEn sistemas de comportamiento aproximadamente ideal, la constante termodinámica puede expresarse mediante concentraciones o presiones. Para una reacción general aA + bB ⇌ cC + dD en disoluciones ideales, aproximando cada actividad por a_i = c_i / c°, siendo c° = 1 M, se obtiene:\n\nKc = [C]^c · [D]^d / ([A]^a · [B]^b)\n\nPor otro lado, en equilibrios gaseosos ideales, utilizando a_i = p_i / p°, siendo p° = 1 bar, se obtiene:\n\nKp = (p_C^c · p_D^d) / (p_A^a · p_B^b)\n\nLos coeficientes estequiométricos determinan los exponentes de cada término. Ambas constantes son adimensionales cuando concentraciones y presiones se entienden normalizadas respecto a sus estados estándar. Los sólidos y líquidos puros presentan actividad unidad en su estado estándar y, por ello, no aparecen en la expresión de la constante.\n\n3.4. Relación entre Kc y Kp e interpretación de su valor\n\nEn equilibrios gaseosos ideales, Kc y Kp se relacionan mediante:\n\nKp = Kc · (RT)^Δn\n\ndonde Δn es la diferencia entre la suma de los coeficientes estequiométricos de los productos menos los de los reactivos gaseosos. Si Δn = 0, entonces Kp y Kc coinciden numéricamente. El valor de K permite interpretar la composición del equilibrio. Si K ≫ 1, predominan los productos; si K ≪ 1, predominan los reactivos; y si K ≈ 1, existen cantidades apreciables de ambos.\n\n4. Modificaciones externas de los equilibrios\n\n4.1. Principio de Le Châtelier\n\nEl principio de Le Châtelier establece que, cuando un sistema en equilibrio sufre una perturbación externa de concentración, presión, volumen o temperatura, evoluciona en el sentido que tiende a contrarrestarla parcialmente hasta alcanzar un nuevo estado de equilibrio. Esta respuesta puede interpretarse mediante el cociente de reacción: una perturbación altera la relación de equilibrio entre Q y K, y el sistema evoluciona hasta restablecer la condición Q = K. Así, el principio permite predecir cualitativamente el sentido de desplazamiento del equilibrio y la consiguiente modificación de su composición.\n\n4.2. Influencia de la concentración, la presión y el volumen\n\nUn aumento de la concentración de una especie desplaza el equilibrio en el sentido que tiende a consumirla, mientras que su disminución favorece el sentido que la regenera. Así, la retirada de productos puede favorecer su formación adicional. En equilibrios gaseosos, una disminución del volumen, y el consiguiente aumento de las presiones parciales, favorece el miembro con menor número de moles gaseosos; un aumento del volumen favorece el que presenta mayor número. Si Δn = 0, una variación uniforme del volumen no provoca desplazamiento. La adición de un gas inerte a volumen constante no modifica las presiones parciales de las especies reaccionantes y, por tanto, no altera el equilibrio. A presión constante, en cambio, aumenta el volumen y disminuyen las presiones parciales, produciendo el mismo efecto que una expansión y pudiendo desplazar el equilibrio si Δn ≠ 0.\n\n4.3. Influencia de la temperatura y ecuación de Van't Hoff\n\nLa temperatura es el único factor externo considerado que modifica el valor de la constante de equilibrio K. Su efecto depende del signo de la entalpía estándar de reacción, ΔH°: cualitativamente, el calor puede considerarse reactivo en una reacción endotérmica (ΔH° > 0) y producto en una exotérmica (ΔH° < 0). Por ello, un aumento de temperatura favorece el sentido endotérmico, mientras que una disminución favorece el sentido exotérmico. Cuantitativamente, la dependencia de K con T viene dada por la ecuación de Van't Hoff:\n\nd(ln K)/dT = ΔH° / (RT²)\n\nAsí, si ΔH° > 0, K aumenta con la temperatura; si ΔH° < 0, K disminuye. La ecuación de Van't Hoff proporciona, por tanto, el fundamento termodinámico de la predicción cualitativa de Le Châtelier.\n\n4.4. Efecto de los catalizadores sobre el equilibrio químico\n\nUn catalizador proporciona un mecanismo alternativo con menor energía de activación, aumentando así la velocidad de reacción. En una reacción reversible, disminuye la barrera energética tanto del proceso directo como del inverso, por lo que acelera ambos sentidos de reacción. El efecto del catalizador es cinético: reduce la energía de activación y acelera las reacciones directa e inversa, pero no modifica la diferencia de energía libre entre reactivos y productos. Por ello, ΔG°, K y la composición de equilibrio permanecen invariables. Por tanto, un catalizador permite alcanzar más rápidamente el mismo estado de equilibrio, pero no lo desplaza.\n\n5. Equilibrios heterogéneos\n\n5.1. Concepto y características de los equilibrios heterogéneos\n\nLos equilibrios heterogéneos son aquellos en los que intervienen especies pertenecientes a fases diferentes, pudiendo coexistir sólidos, líquidos, gases o disoluciones en un mismo sistema. Las fases puras, como sólidos y líquidos puros, presentan actividad constante, mientras que las actividades de las especies disueltas o gaseosas pueden variar y afectar al equilibrio. Son característicos de procesos como la precipitación, la disolución, la descomposición térmica y la distribución de sustancias entre fases. Al alcanzarse el equilibrio, continúan produciéndose transformaciones microscópicas entre ellas, pero las propiedades macroscópicas de cada fase permanecen constantes.\n\n5.2. Expresión de la constante de equilibrio en sistemas heterogéneos\n\nEn los equilibrios heterogéneos, la constante de equilibrio se formula mediante las actividades de las especies participantes. Los sólidos y líquidos puros presentan actividad igual a la unidad en su estado estándar y, por ello, no aparecen explícitamente en la expresión de K. Las especies gaseosas pueden expresarse mediante sus presiones parciales, mientras que, en disoluciones ideales o suficientemente diluidas, las actividades de las especies disueltas pueden aproximarse mediante sus concentraciones. Por ejemplo:\n\nCaCO₃(s) ⇌ CaO(s) + CO₂(g)       Kp = p_CO₂\n\nModificar la cantidad de una fase sólida no desplaza el equilibrio mientras dicha fase permanezca presente.\n\n5.3. Equilibrios de solubilidad y producto de solubilidad\n\nUn caso relevante de equilibrio heterogéneo es el equilibrio de solubilidad entre una sal poco soluble y sus iones en disolución. Para una sal general:\n\nA_m B_n(s) ⇌ m A^(n+)(aq) + n B^(m-)(aq)\n\nel producto de solubilidad se expresa, en la aproximación ideal, como:\n\nKps = [A^(n+)]^m · [B^(m-)]^n\n\nLa fase sólida no aparece en la expresión por presentar actividad constante. El valor de Kps está relacionado con la solubilidad, aunque la relación cuantitativa depende de la estequiometría de disolución. La presencia de un ion común desplaza el equilibrio hacia el sólido y disminuye su solubilidad. Por el contrario, la formación de complejos reduce la concentración del ion libre y puede favorecer la disolución. Del mismo modo, otras reacciones acopladas que consuman alguno de los iones disueltos desplazan el equilibrio hacia una mayor disolución del sólido.\n\n5.4. Ley de reparto y distribución entre fases\n\nLa ley de reparto describe la distribución de un soluto entre dos líquidos inmiscibles o poco miscibles. Cuando el soluto mantiene esencialmente la misma forma molecular en ambas fases, a temperatura constante se establece una relación constante entre sus concentraciones de equilibrio:\n\nK_D = C(fase orgánica) / C(fase acuosa)\n\nEsta magnitud, denominada constante o coeficiente de distribución, refleja la afinidad relativa del soluto por ambos disolventes: cuanto mayor sea su afinidad por una fase, mayor será su concentración en ella. Este principio fundamenta la extracción líquido-líquido, técnica que permite separar un soluto aprovechando su diferente distribución entre dos fases inmiscibles. Por ello, la adecuada selección de los disolventes permite separar selectivamente componentes de una mezcla.\n\n6. Conclusiones\n\nEn conclusión, el estudio del equilibrio químico permite comprender el comportamiento de las reacciones reversibles mediante su interpretación cinética y termodinámica, la constante de equilibrio y las relaciones entre Q, K y ΔG. A lo largo del tema se ha mostrado cómo el dinamismo molecular, la composición del sistema y las perturbaciones externas se relacionan para explicar y predecir la evolución de equilibrios homogéneos y heterogéneos. De este modo, se recupera la idea inicial: un sistema puede mantener una composición macroscópicamente estable mientras continúa transformándose a escala molecular, y conocer las leyes que lo rigen permite anticipar y controlar su comportamiento. Su valor trasciende el plano teórico, pues fundamenta procesos de optimización industrial, precipitación, solubilidad, separación y extracción entre fases. Por lo tanto, el equilibrio químico constituye una herramienta esencial para interpretar y controlar transformaciones químicas reales con criterios científicos, energéticos y de eficiencia."
+      }
+    }
+  ]
+}

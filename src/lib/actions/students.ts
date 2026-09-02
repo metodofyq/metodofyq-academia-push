@@ -3,6 +3,7 @@
 import { revalidatePath } from 'next/cache'
 import { requireTeacher } from '@/lib/auth/require-teacher'
 import { createAdminClient } from '@/lib/supabase/admin'
+import { generateDailyTasks } from '@/lib/actions/daily-tasks'
 
 type StudentInput = {
   email: string
@@ -116,6 +117,14 @@ export async function createStudent(input: StudentInput) {
     if (topicsError) {
       console.error('Error assigning topics:', topicsError)
       return { error: 'No se pudo asignar los temas al plan de estudio.' }
+    }
+
+    // Generate daily tasks for today (if course starts today)
+    try {
+      await generateDailyTasks(userId)
+    } catch (taskError) {
+      console.warn('Warning: Could not generate daily tasks:', taskError)
+      // Don't fail the student creation if daily tasks fail
     }
   } catch (err) {
     console.error('Unexpected error in topic assignment:', err)

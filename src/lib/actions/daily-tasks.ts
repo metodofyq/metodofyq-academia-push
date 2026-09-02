@@ -26,12 +26,15 @@ export async function generateDailyTasks(studentId: string) {
 
   const planTopics = plan.study_plan_topics ?? []
 
-  // Find today's new topic
-  const startDate = new Date(plan.started_at)
-  const newTopicEntry = planTopics.find((pt: { order_index: number }) => {
-    const scheduled = new Date(startDate)
-    scheduled.setDate(scheduled.getDate() + pt.order_index * NEW_TOPIC_INTERVAL_DAYS)
-    return format(scheduled, 'yyyy-MM-dd') === today
+  // Find today's new topic (use scheduled_date if available, fallback to calculation)
+  const newTopicEntry = planTopics.find((pt: any) => {
+    const scheduledDate = pt.scheduled_date || (() => {
+      const startDate = new Date(plan.started_at)
+      const scheduled = new Date(startDate)
+      scheduled.setDate(scheduled.getDate() + pt.order_index * NEW_TOPIC_INTERVAL_DAYS)
+      return format(scheduled, 'yyyy-MM-dd')
+    })()
+    return format(new Date(scheduledDate), 'yyyy-MM-dd') === today
   })
 
   const tasks: Array<{

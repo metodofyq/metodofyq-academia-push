@@ -69,7 +69,7 @@ export default async function NivelPage({ params }: Props) {
   }
 
   if (nivel === 1) {
-    if (!estructura || !keywords) return contenidoNoDisponible
+    if (!estructura || !keywords || Object.keys(keywords).length === 0) return contenidoNoDisponible
     return <EstructuraNivel nivel={1} estructura={estructura} keywords={keywords} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
   }
 

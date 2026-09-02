@@ -60,20 +60,16 @@
       "content_json": {
         "tipo": "palabras_clave",
         "keywords": {
-          "1.1. Concepto y características del equilibrio químico": "",
-          "1.2. Naturaleza dinámica e interpretación cinética del equilibrio químico": "",
-          "2.1. Concepto termodinámico de la constante de equilibrio": "",
-          "2.2. Cociente de reacción y relación entre ΔG y K": "",
-          "2.3. Expresión de las constantes de equilibrio: Kc y Kp": "",
-          "2.4. Relación entre Kc y Kp e interpretación de su valor": "",
-          "3.1. Principio de Le Châtelier": "",
-          "3.2. Influencia de la concentración, la presión y el volumen": "",
-          "3.3. Influencia de la temperatura y ecuación de Van't Hoff": "",
-          "3.4. Efecto de los catalizadores sobre el equilibrio químico": "",
-          "4.1. Concepto y características de los equilibrios heterogéneos": "",
-          "4.2. Expresión de la constante de equilibrio en sistemas heterogéneos": "",
-          "4.3. Equilibrios de solubilidad y producto de solubilidad": "",
-          "4.4. Ley de reparto y distribución entre fases": ""
+          "1.2. Naturaleza dinámica e interpretación cinética del equilibrio químico": "Velocidad directa · Velocidad inversa · Condición cinética de equilibrio · Colisiones eficaces · Dinamismo molecular · Interpretación cinética · Interpretación termodinámica · Ley de acción de masas · Constante de termodinámica de equilibrio · Actividad química · Estado estándar · Aproximaciones ideales · Actividades adimensionales · Coeficientes estequiométricos · Posición del equilibrio · Dependencia con temperatura",
+          "2.2. Cociente de reacción y relación entre ΔG y K": "Cociente de reacción Q · Relación Q-K · Energía libre de Gibbs · Espontaneidad · Condición de equilibrio · Relación termodinámica fundamental · Q < K · Q = K · Q > K · Predominio termodinámico",
+          "2.3. Expresión de las constantes de equilibrio: Kc y Kp": "Aproximación ideal · Definición Kc · Definición Kp · Sólidos y líquidos puros",
+          "2.4. Relación entre Kc y Kp e interpretación de su valor": "Relación Kc-Kp para gases ideales · Δn gaseoso · K ≫ 1 · K ≪ 1 · K ≈ 1 · Principio de Le Châtelier · Perturbación externa · Desplazamiento del equilibrio · Interpretación mediante Q y perturbación · Restablecimiento · Predicción cualitativa",
+          "3.2. Influencia de la concentración, la presión y el volumen": "Variación de concentración · Presión y Volumen en equilibrios gaseosos · Δn gaseoso · Gas inerte",
+          "3.3. Influencia de la temperatura y ecuación de Van't Hoff": "Relación Temperatura-Entalpía · Reacción endotérmica · Reacción exotérmica · Sentido endotérmico · Sentido exotérmico · Ecuación de Van't Hoff",
+          "3.4. Efecto de los catalizadores sobre el equilibrio químico": "Catalizador · Mecanismo alternativo · Reacción reversible · Tiempo de equilibrio · Invariancia de K · Invariancia de ΔG° · Posición del equilibrio · Equilibrio heterogéneo · Sistemas multifásicos · Fases puras · Especies disueltas y gaseosas · Procesos característicos · Distribución entre fases",
+          "4.2. Expresión de la constante de equilibrio en sistemas heterogéneos": "Expresión de la constante de equilibrio · Sólidos y líquidos puros no se incluyen · Especies gaseosas · Especies disueltas · Cantidad de sólido",
+          "4.3. Equilibrios de solubilidad y producto de solubilidad": "Equilibrio de solubilidad · Expresión general · Producto de solubilidad · Efecto del ion común · Complejación · Reacciones acopladas",
+          "4.4. Ley de reparto y distribución entre fases": "Ley de reparto · Condición de la ley de reparto · Temperatura constante · Constante de distribución · Distribución entre fases · Extracción líquido-líquido · Selección de disolventes"
         }
       }
     },

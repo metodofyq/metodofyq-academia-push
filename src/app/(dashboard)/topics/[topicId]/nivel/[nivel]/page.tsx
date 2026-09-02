@@ -45,6 +45,7 @@ export default async function NivelPage({ params }: Props) {
   const keywords = contentOf(1)?.keywords as Record<string, string> | undefined
   const nivel2Texto = contentOf(2)?.texto as string | undefined
   const nivel3Texto = contentOf(3)?.texto as string | undefined
+  const nivel4Texto = contentOf(4)?.texto as string | undefined
   const tarjetasCuradas = contentOf(2.5)?.flashcards as Tarjeta[] | undefined
   const tarjetasN35 = contentOf(3.5)?.flashcards as Tarjeta[] | undefined
 
@@ -111,13 +112,11 @@ export default async function NivelPage({ params }: Props) {
     return <FlashcardsSemaforo nivel={3.5} tarjetasCuradas={tarjetasN35} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
   }
 
-  // nivel === 4
-  const { data: legislacion } = await supabase
-    .from('topic_level4_legislacion')
-    .select('content_md')
-    .eq('topic_id', topicId)
-    .eq('ccaa', profile?.ccaa ?? '')
-    .maybeSingle()
+  if (nivel === 4) {
+    if (!incluirNivel4) return notFound()
+    if (!nivel4Texto) return contenidoNoDisponible
+    return <DictadoCorrector nivel={4} texto={nivel4Texto} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
+  }
 
-  return <LegislacionNivel4 grupo={profile?.grupo ?? null} ccaa={profile?.ccaa ?? null} contenido={legislacion?.content_md ?? null} temaCode={temaCode} temaTitulo={temaTitulo} />
+  return notFound()
 }

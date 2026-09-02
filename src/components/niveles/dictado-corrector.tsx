@@ -14,7 +14,7 @@ import { UMBRAL_SUPERACION, nextNivel, type NivelValue } from '@/lib/niveles/con
 type ImagenAncla = { anchor: string; caption?: string | null; dibujar?: string | null; url: string }
 
 interface Props {
-  nivel: 2 | 3
+  nivel: 2 | 3 | 4
   texto: string
   imagenesAncladas?: ImagenAncla[]
   topicId: string
@@ -24,7 +24,7 @@ interface Props {
   temaTitulo?: string
 }
 
-const accent = { 2: { text: 'text-orange-600', border: 'border-orange-600', bg: 'bg-orange-600' }, 3: { text: 'text-green-600', border: 'border-green-600', bg: 'bg-green-600' } }
+const accent = { 2: { text: 'text-orange-600', border: 'border-orange-600', bg: 'bg-orange-600' }, 3: { text: 'text-green-600', border: 'border-green-600', bg: 'bg-green-600' }, 4: { text: 'text-blue-600', border: 'border-blue-600', bg: 'bg-blue-600' } }
 
 // N2 (esquema) y N3 (redacción completa con imágenes) comparten el mismo
 // motor: leer un texto de referencia y luego reescribirlo de memoria, con
@@ -34,7 +34,7 @@ export function DictadoCorrector({ nivel, texto, imagenesAncladas, topicId, stud
   const c = accent[nivel]
 
   const textoDictado = useMemo(() => {
-    if (nivel === 3) return insertarMarcasDibujo(texto, imagenesAncladas ?? [])
+    if (nivel === 3 || nivel === 4) return insertarMarcasDibujo(texto, imagenesAncladas ?? [])
     return textoAEsquema(texto)
   }, [nivel, texto, imagenesAncladas])
 

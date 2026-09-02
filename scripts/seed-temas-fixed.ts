@@ -59,13 +59,13 @@ async function loadTema(filePath: string, temaCod: string) {
     console.log(`  Tema ${raw.tema} ya existe (id: ${topicId})`);
   }
 
-  // Limpiar primero los niveles 0, 1, 2, 3 (si existen) para evitar conflictos
+  // Limpiar primero los niveles 0, 1, 2, 3, 4 (si existen) para evitar conflictos
   console.log(`  Limpiando niveles anteriores...`);
   const { error: deleteError } = await supabase
     .from("topic_levels")
     .delete()
     .eq("topic_id", topicId)
-    .in("level", [0, 1, 2, 3]);
+    .in("level", [0, 1, 2, 3, 4]);
 
   if (deleteError) throw deleteError;
 

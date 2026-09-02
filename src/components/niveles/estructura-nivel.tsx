@@ -140,10 +140,10 @@ export function EstructuraNivel({ nivel, estructura, keywords, topicId, studentI
               return (
                 <div key={i} className={indent}>
                   {slot.tipo === 'keyword' && <div className="text-[11px] text-muted-foreground mb-0.5">Palabras clave:</div>}
-                  <div className="flex items-center gap-1.5">
+                  <div className={`flex items-center gap-1.5 ${slot.tipo === 'keyword' ? 'flex-wrap' : ''}`}>
                     {numFijo && <span className="font-bold text-xs shrink-0 min-w-[24px]">{numFijo}</span>}
                     <select
-                      className="flex-1 border-2 rounded-md px-2.5 py-1.5 text-sm outline-none disabled:opacity-100"
+                      className={`${slot.tipo === 'keyword' ? 'flex-1 min-w-0 max-w-xs' : 'flex-1'} border-2 rounded-md px-2.5 py-1.5 text-sm outline-none disabled:opacity-100`}
                       style={{
                         borderColor: correcto === null ? undefined : correcto ? '#22c55e' : '#ef4444',
                         background: correcto === null ? undefined : correcto ? '#f0fdf4' : '#fef2f2',

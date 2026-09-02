@@ -90,10 +90,11 @@ export async function createStudent(input: StudentInput) {
       return { error: 'Falta al menos uno de los temas por defecto (TEMA-50 o TEMA-54).' }
     }
 
-    // Crear study plan
+    // Crear study plan con started_at = startDate
+    const planStartDate = startDate ? new Date(startDate).toISOString() : new Date().toISOString()
     const { data: studyPlan, error: studyPlanError } = await admin
       .from('study_plans')
-      .insert({ student_id: userId, is_active: true })
+      .insert({ student_id: userId, is_active: true, started_at: planStartDate })
       .select('id')
       .single()
 

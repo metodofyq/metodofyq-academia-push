@@ -57,12 +57,16 @@
       "content_json": {
         "tipo": "palabras_clave",
         "keywords": {
-          "1.2. Energía de activación y evolución de la reacción": "Energía de activación, (Ea) · Complejo activado · Perfil energético · Reorganización de enlaces · Reacción exotérmica/endotérmica · Colisiones eficaces · Orientación molecular · Factor estérico · Maxwell-Boltzmann · Temperatura · Concentración y presión",
+          "1.1. Concepto y objeto de estudio": "Velocidad de reacción · Cinética vs. termodinámica · Mecanismo de reacción · Etapas elementales · Intermediarios · Etapa determinante · Molecularidad · Orden de reacción · Ley cinética y mecanismo",
+          "1.2. Energía de activación y evolución de la reacción": "Energía de activación, (Ea) · Complejo activado · Perfil energético · Reorganización de enlaces · Reacción exotérmica/endotérmica",
+          "2.1. Teoría de las colisiones moleculares": "Colisiones eficaces · Orientación molecular · Factor estérico · Maxwell-Boltzmann · Temperatura · Concentración y presión",
           "2.2. Teoría del estado de transición": "Complejo activado · Estado de transición · Coordenada de reacción · Reorganización de enlaces · Inestabilidad · Evolución a productos o reactivos",
-          "2.3. Comparación y ámbito de aplicación de ambas teorías": "Fundamentos comunes · Diferencias entre los modelos · Ventajas y limitaciones · Complementariedad · Velocidad media · Velocidad instantánea · Normalización estequiométrica · Ley de velocidad · Órdenes de reacción: parciales, global y experimentales · Constante cinética, (k) · Velocidades iniciales",
+          "2.3. Comparación y ámbito de aplicación de ambas teorías": "Fundamentos comunes · Diferencias entre los modelos · Ventajas y limitaciones · Complementariedad",
+          "3.1. Concepto y expresión de la velocidad de reacción": "Velocidad media · Velocidad instantánea · Normalización estequiométrica · Ley de velocidad · Órdenes de reacción: parciales, global y experimentales · Constante cinética, (k) · Velocidades iniciales",
           "3.2. Naturaleza de los reactivos y estado físico": "Naturaleza química · Estructura y polaridad · Energía de enlace · Reacciones iónicas/covalentes · Estado físico · Superficie de contacto",
           "3.3. Concentración y presión": "Concentración · Frecuencia de colisiones · Ley cinética · Orden de reacción · Presión en gases · Concentración efectiva",
-          "3.4. Temperatura y catalizadores": "Efecto de la temperatura · Ecuación de Arrhenius · Forma lineal de Arrhenius · Determinación experimental de Ea · Catalizadores · Niveles energéticos · Equilibrio químico · Catálisis homogénea, heterogénea y enzimática · Curvas concentración-tiempo · Velocidad media · Velocidad instantánea · Seguimiento continuo · Seguimiento discontinuo · Alícuotas · Valoración",
+          "3.4. Temperatura y catalizadores": "Efecto de la temperatura · Ecuación de Arrhenius · Forma lineal de Arrhenius · Determinación experimental de Ea · Catalizadores · Niveles energéticos · Equilibrio químico · Catálisis homogénea, heterogénea y enzimática",
+          "4.1. Seguimiento de la concentración de reactivos y productos": "Curvas concentración-tiempo · Velocidad media · Velocidad instantánea · Seguimiento continuo · Seguimiento discontinuo · Alícuotas · Valoración",
           "4.2. Métodos físicos e instrumentales": "Presión y volumen · Espectrofotometría · Ley de Beer-Lambert · Conductimetría · pH · Selección del método"
         }
       }

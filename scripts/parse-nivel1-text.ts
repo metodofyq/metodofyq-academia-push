@@ -13,27 +13,36 @@ function parseNivel1Text(text: string): Record<string, string> {
   const lines = text.split('\n');
 
   let currentSubapartado = '';
-  const currentKeywords: string[] = [];
+  let currentKeywords: string[] = [];
 
   for (const line of lines) {
     const trimmed = line.trim();
 
-    // Detectar subapartado (línea que contiene "X.X." pero no empieza con "*")
-    if (trimmed.match(/^\d+\.\d+\./) && !trimmed.startsWith('*')) {
-      // Guardar keywords anteriores si existen
+    // Saltar líneas vacías
+    if (!trimmed) continue;
+
+    // Detectar si la línea contiene un patrón "X.X. Título"
+    // Puede estar al inicio o después de un apartado (ej: "1. Apartado 1.1. Subapartado")
+    const subapartadoMatch = trimmed.match(/(\d+\.\d+\.\s+[^*]+?)(?:$|\n)/);
+
+    if (subapartadoMatch && !trimmed.startsWith('*')) {
+      // Extraer el subapartado
+      const subapartado = subapartadoMatch[1].trim();
+
+      // Guardar keywords del subapartado anterior
       if (currentSubapartado && currentKeywords.length > 0) {
         keywords[currentSubapartado] = currentKeywords.join(' · ');
       }
 
-      // Nuevo subapartado
-      currentSubapartado = trimmed;
-      currentKeywords.length = 0;
+      // Establecer nuevo subapartado
+      currentSubapartado = subapartado;
+      currentKeywords = [];
     }
-    // Detectar palabra clave (línea que empieza con "*")
-    else if (trimmed.startsWith('*')) {
+    // Detectar palabra clave: línea que empieza con "*"
+    else if (trimmed.startsWith('*') && currentSubapartado) {
       const keyword = trimmed
-        .replace(/^\*\s*/, '') // Remover "* "
-        .replace(/\.$/, '')     // Remover punto final
+        .replace(/^\*\s*/, '') // Remover "* " del inicio
+        .replace(/\.$/, '')     // Remover "." del final si existe
         .trim();
 
       if (keyword) {
@@ -42,7 +51,7 @@ function parseNivel1Text(text: string): Record<string, string> {
     }
   }
 
-  // Guardar últimas keywords
+  // Guardar último subapartado con sus keywords
   if (currentSubapartado && currentKeywords.length > 0) {
     keywords[currentSubapartado] = currentKeywords.join(' · ');
   }

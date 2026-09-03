@@ -3,7 +3,7 @@ export const NIVEL_ORDER = [0, 0.5, 1, 2, 2.5, 3, 3.5, 4] as const
 export type NivelValue = (typeof NIVEL_ORDER)[number]
 
 // Niveles especiales con nombre (no numéricos)
-export const NIVEL_ESPECIALES = ['propuesta_didactica'] as const
+export const NIVEL_ESPECIALES = ['propuesta-didactica'] as const
 export type NivelEspecialValue = (typeof NIVEL_ESPECIALES)[number]
 
 export const UMBRAL_SUPERACION = 0.9

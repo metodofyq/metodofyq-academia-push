@@ -149,7 +149,7 @@ export default async function NivelPage({ params }: Props) {
   }
 
   // Nivel especial: Propuesta didáctica
-  if (nivelStr === 'propuesta_didactica' || nivelStr === 'propuesta-didactica') {
+  if (nivelStr === 'propuesta-didactica') {
     // Solo grupo 2 puede acceder
     if (profile?.grupo !== 2) {
       return (

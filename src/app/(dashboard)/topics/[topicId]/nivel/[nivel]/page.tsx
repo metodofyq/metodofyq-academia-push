@@ -119,9 +119,33 @@ export default async function NivelPage({ params }: Props) {
   }
 
   if (nivel === 4) {
-    if (!incluirNivel4) return notFound()
-    if (!nivel4Texto) return contenidoNoDisponible
-    return <DictadoCorrector nivel={4} texto={nivel4Texto} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
+    if (!incluirNivel4) {
+      return (
+        <div className="max-w-2xl mx-auto space-y-4">
+          <p className="text-sm text-muted-foreground bg-slate-50 border rounded-xl p-4">
+            No es necesario en tu CCAA
+          </p>
+          <Link href={`/topics/${topicId}`} className="text-sm text-primary hover:underline">
+            ← Volver al tema
+          </Link>
+        </div>
+      )
+    }
+
+    // Obtener legislación específica por CCAA
+    let legislation = null
+    if (profile?.ccaa) {
+      const { data } = await supabase
+        .from('topic_legislation_by_ccaa')
+        .select('contenido')
+        .eq('topic_id', topicId)
+        .eq('ccaa', profile.ccaa)
+        .single()
+      legislation = data?.contenido
+    }
+
+    if (!legislation) return contenidoNoDisponible
+    return <DictadoCorrector nivel={4} texto={legislation} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
   }
 
   // Nivel especial: Propuesta didáctica

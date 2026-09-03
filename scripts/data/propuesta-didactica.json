@@ -1,0 +1,17 @@
+{
+  "temas": [
+    {
+      "tema": "TEMA-50",
+      "propuesta_didactica": {
+        "nivel": "propuesta_didactica",
+        "titulo": "Propuesta didáctica",
+        "content_json": {
+          "tipo": "propuesta_didactica",
+          "lectura": "Este tema puede trasladarse a una aula de 4º ESO mediante un debate científico guiado sobre el uso de catalizadores para acelerar reacciones químicas en procesos industriales que deberían ser obsoletos frente a los vinculados a la transición energética, como la producción de hidrógeno verde o combustibles sintéticos. La controversia se centraría en si estas tecnologías representan una solución ambientalmente sostenible o si sus costes, materiales críticos y consumo energético limitan su viabilidad real. El grupo clase se organizará de forma que al menos un tercio del alumnado defienda su potencial tecnológico y ambiental, y otro tercio adopte una postura crítica. El alumnado deberá argumentar a partir de datos cinéticos, gráficas concentración-tiempo, noticias científicas e informes sobre eficiencia energética, diferenciando hechos, opiniones e inferencias. Para favorecer la inclusión, se ofrecerán apoyos visuales, guías de argumentación, roles cooperativos y participación oral o escrita. La actividad puede evaluarse mediante una rúbrica de argumentación científica, abordando el contenido de forma competencial e innovadora.",
+          "actividad": "Este tema puede trasladarse a una aula de 4º ESO mediante un debate científico guiado sobre el uso de catalizadores para acelerar reacciones químicas en procesos industriales que deberían ser obsoletos frente a los vinculados a la transición energética, como la producción de hidrógeno verde o combustibles sintéticos. La controversia se centraría en si estas tecnologías representan una solución ambientalmente sostenible o si sus costes, materiales críticos y consumo energético limitan su viabilidad real. El grupo clase se organizará de forma que al menos un tercio del alumnado defienda su potencial tecnológico y ambiental, y otro tercio adopte una postura crítica. El alumnado deberá argumentar a partir de datos cinéticos, gráficas concentración-tiempo, noticias científicas e informes sobre eficiencia energética, diferenciando hechos, opiniones e inferencias. Para favorecer la inclusión, se ofrecerán apoyos visuales, guías de argumentación, roles cooperativos y participación oral o escrita. La actividad puede evaluarse mediante una rúbrica de argumentación científica, abordando el contenido de forma competencial e innovadora.",
+          "dinamica": "dictado-corrector"
+        }
+      }
+    }
+  ]
+}

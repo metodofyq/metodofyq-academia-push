@@ -14,18 +14,27 @@ interface Props {
 export function NivelesGrid({ topicId, currentLevel, incluirNivel4 }: Props) {
   const niveles = NIVEL_ORDER.filter((n) => n !== 4 || incluirNivel4)
 
+  // Agregar Propuesta didáctica si es grupo 2
+  const nivelesConEspeciales = [...niveles]
+  if (incluirNivel4) {
+    nivelesConEspeciales.push('propuesta_didactica' as any)
+  }
+
   return (
     <div>
       <p className="text-sm text-muted-foreground mb-3 font-medium">
         Acceso a cada nivel:
       </p>
       <div className="grid gap-3 sm:grid-cols-2">
-        {niveles.map((nivel) => {
-          const meta = nivelMeta(nivel)
-          const esActual = Math.abs(nivel - currentLevel) < 0.01
+        {nivelesConEspeciales.map((nivel) => {
+          const meta = nivelMeta(typeof nivel === 'string' ? nivel : nivel)
+          const nivelKey_ = typeof nivel === 'string' ? nivel : String(nivel)
+          const href = typeof nivel === 'string'
+            ? `/topics/${topicId}/nivel/propuesta-didactica`
+            : `/topics/${topicId}/nivel/${nivel}`
 
           return (
-            <Link key={nivelKey(nivel)} href={`/topics/${topicId}/nivel/${nivel}`}>
+            <Link key={nivelKey_} href={href}>
               <Card className={cn('h-full border-l-4 transition-shadow hover:shadow-md cursor-pointer', meta.border)}>
                 <CardContent className="p-4 flex flex-col gap-1.5 min-h-[104px]">
                   <div className="flex items-center gap-2">
@@ -33,11 +42,6 @@ export function NivelesGrid({ topicId, currentLevel, incluirNivel4 }: Props) {
                     <span className={cn('text-[10px] font-extrabold tracking-wide text-white rounded-full px-2 py-0.5', meta.badge)}>
                       {meta.corto.toUpperCase()}
                     </span>
-                    {esActual && (
-                      <span className="ml-auto text-[10px] font-semibold text-muted-foreground">
-                        recomendado
-                      </span>
-                    )}
                   </div>
                   <div className="font-semibold text-sm">{meta.label}</div>
                   <div className="text-xs text-muted-foreground leading-snug">{meta.titulo}</div>

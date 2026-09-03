@@ -2,6 +2,10 @@
 export const NIVEL_ORDER = [0, 0.5, 1, 2, 2.5, 3, 3.5, 4] as const
 export type NivelValue = (typeof NIVEL_ORDER)[number]
 
+// Niveles especiales con nombre (no numéricos)
+export const NIVEL_ESPECIALES = ['propuesta_didactica'] as const
+export type NivelEspecialValue = (typeof NIVEL_ESPECIALES)[number]
+
 export const UMBRAL_SUPERACION = 0.9
 
 export type NivelMeta = {
@@ -27,6 +31,7 @@ export const NIVEL_META: Record<string, NivelMeta> = {
   '3':   { corto: 'N3',   label: 'Nivel 3',   titulo: 'Redacción final',         desc: 'Escribe el tema completo de memoria',   emoji: '✍️', badge: 'bg-green-600',  border: 'border-green-600',  text: 'text-green-600',  bg: 'bg-green-50' },
   '3.5': { corto: 'N3.5', label: 'Nivel 3.5', titulo: 'Reconstrucción científica', desc: 'Entrena explicar y justificar, no solo recordar', emoji: '🧩', badge: 'bg-teal-600',   border: 'border-teal-600',   text: 'text-teal-600',   bg: 'bg-teal-50' },
   '4':   { corto: 'N4',   label: 'Nivel 4',   titulo: 'Legislación',             desc: 'Normativa específica de tu CCAA',       emoji: '⚖️', badge: 'bg-slate-600',  border: 'border-slate-600',  text: 'text-slate-600',  bg: 'bg-slate-50' },
+  'propuesta_didactica': { corto: 'PROP',   label: 'Propuesta didáctica', titulo: 'Propuesta didáctica', desc: 'Debate y argumentación científica', emoji: '💭', badge: 'bg-amber-600', border: 'border-amber-600', text: 'text-amber-600', bg: 'bg-amber-50' },
 }
 
 export function nivelKey(nivel: number): string {

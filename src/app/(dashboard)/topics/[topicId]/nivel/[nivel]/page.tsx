@@ -2,7 +2,7 @@ import { notFound, redirect } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
 import { getTopicMediaUrl } from '@/lib/niveles/media'
-import { NIVEL_ORDER } from '@/lib/niveles/constants'
+import { NIVEL_ORDER, NIVEL_ESPECIALES } from '@/lib/niveles/constants'
 import { EstructuraNivel } from '@/components/niveles/estructura-nivel'
 import { InfografiaGaleria } from '@/components/niveles/infografia-galeria'
 import { DictadoCorrector } from '@/components/niveles/dictado-corrector'
@@ -16,8 +16,14 @@ interface Props {
 
 export default async function NivelPage({ params }: Props) {
   const { topicId, nivel: nivelStr } = await params
+
+  // Verificar si es un nivel numérico o especial
   const nivel = Number(nivelStr)
-  if (!NIVEL_ORDER.includes(nivel as (typeof NIVEL_ORDER)[number])) notFound()
+  const esNivelNumerico = !isNaN(nivel)
+  const esNivelEspecial = NIVEL_ESPECIALES.includes(nivelStr as any)
+
+  if (!esNivelNumerico && !esNivelEspecial) notFound()
+  if (esNivelNumerico && !NIVEL_ORDER.includes(nivel as (typeof NIVEL_ORDER)[number])) notFound()
 
   const supabase = await createClient()
   const { data: { user } } = await supabase.auth.getUser()
@@ -116,6 +122,34 @@ export default async function NivelPage({ params }: Props) {
     if (!incluirNivel4) return notFound()
     if (!nivel4Texto) return contenidoNoDisponible
     return <DictadoCorrector nivel={4} texto={nivel4Texto} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
+  }
+
+  // Nivel especial: Propuesta didáctica
+  if (nivelStr === 'propuesta_didactica' || nivelStr === 'propuesta-didactica') {
+    // Solo grupo 2 puede acceder
+    if (profile?.grupo !== 2) {
+      return (
+        <div className="max-w-2xl mx-auto space-y-4">
+          <p className="text-sm text-muted-foreground bg-slate-50 border rounded-xl p-4">
+            No es necesario en tu CCAA
+          </p>
+          <Link href={`/topics/${topicId}`} className="text-sm text-primary hover:underline">
+            ← Volver al tema
+          </Link>
+        </div>
+      )
+    }
+
+    // Obtener propuesta didáctica
+    const { data: propuesta } = await supabase
+      .from('topic_propuesta_didactica')
+      .select('*')
+      .eq('topic_id', topicId)
+      .single()
+
+    if (!propuesta || !propuesta.lectura) return contenidoNoDisponible
+
+    return <DictadoCorrector nivel={3} texto={propuesta.lectura} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
   }
 
   return notFound()

@@ -93,19 +93,19 @@ export function EstructuraNivel({ nivel, estructura, keywords, topicId, studentI
     <NivelShell nivel={nivel} temaCode={temaCode} temaTitulo={temaTitulo}>
       {fase === 'lectura' && (
         <>
-          <div className="bg-white border rounded-xl p-4 space-y-3">
+          <div className="bg-white border rounded-xl p-6 space-y-6 min-h-[500px] max-h-[700px] overflow-y-auto">
             {estructura.map((a, ai) => (
-              <div key={ai}>
-                <div className="font-bold text-sm">{a.apartado}</div>
+              <div key={ai} className="pb-4 border-b last:border-b-0">
+                <div className="font-bold text-base text-slate-900 mb-3">{a.apartado}</div>
                 {a.subapartados.map((sub, si) => (
-                  <div key={si} className="ml-3 mt-1.5">
-                    <div className="text-sm text-slate-700">{sub}</div>
+                  <div key={si} className="ml-4 mt-3 pb-4">
+                    <div className="text-sm font-semibold text-slate-800 mb-2">{sub}</div>
                     {incluirKeywords && keywords?.[sub] && (
-                      <div className="ml-2 mt-0.5 space-y-0.5">
+                      <div className="ml-2 flex flex-wrap gap-2">
                         {keywords[sub].split('·').map((kw, ki) => (
-                          <div key={ki} className="text-xs text-violet-700 italic flex gap-1.5">
-                            <span>•</span><span>{kw.trim()}</span>
-                          </div>
+                          <span key={ki} className="inline-block bg-violet-100 text-violet-800 px-3 py-1.5 rounded-full text-xs font-medium border border-violet-200">
+                            {kw.trim()}
+                          </span>
                         ))}
                       </div>
                     )}

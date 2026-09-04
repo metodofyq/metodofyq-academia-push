@@ -93,19 +93,19 @@ export function EstructuraNivel({ nivel, estructura, keywords, topicId, studentI
     <NivelShell nivel={nivel} temaCode={temaCode} temaTitulo={temaTitulo}>
       {fase === 'lectura' && (
         <>
-          <div className="bg-white border rounded-xl p-6 space-y-6 min-h-[500px] max-h-[700px] overflow-y-auto">
+          <div className="bg-white border rounded-xl p-4 space-y-3">
             {estructura.map((a, ai) => (
-              <div key={ai} className="pb-4 border-b last:border-b-0">
-                <div className="font-bold text-base text-slate-900 mb-3">{a.apartado}</div>
+              <div key={ai}>
+                <div className="font-bold text-sm">{a.apartado}</div>
                 {a.subapartados.map((sub, si) => (
-                  <div key={si} className="ml-4 mt-3 pb-4">
-                    <div className="text-sm font-semibold text-slate-800 mb-2">{sub}</div>
+                  <div key={si} className="ml-3 mt-1.5">
+                    <div className="text-sm text-slate-700">{sub}</div>
                     {incluirKeywords && keywords?.[sub] && (
-                      <div className="ml-2 flex flex-wrap gap-2">
+                      <div className="ml-2 mt-0.5 space-y-0.5">
                         {keywords[sub].split('·').map((kw, ki) => (
-                          <span key={ki} className="inline-block bg-violet-100 text-violet-800 px-3 py-1.5 rounded-full text-xs font-medium border border-violet-200">
-                            {kw.trim()}
-                          </span>
+                          <div key={ki} className="text-xs text-violet-700 italic flex gap-1.5">
+                            <span>•</span><span>{kw.trim()}</span>
+                          </div>
                         ))}
                       </div>
                     )}
@@ -125,7 +125,7 @@ export function EstructuraNivel({ nivel, estructura, keywords, topicId, studentI
           <p className="text-sm text-muted-foreground">
             Selecciona el texto correcto para cada línea. La numeración ya está colocada.
           </p>
-          <div className="bg-white border rounded-xl p-4 space-y-2">
+          <div className="bg-white border rounded-xl p-6 space-y-4 min-h-[500px] max-h-[700px] overflow-y-auto">
             {slots.map((slot, i) => {
               const correcto = resultado ? resultado[slot.key] : null
               const indent = slot.tipo === 'subapartado' ? 'ml-5' : slot.tipo === 'keyword' ? 'ml-10' : ''
@@ -139,11 +139,11 @@ export function EstructuraNivel({ nivel, estructura, keywords, topicId, studentI
 
               return (
                 <div key={i} className={indent}>
-                  {slot.tipo === 'keyword' && <div className="text-[11px] text-muted-foreground mb-0.5">Palabras clave:</div>}
-                  <div className={`flex items-center gap-1.5 ${slot.tipo === 'keyword' ? 'flex-wrap' : ''}`}>
+                  {slot.tipo === 'keyword' && <div className="text-xs font-semibold text-muted-foreground mb-2">Palabras clave:</div>}
+                  <div className={`flex items-center gap-2 ${slot.tipo === 'keyword' ? 'flex-wrap' : ''}`}>
                     {numFijo && <span className="font-bold text-xs shrink-0 min-w-[24px]">{numFijo}</span>}
                     <select
-                      className={`${slot.tipo === 'keyword' ? 'flex-1 min-w-0 max-w-xs' : 'flex-1'} border-2 rounded-md px-2.5 py-1.5 text-sm outline-none disabled:opacity-100`}
+                      className={`${slot.tipo === 'keyword' ? 'flex-1 min-w-0 max-w-xs h-12' : 'flex-1 h-10'} border-2 rounded-md px-3 py-2 text-sm outline-none disabled:opacity-100`}
                       style={{
                         borderColor: correcto === null ? undefined : correcto ? '#22c55e' : '#ef4444',
                         background: correcto === null ? undefined : correcto ? '#f0fdf4' : '#fef2f2',
@@ -159,7 +159,7 @@ export function EstructuraNivel({ nivel, estructura, keywords, topicId, studentI
                     </select>
                   </div>
                   {correcto === false && (
-                    <div className="text-xs text-red-600 mt-0.5 pl-1">
+                    <div className="text-xs text-red-600 mt-1 pl-1">
                       <strong>{stripNum(slot.correcto)}</strong>
                     </div>
                   )}

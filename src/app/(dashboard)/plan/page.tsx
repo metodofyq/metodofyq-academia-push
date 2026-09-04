@@ -3,6 +3,7 @@ import { createClient } from '@/lib/supabase/server'
 import { ActivePlanView } from '@/components/plan/active-plan-view'
 import { RequestPlanChange } from '@/components/plan/request-plan-change'
 import { PlanStages } from '@/components/plan/plan-stages'
+import { WeeklySchedule } from '@/components/plan/weekly-schedule'
 import { Card, CardContent } from '@/components/ui/card'
 import type { Topic, StudyPlanTopic } from '@/types'
 
@@ -37,6 +38,7 @@ export default async function PlanPage() {
           </div>
           {requestButton}
         </div>
+        <WeeklySchedule />
         <PlanStages />
         <ActivePlanView plan={activePlan} planTopics={planTopics} studentId={user.id} />
       </div>
@@ -52,6 +54,7 @@ export default async function PlanPage() {
         </div>
         {requestButton}
       </div>
+      <WeeklySchedule />
       <PlanStages />
       <Card>
         <CardContent className="pt-10 pb-10 text-center space-y-3">

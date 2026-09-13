@@ -1,0 +1,32 @@
+{
+  "tema": "TEMA-01",
+  "nivel": 4,
+  "tipo": "legislacion_por_ccaa",
+  "registros": [
+    {
+      "ccaa": "Aragón",
+      "titulo": "Legislación - Aragón",
+      "contenido": "El tema se enmarca en la normativa vigente estatal y autonómica. La Ley Orgánica 2/2006, modificada por la Ley Orgánica 3/2020, junto con los Reales Decretos 217/2022 y 243/2022, establecen el marco curricular de ESO y Bachillerato. En Aragón, las Órdenes ECD/1172/2022 y ECD/1173/2022 concretan estos currículos y permiten contextualizar el tema en Física y Química de ESO, a través del estudio de la naturaleza y construcción del conocimiento científico, la investigación, la valoración de evidencias y el pensamiento crítico, y de forma específica en Física y Química, Física y Química de Bachillerato, mediante el análisis de modelos científicos, su evolución histórica, la contrastación experimental y la relación entre ciencia, tecnología y sociedad."
+    },
+    {
+      "ccaa": "Castilla y León",
+      "titulo": "Legislación - Castilla y León",
+      "contenido": "El tema se enmarca en la normativa vigente estatal y autonómica. La Ley Orgánica 2/2006, modificada por la Ley Orgánica 3/2020, junto con los Reales Decretos 217/2022 y 243/2022, establecen el marco curricular de ESO y Bachillerato. En Castilla y León, los Decretos 39/2022 y 40/2022 concretan estos currículos y permiten contextualizar el tema en Física y Química de ESO, a través del estudio de la naturaleza y construcción del conocimiento científico, la investigación, la valoración de evidencias y el pensamiento crítico, y de forma específica en Física y Química, Física y Química de Bachillerato, mediante el análisis de modelos científicos, su evolución histórica, la contrastación experimental y la relación entre ciencia, tecnología y sociedad."
+    },
+    {
+      "ccaa": "Valencia",
+      "titulo": "Legislación - Valencia",
+      "contenido": "El tema se enmarca en la normativa vigente estatal y autonómica. La Ley Orgánica 2/2006, modificada por la Ley Orgánica 3/2020, junto con los Reales Decretos 217/2022 y 243/2022, establecen el marco curricular de ESO y Bachillerato. En la Comunitat Valenciana, los Decretos 107/2022 y 108/2022 concretan estos currículos y permiten contextualizar el tema en Física y Química de ESO, a través del estudio de la naturaleza y construcción del conocimiento científico, la investigación, la valoración de evidencias y el pensamiento crítico, y de forma específica en Física y Química, Física y Química de Bachillerato, mediante el análisis de modelos científicos, su evolución histórica, la contrastación experimental y la relación entre ciencia, tecnología y sociedad."
+    },
+    {
+      "ccaa": "Navarra",
+      "titulo": "Legislación - Navarra",
+      "contenido": "El tema se enmarca en la normativa vigente estatal y autonómica. La Ley Orgánica 2/2006, modificada por la Ley Orgánica 3/2020, junto con los Reales Decretos 217/2022 y 243/2022, establecen el marco curricular de ESO y Bachillerato. En la Comunidad Foral de Navarra, los Decretos Forales 71/2022 y 72/2022 concretan estos currículos y permiten contextualizar el tema en Física y Química de ESO, a través del estudio de la naturaleza y construcción del conocimiento científico, la investigación, la valoración de evidencias y el pensamiento crítico, y de forma específica en Física y Química, Física y Química de Bachillerato, mediante el análisis de modelos científicos, su evolución histórica, la contrastación experimental y la relación entre ciencia, tecnología y sociedad."
+    },
+    {
+      "ccaa": "La Rioja",
+      "titulo": "Legislación - La Rioja",
+      "contenido": "El tema se enmarca en la normativa vigente estatal y autonómica. La Ley Orgánica 2/2006, modificada por la Ley Orgánica 3/2020, junto con los Reales Decretos 217/2022 y 243/2022, establecen el marco curricular de ESO y Bachillerato. En La Rioja, los Decretos 42/2022 y 43/2022 concretan estos currículos y permiten contextualizar el tema en Física y Química de ESO, a través del estudio de la naturaleza y construcción del conocimiento científico, la investigación, la valoración de evidencias y el pensamiento crítico, y de forma específica en Física y Química, Física y Química de Bachillerato, mediante el análisis de modelos científicos, su evolución histórica, la contrastación experimental y la relación entre ciencia, tecnología y sociedad."
+    }
+  ]
+}

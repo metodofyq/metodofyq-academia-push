@@ -71,6 +71,7 @@ async function seedTema01() {
       await supabase.from("topic_levels").insert({
         topic_id: topic.id,
         level: 2.5,
+        title: "Recuperación activa",
         content_json: { flashcards: n25Data.flashcards },
       });
       console.log("✅ N2.5 cargado: 109 flashcards");
@@ -99,6 +100,7 @@ async function seedTema01() {
       await supabase.from("topic_levels").insert({
         topic_id: topic.id,
         level: 3.5,
+        title: "Reconstrucción científica",
         content_json: { flashcards: n35Data.flashcards },
       });
       console.log("✅ N3.5 cargado: 23 flashcards");

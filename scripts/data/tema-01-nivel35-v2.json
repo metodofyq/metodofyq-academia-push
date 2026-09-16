@@ -1,0 +1,169 @@
+{
+  "tema": "TEMA-01",
+  "nivel": "3.5",
+  "titulo": "Reconstrucción científica - Síntesis y justificación",
+  "descripcion": "23 flashcards para entrenar explicación, justificación y análisis sin depender de memorización literal",
+  "flashcards": [
+    {
+      "id": "1",
+      "apartado": "0. Introducción",
+      "subapartado": "0. Introducción",
+      "termino": "Explica por qué comprender cómo cambia la ciencia ayuda a interpretar la realidad.",
+      "descripcion": "Porque el conocimiento científico no es estático: cambia cuando aparecen nuevas evidencias, modelos o problemas. Como resultado, también cambian nuestras explicaciones sobre la naturaleza. Esto permite comprender que la ciencia progresa mediante revisión crítica y que sus conclusiones deben interpretarse atendiendo a su contexto y grado de evidencia."
+    },
+    {
+      "id": "2",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.1. La naturaleza del conocimiento científico",
+      "termino": "Justifica por qué la objetividad científica no equivale a ausencia absoluta de interpretación.",
+      "descripcion": "Porque toda observación se realiza mediante instrumentos, procedimientos y marcos conceptuales que influyen en su interpretación. La objetividad se alcanza reduciendo sesgos mediante métodos compartidos, contrastación y control intersubjetivo. Por lo tanto, no exige una mirada neutral absoluta, sino procedimientos públicos capaces de someter las afirmaciones a crítica."
+    },
+    {
+      "id": "3",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.2. Principales modelos epistemológicos",
+      "termino": "Compara el inductivismo y el método hipotético-deductivo como formas de construir conocimiento científico.",
+      "descripcion": "El inductivismo parte de observaciones particulares para formular generalizaciones, aunque estas nunca quedan lógicamente garantizadas. El método hipotético-deductivo formula primero hipótesis y deduce predicciones contrastables. Por tanto, ambos relacionan teoría y evidencia, pero difieren en la dirección principal del razonamiento y en la función asignada a las hipótesis."
+    },
+    {
+      "id": "4",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.2. Principales modelos epistemológicos",
+      "termino": "Analiza cómo se complementan Popper, Kuhn y Lakatos al interpretar el progreso científico.",
+      "descripcion": "Popper destaca la falsabilidad y la crítica de teorías; Kuhn muestra que la ciencia también cambia mediante crisis y sustituciones de paradigmas; Lakatos introduce programas de investigación que evolucionan durante periodos más largos. En conjunto, estas perspectivas permiten interpretar el progreso como contrastación racional, cambio histórico y competencia entre marcos teóricos."
+    },
+    {
+      "id": "5",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.3. La visión actual de la ciencia",
+      "termino": "Explica por qué el consenso científico debe considerarse sólido pero revisable.",
+      "descripcion": "El consenso es sólido porque surge de evidencias acumuladas, reproducibilidad, discusión crítica y revisión por pares. Sin embargo, permanece revisable porque nuevas observaciones o mejores modelos pueden cuestionar conclusiones anteriores. Esto permite combinar confianza razonada en el conocimiento disponible con apertura a su modificación cuando aparecen evidencias suficientemente robustas."
+    },
+    {
+      "id": "6",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.1. Concepto y características",
+      "termino": "Explica por qué una revolución científica supone algo más que acumular nuevos datos.",
+      "descripcion": "Porque una revolución modifica el marco desde el que se interpretan los datos existentes. Como resultado, pueden cambiar teorías, conceptos, métodos, instrumentos y problemas considerados relevantes. Por ello, el avance no consiste únicamente en añadir información, sino en reorganizar el conocimiento dentro de una estructura explicativa diferente."
+    },
+    {
+      "id": "7",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.2. Cambio de paradigma y progreso científico",
+      "termino": "Analiza la relación entre ciencia normal, anomalías, crisis y revolución científica.",
+      "descripcion": "Durante la ciencia normal se resuelven problemas dentro de un paradigma aceptado. Algunas observaciones pueden convertirse en anomalías si el marco no logra explicarlas. Cuando estas dificultades se acumulan, puede surgir una crisis y aparecer una alternativa conceptual. Si esta se consolida, se produce una revolución y se establece un nuevo paradigma."
+    },
+    {
+      "id": "8",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.2. Cambio de paradigma y progreso científico",
+      "termino": "Compara la visión acumulativa del progreso con la perspectiva de las revoluciones científicas.",
+      "descripcion": "La visión acumulativa interpreta el progreso como incorporación continua de conocimientos compatibles. La perspectiva revolucionaria destaca rupturas que reorganizan conceptos y criterios de interpretación. Ambas pueden coexistir: numerosos resultados se conservan y perfeccionan, pero determinados episodios históricos obligan a reconstruir profundamente el marco teórico en el que adquieren significado."
+    },
+    {
+      "id": "9",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.3. Revoluciones científicas en Física y Química",
+      "termino": "Analiza por qué la revolución copernicana ejemplifica una construcción científica colectiva.",
+      "descripcion": "Copérnico propuso una reorganización heliocéntrica, Brahe aportó observaciones precisas, Kepler formuló leyes a partir de esos datos, Galileo obtuvo nuevas evidencias y Newton integró el conjunto mediante leyes dinámicas y gravitatorias. Por tanto, la transformación no fue un descubrimiento aislado, sino una construcción progresiva apoyada en aportaciones complementarias."
+    },
+    {
+      "id": "10",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.3. Revoluciones científicas en Física y Química",
+      "termino": "Justifica por qué la obra de Lavoisier puede considerarse una revolución científica en Química.",
+      "descripcion": "Porque reemplazó explicaciones vinculadas al flogisto por una interpretación cuantitativa basada en el oxígeno, la medida rigurosa de masas y la conservación de la masa. Como resultado, no solo cambió la explicación de la combustión, sino también los métodos experimentales y el lenguaje de la disciplina química."
+    },
+    {
+      "id": "11",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.1. Carácter dinámico y provisional",
+      "termino": "Justifica por qué la provisionalidad del conocimiento científico constituye una fortaleza y no una debilidad.",
+      "descripcion": "Porque permite corregir explicaciones cuando aparecen nuevas evidencias, resultados incompatibles o instrumentos más precisos. Una teoría no necesita ser definitiva para ser útil y fiable dentro de su ámbito. La posibilidad de revisión hace posible la autocorrección y favorece que el conocimiento científico aumente progresivamente su capacidad explicativa."
+    },
+    {
+      "id": "12",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.2. Experimentación y revisión del conocimiento",
+      "termino": "Analiza por qué una observación científica nunca es completamente neutra.",
+      "descripcion": "Porque los datos se obtienen mediante instrumentos, condiciones experimentales y decisiones metodológicas, y se interpretan desde marcos teóricos previos. Esto no invalida la observación, pero obliga a controlar variables, explicitar procedimientos y permitir su reproducción. Así se reduce la influencia de sesgos individuales y se fortalece la interpretación científica."
+    },
+    {
+      "id": "13",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.2. Experimentación y revisión del conocimiento",
+      "termino": "Explica cómo se relacionan reproducibilidad y revisión por pares en la validación científica.",
+      "descripcion": "La revisión por pares examina críticamente métodos, datos e interpretaciones antes de aceptar una investigación, mientras que la reproducibilidad permite comprobar posteriormente si procedimientos equivalentes generan resultados compatibles. Ambas reducen errores y sesgos, pero ninguna garantiza una verdad definitiva; juntas aumentan la fiabilidad del conocimiento aceptado por la comunidad científica."
+    },
+    {
+      "id": "14",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.3. Ejemplo: evolución del modelo atómico",
+      "termino": "Analiza cómo la evolución del modelo atómico ejemplifica la relación entre evidencia y revisión teórica.",
+      "descripcion": "Cada modelo resolvió problemas que el anterior no explicaba adecuadamente. Los rayos catódicos cuestionaron la indivisibilidad de Dalton, la dispersión de partículas alfa exigió un núcleo concentrado y los espectros atómicos impulsaron niveles cuantizados. Como resultado, la evidencia experimental fue delimitando modelos sucesivos con mayor capacidad explicativa."
+    },
+    {
+      "id": "15",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.3. Ejemplo: evolución del modelo atómico",
+      "termino": "Compara el cambio desde Rutherford hasta el modelo mecánico-cuántico.",
+      "descripcion": "Rutherford estableció un átomo con núcleo pequeño y espacio mayoritariamente vacío, pero no explicaba satisfactoriamente su estabilidad ni los espectros. Bohr introdujo niveles energéticos cuantizados y el modelo cuántico sustituyó órbitas definidas por orbitales probabilísticos. Así, cada etapa incorporó evidencias y corrigió limitaciones anteriores."
+    },
+    {
+      "id": "16",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.1. Contexto histórico, cultural y económico",
+      "termino": "Deduce cómo la disponibilidad de recursos puede condicionar el desarrollo de determinadas investigaciones.",
+      "descripcion": "Las investigaciones que requieren grandes instrumentos, instalaciones o equipos multidisciplinares dependen de inversiones elevadas y cooperación institucional. Por ello, una distribución desigual de financiación e infraestructuras produce diferencias entre países en capacidad científica. Como resultado, el contexto económico puede determinar qué preguntas se investigan y con qué profundidad."
+    },
+    {
+      "id": "17",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.2. Ciencia, sociedad y desarrollo",
+      "termino": "Analiza por qué la relación entre ciencia y sociedad es bidireccional.",
+      "descripcion": "La ciencia modifica la sociedad mediante tecnologías, aplicaciones industriales y nuevas formas de comprender la realidad. A su vez, las necesidades sociales, económicas o ambientales orientan prioridades de investigación y financiación. Por lo tanto, el desarrollo científico no ocurre aislado: responde a demandas sociales y genera transformaciones que modifican esas mismas demandas."
+    },
+    {
+      "id": "18",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.3. Ética y responsabilidad científica",
+      "termino": "Justifica por qué la responsabilidad científica no puede limitarse únicamente al investigador individual.",
+      "descripcion": "Porque muchas decisiones científicas dependen de universidades, empresas, administraciones, comités éticos y sistemas de financiación. Además, sus aplicaciones pueden afectar a toda la sociedad. Por ello, la responsabilidad incluye conductas individuales, integridad institucional, mecanismos de gobernanza y participación social en actividades con consecuencias colectivas relevantes."
+    },
+    {
+      "id": "19",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.3. Ética y responsabilidad científica",
+      "termino": "Analiza cuándo resulta razonable aplicar el principio de precaución.",
+      "descripcion": "Resulta razonable cuando una actividad puede producir daños graves o irreversibles y existe incertidumbre científica significativa. En esos casos, esperar certeza completa podría aumentar el riesgo. Por ello, ámbitos como energía nuclear, biotecnología o edición genética requieren valorar evidencias, posibles consecuencias y medidas preventivas antes de determinadas aplicaciones."
+    },
+    {
+      "id": "20",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.1. Pensamiento crítico y evidencias",
+      "termino": "Justifica por qué una correlación estadística no permite afirmar automáticamente una relación causal.",
+      "descripcion": "Porque dos variables pueden variar conjuntamente debido a factores externos, causalidad inversa o simples coincidencias. Las variables de confusión pueden producir asociaciones aparentes sin relación causal directa. Por tanto, establecer causalidad exige evidencias adicionales, diseños adecuados y mecanismos plausibles, especialmente al interpretar noticias sobre salud, alimentación o comportamiento."
+    },
+    {
+      "id": "21",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.1. Pensamiento crítico y evidencias",
+      "termino": "Analiza cómo debe valorarse una afirmación científica difundida por medios o redes sociales.",
+      "descripcion": "Debe examinarse la procedencia de la información, la calidad de las evidencias, el método utilizado, la existencia de consenso experto y posibles sesgos o conflictos de interés. Esto permite distinguir resultados sólidos de opiniones, pseudociencias o desinformación y evita aceptar una afirmación únicamente por su apariencia científica o popularidad."
+    },
+    {
+      "id": "22",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.3. Alfabetización científica",
+      "termino": "Explica por qué la alfabetización científica es necesaria para tomar decisiones sociocientíficas.",
+      "descripcion": "Porque decisiones sobre salud, energía, alimentación, tecnología o medio ambiente combinan evidencias científicas con incertidumbres, riesgos y valores sociales. La alfabetización permite interpretar información, valorar fuentes y estimar consecuencias. Como resultado, la ciudadanía puede participar de forma más informada y fundamentar decisiones sin depender únicamente de opiniones o mensajes persuasivos."
+    },
+    {
+      "id": "23",
+      "apartado": "6. Conclusión",
+      "subapartado": "6. Conclusión",
+      "termino": "Deduce qué visión global de la ciencia se obtiene al relacionar epistemología, revoluciones, sociedad y pensamiento crítico.",
+      "descripcion": "Se obtiene una visión de la ciencia como conocimiento racional pero provisional, construido colectivamente mediante evidencias, modelos, contrastación y revisión. Su evolución combina continuidad y rupturas, está condicionada socialmente y exige responsabilidad. Por ello, comprender la ciencia implica también saber evaluar evidencias y tomar decisiones fundamentadas ante problemas contemporáneos."
+    }
+  ]
+}

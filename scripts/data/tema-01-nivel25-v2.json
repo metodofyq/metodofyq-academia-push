@@ -1,0 +1,771 @@
+{
+  "tema": "TEMA-01",
+  "nivel": "2.5",
+  "titulo": "Recuperación activa - Conceptos clave",
+  "descripcion": "109 flashcards para entrenar la recuperación de conceptos fundamentales mediante preguntas directas",
+  "flashcards": [
+    {
+      "id": "1",
+      "apartado": "0. Introducción",
+      "subapartado": "0. Introducción",
+      "termino": "¿Qué es el conocimiento científico?",
+      "descripcion": "Conocimiento racional, sistemático, contrastable y orientado a explicar y predecir la realidad."
+    },
+    {
+      "id": "2",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.1. La naturaleza del conocimiento científico",
+      "termino": "¿Qué significa objetividad científica?",
+      "descripcion": "Uso de procedimientos compartidos que reducen sesgos y permiten someter afirmaciones al control de otros."
+    },
+    {
+      "id": "3",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.1. La naturaleza del conocimiento científico",
+      "termino": "¿Cuál es la relación entre evidencia empírica y teoría científica?",
+      "descripcion": "Compatibilidad entre evidencias observadas y coherencia lógica de las teorías que las explican."
+    },
+    {
+      "id": "4",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.1. La naturaleza del conocimiento científico",
+      "termino": "¿Qué son leyes y modelos en ciencia?",
+      "descripcion": "Expresiones de regularidades en la naturaleza dentro de un ámbito determinado de aplicación."
+    },
+    {
+      "id": "5",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.1. La naturaleza del conocimiento científico",
+      "termino": "¿Cómo se valoran las teorías científicas?",
+      "descripcion": "Por capacidad explicativa, predictiva, coherencia interna e integración con otros conocimientos."
+    },
+    {
+      "id": "6",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.2. Principales modelos epistemológicos",
+      "termino": "¿Qué es el inductivismo?",
+      "descripcion": "Método que generaliza leyes científicas a partir de observaciones particulares."
+    },
+    {
+      "id": "7",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.2. Principales modelos epistemológicos",
+      "termino": "¿Cuál es el problema de la inducción?",
+      "descripcion": "Que ninguna generalización basada en observaciones particulares garantiza universalidad lógica."
+    },
+    {
+      "id": "8",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.2. Principales modelos epistemológicos",
+      "termino": "¿Qué es el método hipotético-deductivo?",
+      "descripcion": "Método que formula hipótesis, deduce predicciones observables y las contrasta experimentalmente."
+    },
+    {
+      "id": "9",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.2. Principales modelos epistemológicos",
+      "termino": "¿Qué propone Popper sobre la falsabilidad?",
+      "descripcion": "Que una teoría es científica si puede ser refutada por la experiencia y aceptación es provisional."
+    },
+    {
+      "id": "10",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.2. Principales modelos epistemológicos",
+      "termino": "¿Qué es un paradigma según Kuhn?",
+      "descripcion": "Marco compartido de teorías, métodos, valores y problemas con los que trabaja la ciencia normal."
+    },
+    {
+      "id": "11",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.2. Principales modelos epistemológicos",
+      "termino": "¿Qué es la ciencia normal?",
+      "descripcion": "Actividad de investigación dentro de un paradigma aceptado que resuelve problemas conocidos."
+    },
+    {
+      "id": "12",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.2. Principales modelos epistemológicos",
+      "termino": "¿Qué son anomalías científicas?",
+      "descripcion": "Observaciones que el paradigma vigente no puede explicar satisfactoriamente."
+    },
+    {
+      "id": "13",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.2. Principales modelos epistemológicos",
+      "termino": "¿Qué proponen los programas de investigación de Lakatos?",
+      "descripcion": "Sistemas con núcleo firme y cinturón protector que distingue programas progresivos de degenerativos."
+    },
+    {
+      "id": "14",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.3. La visión actual de la ciencia",
+      "termino": "¿Qué es Nature of Science?",
+      "descripcion": "Enfoque que entiende la ciencia como actividad humana, creativa, provisional y social."
+    },
+    {
+      "id": "15",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.3. La visión actual de la ciencia",
+      "termino": "¿Existe un único método científico?",
+      "descripcion": "No. Hay principios comunes de contrastación pero no un método único y rígido aplicable a todo."
+    },
+    {
+      "id": "16",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.3. La visión actual de la ciencia",
+      "termino": "¿Qué son modelos científicos?",
+      "descripcion": "Representaciones explicativas de alcance limitado que seleccionan rasgos relevantes de la realidad."
+    },
+    {
+      "id": "17",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.3. La visión actual de la ciencia",
+      "termino": "¿Cómo se construye el consenso científico?",
+      "descripcion": "Mediante acumulación de evidencias, discusión crítica, reproducibilidad y revisión por pares."
+    },
+    {
+      "id": "18",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.3. La visión actual de la ciencia",
+      "termino": "¿Es el consenso científico definitivo?",
+      "descripcion": "No. Permanece abierto a revisión ante nuevas evidencias o resultados incompatibles."
+    },
+    {
+      "id": "19",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.3. La visión actual de la ciencia",
+      "termino": "¿Por qué es interdisciplinaria la ciencia actual?",
+      "descripcion": "Porque problemas como cambio climático o energía requieren integrar múltiples disciplinas."
+    },
+    {
+      "id": "20",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.3. La visión actual de la ciencia",
+      "termino": "¿Qué es la ciencia abierta?",
+      "descripcion": "Movimiento que refuerza transparencia, acceso a datos y comunicación pública del conocimiento."
+    },
+    {
+      "id": "21",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.1. Concepto y características",
+      "termino": "¿Qué es una revolución científica?",
+      "descripcion": "Transformación profunda del marco conceptual con el que se interpretan los fenómenos."
+    },
+    {
+      "id": "22",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.1. Concepto y características",
+      "termino": "¿Qué modifica una revolución científica?",
+      "descripcion": "Teorías, métodos, instrumentos, problemas considerados relevantes y criterios de interpretación."
+    },
+    {
+      "id": "23",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.1. Concepto y características",
+      "termino": "¿Cuál es la diferencia entre ciencia normal y revolución?",
+      "descripcion": "Normal resuelve problemas dentro del paradigma; revolución reorganiza el marco conceptual."
+    },
+    {
+      "id": "24",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.1. Concepto y características",
+      "termino": "¿Cuándo puede ocurrir una crisis científica?",
+      "descripcion": "Cuando anomalías persistentes acumuladas cuestionan la capacidad explicativa del paradigma."
+    },
+    {
+      "id": "25",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.2. Cambio de paradigma y progreso científico",
+      "termino": "¿Qué implica el cambio de paradigma?",
+      "descripcion": "Transformación en la manera de formular preguntas, comprender hechos e interpretar datos."
+    },
+    {
+      "id": "26",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.2. Cambio de paradigma y progreso científico",
+      "termino": "¿Cómo combina progreso científico continuidad y ruptura?",
+      "descripcion": "Conserva resultados válidos del marco anterior pero reorganiza su significado en otro diferente."
+    },
+    {
+      "id": "27",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.2. Cambio de paradigma y progreso científico",
+      "termino": "¿Qué es la visión acumulativa del progreso científico?",
+      "descripcion": "Perspectiva que interpreta el progreso como crecimiento continuo e incorporación de conocimientos."
+    },
+    {
+      "id": "28",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.2. Cambio de paradigma y progreso científico",
+      "termino": "¿Qué añade Kuhn a la visión acumulativa?",
+      "descripcion": "La existencia de discontinuidades profundas mediante crisis y sustituciones de paradigmas."
+    },
+    {
+      "id": "29",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.3. Principales revoluciones científicas en Física",
+      "termino": "¿Qué fue la revolución copernicana?",
+      "descripcion": "Transformación que sustituyó el sistema geocéntrico por la concepción heliocéntrica."
+    },
+    {
+      "id": "30",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.3. Principales revoluciones científicas en Física",
+      "termino": "¿Quién fue Tycho Brahe en la revolución copernicana?",
+      "descripcion": "Astrónomo que aportó observaciones astronómicas de gran precisión al cambio científico."
+    },
+    {
+      "id": "31",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.3. Principales revoluciones científicas en Física",
+      "termino": "¿Cuál fue la contribución de Kepler?",
+      "descripcion": "Formuló leyes matemáticas del movimiento planetario a partir de datos astronómicos de Brahe."
+    },
+    {
+      "id": "32",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.3. Principales revoluciones científicas en Física",
+      "termino": "¿Qué aportó Galileo a la revolución copernicana?",
+      "descripcion": "Nuevas evidencias telescópicas y experimentales que apoyaban la teoría heliocéntrica."
+    },
+    {
+      "id": "33",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.3. Principales revoluciones científicas en Física",
+      "termino": "¿Qué sintetizó Newton?",
+      "descripcion": "Movimiento y gravitación mediante leyes universales que integraban la revolución copernicana."
+    },
+    {
+      "id": "34",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.3. Principales revoluciones científicas en Física",
+      "termino": "¿Qué transformó la relatividad?",
+      "descripcion": "Los conceptos clásicos de espacio, tiempo y gravedad en la Física moderna."
+    },
+    {
+      "id": "35",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.3. Principales revoluciones científicas en Física",
+      "termino": "¿Qué introdujo la mecánica cuántica?",
+      "descripcion": "Descripción probabilística de fenómenos microscópicos y cuestionamiento de trayectorias definidas."
+    },
+    {
+      "id": "36",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.3. Principales revoluciones científicas en Química",
+      "termino": "¿Qué fue la revolución química de Lavoisier?",
+      "descripcion": "Sustitución de la teoría del flogisto por interpretación cuantitativa basada en oxígeno y masa."
+    },
+    {
+      "id": "37",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.3. Principales revoluciones científicas en Química",
+      "termino": "¿Qué modificó la revolución química?",
+      "descripcion": "Explicaciones de combustión, métodos experimentales y lenguaje de la disciplina química."
+    },
+    {
+      "id": "38",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.3. Principales revoluciones científicas en Química",
+      "termino": "¿Cuál es el principio fundamental de la química cuantitativa?",
+      "descripcion": "Conservación de la masa: la masa total de reactivos iguala masa total de productos."
+    },
+    {
+      "id": "39",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.1. Carácter dinámico y provisional",
+      "termino": "¿Tiene carácter definitivo una teoría científica?",
+      "descripcion": "No. Puede revisarse si aparecen nuevas evidencias, resultados incompatibles o instrumentos precisos."
+    },
+    {
+      "id": "40",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.1. Carácter dinámico y provisional",
+      "termino": "¿Debilita la provisionalidad la ciencia?",
+      "descripcion": "No. Sustenta la capacidad científica de autocorrección y mejora continua del conocimiento."
+    },
+    {
+      "id": "41",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.1. Carácter dinámico y provisional",
+      "termino": "¿Cómo mejoran los modelos científicos?",
+      "descripcion": "Mediante acumulación de evidencias que perfecciona modelos o favorece su sustitución."
+    },
+    {
+      "id": "42",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.1. Carácter dinámico y provisional",
+      "termino": "¿Es la incertidumbre un defecto en ciencia?",
+      "descripcion": "No. Forma parte del trabajo científico, especialmente en sistemas complejos y fenómenos frontera."
+    },
+    {
+      "id": "43",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.2. Experimentación y revisión del conocimiento",
+      "termino": "¿Cuáles son las etapas de la investigación científica?",
+      "descripcion": "Observación, preguntas, hipótesis, predicciones, experimentación, análisis de resultados y revisión."
+    },
+    {
+      "id": "44",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.2. Experimentación y revisión del conocimiento",
+      "termino": "¿Es la observación científica completamente neutra?",
+      "descripcion": "No. Está mediada por instrumentos, condiciones experimentales y marcos teóricos previos."
+    },
+    {
+      "id": "45",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.2. Experimentación y revisión del conocimiento",
+      "termino": "¿Qué es la reproducibilidad en experimentos?",
+      "descripcion": "Que otros investigadores obtengan resultados compatibles mediante procedimientos equivalentes."
+    },
+    {
+      "id": "46",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.2. Experimentación y revisión del conocimiento",
+      "termino": "¿Cuál es la función de la revisión por pares?",
+      "descripcion": "Evaluación crítica de métodos, resultados e interpretaciones de investigaciones científicas."
+    },
+    {
+      "id": "47",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.2. Experimentación y revisión del conocimiento",
+      "termino": "¿Garantiza la revisión por pares la verdad científica?",
+      "descripcion": "No. Es un mecanismo de control crítico que aumenta fiabilidad pero no asegura verdad definitiva."
+    },
+    {
+      "id": "48",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.3. Ejemplo: modelo atómico",
+      "termino": "¿Qué explicaba el modelo de Dalton?",
+      "descripcion": "Leyes ponderales y regularidades en combinaciones químicas mediante átomos indivisibles."
+    },
+    {
+      "id": "49",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.3. Ejemplo: modelo atómico",
+      "termino": "¿Qué demostró Thomson con rayos catódicos?",
+      "descripcion": "Que el átomo tenía estructura interna con electrones y era divisible, no indivisible."
+    },
+    {
+      "id": "50",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.3. Ejemplo: modelo atómico",
+      "termino": "¿Qué mostró el experimento de Rutherford?",
+      "descripcion": "Que mayoría de partículas atravesaban sin desviarse: átomo con núcleo pequeño y denso."
+    },
+    {
+      "id": "51",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.3. Ejemplo: modelo atómico",
+      "termino": "¿Cuál es la estructura básica del modelo de Rutherford?",
+      "descripcion": "Núcleo pequeño, denso y positivo rodeado por región mayoritariamente vacía con electrones."
+    },
+    {
+      "id": "52",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.3. Ejemplo: modelo atómico",
+      "termino": "¿Qué explicó el modelo de Bohr?",
+      "descripcion": "Estabilidad atómica y líneas discretas del espectro del hidrógeno mediante niveles cuantizados."
+    },
+    {
+      "id": "53",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.3. Ejemplo: modelo atómico",
+      "termino": "¿Cómo describió el modelo mecánico-cuántico el electrón?",
+      "descripcion": "Mediante orbitales y distribuciones de probabilidad, no como órbitas clásicas definidas."
+    },
+    {
+      "id": "54",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.3. Ejemplo: modelo atómico",
+      "termino": "¿Qué patrón sigue la evolución del modelo atómico?",
+      "descripcion": "Dalton → Thomson → Rutherford → Bohr → mecánico-cuántico con mayor capacidad explicativa."
+    },
+    {
+      "id": "55",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.1. Contexto histórico, cultural y económico",
+      "termino": "¿Cómo influye el contexto histórico en la ciencia?",
+      "descripcion": "Condiciona los problemas considerados prioritarios y aceptación de teorías científicas."
+    },
+    {
+      "id": "56",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.1. Contexto histórico, cultural y económico",
+      "termino": "¿Qué rol juegan los recursos económicos en investigación?",
+      "descripcion": "Determinan viabilidad de investigaciones y condicionan qué investigaciones pueden realizarse."
+    },
+    {
+      "id": "57",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.1. Contexto histórico, cultural y económico",
+      "termino": "¿Cómo afecta la financiación a la ciencia?",
+      "descripcion": "Orienta prioridades, ritmos, finalidades de investigación y capacidad de países-comunidades."
+    },
+    {
+      "id": "58",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.1. Contexto histórico, cultural y económico",
+      "termino": "¿Qué requieren grandes instalaciones científicas?",
+      "descripcion": "Inversiones elevadas, infraestructuras complejas y cooperación internacional entre instituciones."
+    },
+    {
+      "id": "59",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.1. Contexto histórico, cultural y económico",
+      "termino": "¿Cómo genera desigualdad la distribución de recursos?",
+      "descripcion": "Diferencias internacionales en capacidad científica entre países y comunidades."
+    },
+    {
+      "id": "60",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.2. Ciencia, sociedad y desarrollo",
+      "termino": "¿Cuál es la relación entre ciencia y sociedad?",
+      "descripcion": "Recíproca: avances transforman sociedad mientras necesidades sociales impulsan investigación."
+    },
+    {
+      "id": "61",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.2. Ciencia, sociedad y desarrollo",
+      "termino": "¿Qué genera el progreso científico en sociedad?",
+      "descripcion": "Transformaciones tecnológicas, económicas y culturales que modifican la vida cotidiana."
+    },
+    {
+      "id": "62",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.2. Ciencia, sociedad y desarrollo",
+      "termino": "¿Qué instituciones producen y transfieren conocimiento?",
+      "descripcion": "Universidades, centros de investigación, organismos públicos y empresas privadas."
+    },
+    {
+      "id": "63",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.2. Ciencia, sociedad y desarrollo",
+      "termino": "¿Qué es la transferencia científica?",
+      "descripcion": "Conversión de resultados científicos en innovación, aplicaciones industriales y mejoras sociales."
+    },
+    {
+      "id": "64",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.2. Ciencia, sociedad y desarrollo",
+      "termino": "¿Cuál es el papel de la divulgación científica?",
+      "descripcion": "Acercar conocimiento científico y evidencias a la ciudadanía de forma comprensible."
+    },
+    {
+      "id": "65",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.2. Ciencia, sociedad y desarrollo",
+      "termino": "¿Qué regulan las políticas científicas?",
+      "descripcion": "Financiación, cooperación internacional, formación de investigadores y respuesta a problemas."
+    },
+    {
+      "id": "66",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.3. Ética y responsabilidad científica",
+      "termino": "¿Cuáles son los principios éticos de la ciencia?",
+      "descripcion": "Honestidad, objetividad, transparencia e integridad en la actividad investigadora."
+    },
+    {
+      "id": "67",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.3. Ética y responsabilidad científica",
+      "termino": "¿Qué es la deontología científica?",
+      "descripcion": "Conjunto de normas que regulan datos, publicación, autoría y comunicación científica."
+    },
+    {
+      "id": "68",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.3. Ética y responsabilidad científica",
+      "termino": "¿Qué conductas previene la integridad investigadora?",
+      "descripcion": "Fabricación, falsificación, manipulación de datos y plagio en publicaciones científicas."
+    },
+    {
+      "id": "69",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.3. Ética y responsabilidad científica",
+      "termino": "¿Cuáles son las dimensiones de responsabilidad científica?",
+      "descripcion": "Individual, institucional y social en la regulación de actividades con impacto colectivo."
+    },
+    {
+      "id": "70",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.3. Ética y responsabilidad científica",
+      "termino": "¿Qué es la gobernanza científica?",
+      "descripcion": "Participación de expertos, instituciones y ciudadanía en evaluación de actividades científicas."
+    },
+    {
+      "id": "71",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.3. Ética y responsabilidad científica",
+      "termino": "¿Cuándo se aplica el principio de precaución?",
+      "descripcion": "Ante riesgos potencialmente graves o irreversibles como energía nuclear o biotecnología."
+    },
+    {
+      "id": "72",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.1. Pensamiento crítico y evidencias",
+      "termino": "¿Qué es pensamiento crítico?",
+      "descripcion": "Evaluar afirmaciones, fuentes y argumentos mediante evidencias verificables."
+    },
+    {
+      "id": "73",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.1. Pensamiento crítico y evidencias",
+      "termino": "¿Qué debe apoyar la argumentación científica?",
+      "descripcion": "Datos, inferencias justificadas y, cuando existe, consenso experto verificado."
+    },
+    {
+      "id": "74",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.1. Pensamiento crítico y evidencias",
+      "termino": "¿Qué es el escepticismo científico?",
+      "descripcion": "Exigir pruebas proporcionadas y valorar calidad, procedencia y fiabilidad de fuentes."
+    },
+    {
+      "id": "75",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.1. Pensamiento crítico y evidencias",
+      "termino": "¿Implica correlación necesariamente causalidad?",
+      "descripcion": "No. Que dos variables aparezcan asociadas no demuestra que una cause la otra."
+    },
+    {
+      "id": "76",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.1. Pensamiento crítico y evidencias",
+      "termino": "¿Qué son variables de confusión?",
+      "descripcion": "Factores externos que pueden generar asociaciones estadísticas engañosas entre variables."
+    },
+    {
+      "id": "77",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.1. Pensamiento crítico y evidencias",
+      "termino": "¿Cómo identificar pseudociencia y desinformación?",
+      "descripcion": "Mediante pensamiento crítico para detectar sesgos, falta de evidencias y fuentes no fiables."
+    },
+    {
+      "id": "78",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.2. Actitudes propias del trabajo científico",
+      "termino": "¿Qué actitudes caracterizan el trabajo científico?",
+      "descripcion": "Curiosidad, rigor, objetividad, creatividad, colaboración y apertura a revisión."
+    },
+    {
+      "id": "79",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.2. Actitudes propias del trabajo científico",
+      "termino": "¿Cuál es el rol de la curiosidad en ciencia?",
+      "descripcion": "Permite formular nuevas preguntas científicas y buscar explicaciones de fenómenos."
+    },
+    {
+      "id": "80",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.2. Actitudes propias del trabajo científico",
+      "termino": "¿Cómo guía el rigor la investigación científica?",
+      "descripcion": "En obtención, análisis e interpretación cuidadosa de datos mediante procedimientos sistemáticos."
+    },
+    {
+      "id": "81",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.2. Actitudes propias del trabajo científico",
+      "termino": "¿Cuál es el objetivo de la objetividad científica?",
+      "descripcion": "Reducir sesgos personales mediante procedimientos compartidos y control intersubjetivo."
+    },
+    {
+      "id": "82",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.2. Actitudes propias del trabajo científico",
+      "termino": "¿Qué permite la creatividad en ciencia?",
+      "descripcion": "Formular hipótesis innovadoras, diseñar experimentos originales y construir nuevos modelos."
+    },
+    {
+      "id": "83",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.2. Actitudes propias del trabajo científico",
+      "termino": "¿Por qué es necesaria la colaboración científica?",
+      "descripcion": "Muchos problemas contemporáneos requieren equipos interdisciplinares para su investigación."
+    },
+    {
+      "id": "84",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.2. Actitudes propias del trabajo científico",
+      "termino": "¿Cómo se trasladan actitudes científicas a la vida cotidiana?",
+      "descripcion": "Mediante disposición a contrastar afirmaciones, aceptar incertidumbre y revisar conclusiones."
+    },
+    {
+      "id": "85",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.3. Alfabetización científica",
+      "termino": "¿Qué es alfabetización científica?",
+      "descripcion": "Capacidad de interpretar información científica básica en salud, energía, ambiente y tecnología."
+    },
+    {
+      "id": "86",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.3. Alfabetización científica",
+      "termino": "¿Requiere alfabetización científica ser especialista?",
+      "descripcion": "No. Requiere comprender información básica y evaluar calidad de fuentes para decidir."
+    },
+    {
+      "id": "87",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.3. Alfabetización científica",
+      "termino": "¿Qué son decisiones sociocientíficas?",
+      "descripcion": "Aquellas que combinan conocimientos científicos, valores, riesgos, incertidumbres e intereses."
+    },
+    {
+      "id": "88",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.3. Alfabetización científica",
+      "termino": "¿Qué implica la gestión del riesgo?",
+      "descripcion": "Valorar probabilidad, gravedad de consecuencias y calidad de evidencias disponibles."
+    },
+    {
+      "id": "89",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.3. Alfabetización científica",
+      "termino": "¿Cuál es el papel de la participación ciudadana informada?",
+      "descripcion": "Permite contribuir a decisiones públicas sobre problemas que afectan a toda la sociedad."
+    },
+    {
+      "id": "90",
+      "apartado": "6. Conclusión",
+      "subapartado": "6. Conclusión",
+      "termino": "¿Qué permite comprender el conocimiento científico?",
+      "descripcion": "Cómo se construye, valida y transforma a partir de modelos, teorías, evidencias y revisión."
+    },
+    {
+      "id": "91",
+      "apartado": "6. Conclusión",
+      "subapartado": "6. Conclusión",
+      "termino": "¿Cómo se relacionan epistemología y revoluciones científicas?",
+      "descripcion": "Juntas explican la evolución del conocimiento a través del cambio paradigmático y continuidad."
+    },
+    {
+      "id": "92",
+      "apartado": "6. Conclusión",
+      "subapartado": "6. Conclusión",
+      "termino": "¿Cuál es la idea central del tema?",
+      "descripcion": "Comprender cómo cambia la ciencia es también comprender cómo cambia nuestra interpretación."
+    },
+    {
+      "id": "93",
+      "apartado": "6. Conclusión",
+      "subapartado": "6. Conclusión",
+      "termino": "¿A qué ámbitos se aplica el conocimiento de ciencia?",
+      "descripcion": "Tecnología, sostenibilidad, gestión del riesgo, innovación y resolución de problemas cotidianos."
+    },
+    {
+      "id": "94",
+      "apartado": "6. Conclusión",
+      "subapartado": "6. Conclusión",
+      "termino": "¿Cómo contribuye el tema a la comprensión científica?",
+      "descripcion": "Proporciona rigor en interpretación de realidad y fundamenta decisiones ante desinformación."
+    },
+    {
+      "id": "95",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.1. La naturaleza del conocimiento científico",
+      "termino": "¿Cuál es la diferencia entre explicación y predicción en ciencia?",
+      "descripcion": "Explicación interpreta fenómenos observados; predicción anticipa comportamientos futuros."
+    },
+    {
+      "id": "96",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.3. Principales revoluciones científicas en Física y Química",
+      "termino": "¿Cuál es el papel del oxígeno en la revolución química?",
+      "descripcion": "Sustituye la teoría del flogisto como explicación correcta de reacciones de combustión."
+    },
+    {
+      "id": "97",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.2. Experimentación y revisión del conocimiento",
+      "termino": "¿Por qué deben controlarse variables en experimentos?",
+      "descripcion": "Para asegurar que resultados dependen de la variable estudiada, no de otros factores."
+    },
+    {
+      "id": "98",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.1. Contexto histórico, cultural y económico",
+      "termino": "¿Qué son aceleradores de partículas?",
+      "descripcion": "Grandes infraestructuras científicas que requieren inversión internacional para investigación."
+    },
+    {
+      "id": "99",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.1. Pensamiento crítico y evidencias",
+      "termino": "¿Cómo evalúa pensamiento crítico información en redes sociales?",
+      "descripcion": "Verificando procedencia, calidad de fuentes, presencia de evidencias y posibles sesgos."
+    },
+    {
+      "id": "100",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.3. La visión actual de la ciencia",
+      "termino": "¿Cómo se complementan Popper, Kuhn y Lakatos?",
+      "descripcion": "Juntos ofrecen perspectivas sobre falsabilidad, cambio histórico y evolución de programas."
+    },
+    {
+      "id": "101",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.1. Carácter dinámico y provisional",
+      "termino": "¿Qué permite la autocorrección científica?",
+      "descripcion": "La provisionalidad de teorías y apertura a nuevas evidencias que mejoran conocimiento."
+    },
+    {
+      "id": "102",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.1. Concepto y características",
+      "termino": "¿Por qué una revolución es más que datos nuevos?",
+      "descripcion": "Porque reorganiza teorías y conceptos fundamentales, no solo añade información observada."
+    },
+    {
+      "id": "103",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.2. Ciencia, sociedad y desarrollo",
+      "termino": "¿Cuál es el impacto de la ciencia en tecnología?",
+      "descripcion": "Genera transformaciones tecnológicas, económicas y culturales que modifican la sociedad."
+    },
+    {
+      "id": "104",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.2. Actitudes propias del trabajo científico",
+      "termino": "¿Qué permite la innovación en investigación?",
+      "descripcion": "Creatividad, experiencia interdisciplinar y disposición a cuestionar marcos establecidos."
+    },
+    {
+      "id": "105",
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartado": "1.2. Principales modelos epistemológicos",
+      "termino": "¿Cómo relaciona Popper hipótesis y falsabilidad?",
+      "descripcion": "Una hipótesis es científica si puede ser refutada; si resiste pruebas permanece provisional."
+    },
+    {
+      "id": "106",
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartado": "2.2. Cambio de paradigma y progreso científico",
+      "termino": "¿Qué diferencia Kuhn del enfoque acumulativo?",
+      "descripcion": "Kuhn enfatiza discontinuidades profundas mediante crisis y sustituciones de paradigmas."
+    },
+    {
+      "id": "107",
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartado": "3.3. Ejemplo: modelo atómico",
+      "termino": "¿Por qué Thomson modificó el modelo de Dalton?",
+      "descripcion": "Porque descubrió el electrón, probando que los átomos tienen estructura interna divisible."
+    },
+    {
+      "id": "108",
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartado": "4.3. Ética y responsabilidad científica",
+      "termino": "¿Qué es la edición genética?",
+      "descripcion": "Tecnología para modificar genes que requiere regulación ética por riesgos potenciales graves."
+    },
+    {
+      "id": "109",
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartado": "5.3. Alfabetización científica",
+      "termino": "¿Cómo favorece la cultura científica decisiones responsables?",
+      "descripcion": "Permitiendo valorar evidencias, gestionar riesgos y participar informadamente en decisiones."
+    }
+  ]
+}

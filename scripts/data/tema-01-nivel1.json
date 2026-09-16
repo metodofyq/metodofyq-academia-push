@@ -1,0 +1,217 @@
+{
+  "tema": "TEMA-01",
+  "nivel": 1,
+  "titulo": "Palabras clave y conceptos",
+  "tipo": "palabras_clave",
+  "apartados": [
+    {
+      "apartado": "1. Principales concepciones de la ciencia",
+      "subapartados": [
+        {
+          "subapartado": "1.1. La naturaleza del conocimiento científico",
+          "palabras_clave": [
+            "Conocimiento científico",
+            "Objetividad científica",
+            "Evidencia empírica",
+            "Leyes y modelos",
+            "Teorías científicas"
+          ]
+        },
+        {
+          "subapartado": "1.2. Principales modelos epistemológicos",
+          "palabras_clave": [
+            "Inductivismo",
+            "Problema de la inducción",
+            "Método hipotético-deductivo",
+            "Falsacionismo",
+            "Paradigmas científicos",
+            "Programas de investigación",
+            "Progreso epistemológico"
+          ]
+        },
+        {
+          "subapartado": "1.3. La visión actual de la ciencia",
+          "palabras_clave": [
+            "Nature of Science",
+            "Pluralidad metodológica",
+            "Modelos científicos",
+            "Consenso científico",
+            "Revisabilidad del consenso",
+            "Interdisciplinariedad",
+            "Ciencia abierta"
+          ]
+        }
+      ]
+    },
+    {
+      "apartado": "2. Los grandes cambios: las revoluciones científicas",
+      "subapartados": [
+        {
+          "subapartado": "2.1. Concepto y características",
+          "palabras_clave": [
+            "Revolución científica",
+            "Reorganización conceptual",
+            "Ciencia normal",
+            "Anomalías científicas",
+            "Transformación epistemológica"
+          ]
+        },
+        {
+          "subapartado": "2.2. Cambio de paradigma y progreso",
+          "palabras_clave": [
+            "Paradigma científico",
+            "Cambio de paradigma",
+            "Progreso científico",
+            "Visión acumulativa",
+            "Discontinuidad científica",
+            "Cambio revolucionario"
+          ]
+        },
+        {
+          "subapartado": "2.3. Revoluciones en Física y Química",
+          "palabras_clave": [
+            "Revolución copernicana",
+            "Tycho Brahe",
+            "Leyes de Kepler",
+            "Galileo Galilei",
+            "Síntesis newtoniana",
+            "Relatividad",
+            "Mecánica cuántica",
+            "Revolución química",
+            "Lavoisier",
+            "Química cuantitativa"
+          ]
+        }
+      ]
+    },
+    {
+      "apartado": "3. La ciencia como proceso en continua construcción",
+      "subapartados": [
+        {
+          "subapartado": "3.1. Carácter dinámico y provisional",
+          "palabras_clave": [
+            "Provisionalidad",
+            "Revisión científica",
+            "Innovación instrumental",
+            "Autocorrección científica",
+            "Incertidumbre",
+            "Progreso experimental"
+          ]
+        },
+        {
+          "subapartado": "3.2. Experimentación y revisión",
+          "palabras_clave": [
+            "Proceso de investigación",
+            "Mediación observacional",
+            "Control de variables",
+            "Reproducibilidad",
+            "Revisión por pares",
+            "Falibilidad científica",
+            "Retroalimentación científica"
+          ]
+        },
+        {
+          "subapartado": "3.3. Ejemplo: modelo atómico",
+          "palabras_clave": [
+            "Modelo de Dalton",
+            "Modelo de Thomson",
+            "Experimento de Rutherford",
+            "Núcleo atómico",
+            "Modelo de Bohr",
+            "Modelo mecánico-cuántico",
+            "Niveles de energía",
+            "Orbitales",
+            "Revisión de modelos",
+            "Capacidad explicativa"
+          ]
+        }
+      ]
+    },
+    {
+      "apartado": "4. Los científicos y sus condicionamientos sociales",
+      "subapartados": [
+        {
+          "subapartado": "4.1. Contexto histórico, cultural y económico",
+          "palabras_clave": [
+            "Contexto histórico",
+            "Factores culturales",
+            "Recursos científicos",
+            "Financiación científica",
+            "Desigualdad científica",
+            "Grandes infraestructuras",
+            "Interdependencia ciencia-sociedad"
+          ]
+        },
+        {
+          "subapartado": "4.2. Ciencia, sociedad y desarrollo",
+          "palabras_clave": [
+            "Ciencia y sociedad",
+            "Impacto científico",
+            "Demandas sociales",
+            "Instituciones científicas",
+            "Transferencia del conocimiento",
+            "Divulgación científica",
+            "Políticas científicas"
+          ]
+        },
+        {
+          "subapartado": "4.3. Ética y responsabilidad",
+          "palabras_clave": [
+            "Ética científica",
+            "Deontología científica",
+            "Integridad científica",
+            "Responsabilidad científica",
+            "Gobernanza científica",
+            "Regulación científica",
+            "Principio de precaución",
+            "Riesgos científico-tecnológicos"
+          ]
+        }
+      ]
+    },
+    {
+      "apartado": "5. Las actitudes científicas en la vida cotidiana",
+      "subapartados": [
+        {
+          "subapartado": "5.1. Pensamiento crítico y evidencias",
+          "palabras_clave": [
+            "Pensamiento crítico",
+            "Argumentación científica",
+            "Consenso experto",
+            "Escepticismo científico",
+            "Fiabilidad de fuentes",
+            "Correlación y causalidad",
+            "Variables de confusión",
+            "Pseudociencias y desinformación",
+            "Evaluación crítica"
+          ]
+        },
+        {
+          "subapartado": "5.2. Actitudes del trabajo científico",
+          "palabras_clave": [
+            "Curiosidad científica",
+            "Rigor metodológico",
+            "Objetividad",
+            "Creatividad científica",
+            "Colaboración científica",
+            "Apertura a la revisión",
+            "Revisión de conclusiones"
+          ]
+        },
+        {
+          "subapartado": "5.3. Alfabetización científica",
+          "palabras_clave": [
+            "Alfabetización científica",
+            "Decisiones basadas en evidencias",
+            "Cultura científica",
+            "Cuestiones sociocientíficas",
+            "Gestión del riesgo",
+            "Incertidumbre de evidencias",
+            "Participación ciudadana",
+            "Ciudadanía responsable"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "tema": "TEMA-01",
+  "nivel": 4,
+  "tipo": "legislacion_por_ccaa",
+  "registros": [
+    {
+      "ccaa": "Aragón",
+      "titulo": "Legislación - Aragón",
+      "contenido": "Decreto 178/2022, de 27 de septiembre, del Gobierno de Aragón, por el que se establece la ordenación de las enseñanzas correspondientes al bachillerato. Artículos 21-30 establecen la organización curricular de Física y Química, enfatizando la enseñanza de métodos científicos, pensamiento crítico y capacidad para evaluar información científica. La Comunidad de Aragón reconoce que la alfabetización científica es fundamental para la participación democrática y la toma de decisiones informadas. Los centros deben incorporar actividades que desarrollen competencias en evaluación de evidencias y comprensión de la evolución científica."
+    },
+    {
+      "ccaa": "Castilla y León",
+      "titulo": "Legislación - Castilla y León",
+      "contenido": "Decreto 52/2022, de 23 de junio, por el que se establece la ordenación y el currículo del bachillerato en la Comunidad de Castilla y León. Artículos 40-45 especifican que la enseñanza de Física y Química debe incluir análisis de controversias científicas, historia de la ciencia y papel de la argumentación en la construcción del conocimiento. Se destaca la importancia de comprender cómo cambian las concepciones científicas y cómo el contexto histórico y social influye en la investigación. Los estudiantes deben desarrollar capacidad crítica para evaluar información científica en medios y redes sociales."
+    },
+    {
+      "ccaa": "La Rioja",
+      "titulo": "Legislación - La Rioja",
+      "contenido": "Orden 21/2022, de 10 de agosto, de la Consejería de Educación de La Rioja, por la que se aprueba el currículo del bachillerato. Artículos 15-18 establecen que el conocimiento científico debe presentarse como provisional y revisable, no como un conjunto de verdades definitivas. Se requiere que los docentes de Física y Química enseñen ejemplos históricos de cambios conceptuales (revoluciones científicas) y cómo la comunidad científica evalúa y acepta nuevas teorías. Se enfatiza el papel de la evidencia empírica, la reproducibilidad y la revisión por pares en la validación científica."
+    },
+    {
+      "ccaa": "Navarra",
+      "titulo": "Legislación - Navarra",
+      "contenido": "Decreto Foral 33/2022, de 23 de marzo, por el que se aprueba el currículo del bachillerato para la Comunidad Foral de Navarra. Artículos 25-32 especifican que la enseñanza de Física y Química debe integrar perspectivas sobre naturaleza de la ciencia, construcción del conocimiento y responsabilidad ética de la investigación. Se requiere que los estudiantes comprendan cómo la ciencia responde a demandas sociales y cómo sus aplicaciones impactan en la sociedad. Se destacan temas como seguridad en biotecnología, energía nuclear y sostenibilidad ambiental como ejemplo de decisiones sociocientíficas que requieren alfabetización científica."
+    },
+    {
+      "ccaa": "Valencia",
+      "titulo": "Legislación - Valencia",
+      "contenido": "Decreto 107/2022, de 5 de agosto, del Consell de la Generalitat, por el que se establece la ordenación y el currículo del bachillerato en la Comunitat Valenciana. Artículos 19-28 establecen que la enseñanza de Física y Química debe desarrollar competencias en pensamiento crítico, evaluación de información científica y toma de decisiones informadas. Se requiere que los estudiantes comprendan cómo los científicos y las instituciones científicas están condicionados por contextos históricos, culturales y económicos. Se destacan ejemplos de cómo la ciencia abierta, la transparencia y la participación ciudadana mejoran la confianza en la investigación científica."
+    }
+  ]
+}

@@ -54,7 +54,7 @@ async function seedTema(config: LoadConfig) {
 
     if (!topic) {
       console.log(`ℹ️  Creando topic ${config.temaCode}...`);
-      const { data: newTopic } = await supabase
+      const { data: newTopic, error: insertError } = await supabase
         .from("topics")
         .insert({
           code: config.temaCode,
@@ -64,6 +64,11 @@ async function seedTema(config: LoadConfig) {
         })
         .select()
         .single();
+
+      if (insertError || !newTopic) {
+        throw new Error(`Error al crear topic: ${insertError?.message || 'Respuesta nula'}`);
+      }
+
       topic = newTopic;
       console.log(`✅ Topic creado: ${topic.id}\n`);
     } else {

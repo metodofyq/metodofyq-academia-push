@@ -1,0 +1,207 @@
+{
+  "tema": "TEMA-21",
+  "titulo": "Campo Magnético. Carácter No Conservativo Del Campo Magnético. Generación De Campos Magnéticos Y Efectos Sobre Cargas En Movimiento. Aplicación A Dispositivos Tecnológicos",
+  "subject": "fisica",
+  "grupo": 2,
+  "niveles": [
+    {
+      "nivel": 0,
+      "title": "Índice",
+      "tipo": "indice",
+      "estructura": [
+        {
+          "apartado": "0. Introducción",
+          "subapartados": []
+        },
+        {
+          "apartado": "1. Campo magnético",
+          "subapartados": [
+            {
+              "titulo": "1.1. Concepto, unidad y representación del campo magnético"
+            },
+            {
+              "titulo": "1.2. Líneas de campo, flujo magnético, ausencia de monopolos y comparación con el campo eléctrico"
+            }
+          ]
+        },
+        {
+          "apartado": "2. Carácter no conservativo del campo magnético",
+          "subapartados": [
+            {
+              "titulo": "2.1. Circulación del campo magnético"
+            },
+            {
+              "titulo": "2.2. Relación con la ley de Ampère"
+            },
+            {
+              "titulo": "2.3. Matiz entre campo no conservativo y trabajo de la fuerza magnética"
+            }
+          ]
+        },
+        {
+          "apartado": "3. Generación de campos magnéticos",
+          "subapartados": [
+            {
+              "titulo": "3.1. Generación por corrientes eléctricas: experiencia de Oersted"
+            },
+            {
+              "titulo": "3.2. Ley de Biot-Savart y campo de un conductor rectilíneo"
+            },
+            {
+              "titulo": "3.3. Ley de Ampère: solenoide, espira y toroide"
+            },
+            {
+              "titulo": "3.4. Imanes permanentes, materiales magnéticos y campos variables"
+            }
+          ]
+        },
+        {
+          "apartado": "4. Efectos sobre cargas en movimiento",
+          "subapartados": [
+            {
+              "titulo": "4.1. Fuerza magnética sobre una carga eléctrica"
+            },
+            {
+              "titulo": "4.2. Fuerza de Lorentz"
+            },
+            {
+              "titulo": "4.3. Movimiento circular y helicoidal de partículas cargadas"
+            },
+            {
+              "titulo": "4.4. Fuerza magnética sobre corrientes eléctricas"
+            }
+          ]
+        },
+        {
+          "apartado": "5. Aplicación a dispositivos tecnológicos",
+          "subapartados": [
+            {
+              "titulo": "5.1. Selector de velocidades"
+            },
+            {
+              "titulo": "5.2. Espectrómetro de masas"
+            },
+            {
+              "titulo": "5.3. Ciclotrón"
+            },
+            {
+              "titulo": "5.4. Otras aplicaciones tecnológicas actuales"
+            }
+          ]
+        },
+        {
+          "apartado": "6. Conclusiones",
+          "subapartados": []
+        }
+      ]
+    },
+    {
+      "nivel": 1,
+      "title": "Palabras clave",
+      "tipo": "palabras_clave",
+      "apartados": [
+        {
+          "titulo": "1. Campo magnético",
+          "palabras_clave": [
+            {"termino": "Campo vectorial B", "subapartado": "1.1"},
+            {"termino": "Brújula", "subapartado": "1.1"},
+            {"termino": "Limaduras de hierro", "subapartado": "1.1"},
+            {"termino": "Tesla", "subapartado": "1.1"},
+            {"termino": "Gauss", "subapartado": "1.1"},
+            {"termino": "Marco de Maxwell", "subapartado": "1.1"},
+            {"termino": "Régimen estacionario", "subapartado": "1.1"},
+            {"termino": "Líneas de campo", "subapartado": "1.2"},
+            {"termino": "Líneas cerradas", "subapartado": "1.2"},
+            {"termino": "Monopolos magnéticos", "subapartado": "1.2"},
+            {"termino": "Ausencia de monopolos", "subapartado": "1.2"},
+            {"termino": "Flujo magnético", "subapartado": "1.2"}
+          ]
+        },
+        {
+          "titulo": "2. Carácter no conservativo del campo magnético",
+          "palabras_clave": [
+            {"termino": "Campo conservativo", "subapartado": "2.1"},
+            {"termino": "Circulación", "subapartado": "2.1"},
+            {"termino": "Potencial escalar global", "subapartado": "2.1"},
+            {"termino": "Corriente enlazada", "subapartado": "2.1"},
+            {"termino": "Ley de Ampère", "subapartado": "2.2"},
+            {"termino": "Forma integral", "subapartado": "2.2"},
+            {"termino": "Hilo rectilíneo", "subapartado": "2.2"},
+            {"termino": "Corrientes estacionarias", "subapartado": "2.2"},
+            {"termino": "Rotacional de B", "subapartado": "2.2"},
+            {"termino": "Trabajo magnético", "subapartado": "2.3"},
+            {"termino": "Fuerza magnética perpendicular", "subapartado": "2.3"},
+            {"termino": "Energía cinética constante", "subapartado": "2.3"}
+          ]
+        },
+        {
+          "titulo": "3. Generación de campos magnéticos",
+          "palabras_clave": [
+            {"termino": "Experiencia de Oersted", "subapartado": "3.1"},
+            {"termino": "Corriente eléctrica", "subapartado": "3.1"},
+            {"termino": "Conductor", "subapartado": "3.1"},
+            {"termino": "Ley de Biot-Savart", "subapartado": "3.2"},
+            {"termino": "Producto vectorial", "subapartado": "3.2"},
+            {"termino": "Conductor rectilíneo", "subapartado": "3.2"},
+            {"termino": "Regla de la mano derecha", "subapartado": "3.2"},
+            {"termino": "Solenoide", "subapartado": "3.3"},
+            {"termino": "Espira", "subapartado": "3.3"},
+            {"termino": "Toroide", "subapartado": "3.3"},
+            {"termino": "Electroimán", "subapartado": "3.3"},
+            {"termino": "Transformador", "subapartado": "3.3"},
+            {"termino": "Imán permanente", "subapartado": "3.4"},
+            {"termino": "Ferromagnetismo", "subapartado": "3.4"},
+            {"termino": "Diamagnetismo", "subapartado": "3.4"},
+            {"termino": "Paramagnetismo", "subapartado": "3.4"}
+          ]
+        },
+        {
+          "titulo": "4. Efectos sobre cargas en movimiento",
+          "palabras_clave": [
+            {"termino": "Fuerza magnética", "subapartado": "4.1"},
+            {"termino": "Producto v × B", "subapartado": "4.1"},
+            {"termino": "Carga positiva y negativa", "subapartado": "4.1"},
+            {"termino": "Fuerza de Lorentz", "subapartado": "4.2"},
+            {"termino": "Campo eléctrico y magnético", "subapartado": "4.2"},
+            {"termino": "Campos combinados", "subapartado": "4.2"},
+            {"termino": "Movimiento circular", "subapartado": "4.3"},
+            {"termino": "Fuerza centrípeta", "subapartado": "4.3"},
+            {"termino": "Radio orbital", "subapartado": "4.3"},
+            {"termino": "Trayectoria helicoidal", "subapartado": "4.3"},
+            {"termino": "Plasmas", "subapartado": "4.3"},
+            {"termino": "Corriente en conductor", "subapartado": "4.4"}
+          ]
+        },
+        {
+          "titulo": "5. Aplicación a dispositivos tecnológicos",
+          "palabras_clave": [
+            {"termino": "Selector de velocidades", "subapartado": "5.1"},
+            {"termino": "Campos perpendiculares", "subapartado": "5.1"},
+            {"termino": "Espectrómetro de masas", "subapartado": "5.2"},
+            {"termino": "Relación carga-masa", "subapartado": "5.2"},
+            {"termino": "Isótopos", "subapartado": "5.2"},
+            {"termino": "Ciclotrón", "subapartado": "5.3"},
+            {"termino": "Electrodos semicirculares", "subapartado": "5.3"},
+            {"termino": "Frecuencia de resonancia", "subapartado": "5.3"},
+            {"termino": "Motores eléctricos", "subapartado": "5.4"},
+            {"termino": "Sensores Hall", "subapartado": "5.4"},
+            {"termino": "RMN", "subapartado": "5.4"},
+            {"termino": "Levitación magnética", "subapartado": "5.4"}
+          ]
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "title": "Desarrollo esquemático",
+      "tipo": "desarrollo_esquematico",
+      "texto": "**Tema 21. Campo Magnético. Carácter No Conservativo Del Campo Magnético. Generación De Campos Magnéticos Y Efectos Sobre Cargas En Movimiento. Aplicación A Dispositivos Tecnológicos**\n\n**1. Campo magnético**\n\n**1.1. Concepto, unidad y representación del campo magnético**\n\n* El campo magnético **B** es un campo vectorial asociado a imanes, corrientes y campos eléctricos variables.\n* Se detecta experimentalmente con brújulas, que indican dirección, y limaduras, que visualizan líneas de campo.\n* Su unidad en el SI es el tesla; también se usa el gauss. 1 T = 10⁴ G.\n* En el marco de Maxwell, electricidad y magnetismo forman una interacción electromagnética unificada.\n* En régimen estacionario puede estudiarse separado del campo eléctrico, aunque ambos campos están relacionados.\n\n**1.2. Líneas de campo, flujo magnético, ausencia de monopolos y comparación con el campo eléctrico**\n\n* Las líneas de campo son tangentes a **B** y su densidad indica la intensidad magnética.\n* Las líneas magnéticas son cerradas, a diferencia de las líneas del campo eléctrico electrostático.\n* No existen monopolos magnéticos clásicos: todo imán presenta siempre polo norte y polo sur.\n* La ausencia de monopolos se expresa como ∇ · **B** = 0.\n* El flujo magnético neto por una superficie cerrada es nulo: ∮ **B** · d**S** = 0.\n\n**2. Carácter no conservativo del campo magnético**\n\n**2.1. Circulación del campo magnético**\n\n* Un campo conservativo tiene circulación nula en cualquier trayectoria cerrada.\n* En un campo conservativo puede definirse un potencial escalar global.\n* El campo magnético puede presentar circulación no nula si la trayectoria enlaza corriente.\n* La circulación conecta la geometría del campo magnético con sus fuentes eléctricas.\n\n**2.2. Relación con la ley de Ampère**\n\n* La ley de Ampère relaciona circulación magnética y corriente enlazada.\n* Forma integral: ∮ **B** · d**l** = μ₀ I_enc.\n* Alrededor de un hilo rectilíneo con corriente, las líneas de **B** son circunferencias.\n* Para corrientes estacionarias, la forma local es ∇ × **B** = μ₀ **J**.\n* El rotacional de **B** está asociado a la densidad de corriente.\n\n**2.3. Matiz entre campo no conservativo y trabajo de la fuerza magnética**\n\n* Campo no conservativo no significa que la fuerza magnética realice trabajo.\n* La fuerza magnética es perpendicular a la velocidad de la carga móvil.\n* El trabajo magnético es nulo y la energía cinética permanece constante.\n* El campo magnético cambia la dirección del movimiento, no el módulo de la velocidad.\n* En regiones sin corriente puede definirse localmente un potencial magnético escalar.\n\n**3. Generación de campos magnéticos**\n\n**3.1. Generación por corrientes eléctricas: experiencia de Oersted**\n\n* Oersted mostró que una corriente eléctrica desvía la aguja de una brújula.\n* La experiencia evidencia la relación entre electricidad y magnetismo.\n* Una corriente en un conductor genera un campo magnético alrededor del cable.\n* En el aula puede observarse con pila, conductor y brújula cercana.\n\n**3.2. Ley de Biot-Savart y campo de un conductor rectilíneo**\n\n* La ley de Biot-Savart calcula **B** creado por un elemento de corriente.\n* Expresión: d**B** = μ₀ · I d**l** × **u_r**/4πr².\n* El producto vectorial fija dirección perpendicular al elemento de corriente y al vector posición.\n* Para un conductor rectilíneo indefinido: B = μ₀I / 2πR.\n* La regla de la mano derecha determina el sentido del campo circular.\n\n**3.3. Ley de Ampère: solenoide, espira y toroide**\n\n* La ley de Ampère simplifica el cálculo de **B** en sistemas con alta simetría.\n* Un solenoide largo genera un campo interior casi uniforme y exterior casi nulo.\n* En un solenoide ideal: B = μ₀ n I.\n* Una espira circular actúa como dipolo magnético.\n* Un toroide concentra el campo magnético en su interior.\n* Electroimanes y transformadores se basan en bobinas recorridas por corriente.\n\n**3.4. Imanes permanentes, materiales magnéticos y campos variables**\n\n* Los imanes permanentes producen campo magnético por organización microscópica de momentos magnéticos.\n* En ferromagnéticos, los dominios se orientan cooperativamente y generan magnetización macroscópica.\n* Los materiales diamagnéticos se oponen débilmente al campo aplicado.\n* Los materiales paramagnéticos se alinean débilmente con el campo externo.\n* El término de Maxwell permite que campos eléctricos variables generen campos magnéticos.\n* Esta corrección explica la propagación de ondas electromagnéticas.\n\n**4. Efectos sobre cargas en movimiento**\n\n**4.1. Fuerza magnética sobre una carga eléctrica**\n\n* Una carga solo experimenta fuerza magnética si está en movimiento **F** = q **v** × **B**.\n* Módulo: F = qvB senθ.\n* La fuerza es nula si la velocidad es paralela al campo.\n* La fuerza es máxima si la velocidad es perpendicular al campo.\n* La regla de la mano derecha da el sentido para cargas positivas; en negativas se invierte.\n\n**4.2. Fuerza de Lorentz**\n\n* La fuerza de Lorentz integra efectos eléctricos y magnéticos sobre una carga **F** = q(**E** + **v** × **B**).\n* El campo eléctrico puede acelerar cargas incluso en reposo.\n* El campo magnético desvía cargas móviles sin modificar su energía cinética.\n* Campos combinados permiten seleccionar, desviar o acelerar partículas en dispositivos tecnológicos.\n\n**4.3. Movimiento circular y helicoidal de partículas cargadas**\n\n* Si **v** es perpendicular a **B**, la fuerza magnética actúa como fuerza centrípeta.\n* El movimiento resultante es circular uniforme, con energía cinética constante.\n* Radio orbital: R = mv / |q|B.\n* Velocidad angular: ω = |q|B / m; periodo: T = 2πm / |q|B.\n* Si existe componente paralela, ésta permanece constante.\n* La combinación de giro y avance produce trayectoria helicoidal.\n* Este comportamiento aparece en plasmas, aceleradores y cinturones de radiación.\n\n**4.4. Fuerza magnética sobre corrientes eléctricas**\n\n* Una corriente es un conjunto de cargas móviles en un conductor.\n* Sobre un elemento conductor actúa d**F** = I d**l** × **B**.\n* Para conductor rectilíneo en campo uniforme: F = ILB senθ.\n* Esta fuerza fundamenta motores eléctricos, altavoces, relés y actuadores electromagnéticos.\n\n**5. Aplicación a dispositivos tecnológicos**\n\n**5.1. Selector de velocidades**\n\n* Usa campos eléctrico y magnético perpendiculares entre sí.\n* La partícula no se desvía cuando se compensan fuerza eléctrica y magnética.\n* Condición de equilibrio: qE = qvB.\n* Velocidad seleccionada: v = E/B.\n* Solo partículas con esa velocidad atraviesan el dispositivo sin desviación.\n\n**5.2. Espectrómetro de masas**\n\n* Separa partículas según su relación carga-masa.\n* Combina selector de velocidades y región con campo magnético perpendicular.\n* La fuerza magnética produce trayectorias circulares de distinto radio.\n* Relación característica: m = qBR / v.\n* Permite identificar isótopos, moléculas y muestras de interés químico o médico.\n\n**5.3. Ciclotrón**\n\n* Acelerador circular de partículas cargadas mediante campo magnético y tensión alterna.\n* Las partículas giran dentro de electrodos semicirculares llamados \"des\".\n* La frecuencia de resonancia es f = qB / 2πm.\n* La energía final puede expresarse como Ec = (qBr)² / 2m.\n* Se usa para radioisótopos médicos, PET, investigación nuclear y terapia con partículas.\n* A velocidades altas aparecen limitaciones relativistas por pérdida de sincronización.\n\n**5.4. Otras aplicaciones tecnológicas actuales**\n\n* Motores y generadores relacionan campos magnéticos, corrientes y transformación energética.\n* Sensores Hall miden campos magnéticos o corrientes mediante desviación de cargas.\n* La resonancia magnética nuclear aprovecha la interacción magnética de núcleos.\n* La levitación magnética reduce contacto mecánico en sistemas de transporte.\n* El confinamiento de plasmas usa campos magnéticos para controlar partículas cargadas.\n* Un electroimán escolar puede construirse con pila, cable y clavo de hierro."
+    },
+    {
+      "nivel": 3,
+      "title": "Redacción completa",
+      "tipo": "redaccion_completa",
+      "contenido_largo": true
+    }
+  ]
+}

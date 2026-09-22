@@ -1,0 +1,198 @@
+{  
+"tema": "TEMA-21",  
+"nivel": "3.5",  
+"titulo": "Reconstrucción científica - Síntesis y justificación",  
+"descripcion": "23 flashcards para entrenar explicación, justificación y análisis sin depender de la memorización literal",  
+"flashcards": [  
+{  
+"id": 1,  
+"apartado": "1. Campo magnético",  
+"subapartado": "1.1. Concepto, unidad y representación del campo magnético",  
+"pregunta": "Explica por qué el campo magnético debe tratarse como una magnitud vectorial.",  
+"respuesta": "Porque sus efectos dependen no solo de la intensidad, sino también de la dirección y el sentido. Esto permite explicar la orientación de brújulas, la forma de las líneas de campo y la fuerza sobre cargas móviles, que cambia según la geometría entre velocidad y campo."  
+},  
+{  
+"id": 2,  
+"apartado": "1. Campo magnético",  
+"subapartado": "1.1. Concepto, unidad y representación del campo magnético",  
+"pregunta": "Analiza la utilidad experimental de la brújula y las limaduras de hierro.",  
+"respuesta": "La brújula permite detectar la dirección local del campo magnético, mientras que las limaduras muestran de forma visual la distribución espacial de sus líneas. Como resultado, ambos recursos conectan un concepto abstracto con evidencias observables y ayudan a interpretar la geometría del campo."  
+},  
+{  
+"id": 3,  
+"apartado": "1. Campo magnético",  
+"subapartado": "1.2. Líneas de campo, flujo magnético, ausencia de monopolos y comparación con el campo eléctrico",  
+"pregunta": "Compara las líneas del campo magnético con las del campo eléctrico electrostático.",  
+"respuesta": "Las líneas del campo eléctrico electrostático pueden comenzar y terminar en cargas, porque existen cargas positivas y negativas aisladas. En cambio, las líneas magnéticas son cerradas, porque no se observan monopolos magnéticos clásicos. Por lo tanto, la representación geométrica refleja diferencias físicas profundas entre ambos campos."  
+},  
+{  
+"id": 4,  
+"apartado": "1. Campo magnético",  
+"subapartado": "1.2. Líneas de campo, flujo magnético, ausencia de monopolos y comparación con el campo eléctrico",  
+"pregunta": "Justifica por qué el flujo magnético neto por una superficie cerrada es nulo.",  
+"respuesta": "Porque las líneas de campo magnético son cerradas y no nacen ni mueren en fuentes puntuales aisladas. Toda línea que entra en una superficie cerrada también sale de ella. Como resultado, el balance neto de flujo magnético es cero, coherente con la ausencia de monopolos."  
+},  
+{  
+"id": 5,  
+"apartado": "2. Carácter no conservativo del campo magnético",  
+"subapartado": "2.1. Circulación del campo magnético",  
+"pregunta": "Explica por qué la circulación permite estudiar el carácter no conservativo del campo magnético.",  
+"respuesta": "La circulación mide el comportamiento del campo a lo largo de una trayectoria cerrada. Si esta circulación no es nula, el campo no puede describirse mediante un potencial escalar global. En magnetismo, esto ocurre cuando la trayectoria enlaza corriente, por lo tanto conecta geometría y fuentes eléctricas."  
+},  
+{  
+"id": 6,  
+"apartado": "2. Carácter no conservativo del campo magnético",  
+"subapartado": "2.2. Relación con la ley de Ampère",  
+"pregunta": "Justifica por qué la ley de Ampère evidencia el carácter no conservativo del campo magnético.",  
+"respuesta": "Porque establece que la circulación de B alrededor de una curva cerrada es proporcional a la corriente enlazada. Si existe corriente neta, la circulación no se anula. Como resultado, el campo magnético no se comporta como un campo conservativo global en presencia de corrientes."  
+},  
+{  
+"id": 7,  
+"apartado": "2. Carácter no conservativo del campo magnético",  
+"subapartado": "2.2. Relación con la ley de Ampère",  
+"pregunta": "Analiza la relación entre un hilo rectilíneo con corriente y las circunferencias de campo magnético.",  
+"respuesta": "La corriente en el hilo actúa como fuente del rotacional del campo magnético. Por simetría, el campo tiene el mismo módulo a igual distancia del hilo y su dirección es tangente a circunferencias concéntricas. Esto permite aplicar Ampère de forma sencilla y obtener una circulación no nula."  
+},  
+{  
+"id": 8,  
+"apartado": "2. Carácter no conservativo del campo magnético",  
+"subapartado": "2.3. Matiz entre campo no conservativo y trabajo de la fuerza magnética",  
+"pregunta": "Compara el carácter no conservativo de B con el trabajo realizado por la fuerza magnética.",  
+"respuesta": "El carácter no conservativo se refiere a la circulación del campo B, no al trabajo mecánico sobre una carga. La fuerza magnética es perpendicular a la velocidad, por lo que no cambia la energía cinética. Por lo tanto, puede haber circulación no nula sin trabajo magnético."  
+},  
+{  
+"id": 9,  
+"apartado": "3. Generación de campos magnéticos",  
+"subapartado": "3.1. Generación por corrientes eléctricas: experiencia de Oersted",  
+"pregunta": "Explica por qué la experiencia de Oersted fue clave para unificar electricidad y magnetismo.",  
+"respuesta": "Porque mostró que una corriente eléctrica podía desviar una brújula, evidenciando que el movimiento de cargas genera efectos magnéticos. Esto rompió la separación entre fenómenos eléctricos y magnéticos, y abrió el camino hacia una teoría electromagnética unificada basada en corrientes y campos."  
+},  
+{  
+"id": 10,  
+"apartado": "3. Generación de campos magnéticos",  
+"subapartado": "3.2. Ley de Biot-Savart y campo de un conductor rectilíneo",  
+"pregunta": "Analiza cómo la ley de Biot-Savart conecta corriente, geometría y campo magnético.",  
+"respuesta": "La ley de Biot-Savart relaciona cada elemento de corriente con el campo que produce en un punto. La dirección depende del producto vectorial, por lo que la geometría entre corriente y posición es decisiva. Como resultado, permite obtener campos circulares en conductores rectilíneos."  
+},  
+{  
+"id": 11,  
+"apartado": "3. Generación de campos magnéticos",  
+"subapartado": "3.2. Ley de Biot-Savart y campo de un conductor rectilíneo",  
+"pregunta": "Justifica por qué el campo de un conductor rectilíneo disminuye con la distancia.",  
+"respuesta": "Porque la influencia magnética de la corriente se distribuye en circunferencias de radio creciente alrededor del conductor. Al aumentar la distancia, el mismo efecto se reparte sobre trayectorias mayores. Por ello, el módulo del campo decrece de forma inversamente proporcional a la distancia."  
+},  
+{  
+"id": 12,  
+"apartado": "3. Generación de campos magnéticos",  
+"subapartado": "3.3. Ley de Ampère: solenoide, espira y toroide",  
+"pregunta": "Compara el campo magnético de un solenoide largo y el de un toroide.",  
+"respuesta": "En un solenoide largo, el campo es casi uniforme en el interior y casi nulo fuera, salvo efectos de borde. En un toroide, el campo queda más confinado en el interior del núcleo. Como resultado, ambos usan corrientes enrolladas, pero el toroide reduce mejor el campo externo."  
+},  
+{  
+"id": 13,  
+"apartado": "3. Generación de campos magnéticos",  
+"subapartado": "3.3. Ley de Ampère: solenoide, espira y toroide",  
+"pregunta": "Explica por qué las bobinas son esenciales en electroimanes y transformadores.",  
+"respuesta": "Porque una corriente enrollada multiplica el efecto magnético de cada espira y concentra el campo en una región. Esto permite generar campos intensos y controlables. Como resultado, las bobinas son la base de electroimanes, transformadores y numerosos dispositivos de control industrial."  
+},  
+{  
+"id": 14,  
+"apartado": "3. Generación de campos magnéticos",  
+"subapartado": "3.4. Imanes permanentes, materiales magnéticos y campos variables",  
+"pregunta": "Explica por qué los materiales ferromagnéticos producen campos macroscópicos apreciables.",  
+"respuesta": "Porque sus dominios magnéticos pueden orientarse cooperativamente, sumando muchos momentos magnéticos microscópicos en una dirección preferente. Esta alineación genera magnetización macroscópica. Como resultado, materiales como hierro, cobalto o níquel pueden comportarse como imanes permanentes o núcleos de electroimanes."  
+},  
+{  
+"id": 15,  
+"apartado": "3. Generación de campos magnéticos",  
+"subapartado": "3.4. Imanes permanentes, materiales magnéticos y campos variables",  
+"pregunta": "Justifica la importancia del término de Maxwell en la generación de campos magnéticos.",  
+"respuesta": "Porque permite que un campo eléctrico variable actúe como fuente de campo magnético, incluso sin corriente conductora. Esta corrección completa la ley de Ampère y hace coherente la teoría electromagnética. Como consecuencia, permite explicar la propagación de ondas electromagnéticas."  
+},  
+{  
+"id": 16,  
+"apartado": "4. Efectos sobre cargas en movimiento",  
+"subapartado": "4.1. Fuerza magnética sobre una carga eléctrica",  
+"pregunta": "Analiza por qué una carga en reposo no experimenta fuerza magnética.",  
+"respuesta": "La fuerza magnética depende del producto vectorial entre velocidad y campo magnético. Si la carga está en reposo, su velocidad es nula y el producto también lo es. Por lo tanto, el campo magnético solo actúa dinámicamente sobre cargas en movimiento."  
+},  
+{  
+"id": 17,  
+"apartado": "4. Efectos sobre cargas en movimiento",  
+"subapartado": "4.1. Fuerza magnética sobre una carga eléctrica",  
+"pregunta": "Deduce qué ocurre si la velocidad de una carga es paralela al campo magnético.",  
+"respuesta": "Si la velocidad es paralela al campo, el ángulo entre ambos es cero y el seno vale cero. Por ello, la fuerza magnética se anula. Como resultado, la partícula no se desvía por acción magnética en esa dirección."  
+},  
+{  
+"id": 18,  
+"apartado": "4. Efectos sobre cargas en movimiento",  
+"subapartado": "4.2. Fuerza de Lorentz",  
+"pregunta": "Compara el efecto del campo eléctrico y del campo magnético sobre una carga.",  
+"respuesta": "El campo eléctrico puede acelerar una carga incluso si está en reposo, cambiando su energía cinética. El campo magnético solo actúa sobre cargas móviles y desvía su trayectoria sin realizar trabajo. Por lo tanto, ambos campos tienen efectos complementarios en la fuerza de Lorentz."  
+},  
+{  
+"id": 19,  
+"apartado": "4. Efectos sobre cargas en movimiento",  
+"subapartado": "4.3. Movimiento circular y helicoidal de partículas cargadas",  
+"pregunta": "Justifica por qué una carga describe movimiento circular si entra perpendicularmente en B.",  
+"respuesta": "Porque la fuerza magnética es perpendicular a la velocidad y apunta hacia el centro de la trayectoria. Actúa como fuerza centrípeta sin cambiar la energía cinética. Como resultado, la partícula mantiene rapidez constante, pero cambia continuamente de dirección."  
+},  
+{  
+"id": 20,  
+"apartado": "4. Efectos sobre cargas en movimiento",  
+"subapartado": "4.3. Movimiento circular y helicoidal de partículas cargadas",  
+"pregunta": "Explica cómo se forma una trayectoria helicoidal en un campo magnético uniforme.",  
+"respuesta": "La velocidad se descompone en una componente perpendicular y otra paralela al campo. La componente perpendicular produce giro circular, mientras la paralela permanece constante y provoca avance. Como resultado, la trayectoria combina rotación y desplazamiento longitudinal, formando una hélice."  
+},  
+{  
+"id": 21,  
+"apartado": "4. Efectos sobre cargas en movimiento",  
+"subapartado": "4.4. Fuerza magnética sobre corrientes eléctricas",  
+"pregunta": "Analiza por qué un conductor con corriente experimenta fuerza magnética.",  
+"respuesta": "Porque la corriente está formada por cargas móviles dentro del conductor. Cada carga experimenta fuerza magnética y la suma de esas fuerzas se transmite al conductor. Como resultado, un cable con corriente puede moverse en un campo magnético externo."  
+},  
+{  
+"id": 22,  
+"apartado": "5. Aplicación a dispositivos tecnológicos",  
+"subapartado": "5.1. Selector de velocidades",  
+"pregunta": "Justifica cómo un selector de velocidades permite filtrar partículas.",  
+"respuesta": "El dispositivo combina campos eléctrico y magnético perpendiculares. Solo las partículas cuya velocidad cumple la condición de equilibrio tienen fuerza neta nula y atraviesan sin desviarse. Las demás se desvían, por lo tanto el aparato actúa como filtro cinemático."  
+},  
+{  
+"id": 23,  
+"apartado": "5. Aplicación a dispositivos tecnológicos",  
+"subapartado": "5.2. Espectrómetro de masas",  
+"pregunta": "Explica cómo el espectrómetro de masas separa partículas de distinta masa.",  
+"respuesta": "Tras seleccionar una velocidad, las partículas entran en un campo magnético perpendicular y describen trayectorias circulares. El radio depende de la relación carga-masa. Como resultado, partículas con distinta masa impactan en posiciones diferentes, permitiendo identificar isótopos o moléculas."  
+},  
+{  
+"id": 24,  
+"apartado": "5. Aplicación a dispositivos tecnológicos",  
+"subapartado": "5.3. Ciclotrón",  
+"pregunta": "Analiza por qué el ciclotrón necesita sincronizar el campo eléctrico alterno.",  
+"respuesta": "Las partículas giran por acción del campo magnético y cruzan repetidamente el espacio entre las des. Para acelerar en cada cruce, el campo eléctrico debe cambiar de signo en el momento adecuado. Por ello, la frecuencia de resonancia garantiza una ganancia acumulada de energía."  
+},  
+{  
+"id": 25,  
+"apartado": "5. Aplicación a dispositivos tecnológicos",  
+"subapartado": "5.3. Ciclotrón",  
+"pregunta": "Deduce por qué aparecen limitaciones relativistas en el ciclotrón.",  
+"respuesta": "A velocidades muy altas, los efectos relativistas modifican la relación entre masa, velocidad y frecuencia de giro. Como resultado, la partícula deja de sincronizarse con el campo eléctrico alterno. Esto limita la aceleración eficiente en ciclotrones clásicos."  
+},  
+{  
+"id": 26,  
+"apartado": "5. Aplicación a dispositivos tecnológicos",  
+"subapartado": "5.4. Otras aplicaciones tecnológicas actuales",  
+"pregunta": "Analiza la relación común entre motores, generadores y sensores Hall.",  
+"respuesta": "Los tres dispositivos explotan la interacción entre corrientes, cargas móviles y campos magnéticos. En motores aparece fuerza sobre corrientes; en generadores se transforma movimiento en electricidad; en sensores Hall se detecta desviación de cargas. Como resultado, conectan magnetismo con tecnología cotidiana."  
+},  
+{  
+"id": 27,  
+"apartado": "5. Aplicación a dispositivos tecnológicos",  
+"subapartado": "5.4. Otras aplicaciones tecnológicas actuales",  
+"pregunta": "Explica por qué el magnetismo tiene relevancia sanitaria y tecnológica actual.",  
+"respuesta": "Porque permite diagnosticar mediante resonancia magnética, producir radioisótopos médicos, controlar partículas en aceleradores y desarrollar sensores o sistemas de almacenamiento. Por lo tanto, no es solo un contenido teórico, sino una base para tecnologías sanitarias, industriales y energéticas."  
+}  
+]  
+}
+

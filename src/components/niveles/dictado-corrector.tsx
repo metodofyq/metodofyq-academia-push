@@ -199,7 +199,18 @@ function EsquemaConGuiones({ texto }: { texto: string }) {
             </div>
           )
         }
+        const esApartado = /^[\d]+\.(?!\d)/.test(t)
         const esSub = /^[\d]+\.\d+/.test(t)
+        const esTextoOdinario = !esApartado && !esSub
+
+        if (esTextoOdinario) {
+          return (
+            <div key={i} className="text-slate-700 pl-2">
+              {t}
+            </div>
+          )
+        }
+
         return (
           <div key={i} className={esSub ? 'font-bold text-blue-700 text-sm mt-2 pl-2' : 'font-bold text-slate-900 mt-3'}>
             {t}

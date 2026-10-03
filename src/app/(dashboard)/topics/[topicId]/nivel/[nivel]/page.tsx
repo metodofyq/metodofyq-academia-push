@@ -8,6 +8,7 @@ import { InfografiaGaleria } from '@/components/niveles/infografia-galeria'
 import { DictadoCorrector } from '@/components/niveles/dictado-corrector'
 import { FlashcardsSemaforo } from '@/components/niveles/flashcards-semaforo'
 import { LegislacionNivel4 } from '@/components/niveles/legislacion-nivel4'
+import { LegislacionNivel4Selector } from '@/components/niveles/legislacion-nivel4-selector'
 import type { Apartado, Tarjeta } from '@/lib/niveles/texto'
 
 interface Props {
@@ -132,20 +133,30 @@ export default async function NivelPage({ params }: Props) {
       )
     }
 
-    // Obtener legislación específica por CCAA
-    let legislation = null
-    if (profile?.ccaa) {
-      const { data } = await supabase
-        .from('topic_legislation_by_ccaa')
-        .select('contenido')
-        .eq('topic_id', topicId)
-        .eq('ccaa', profile.ccaa)
-        .single()
-      legislation = data?.contenido
-    }
+    // Obtener todas las CCAAs disponibles para este tema
+    const { data: legislacionTodas } = await supabase
+      .from('topic_legislation_by_ccaa')
+      .select('ccaa, contenido')
+      .eq('topic_id', topicId)
 
-    if (!legislation) return contenidoNoDisponible
-    return <DictadoCorrector nivel={4} texto={legislation} topicId={topicId} studentId={user.id} incluirNivel4={incluirNivel4} temaCode={temaCode} temaTitulo={temaTitulo} />
+    if (!legislacionTodas || legislacionTodas.length === 0) return contenidoNoDisponible
+
+    const ccaaDisponibles = legislacionTodas.map((l) => l.ccaa).sort()
+    const legislacionPorCcaa: Record<string, string | null> = {}
+    legislacionTodas.forEach((l) => {
+      legislacionPorCcaa[l.ccaa] = l.contenido
+    })
+
+    return (
+      <LegislacionNivel4Selector
+        grupo={profile?.grupo || null}
+        ccaaDisponibles={ccaaDisponibles}
+        legislacionPorCcaa={legislacionPorCcaa}
+        temaCode={temaCode}
+        temaTitulo={temaTitulo}
+        ccaaInicial={profile?.ccaa}
+      />
+    )
   }
 
   // Nivel especial: Propuesta didáctica

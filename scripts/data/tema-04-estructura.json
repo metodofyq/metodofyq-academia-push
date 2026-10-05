@@ -12,13 +12,56 @@
       "content_json": {
         "tipo": "indice",
         "estructura": [
-          {"apartado": "0. Introducción", "subapartados": []},
-          {"apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartados": ["1.1. Modelo de partícula y sistema de referencia", "1.2. Posición, trayectoria y espacio recorrido", "1.3. Desplazamiento, velocidad y aceleración", "1.4. Componentes intrínsecas de la aceleración"]},
-          {"apartado": "2. Movimientos rectilíneos", "subapartados": ["2.1. Movimiento rectilíneo uniforme", "2.2. Movimiento rectilíneo uniformemente acelerado", "2.3. Caída libre"]},
-          {"apartado": "3. Movimientos periódicos y circulares", "subapartados": ["3.1. Movimiento armónico simple", "3.2. Movimiento circular uniforme", "3.3. Movimiento circular uniformemente acelerado"]},
-          {"apartado": "4. Composición y relatividad del movimiento", "subapartados": ["4.1. Principio de composición de movimientos", "4.2. Movimiento parabólico", "4.3. Movimiento relativo y transformaciones de Galileo"]},
-          {"apartado": "5. Métodos para el estudio experimental del movimiento", "subapartados": ["5.1. Métodos manuales", "5.2. Métodos fotográficos y estroboscópicos", "5.3. Métodos automáticos y digitales", "5.4. Tratamiento experimental de datos"]},
-          {"apartado": "6. Conclusión", "subapartados": []}
+          {
+            "apartado": "0. Introducción",
+            "subapartados": []
+          },
+          {
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartados": [
+              "1.1. Modelo de partícula y sistema de referencia",
+              "1.2. Posición, trayectoria y espacio recorrido",
+              "1.3. Desplazamiento, velocidad y aceleración",
+              "1.4. Componentes intrínsecas de la aceleración"
+            ]
+          },
+          {
+            "apartado": "2. Movimientos rectilíneos",
+            "subapartados": [
+              "2.1. Movimiento rectilíneo uniforme",
+              "2.2. Movimiento rectilíneo uniformemente acelerado",
+              "2.3. Caída libre"
+            ]
+          },
+          {
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartados": [
+              "3.1. Movimiento armónico simple",
+              "3.2. Movimiento circular uniforme",
+              "3.3. Movimiento circular uniformemente acelerado"
+            ]
+          },
+          {
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartados": [
+              "4.1. Principio de composición de movimientos",
+              "4.2. Movimiento parabólico",
+              "4.3. Movimiento relativo y transformaciones de Galileo"
+            ]
+          },
+          {
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartados": [
+              "5.1. Métodos manuales",
+              "5.2. Métodos fotográficos y estroboscópicos",
+              "5.3. Métodos automáticos y digitales",
+              "5.4. Tratamiento experimental de datos"
+            ]
+          },
+          {
+            "apartado": "6. Conclusión",
+            "subapartados": []
+          }
         ]
       }
     },
@@ -61,7 +104,7 @@
       "title": "TEMA-04 Nivel 3 - Redacción Completa",
       "content_json": {
         "tipo": "redaccion_completa",
-        "texto": "TEMA 4. CINEMÁTICA. ELEMENTOS PARA LA DESCRIPCIÓN DEL MOVIMIENTO. MOVIMIENTOS DE ESPECIAL INTERÉS. MÉTODOS PARA EL ESTUDIO EXPERIMENTAL DEL MOVIMIENTO.\n\n**ÍNDICE**\n\n0. Introducción\n1. Cinemática y elementos para la descripción del movimiento\n  1.1. Modelo de partícula y sistema de referencia\n  1.2. Posición, trayectoria y espacio recorrido\n  1.3. Desplazamiento, velocidad y aceleración\n  1.4. Componentes intrínsecas de la aceleración\n2. Movimientos rectilíneos\n  2.1. Movimiento rectilíneo uniforme\n  2.2. Movimiento rectilíneo uniformemente acelerado\n  2.3. Caída libre\n3. Movimientos periódicos y circulares\n  3.1. Movimiento armónico simple\n  3.2. Movimiento circular uniforme\n  3.3. Movimiento circular uniformemente acelerado\n4. Composición y relatividad del movimiento\n  4.1. Principio de composición de movimientos\n  4.2. Movimiento parabólico\n  4.3. Movimiento relativo y transformaciones de Galileo\n5. Métodos para el estudio experimental del movimiento\n  5.1. Métodos manuales\n  5.2. Métodos fotográficos y estroboscópicos\n  5.3. Métodos automáticos y digitales\n  5.4. Tratamiento experimental de datos\n6. Conclusión\n7. Bibliografía\n\n0. Introducción\nEl movimiento constituye uno de los fenómenos físicos más próximos a la experiencia cotidiana. El desplazamiento de un vehículo, la trayectoria de un proyectil, la oscilación de un péndulo, el giro de una rueda o el movimiento de un satélite pueden describirse mediante un conjunto de magnitudes y modelos matemáticos.\nLa cinemática es la parte de la mecánica que estudia el movimiento de los cuerpos sin analizar las causas que lo producen. Su objetivo es describir cómo cambia la posición de un cuerpo con el tiempo mediante magnitudes como la posición, el desplazamiento, la velocidad y la aceleración.\nAunque se trata de una descripción idealizada, sus aplicaciones son muy amplias. La cinemática interviene en el diseño de vehículos, el análisis de movimientos deportivos, la navegación por satélite, la robótica, la biomecánica, la astronomía y el control de sistemas automatizados. Además, constituye la base necesaria para comprender posteriormente la dinámica, la energía y el movimiento de sistemas físicos más complejos.\n\n1. Cinemática y elementos para la descripción del movimiento\n\n1.1. Modelo de partícula y sistema de referencia\nLa cinemática describe el movimiento sin considerar sus causas. Para ello, en muchas situaciones se sustituye el cuerpo real por una partícula material, aproximación válida cuando sus dimensiones son despreciables frente a las distancias estudiadas. Así, un automóvil puede considerarse una partícula al analizar su desplazamiento entre ciudades, pero no al estudiar el giro de sus ruedas.\nTodo movimiento se define respecto a un sistema de referencia, formado por un origen, ejes coordenados, escala y reloj. En coordenadas cartesianas, la posición queda determinada por x, y y z. Por tanto, el movimiento es relativo: una persona sentada en un tren está en reposo respecto al tren, pero se mueve respecto al andén.\n\n1.2. Posición, trayectoria y espacio recorrido\nLa posición se representa mediante el vector: r(t)=x(t)i+y(t)j+z(t)k\nAl cambiar sus coordenadas, la partícula ocupa sucesivas posiciones cuyo conjunto forma la trayectoria. Esta puede ser rectilínea, circular, parabólica, elíptica o curvilínea. La longitud de la trayectoria entre dos instantes es el espacio recorrido, s, magnitud escalar siempre positiva o nula. En general, la trayectoria se expresa mediante x=x(t), y=y(t) y z=z(t); eliminando el tiempo se obtiene su ecuación geométrica.\n\n1.3. Desplazamiento, velocidad y aceleración\nEl desplazamiento entre dos posiciones es: Δr=r₂-r₁\nEs un vector que une directamente los puntos inicial y final, por lo que no coincide necesariamente con el espacio recorrido. En un recorrido cerrado, el espacio recorrido es positivo y el desplazamiento total, nulo.\nLa velocidad media es v⃗ₘ=Δr⃗/Δt, mientras que la velocidad instantánea se obtiene como: v⃗=dr⃗/dt\nEs tangente a la trayectoria y su módulo, v=|v⃗|=ds/dt, es la rapidez o celeridad. La aceleración describe la variación de la velocidad: a⃗=dv⃗/dt=d²r⃗/dt²\nPuede existir aunque la rapidez sea constante, como ocurre en el movimiento circular uniforme, porque cambia la dirección de la velocidad.\n\n1.4. Componentes intrínsecas de la aceleración\nLa aceleración se descompone en componentes tangencial y normal: a⃗=aₜuₜ+aₙuₙ\nLa componente tangencial modifica la rapidez, aₜ=dv/dt; la normal modifica la dirección y apunta hacia el centro de curvatura: aₙ=v²/R\nEl módulo total es a=√(aₜ²+aₙ²). Si ambas componentes son nulas, el movimiento es rectilíneo uniforme; si solo existe la tangencial, rectilíneo variado; si solo existe la normal, curvilíneo uniforme; y si aparecen las dos, curvilíneo variado.\n\n2. Movimientos rectilíneos\n\n2.1. Movimiento rectilíneo uniforme\nEn el movimiento rectilíneo uniforme la trayectoria es recta y la velocidad constante, por lo que a=0. Sobre el eje x, la posición varía en función de x=x₀+v·Δt y la velocidad se calcula como v=Δx/Δt.\nLa gráfica posición-tiempo es una recta cuya pendiente es la velocidad. La gráfica velocidad-tiempo es horizontal y su área representa el desplazamiento.\n\n2.2. Movimiento rectilíneo uniformemente acelerado\nSi la aceleración es constante, la velocidad y la posición se calculan según:\nv=v₀+at,       x=x₀+v₀t+½at²\nEliminando el tiempo, se puede usar otra ecuación: v²=v₀²+2a(x-x₀)\nLa velocidad cambia linealmente y la posición cuadráticamente. La pendiente de la gráfica v-t es la aceleración y el área bajo ella, el desplazamiento. El signo de a depende del eje elegido: el móvil frena cuando velocidad y aceleración tienen sentidos opuestos, no necesariamente cuando a<0.\n\n2.3. Caída libre\nLa caída libre es un movimiento uniformemente acelerado en el que la aceleración gravitatoria es la única relevante. Cerca de la superficie terrestre, g≈9,8 m·s⁻². Tomando el eje vertical positivo hacia arriba:\naᵧ=-g             vᵧ=v₀ᵧ-gt,         y=y₀+v₀ᵧt-½gt²\nSin resistencia del aire, todos los cuerpos tienen la misma aceleración, independientemente de su masa.\n\n3. Movimientos periódicos y circulares\n\n3.1. Movimiento armónico simple\nEn el movimiento armónico simple una partícula oscila alrededor de una posición de equilibrio con una fuerza restauradora proporcional al desplazamiento. Su posición depende el tiempo y es: x(t)=A cos(ωt+φ)\ndonde A es la amplitud, ω la frecuencia angular y φ la fase inicial.\nLa velocidad del movimiento se define como la derivada de la posición respeto al tiempo. La aceleración, como la derivada de la velocidad. Además, se debe tener en cuenta las relaciones siguientes entre la velocidad angular, frecuencia (f) y periodo (T): ω=2πf=2π/T\nv(t)=-Aω sin(ωt+φ),    a=-Aω² cos(ωt+φ)\nLa aceleración apunta hacia el equilibrio del movimiento.\nEn este movimiento se cumple vₘₐₓ=Aω y aₘₐₓ=Aω².\nSon ejemplos la masa unida a un muelle y el péndulo para ángulos pequeños. En los extremos es máxima la energía potencial; en el equilibrio, la energía cinética.\n\n3.2. Movimiento circular uniforme\nEn una trayectoria circular de radio R, el movimiento es uniforme si la rapidez permanece constante. La velocidad angular es ω=dθ/dt, y se relaciona con la velocidad lineal mediante v=ωR.\nLa aceleración centrípeta, dirigida al centro, es aₙ=v²/R=ω²R.\nEl periodo y la frecuencia cumplen T=2π/ω y f=1/T.\n\n3.3. Movimiento circular uniformemente acelerado\nCuando la aceleración angular es constante, α=dω/dt, se aplican las ecuaciones:\nω=ω₀+αt,         θ=θ₀+ω₀t+½αt²,              ω²=ω₀²+2α(θ-θ₀)\nLa aceleración lineal tiene componentes aₜ=αR y aₙ=ω²R, de modo que la primera cambia la rapidez y la segunda la dirección.\n\n4. Composición y relatividad del movimiento\n\n4.1. Principio de composición de movimientos\nSi un cuerpo participa en varios movimientos independientes, el movimiento, velocidad o aceleración resultante se obtiene sumando vectorialmente:\nr⃗=r⃗₁+r⃗₂  ,  v⃗=v⃗₁+v⃗₂  ,  a⃗=a⃗₁+a⃗₂\nEl análisis separado resulta especialmente útil cuando los movimientos se producen en direcciones perpendiculares.\n\n4.2. Movimiento parabólico\nEl tiro oblicuo tiene una trayectoria parabólica y combina un movimiento rectilíneo uniforme horizontal y uno uniformemente acelerado vertical. Para una velocidad inicial v₀ y ángulo θ, se estudia su movimiento con las siguientes ecuaciones:\nv₀ₓ=v₀ cos θ\nv₀ᵧ=v₀ sin θ\nx(t)=x₀+v₀ cos(θ)t\ny(t)=y₀+v₀ sin(θ)t-½gt²\nSi la salida y llegada se producen a la misma altura, x=v₀² sin(2θ)/g y h=v₀² sin²(θ)/(2g).\nLa descomposición de la posición y velocidad permite interpretar de forma independiente la evolución horizontal y vertical.\n\n4.3. Movimiento relativo y transformaciones de Galileo\nSi un cuerpo S' se mueve con velocidad constante V respecto a otro sistema S, sus ecuaciones pueden escribirse como:\nr⃗=R⃗+r⃗'\nv⃗=V⃗+v⃗'\na⃗=a⃗'\nPor ello, observadores en movimiento rectilíneo uniforme relativo miden la misma aceleración. Para el caso particular en que S' se desplaza respecto a S a lo largo del eje x, y suponiendo que los orígenes coinciden en t=0, las transformaciones de Galileo son:\nx'=x-Vt, y'=y, z'=z y t'=t.\nEstas transformaciones son válidas en mecánica clásica para velocidades pequeñas frente a la velocidad de la luz, c. Para velocidades próximas a c, deben sustituirse por las transformaciones de Lorentz.\n\n5. Métodos para el estudio experimental del movimiento\n\nEl estudio experimental exige medir posiciones y tiempos, calcular magnitudes cinemáticas y comparar los resultados. El método depende de la rapidez, precisión, trayectoria y recursos disponibles.\n\n5.1. Métodos manuales\nUtilizan reglas, cintas métricas y cronómetros. Éstos son adecuados para movimientos lentos, como una caída, un plano inclinado o un péndulo. En una caída puede emplearse h=gt²/2; la representación de h frente a t² debe aproximarse a una recta de pendiente g/2. Son accesibles, pero presentan incertidumbre por el tiempo de reacción del usuario y la resolución instrumental.\n\n5.2. Métodos fotográficos y estroboscópicos\nRegistran posiciones sucesivas a intervalos conocidos para analizar trayectoria, velocidad y aceleración. Si las distancias entre posiciones son iguales, el movimiento es uniforme; si aumentan o disminuyen, es acelerado.\nEl método fotográfico se aplica al estudio de movimientos donde interesa reconstruir la trayectoria completa, como movimientos deportivos, caídas, lanzamientos o trayectorias curvilíneas.\nEl método estroboscópico se aplica a movimientos rápidos o periódicos, como vibraciones, oscilaciones, cuerdas vocales, rotaciones o movimientos que no se distinguen bien a simple vista.\n\n5.3. Métodos automáticos y digitales\nEmplean fotopuertas, sensores ultrasónicos, cámaras, acelerómetros, radar o posicionamiento. Permiten obtener posiciones, tiempos y gráficas de velocidad y aceleración. El análisis digital de vídeo facilita calibrar distancias y estudiar movimientos difíciles. Los simuladores complementan, pero no sustituyen, la experimentación real.\n\n5.4. Tratamiento experimental de datos\nEl proceso incluye definir magnitudes, seleccionar instrumentos, conocer su resolución, repetir medidas, organizar tablas, representar gráficas, ajustar un modelo, calcular resultados, estimar incertidumbres y compararlos con la teoría. Las pendientes permiten obtener magnitudes: en posición-tiempo, velocidad; en velocidad-tiempo, aceleración. Deben distinguirse errores aleatorios, que dispersan los datos, y sistemáticos, que los desplazan. La calidad se valora considerando la incertidumbre y no solo el número de cifras.\n\n6. Conclusión\n\nLa cinemática proporciona las herramientas necesarias para describir el movimiento de los cuerpos mediante magnitudes como la posición, el desplazamiento, la velocidad y la aceleración.\nA partir de estos fundamentos se pueden estudiar movimientos rectilíneos, oscilatorios, circulares y parabólicos, así como describir el movimiento desde diferentes sistemas de referencia. La composición de movimientos permite resolver situaciones complejas dividiéndolas en movimientos más sencillos.\nEl estudio experimental completa la formulación teórica. La utilización de métodos manuales, fotográficos, automáticos y digitales permite obtener datos reales, construir gráficas, calcular magnitudes y valorar la incertidumbre de los resultados.\nPor ello, la cinemática no solo constituye una parte esencial de la mecánica, sino también un ejemplo privilegiado de cómo la Física combina modelos matemáticos, observación experimental y aplicaciones tecnológicas.\n\n7. Bibliografía\n\nMoebs, W., Ling, S. J., & Sanny, J. (2021). Física universitaria. Volumen 1. OpenStax.\n\nNational Highway Traffic Safety Administration. (2025, enero). NHTSA research and rulemaking activities on vehicles equipped with automated driving systems: Report to Congress. U.S. Department of Transportation.\n\nSerway, R. A., & Jewett, J. W. (2018). Física para ciencias e ingeniería (10.ª ed.). Cengage Learning."
+        "texto": "TEMA 4. CINEMÁTICA. ELEMENTOS PARA LA DESCRIPCIÓN DEL MOVIMIENTO. MOVIMIENTOS DE ESPECIAL INTERÉS. MÉTODOS PARA EL ESTUDIO EXPERIMENTAL DEL MOVIMIENTO.\n\n**ÍNDICE**\n\n0. Introducción\n1. Cinemática y elementos para la descripción del movimiento\n  1.1. Modelo de partícula y sistema de referencia\n  1.2. Posición, trayectoria y espacio recorrido\n  1.3. Desplazamiento, velocidad y aceleración\n  1.4. Componentes intrínsecas de la aceleración\n2. Movimientos rectilíneos\n  2.1. Movimiento rectilíneo uniforme\n  2.2. Movimiento rectilíneo uniformemente acelerado\n  2.3. Caída libre\n3. Movimientos periódicos y circulares\n  3.1. Movimiento armónico simple\n  3.2. Movimiento circular uniforme\n  3.3. Movimiento circular uniformemente acelerado\n4. Composición y relatividad del movimiento\n  4.1. Principio de composición de movimientos\n  4.2. Movimiento parabólico\n  4.3. Movimiento relativo y transformaciones de Galileo\n5. Métodos para el estudio experimental del movimiento\n  5.1. Métodos manuales\n  5.2. Métodos fotográficos y estroboscópicos\n  5.3. Métodos automáticos y digitales\n  5.4. Tratamiento experimental de datos\n6. Conclusión\n7. Bibliografía\n\n0. Introducción\nEl movimiento constituye uno de los fenómenos físicos más próximos a la experiencia cotidiana. El desplazamiento de un vehículo, la trayectoria de un proyectil, la oscilación de un péndulo, el giro de una rueda o el movimiento de un satélite pueden describirse mediante un conjunto de magnitudes y modelos matemáticos.\nLa cinemática es la parte de la mecánica que estudia el movimiento de los cuerpos sin analizar las causas que lo producen. Su objetivo es describir cómo cambia la posición de un cuerpo con el tiempo mediante magnitudes como la posición, el desplazamiento, la velocidad y la aceleración.\nAunque se trata de una descripción idealizada, sus aplicaciones son muy amplias. La cinemática interviene en el diseño de vehículos, el análisis de movimientos deportivos, la navegación por satélite, la robótica, la biomecánica, la astronomía y el control de sistemas automatizados. Además, constituye la base necesaria para comprender posteriormente la dinámica, la energía y el movimiento de sistemas físicos más complejos.\n\n1. Cinemática y elementos para la descripción del movimiento\n\n1.1. Modelo de partícula y sistema de referencia\nLa cinemática describe el movimiento sin considerar sus causas. Para ello, en muchas situaciones se sustituye el cuerpo real por una partícula material, aproximación válida cuando sus dimensiones son despreciables frente a las distancias estudiadas. Así, un automóvil puede considerarse una partícula al analizar su desplazamiento entre ciudades, pero no al estudiar el giro de sus ruedas.\nTodo movimiento se define respecto a un sistema de referencia, formado por un origen, ejes coordenados, escala y reloj. En coordenadas cartesianas, la posición queda determinada por x, y y z. Por tanto, el movimiento es relativo: una persona sentada en un tren está en reposo respecto al tren, pero se mueve respecto al andén.\n\n1.2. Posición, trayectoria y espacio recorrido\nLa posición se representa mediante el vector: r(t)=x(t)i+y(t)j+z(t)k\nAl cambiar sus coordenadas, la partícula ocupa sucesivas posiciones cuyo conjunto forma la trayectoria. Esta puede ser rectilínea, circular, parabólica, elíptica o curvilínea. La longitud de la trayectoria entre dos instantes es el espacio recorrido, s, magnitud escalar siempre positiva o nula. En general, la trayectoria se expresa mediante x=x(t), y=y(t) y z=z(t); eliminando el tiempo se obtiene su ecuación geométrica.\n\n1.3. Desplazamiento, velocidad y aceleración\nEl desplazamiento entre dos posiciones es: Δr=r₂-r₁\nEs un vector que une directamente los puntos inicial y final, por lo que no coincide necesariamente con el espacio recorrido. En un recorrido cerrado, el espacio recorrido es positivo y el desplazamiento total, nulo.\nLa velocidad media es v (vector)ₘ=Δr (vector)/Δt, mientras que la velocidad instantánea se obtiene como: v (vector)=dr (vector)/dt\nEs tangente a la trayectoria y su módulo, v=|v (vector)|=ds/dt, es la rapidez o celeridad. La aceleración describe la variación de la velocidad: a (vector)=dv (vector)/dt=d²r (vector)/dt²\nPuede existir aunque la rapidez sea constante, como ocurre en el movimiento circular uniforme, porque cambia la dirección de la velocidad.\n\n1.4. Componentes intrínsecas de la aceleración\nLa aceleración se descompone en componentes tangencial y normal: a (vector)=aₜuₜ (vector)+aₙuₙ (vector)\nLa componente tangencial modifica la rapidez, aₜ=dv/dt; la normal modifica la dirección y apunta hacia el centro de curvatura: aₙ=v²/R\nEl módulo total es a=√(aₜ²+aₙ²). Si ambas componentes son nulas, el movimiento es rectilíneo uniforme; si solo existe la tangencial, rectilíneo variado; si solo existe la normal, curvilíneo uniforme; y si aparecen las dos, curvilíneo variado.\n\n2. Movimientos rectilíneos\n\n2.1. Movimiento rectilíneo uniforme\nEn el movimiento rectilíneo uniforme la trayectoria es recta y la velocidad constante, por lo que a=0. Sobre el eje x, la posición varía en función de x=x₀+v·Δt y la velocidad se calcula como v=Δx/Δt.\nLa gráfica posición-tiempo es una recta cuya pendiente es la velocidad. La gráfica velocidad-tiempo es horizontal y su área representa el desplazamiento.\n\n2.2. Movimiento rectilíneo uniformemente acelerado\nSi la aceleración es constante, la velocidad y la posición se calculan según:\nv=v₀+at,       x=x₀+v₀t+½at²\nEliminando el tiempo, se puede usar otra ecuación: v²=v₀²+2a(x-x₀)\nLa velocidad cambia linealmente y la posición cuadráticamente. La pendiente de la gráfica v-t es la aceleración y el área bajo ella, el desplazamiento. El signo de a depende del eje elegido: el móvil frena cuando velocidad y aceleración tienen sentidos opuestos, no necesariamente cuando a<0.\n\n2.3. Caída libre\nLa caída libre es un movimiento uniformemente acelerado en el que la aceleración gravitatoria es la única relevante. Cerca de la superficie terrestre, g≈9,8 m·s⁻². Tomando el eje vertical positivo hacia arriba:\naᵧ=-g             vᵧ=v₀ᵧ-gt,         y=y₀+v₀ᵧt-½gt²\nSin resistencia del aire, todos los cuerpos tienen la misma aceleración, independientemente de su masa.\n\n3. Movimientos periódicos y circulares\n\n3.1. Movimiento armónico simple\nEn el movimiento armónico simple una partícula oscila alrededor de una posición de equilibrio con una fuerza restauradora proporcional al desplazamiento. Su posición depende el tiempo y es: x(t)=A cos(ωt+φ)\ndonde A es la amplitud, ω la frecuencia angular y φ la fase inicial.\nLa velocidad del movimiento se define como la derivada de la posición respeto al tiempo. La aceleración, como la derivada de la velocidad. Además, se debe tener en cuenta las relaciones siguientes entre la velocidad angular, frecuencia (f) y periodo (T): ω=2πf=2π/T\nv(t)=-Aω sin(ωt+φ),    a=-Aω² cos(ωt+φ)\nLa aceleración apunta hacia el equilibrio del movimiento.\nEn este movimiento se cumple vₘₐₓ=Aω y aₘₐₓ=Aω².\nSon ejemplos la masa unida a un muelle y el péndulo para ángulos pequeños. En los extremos es máxima la energía potencial; en el equilibrio, la energía cinética.\n\n3.2. Movimiento circular uniforme\nEn una trayectoria circular de radio R, el movimiento es uniforme si la rapidez permanece constante. La velocidad angular es ω=dθ/dt, y se relaciona con la velocidad lineal mediante v=ωR.\nLa aceleración centrípeta, dirigida al centro, es aₙ=v²/R=ω²R.\nEl periodo y la frecuencia cumplen T=2π/ω y f=1/T.\n\n3.3. Movimiento circular uniformemente acelerado\nCuando la aceleración angular es constante, α=dω/dt, se aplican las ecuaciones:\nω=ω₀+αt,         θ=θ₀+ω₀t+½αt²,              ω²=ω₀²+2α(θ-θ₀)\nLa aceleración lineal tiene componentes aₜ=αR y aₙ=ω²R, de modo que la primera cambia la rapidez y la segunda la dirección.\n\n4. Composición y relatividad del movimiento\n\n4.1. Principio de composición de movimientos\nSi un cuerpo participa en varios movimientos independientes, el movimiento, velocidad o aceleración resultante se obtiene sumando vectorialmente:\nr (vector)=r (vector)₁+r (vector)₂  ,  v (vector)=v (vector)₁+v (vector)₂  ,  a (vector)=a (vector)₁+a (vector)₂\nEl análisis separado resulta especialmente útil cuando los movimientos se producen en direcciones perpendiculares.\n\n4.2. Movimiento parabólico\nEl tiro oblicuo tiene una trayectoria parabólica y combina un movimiento rectilíneo uniforme horizontal y uno uniformemente acelerado vertical. Para una velocidad inicial v₀ y ángulo θ, se estudia su movimiento con las siguientes ecuaciones:\nv₀ₓ=v₀ cos θ\nv₀ᵧ=v₀ sin θ\nx(t)=x₀+v₀ cos(θ)t\ny(t)=y₀+v₀ sin(θ)t-½gt²\nSi la salida y llegada se producen a la misma altura, x=v₀² sin(2θ)/g y h=v₀² sin²(θ)/(2g).\nLa descomposición de la posición y velocidad permite interpretar de forma independiente la evolución horizontal y vertical.\n\n4.3. Movimiento relativo y transformaciones de Galileo\nSi un cuerpo S' se mueve con velocidad constante V respecto a otro sistema S, sus ecuaciones pueden escribirse como:\nr (vector)=R (vector)+r (vector)'\nv (vector)=V (vector)+v (vector)'\na (vector)=a (vector)'\nPor ello, observadores en movimiento rectilíneo uniforme relativo miden la misma aceleración. Para el caso particular en que S' se desplaza respecto a S a lo largo del eje x, y suponiendo que los orígenes coinciden en t=0, las transformaciones de Galileo son:\nx'=x-Vt, y'=y, z'=z y t'=t.\nEstas transformaciones son válidas en mecánica clásica para velocidades pequeñas frente a la velocidad de la luz, c. Para velocidades próximas a c, deben sustituirse por las transformaciones de Lorentz.\n\n5. Métodos para el estudio experimental del movimiento\n\nEl estudio experimental exige medir posiciones y tiempos, calcular magnitudes cinemáticas y comparar los resultados. El método depende de la rapidez, precisión, trayectoria y recursos disponibles.\n\n5.1. Métodos manuales\nUtilizan reglas, cintas métricas y cronómetros. Éstos son adecuados para movimientos lentos, como una caída, un plano inclinado o un péndulo. En una caída puede emplearse h=gt²/2; la representación de h frente a t² debe aproximarse a una recta de pendiente g/2. Son accesibles, pero presentan incertidumbre por el tiempo de reacción del usuario y la resolución instrumental.\n\n5.2. Métodos fotográficos y estroboscópicos\nRegistran posiciones sucesivas a intervalos conocidos para analizar trayectoria, velocidad y aceleración. Si las distancias entre posiciones son iguales, el movimiento es uniforme; si aumentan o disminuyen, es acelerado.\nEl método fotográfico se aplica al estudio de movimientos donde interesa reconstruir la trayectoria completa, como movimientos deportivos, caídas, lanzamientos o trayectorias curvilíneas.\nEl método estroboscópico se aplica a movimientos rápidos o periódicos, como vibraciones, oscilaciones, cuerdas vocales, rotaciones o movimientos que no se distinguen bien a simple vista.\n\n5.3. Métodos automáticos y digitales\nEmplean fotopuertas, sensores ultrasónicos, cámaras, acelerómetros, radar o posicionamiento. Permiten obtener posiciones, tiempos y gráficas de velocidad y aceleración. El análisis digital de vídeo facilita calibrar distancias y estudiar movimientos difíciles. Los simuladores complementan, pero no sustituyen, la experimentación real.\n\n5.4. Tratamiento experimental de datos\nEl proceso incluye definir magnitudes, seleccionar instrumentos, conocer su resolución, repetir medidas, organizar tablas, representar gráficas, ajustar un modelo, calcular resultados, estimar incertidumbres y compararlos con la teoría. Las pendientes permiten obtener magnitudes: en posición-tiempo, velocidad; en velocidad-tiempo, aceleración. Deben distinguirse errores aleatorios, que dispersan los datos, y sistemáticos, que los desplazan. La calidad se valora considerando la incertidumbre y no solo el número de cifras.\n\n6. Conclusión\n\nLa cinemática proporciona las herramientas necesarias para describir el movimiento de los cuerpos mediante magnitudes como la posición, el desplazamiento, la velocidad y la aceleración.\nA partir de estos fundamentos se pueden estudiar movimientos rectilíneos, oscilatorios, circulares y parabólicos, así como describir el movimiento desde diferentes sistemas de referencia. La composición de movimientos permite resolver situaciones complejas dividiéndolas en movimientos más sencillos.\nEl estudio experimental completa la formulación teórica. La utilización de métodos manuales, fotográficos, automáticos y digitales permite obtener datos reales, construir gráficas, calcular magnitudes y valorar la incertidumbre de los resultados.\nPor ello, la cinemática no solo constituye una parte esencial de la mecánica, sino también un ejemplo privilegiado de cómo la Física combina modelos matemáticos, observación experimental y aplicaciones tecnológicas.\n\n7. Bibliografía\n\nMoebs, W., Ling, S. J., & Sanny, J. (2021). Física universitaria. Volumen 1. OpenStax.\n\nNational Highway Traffic Safety Administration. (2025, enero). NHTSA research and rulemaking activities on vehicles equipped with automated driving systems: Report to Congress. U.S. Department of Transportation.\n\nSerway, R. A., & Jewett, J. W. (2018). Física para ciencias e ingeniería (10.ª ed.). Cengage Learning."
       }
     },
     {
@@ -71,154 +114,725 @@
         "tipo": "desarrollo",
         "flashcards": [
           {
-            "id": 1, "apartado": "0. Introducción", "subapartado": "0.1", "termino": "¿Qué estudia la cinemática?", "descripcion": "Describe matemáticamente el movimiento sin considerar las fuerzas que lo producen."
+            "id": 1,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1",
+            "termino": "¿Qué estudia la cinemática?",
+            "descripcion": "Describe matemáticamente el movimiento sin considerar las fuerzas que lo producen."
           },
           {
-            "id": 2, "apartado": "0. Introducción", "subapartado": "0.1", "termino": "¿En qué campos se aplica la cinemática?", "descripcion": "En transporte, robótica, navegación, biomecánica y seguridad vial."
+            "id": 2,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1",
+            "termino": "¿En qué campos se aplica la cinemática?",
+            "descripcion": "En transporte, robótica, navegación, biomecánica y seguridad vial."
           },
           {
-            "id": 3, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.1", "termino": "¿Cuándo es válida la aproximación de partícula material?", "descripcion": "Cuando las dimensiones del cuerpo son despreciables frente a las distancias relevantes del movimiento."
+            "id": 3,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.1",
+            "termino": "¿Cuándo es válida la aproximación de partícula material?",
+            "descripcion": "Cuando las dimensiones del cuerpo son despreciables frente a las distancias relevantes del movimiento."
           },
           {
-            "id": 4, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.1", "termino": "¿Qué elementos forman un sistema de referencia?", "descripcion": "Un origen, unos ejes coordenados y una medida temporal."
+            "id": 4,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.1",
+            "termino": "¿Qué elementos forman un sistema de referencia?",
+            "descripcion": "Un origen, unos ejes coordenados y una medida temporal."
           },
           {
-            "id": 5, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.2", "termino": "¿Cómo se expresa el vector de posición?", "descripcion": "Como r⃗ = x i⃗ + y j⃗ + z k⃗."
+            "id": 5,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.2",
+            "termino": "¿Cómo se expresa el vector de posición?",
+            "descripcion": "Como r (vector) = x i (vector) + y j (vector) + z k (vector)."
           },
           {
-            "id": 6, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.2", "termino": "¿Qué es la trayectoria?", "descripcion": "La sucesión de posiciones ocupadas por una partícula durante su movimiento."
+            "id": 6,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.2",
+            "termino": "¿Qué es la trayectoria?",
+            "descripcion": "La sucesión de posiciones ocupadas por una partícula durante su movimiento."
           },
           {
-            "id": 7, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.2", "termino": "¿Qué es el espacio recorrido?", "descripcion": "La longitud escalar de la trayectoria entre dos instantes."
+            "id": 7,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.2",
+            "termino": "¿Qué es el espacio recorrido?",
+            "descripcion": "La longitud escalar de la trayectoria entre dos instantes."
           },
           {
-            "id": 8, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.3", "termino": "¿Cómo se define la velocidad media?", "descripcion": "Como el desplazamiento dividido entre el intervalo temporal: v⃗ₘ = Δr⃗/Δt."
+            "id": 8,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.3",
+            "termino": "¿Cómo se define la velocidad media?",
+            "descripcion": "Como el desplazamiento dividido entre el intervalo temporal: v (vector)ₘ = Δr (vector)/Δt."
           },
           {
-            "id": 9, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.3", "termino": "¿Cómo se define la velocidad instantánea?", "descripcion": "Como la derivada temporal del vector de posición: v⃗ = dr⃗/dt."
+            "id": 9,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.3",
+            "termino": "¿Cómo se define la velocidad instantánea?",
+            "descripcion": "Como la derivada temporal del vector de posición: v (vector) = dr (vector)/dt."
           },
           {
-            "id": 10, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.3", "termino": "¿Qué es la celeridad?", "descripcion": "El módulo de la velocidad, expresado mediante v = ds/dt."
+            "id": 10,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.3",
+            "termino": "¿Qué es la celeridad?",
+            "descripcion": "El módulo de la velocidad, expresado mediante v = ds/dt."
           },
           {
-            "id": 11, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.3", "termino": "¿Cómo se define la aceleración instantánea?", "descripcion": "Como la derivada temporal de la velocidad: a⃗ = dv⃗/dt."
+            "id": 11,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.3",
+            "termino": "¿Cómo se define la aceleración instantánea?",
+            "descripcion": "Como la derivada temporal de la velocidad: a (vector) = dv (vector)/dt."
           },
           {
-            "id": 12, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.4", "termino": "¿Qué expresión tiene la aceleración tangencial?", "descripcion": "aₜ = dv/dt; modifica el módulo de la velocidad."
+            "id": 12,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.4",
+            "termino": "¿Qué expresión tiene la aceleración tangencial?",
+            "descripcion": "aₜ = dv/dt; modifica el módulo de la velocidad."
           },
           {
-            "id": 13, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.4", "termino": "¿Qué expresión tiene la aceleración normal?", "descripcion": "aₙ = v²/R; modifica la dirección de la velocidad."
+            "id": 13,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.4",
+            "termino": "¿Qué expresión tiene la aceleración normal?",
+            "descripcion": "aₙ = v²/R; modifica la dirección de la velocidad."
           },
           {
-            "id": 14, "apartado": "2. Movimientos rectilíneos", "subapartado": "2.1", "termino": "¿Qué características tiene el movimiento rectilíneo uniforme?", "descripcion": "Trayectoria rectilínea y velocidad constante."
+            "id": 14,
+            "apartado": "2. Movimientos rectilíneos",
+            "subapartado": "2.1",
+            "termino": "¿Qué características tiene el movimiento rectilíneo uniforme?",
+            "descripcion": "Trayectoria rectilínea y velocidad constante."
           },
           {
-            "id": 15, "apartado": "2. Movimientos rectilíneos", "subapartado": "2.1", "termino": "¿Cuál es la ecuación horaria del MRU?", "descripcion": "x = x₀ + vt."
+            "id": 15,
+            "apartado": "2. Movimientos rectilíneos",
+            "subapartado": "2.1",
+            "termino": "¿Cuál es la ecuación horaria del MRU?",
+            "descripcion": "x = x₀ + vt."
           },
           {
-            "id": 16, "apartado": "2. Movimientos rectilíneos", "subapartado": "2.2", "termino": "¿Qué característica define al MRUA?", "descripcion": "Una aceleración constante."
+            "id": 16,
+            "apartado": "2. Movimientos rectilíneos",
+            "subapartado": "2.2",
+            "termino": "¿Qué característica define al MRUA?",
+            "descripcion": "Una aceleración constante."
           },
           {
-            "id": 17, "apartado": "2. Movimientos rectilíneos", "subapartado": "2.2", "termino": "¿Cuál es la ecuación de la velocidad en el MRUA?", "descripcion": "v = v₀ + at."
+            "id": 17,
+            "apartado": "2. Movimientos rectilíneos",
+            "subapartado": "2.2",
+            "termino": "¿Cuál es la ecuación de la velocidad en el MRUA?",
+            "descripcion": "v = v₀ + at."
           },
           {
-            "id": 18, "apartado": "2. Movimientos rectilíneos", "subapartado": "2.2", "termino": "¿Cuál es la ecuación de la posición en el MRUA?", "descripcion": "x = x₀ + v₀t + ½at²."
+            "id": 18,
+            "apartado": "2. Movimientos rectilíneos",
+            "subapartado": "2.2",
+            "termino": "¿Cuál es la ecuación de la posición en el MRUA?",
+            "descripcion": "x = x₀ + v₀t + ½at²."
           },
           {
-            "id": 19, "apartado": "2. Movimientos rectilíneos", "subapartado": "2.3", "termino": "¿Cuál es el valor aproximado de la aceleración gravitatoria?", "descripcion": "g ≈ 9,8 m·s⁻²."
+            "id": 19,
+            "apartado": "2. Movimientos rectilíneos",
+            "subapartado": "2.3",
+            "termino": "¿Cuál es el valor aproximado de la aceleración gravitatoria?",
+            "descripcion": "g ≈ 9,8 m·s⁻²."
           },
           {
-            "id": 20, "apartado": "2. Movimientos rectilíneos", "subapartado": "2.3", "termino": "¿De qué depende la aceleración de caída libre?", "descripcion": "No depende de la masa del cuerpo en ausencia de resistencia del aire."
+            "id": 20,
+            "apartado": "2. Movimientos rectilíneos",
+            "subapartado": "2.3",
+            "termino": "¿De qué depende la aceleración de caída libre?",
+            "descripcion": "No depende de la masa del cuerpo en ausencia de resistencia del aire."
           },
           {
-            "id": 21, "apartado": "3. Movimientos periódicos y circulares", "subapartado": "3.1", "termino": "¿Qué características tiene el movimiento armónico simple?", "descripcion": "Es un movimiento oscilatorio y periódico alrededor de una posición de equilibrio."
+            "id": 21,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.1",
+            "termino": "¿Qué características tiene el movimiento armónico simple?",
+            "descripcion": "Es un movimiento oscilatorio y periódico alrededor de una posición de equilibrio."
           },
           {
-            "id": 22, "apartado": "3. Movimientos periódicos y circulares", "subapartado": "3.1", "termino": "¿Cuál es la ecuación de la posición en el MAS?", "descripcion": "x = A cos(ωt + φ)."
+            "id": 22,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.1",
+            "termino": "¿Cuál es la ecuación de la posición en el MAS?",
+            "descripcion": "x = A cos(ωt + φ)."
           },
           {
-            "id": 23, "apartado": "3. Movimientos periódicos y circulares", "subapartado": "3.1", "termino": "¿Cuál es la expresión de la aceleración en el MAS?", "descripcion": "a = −ω²x."
+            "id": 23,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.1",
+            "termino": "¿Cuál es la expresión de la aceleración en el MAS?",
+            "descripcion": "a = −ω²x."
           },
           {
-            "id": 24, "apartado": "3. Movimientos periódicos y circulares", "subapartado": "3.2", "termino": "¿Qué características tiene la trayectoria del MCU?", "descripcion": "Es circular y presenta radio constante."
+            "id": 24,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.2",
+            "termino": "¿Qué características tiene la trayectoria del MCU?",
+            "descripcion": "Es circular y presenta radio constante."
           },
           {
-            "id": 25, "apartado": "3. Movimientos periódicos y circulares", "subapartado": "3.2", "termino": "¿Cómo se define la velocidad angular?", "descripcion": "Como ω = dθ/dt."
+            "id": 25,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.2",
+            "termino": "¿Cómo se define la velocidad angular?",
+            "descripcion": "Como ω = dθ/dt."
           },
           {
-            "id": 26, "apartado": "3. Movimientos periódicos y circulares", "subapartado": "3.2", "termino": "¿Qué relación existe entre velocidad lineal y angular?", "descripcion": "v = ωR."
+            "id": 26,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.2",
+            "termino": "¿Qué relación existe entre velocidad lineal y angular?",
+            "descripcion": "v = ωR."
           },
           {
-            "id": 27, "apartado": "3. Movimientos periódicos y circulares", "subapartado": "3.2", "termino": "¿Cuál es la expresión de la aceleración centrípeta?", "descripcion": "aₙ = v²/R = ω²R."
+            "id": 27,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.2",
+            "termino": "¿Cuál es la expresión de la aceleración centrípeta?",
+            "descripcion": "aₙ = v²/R = ω²R."
           },
           {
-            "id": 28, "apartado": "3. Movimientos periódicos y circulares", "subapartado": "3.3", "termino": "¿Qué característica tiene la aceleración angular del MCUA?", "descripcion": "Es constante: α = dω/dt."
+            "id": 28,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.3",
+            "termino": "¿Qué característica tiene la aceleración angular del MCUA?",
+            "descripcion": "Es constante: α = dω/dt."
           },
           {
-            "id": 29, "apartado": "3. Movimientos periódicos y circulares", "subapartado": "3.3", "termino": "¿Cuál es la ecuación de la velocidad angular?", "descripcion": "ω = ω₀ + αt."
+            "id": 29,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.3",
+            "termino": "¿Cuál es la ecuación de la velocidad angular?",
+            "descripcion": "ω = ω₀ + αt."
           },
           {
-            "id": 30, "apartado": "3. Movimientos periódicos y circulares", "subapartado": "3.3", "termino": "¿Cuál es la ecuación de la posición angular?", "descripcion": "θ = θ₀ + ω₀t + ½αt²."
+            "id": 30,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.3",
+            "termino": "¿Cuál es la ecuación de la posición angular?",
+            "descripcion": "θ = θ₀ + ω₀t + ½αt²."
           },
           {
-            "id": 31, "apartado": "4. Composición y relatividad del movimiento", "subapartado": "4.1", "termino": "¿Qué establece el principio de Galileo?", "descripcion": "Los movimientos independientes pueden analizarse simultáneamente."
+            "id": 31,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.1",
+            "termino": "¿Qué establece el principio de Galileo?",
+            "descripcion": "Los movimientos independientes pueden analizarse simultáneamente."
           },
           {
-            "id": 32, "apartado": "4. Composición y relatividad del movimiento", "subapartado": "4.1", "termino": "¿Cómo se obtiene la velocidad resultante?", "descripcion": "Mediante la suma vectorial de las velocidades parciales."
+            "id": 32,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.1",
+            "termino": "¿Cómo se obtiene la velocidad resultante?",
+            "descripcion": "Mediante la suma vectorial de las velocidades parciales."
           },
           {
-            "id": 33, "apartado": "4. Composición y relatividad del movimiento", "subapartado": "4.2", "termino": "¿En qué consiste el tiro oblicuo?", "descripcion": "En la composición de un MRU horizontal y un MRUA vertical."
+            "id": 33,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.2",
+            "termino": "¿En qué consiste el tiro oblicuo?",
+            "descripcion": "En la composición de un MRU horizontal y un MRUA vertical."
           },
           {
-            "id": 34, "apartado": "4. Composición y relatividad del movimiento", "subapartado": "4.2", "termino": "¿Cuáles son las componentes de la velocidad inicial?", "descripcion": "v₀x = v₀ cos θ y v₀y = v₀ sin θ."
+            "id": 34,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.2",
+            "termino": "¿Cuáles son las componentes de la velocidad inicial?",
+            "descripcion": "v₀x = v₀ cos θ y v₀y = v₀ sin θ."
           },
           {
-            "id": 35, "apartado": "4. Composición y relatividad del movimiento", "subapartado": "4.2", "termino": "¿Cuándo se alcanza la altura máxima?", "descripcion": "Cuando la velocidad vertical instantánea se anula."
+            "id": 35,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.2",
+            "termino": "¿Cuándo se alcanza la altura máxima?",
+            "descripcion": "Cuando la velocidad vertical instantánea se anula."
           },
           {
-            "id": 36, "apartado": "4. Composición y relatividad del movimiento", "subapartado": "4.3", "termino": "¿Cuál es la relación entre posiciones en dos sistemas?", "descripcion": "r⃗ = R⃗ + r⃗′."
+            "id": 36,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.3",
+            "termino": "¿Cuál es la relación entre posiciones en dos sistemas?",
+            "descripcion": "r (vector) = R (vector) + r (vector)′."
           },
           {
-            "id": 37, "apartado": "4. Composición y relatividad del movimiento", "subapartado": "4.3", "termino": "¿Cuál es la relación entre velocidades en dos sistemas?", "descripcion": "v⃗ = V⃗ + v⃗′."
+            "id": 37,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.3",
+            "termino": "¿Cuál es la relación entre velocidades en dos sistemas?",
+            "descripcion": "v (vector) = V (vector) + v (vector)′."
           },
           {
-            "id": 38, "apartado": "4. Composición y relatividad del movimiento", "subapartado": "4.3", "termino": "¿Cuándo coinciden las aceleraciones relativas?", "descripcion": "Cuando la velocidad relativa entre los sistemas es constante: a⃗ = a⃗′."
+            "id": 38,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.3",
+            "termino": "¿Cuándo coinciden las aceleraciones relativas?",
+            "descripcion": "Cuando la velocidad relativa entre los sistemas es constante: a (vector) = a (vector)′."
           },
           {
-            "id": 39, "apartado": "4. Composición y relatividad del movimiento", "subapartado": "4.3", "termino": "¿Cuándo son válidas las transformaciones de Galileo?", "descripcion": "Para velocidades muy inferiores a la velocidad de la luz."
+            "id": 39,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.3",
+            "termino": "¿Cuándo son válidas las transformaciones de Galileo?",
+            "descripcion": "Para velocidades muy inferiores a la velocidad de la luz."
           },
           {
-            "id": 40, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.1", "termino": "¿Qué instrumentos se emplean en los métodos manuales?", "descripcion": "Cronómetros y reglas para medir tiempos, posiciones y distancias."
+            "id": 40,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.1",
+            "termino": "¿Qué instrumentos se emplean en los métodos manuales?",
+            "descripcion": "Cronómetros y reglas para medir tiempos, posiciones y distancias."
           },
           {
-            "id": 41, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.1", "termino": "¿Qué movimiento puede estudiarse con un plano inclinado?", "descripcion": "Movimientos acelerados."
+            "id": 41,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.1",
+            "termino": "¿Qué movimiento puede estudiarse con un plano inclinado?",
+            "descripcion": "Movimientos acelerados."
           },
           {
-            "id": 42, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.2", "termino": "¿Qué registra un método fotográfico?", "descripcion": "Posiciones sucesivas del móvil durante el movimiento."
+            "id": 42,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.2",
+            "termino": "¿Qué registra un método fotográfico?",
+            "descripcion": "Posiciones sucesivas del móvil durante el movimiento."
           },
           {
-            "id": 43, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.2", "termino": "¿En qué consiste la estroboscopia?", "descripcion": "En iluminar periódicamente un móvil para registrar posiciones separadas por intervalos temporales iguales."
+            "id": 43,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.2",
+            "termino": "¿En qué consiste la estroboscopia?",
+            "descripcion": "En iluminar periódicamente un móvil para registrar posiciones separadas por intervalos temporales iguales."
           },
           {
-            "id": 44, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.3", "termino": "¿Qué miden las fotopuertas?", "descripcion": "Intervalos temporales de paso con gran precisión."
+            "id": 44,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.3",
+            "termino": "¿Qué miden las fotopuertas?",
+            "descripcion": "Intervalos temporales de paso con gran precisión."
           },
           {
-            "id": 45, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.3", "termino": "¿Qué registran los sensores ultrasónicos?", "descripcion": "La posición de un móvil de forma continua."
+            "id": 45,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.3",
+            "termino": "¿Qué registran los sensores ultrasónicos?",
+            "descripcion": "La posición de un móvil de forma continua."
           },
           {
-            "id": 46, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.3", "termino": "¿Qué miden los acelerómetros?", "descripcion": "La aceleración de un cuerpo."
+            "id": 46,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.3",
+            "termino": "¿Qué miden los acelerómetros?",
+            "descripcion": "La aceleración de un cuerpo."
           },
           {
-            "id": 47, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.3", "termino": "¿Qué permite el análisis digital de vídeo?", "descripcion": "Obtener coordenadas y gráficas del movimiento."
+            "id": 47,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.3",
+            "termino": "¿Qué permite el análisis digital de vídeo?",
+            "descripcion": "Obtener coordenadas y gráficas del movimiento."
           },
           {
-            "id": 48, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.4", "termino": "¿Qué es la resolución instrumental?", "descripcion": "La mínima variación que puede detectar un instrumento."
+            "id": 48,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.4",
+            "termino": "¿Qué es la resolución instrumental?",
+            "descripcion": "La mínima variación que puede detectar un instrumento."
           },
           {
-            "id": 49, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.4", "termino": "¿Para qué sirven las medidas repetidas?", "descripcion": "Para reducir la influencia de los errores aleatorios."
+            "id": 49,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.4",
+            "termino": "¿Para qué sirven las medidas repetidas?",
+            "descripcion": "Para reducir la influencia de los errores aleatorios."
           },
           {
-            "id": 50, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.4", "termino": "¿Qué permite obtener la pendiente de una gráfica?", "descripcion": "Magnitudes como la velocidad o la aceleración."
+            "id": 50,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.4",
+            "termino": "¿Qué permite obtener la pendiente de una gráfica?",
+            "descripcion": "Magnitudes como la velocidad o la aceleración."
+          },
+          {
+            "id": 51,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.2. Movimiento circular uniforme",
+            "termino": "¿En qué unidad se expresa la posición angular?",
+            "descripcion": "En radianes."
+          },
+          {
+            "id": 52,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.2. Movimiento circular uniforme",
+            "termino": "¿Cómo se define la velocidad angular?",
+            "descripcion": "Como ω = dθ/dt."
+          },
+          {
+            "id": 53,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.2. Movimiento circular uniforme",
+            "termino": "¿Qué relación existe entre velocidad lineal y angular?",
+            "descripcion": "v = ωR."
+          },
+          {
+            "id": 54,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.2. Movimiento circular uniforme",
+            "termino": "¿Cuál es la expresión de la aceleración centrípeta?",
+            "descripcion": "aₙ = v²/R = ω²R."
+          },
+          {
+            "id": 55,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.3. Movimiento circular uniformemente acelerado",
+            "termino": "¿Qué característica tiene la aceleración angular del MCUA?",
+            "descripcion": "Es constante: α = dω/dt."
+          },
+          {
+            "id": 56,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.3. Movimiento circular uniformemente acelerado",
+            "termino": "¿Cuál es la ecuación de la velocidad angular?",
+            "descripcion": "ω = ω₀ + αt."
+          },
+          {
+            "id": 57,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.3. Movimiento circular uniformemente acelerado",
+            "termino": "¿Cuál es la ecuación de la posición angular?",
+            "descripcion": "θ = θ₀ + ω₀t + ½αt²."
+          },
+          {
+            "id": 58,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.3. Movimiento circular uniformemente acelerado",
+            "termino": "¿Cómo se relaciona la aceleración tangencial con la angular?",
+            "descripcion": "aₜ = αR."
+          },
+          {
+            "id": 59,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.3. Movimiento circular uniformemente acelerado",
+            "termino": "¿Cuál es la aceleración normal en el MCUA?",
+            "descripcion": "aₙ = ω²R."
+          },
+          {
+            "id": 60,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.1. Principio de composición de movimientos",
+            "termino": "¿Qué establece el principio de Galileo?",
+            "descripcion": "Los movimientos independientes pueden analizarse simultáneamente."
+          },
+          {
+            "id": 61,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.1. Principio de composición de movimientos",
+            "termino": "¿Cómo se obtiene la posición resultante?",
+            "descripcion": "Mediante la suma vectorial de las posiciones parciales."
+          },
+          {
+            "id": 62,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.1. Principio de composición de movimientos",
+            "termino": "¿Cómo se obtiene la velocidad resultante?",
+            "descripcion": "Mediante la suma vectorial de las velocidades parciales."
+          },
+          {
+            "id": 63,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.1. Principio de composición de movimientos",
+            "termino": "¿Cómo se obtiene la aceleración resultante?",
+            "descripcion": "Mediante la suma vectorial de las aceleraciones parciales."
+          },
+          {
+            "id": 64,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.2. Movimiento parabólico",
+            "termino": "¿En qué consiste el tiro oblicuo?",
+            "descripcion": "En la composición de un MRU horizontal y un MRUA vertical."
+          },
+          {
+            "id": 65,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.2. Movimiento parabólico",
+            "termino": "¿Cuáles son las componentes de la velocidad inicial?",
+            "descripcion": "v₀x = v₀ cos θ y v₀y = v₀ sin θ."
+          },
+          {
+            "id": 66,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.2. Movimiento parabólico",
+            "termino": "¿Cómo se obtiene la trayectoria parabólica?",
+            "descripcion": "Eliminando el tiempo entre las ecuaciones paramétricas horizontal y vertical."
+          },
+          {
+            "id": 67,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.2. Movimiento parabólico",
+            "termino": "¿Qué determina el tiempo de vuelo?",
+            "descripcion": "La condición vertical de llegada al nivel final."
+          },
+          {
+            "id": 68,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.2. Movimiento parabólico",
+            "termino": "¿Qué es el alcance horizontal?",
+            "descripcion": "La distancia máxima recorrida por el proyectil en la dirección horizontal."
+          },
+          {
+            "id": 69,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.2. Movimiento parabólico",
+            "termino": "¿Cuándo se alcanza la altura máxima?",
+            "descripcion": "Cuando la velocidad vertical instantánea se anula."
+          },
+          {
+            "id": 70,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.3. Movimiento relativo y transformaciones de Galileo",
+            "termino": "¿Qué es un sistema de referencia móvil?",
+            "descripcion": "Un sistema cuyo origen se mueve con velocidad constante respecto a otro sistema."
+          },
+          {
+            "id": 71,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.3. Movimiento relativo y transformaciones de Galileo",
+            "termino": "¿Cuál es la relación entre posiciones en dos sistemas?",
+            "descripcion": "r (vector) = R (vector) + r' (vector)."
+          },
+          {
+            "id": 72,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.3. Movimiento relativo y transformaciones de Galileo",
+            "termino": "¿Cuál es la relación entre velocidades en dos sistemas?",
+            "descripcion": "v (vector) = V (vector) + v' (vector)."
+          },
+          {
+            "id": 73,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.3. Movimiento relativo y transformaciones de Galileo",
+            "termino": "¿Cuándo coinciden las aceleraciones relativas?",
+            "descripcion": "Cuando la velocidad relativa entre los sistemas es constante: a (vector) = a' (vector)."
+          },
+          {
+            "id": 74,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.3. Movimiento relativo y transformaciones de Galileo",
+            "termino": "¿Cuál es una transformación de Galileo?",
+            "descripcion": "x' = x − Vt y t' = t."
+          },
+          {
+            "id": 75,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.3. Movimiento relativo y transformaciones de Galileo",
+            "termino": "¿Cuándo son válidas las transformaciones de Galileo?",
+            "descripcion": "Para velocidades muy inferiores a la velocidad de la luz."
+          },
+          {
+            "id": 76,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.1. Métodos manuales",
+            "termino": "¿Qué instrumentos se emplean en los métodos manuales?",
+            "descripcion": "Cronómetros y reglas para medir tiempos, posiciones y distancias."
+          },
+          {
+            "id": 77,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.1. Métodos manuales",
+            "termino": "¿Qué movimiento puede estudiarse con un plano inclinado?",
+            "descripcion": "Movimientos acelerados."
+          },
+          {
+            "id": 78,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.1. Métodos manuales",
+            "termino": "¿Qué movimiento puede analizarse mediante un péndulo?",
+            "descripcion": "Un movimiento oscilatorio."
+          },
+          {
+            "id": 79,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.1. Métodos manuales",
+            "termino": "¿Qué puede determinarse experimentalmente mediante la caída de un cuerpo?",
+            "descripcion": "La aceleración gravitatoria y su incertidumbre asociada."
+          },
+          {
+            "id": 80,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.2. Métodos fotográficos y estroboscópicos",
+            "termino": "¿Qué registra un método fotográfico?",
+            "descripcion": "Posiciones sucesivas del móvil durante el movimiento."
+          },
+          {
+            "id": 81,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.2. Métodos fotográficos y estroboscópicos",
+            "termino": "¿En qué consiste la estroboscopia?",
+            "descripcion": "En iluminar periódicamente un móvil para registrar posiciones separadas por intervalos temporales iguales."
+          },
+          {
+            "id": 82,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.2. Métodos fotográficos y estroboscópicos",
+            "termino": "¿Qué permite reconstruir el registro fotográfico?",
+            "descripcion": "La trayectoria del móvil."
+          },
+          {
+            "id": 83,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.2. Métodos fotográficos y estroboscópicos",
+            "termino": "¿Qué puede estimarse mediante el análisis de imágenes?",
+            "descripcion": "Las posiciones y velocidades del móvil."
+          },
+          {
+            "id": 84,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.3. Métodos automáticos y digitales",
+            "termino": "¿Qué miden las fotopuertas?",
+            "descripcion": "Intervalos temporales de paso con gran precisión."
+          },
+          {
+            "id": 85,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.3. Métodos automáticos y digitales",
+            "termino": "¿Qué registran los sensores ultrasónicos?",
+            "descripcion": "La posición de un móvil de forma continua."
+          },
+          {
+            "id": 86,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.3. Métodos automáticos y digitales",
+            "termino": "¿Qué permiten obtener las cámaras digitales?",
+            "descripcion": "Secuencias de imágenes para analizar el movimiento."
+          },
+          {
+            "id": 87,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.3. Métodos automáticos y digitales",
+            "termino": "¿Qué miden los acelerómetros?",
+            "descripcion": "La aceleración de un cuerpo."
+          },
+          {
+            "id": 88,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.3. Métodos automáticos y digitales",
+            "termino": "¿Qué permite el análisis digital de vídeo?",
+            "descripcion": "Obtener coordenadas y gráficas del movimiento."
+          },
+          {
+            "id": 89,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.3. Métodos automáticos y digitales",
+            "termino": "¿Qué función tienen los simuladores y laboratorios virtuales?",
+            "descripcion": "Permiten modificar variables y estudiar movimientos en entornos controlados."
+          },
+          {
+            "id": 90,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.4. Tratamiento experimental de datos",
+            "termino": "¿Qué tipos de variables se distinguen en una experiencia?",
+            "descripcion": "Variables independientes, dependientes y controladas."
+          },
+          {
+            "id": 91,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.4. Tratamiento experimental de datos",
+            "termino": "¿Qué es la resolución instrumental?",
+            "descripcion": "La mínima variación que puede detectar un instrumento."
+          },
+          {
+            "id": 92,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.4. Tratamiento experimental de datos",
+            "termino": "¿Para qué sirven las medidas repetidas?",
+            "descripcion": "Para reducir la influencia de los errores aleatorios."
+          },
+          {
+            "id": 93,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.4. Tratamiento experimental de datos",
+            "termino": "¿Para qué sirven las tablas y gráficas?",
+            "descripcion": "Para organizar e interpretar los resultados experimentales."
+          },
+          {
+            "id": 94,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.4. Tratamiento experimental de datos",
+            "termino": "¿Qué permite obtener la pendiente de una gráfica?",
+            "descripcion": "Magnitudes como la velocidad o la aceleración."
+          },
+          {
+            "id": 95,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.4. Tratamiento experimental de datos",
+            "termino": "¿Qué finalidad tiene el ajuste de modelos?",
+            "descripcion": "Comparar los datos experimentales con las ecuaciones teóricas."
+          },
+          {
+            "id": 96,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.4. Tratamiento experimental de datos",
+            "termino": "¿Qué elementos permiten evaluar la calidad experimental?",
+            "descripcion": "Las incertidumbres y los errores de medida."
+          },
+          {
+            "id": 97,
+            "apartado": "6. Conclusión",
+            "subapartado": "6.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué representa la posición en cinemática?",
+            "descripcion": "La localización de una partícula respecto a un sistema de referencia."
+          },
+          {
+            "id": 98,
+            "apartado": "6. Conclusión",
+            "subapartado": "6.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué representa la velocidad?",
+            "descripcion": "La variación temporal de la posición."
+          },
+          {
+            "id": 99,
+            "apartado": "6. Conclusión",
+            "subapartado": "6.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué representa la aceleración?",
+            "descripcion": "La variación temporal de la velocidad."
+          },
+          {
+            "id": 100,
+            "apartado": "6. Conclusión",
+            "subapartado": "6.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué son los modelos cinemáticos?",
+            "descripcion": "Representaciones matemáticas de movimientos concretos."
+          },
+          {
+            "id": 101,
+            "apartado": "6. Conclusión",
+            "subapartado": "6.2. Relevancia y proyección del tema",
+            "termino": "¿Qué función tienen los sensores cinemáticos?",
+            "descripcion": "Obtener posiciones, velocidades y aceleraciones."
+          },
+          {
+            "id": 102,
+            "apartado": "6. Conclusión",
+            "subapartado": "6.2. Relevancia y proyección del tema",
+            "termino": "¿Qué aplicación tiene la cinemática en vehículos automatizados?",
+            "descripcion": "Permite predecir trayectorias y controlar el movimiento."
+          },
+          {
+            "id": 103,
+            "apartado": "6. Conclusión",
+            "subapartado": "6.2. Relevancia y proyección del tema",
+            "termino": "¿Qué aplicaciones tiene la cinemática en robótica y biomecánica?",
+            "descripcion": "La planificación y el análisis de movimientos."
           }
         ]
       }
@@ -230,73 +844,165 @@
         "tipo": "desarrollo",
         "flashcards": [
           {
-            "id": 1, "apartado": "0. Introducción", "subapartado": "0. Introducción", "termino": "Explica por qué la cinemática resulta fundamental para interpretar fenómenos naturales y tecnológicos.", "descripcion": "Porque permite describir cuantitativamente cómo cambia la posición de un cuerpo con el tiempo. A partir de la velocidad y la aceleración pueden predecirse trayectorias, tiempos y distancias, lo que resulta esencial en el transporte, la robótica, la navegación, la biomecánica y la seguridad vial."
+            "id": 1,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "Explica por qué la cinemática resulta fundamental para interpretar fenómenos naturales y tecnológicos.",
+            "descripcion": "Porque permite describir cuantitativamente cómo cambia la posición de un cuerpo con el tiempo. A partir de la velocidad y la aceleración pueden predecirse trayectorias, tiempos y distancias, lo que resulta esencial en el transporte, la robótica, la navegación, la biomecánica y la seguridad vial."
           },
           {
-            "id": 2, "apartado": "0. Introducción", "subapartado": "0. Introducción", "termino": "Analiza la relación entre los modelos matemáticos y los métodos experimentales en el estudio del movimiento.", "descripcion": "El modelo matemático establece relaciones ideales entre posición, tiempo, velocidad y aceleración, mientras que la experimentación permite comprobarlas mediante medidas reales. Como resultado, la comparación entre predicciones y datos permite validar el modelo, detectar limitaciones y mejorar la descripción del movimiento."
+            "id": 2,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "Analiza la relación entre los modelos matemáticos y los métodos experimentales en el estudio del movimiento.",
+            "descripcion": "El modelo matemático establece relaciones ideales entre posición, tiempo, velocidad y aceleración, mientras que la experimentación permite comprobarlas mediante medidas reales. Como resultado, la comparación entre predicciones y datos permite validar el modelo, detectar limitaciones y mejorar la descripción del movimiento."
           },
           {
-            "id": 3, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.1. Modelo de partícula y sistema de referencia", "termino": "Justifica por qué la elección del sistema de referencia condiciona la descripción de un movimiento.", "descripcion": "Porque la posición, la trayectoria y la velocidad se expresan respecto a un origen, unos ejes y un reloj determinados. Un mismo cuerpo puede estar en reposo para un observador y en movimiento para otro; por lo tanto, la descripción cinemática depende del sistema elegido."
+            "id": 3,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.1. Modelo de partícula y sistema de referencia",
+            "termino": "Justifica por qué la elección del sistema de referencia condiciona la descripción de un movimiento.",
+            "descripcion": "Porque la posición, la trayectoria y la velocidad se expresan respecto a un origen, unos ejes y un reloj determinados. Un mismo cuerpo puede estar en reposo para un observador y en movimiento para otro; por lo tanto, la descripción cinemática depende del sistema elegido."
           },
           {
-            "id": 4, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.2. Posición, trayectoria y espacio recorrido", "termino": "Compara el espacio recorrido y el desplazamiento durante un movimiento cualquiera.", "descripcion": "El espacio recorrido mide la longitud total de la trayectoria y es una magnitud escalar. El desplazamiento une directamente las posiciones inicial y final y es vectorial. Por ello, ambos coinciden únicamente en trayectorias rectilíneas sin cambios de sentido; en un recorrido cerrado, el desplazamiento puede ser nulo."
+            "id": 4,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.2. Posición, trayectoria y espacio recorrido",
+            "termino": "Compara el espacio recorrido y el desplazamiento durante un movimiento cualquiera.",
+            "descripcion": "El espacio recorrido mide la longitud total de la trayectoria y es una magnitud escalar. El desplazamiento une directamente las posiciones inicial y final y es vectorial. Por ello, ambos coinciden únicamente en trayectorias rectilíneas sin cambios de sentido; en un recorrido cerrado, el desplazamiento puede ser nulo."
           },
           {
-            "id": 5, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.3. Desplazamiento, velocidad y aceleración", "termino": "Analiza cómo se relacionan la posición, la velocidad y la aceleración.", "descripcion": "La velocidad expresa la variación temporal de la posición y la aceleración expresa la variación temporal de la velocidad. Matemáticamente, ambas se obtienen mediante derivadas sucesivas. Por lo tanto, conocer la función posición permite reconstruir la velocidad y la aceleración, mientras que integrar estas magnitudes permite recuperar el movimiento."
+            "id": 5,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.3. Desplazamiento, velocidad y aceleración",
+            "termino": "Analiza cómo se relacionan la posición, la velocidad y la aceleración.",
+            "descripcion": "La velocidad expresa la variación temporal de la posición y la aceleración expresa la variación temporal de la velocidad. Matemáticamente, ambas se obtienen mediante derivadas sucesivas. Por lo tanto, conocer la función posición permite reconstruir la velocidad y la aceleración, mientras que integrar estas magnitudes permite recuperar el movimiento."
           },
           {
-            "id": 6, "apartado": "1. Cinemática y elementos para la descripción del movimiento", "subapartado": "1.4. Componentes intrínsecas de la aceleración", "termino": "Explica cómo permiten las componentes intrínsecas clasificar un movimiento.", "descripcion": "La componente tangencial modifica el módulo de la velocidad, mientras que la componente normal modifica su dirección. Si ambas son nulas existe MRU; si solo aparece la tangencial, el movimiento es rectilíneo variado; si aparece la normal, la trayectoria es curvilínea. Así, la aceleración informa simultáneamente sobre rapidez y geometría."
+            "id": 6,
+            "apartado": "1. Cinemática y elementos para la descripción del movimiento",
+            "subapartado": "1.4. Componentes intrínsecas de la aceleración",
+            "termino": "Explica cómo permiten las componentes intrínsecas clasificar un movimiento.",
+            "descripcion": "La componente tangencial modifica el módulo de la velocidad, mientras que la componente normal modifica su dirección. Si ambas son nulas existe MRU; si solo aparece la tangencial, el movimiento es rectilíneo variado; si aparece la normal, la trayectoria es curvilínea. Así, la aceleración informa simultáneamente sobre rapidez y geometría."
           },
           {
-            "id": 7, "apartado": "2. Movimientos rectilíneos", "subapartado": "2.1. Movimiento rectilíneo uniforme", "termino": "Analiza qué información física proporcionan las gráficas posición-tiempo y velocidad-tiempo en el MRU.", "descripcion": "En la gráfica posición-tiempo, la pendiente representa la velocidad constante y su signo indica el sentido del movimiento. En la gráfica velocidad-tiempo aparece una línea horizontal, cuyo área proporciona el desplazamiento. Por lo tanto, ambas representaciones permiten comprobar experimentalmente la uniformidad del movimiento."
+            "id": 7,
+            "apartado": "2. Movimientos rectilíneos",
+            "subapartado": "2.1. Movimiento rectilíneo uniforme",
+            "termino": "Analiza qué información física proporcionan las gráficas posición-tiempo y velocidad-tiempo en el MRU.",
+            "descripcion": "En la gráfica posición-tiempo, la pendiente representa la velocidad constante y su signo indica el sentido del movimiento. En la gráfica velocidad-tiempo aparece una línea horizontal, cuyo área proporciona el desplazamiento. Por lo tanto, ambas representaciones permiten comprobar experimentalmente la uniformidad del movimiento."
           },
           {
-            "id": 8, "apartado": "2. Movimientos rectilíneos", "subapartado": "2.2. Movimiento rectilíneo uniformemente acelerado", "termino": "Justifica cómo influyen los signos de la velocidad y la aceleración en el movimiento rectilíneo.", "descripcion": "Cuando velocidad y aceleración tienen el mismo signo, el módulo de la velocidad aumenta; cuando tienen signos opuestos, disminuye y el móvil frena. Por ello, una aceleración negativa no implica siempre frenado: su efecto depende del sentido instantáneo de la velocidad y del eje elegido."
+            "id": 8,
+            "apartado": "2. Movimientos rectilíneos",
+            "subapartado": "2.2. Movimiento rectilíneo uniformemente acelerado",
+            "termino": "Justifica cómo influyen los signos de la velocidad y la aceleración en el movimiento rectilíneo.",
+            "descripcion": "Cuando velocidad y aceleración tienen el mismo signo, el módulo de la velocidad aumenta; cuando tienen signos opuestos, disminuye y el móvil frena. Por ello, una aceleración negativa no implica siempre frenado: su efecto depende del sentido instantáneo de la velocidad y del eje elegido."
           },
           {
-            "id": 9, "apartado": "2. Movimientos rectilíneos", "subapartado": "2.3. Caída libre", "termino": "Deduce por qué dos cuerpos de distinta masa presentan la misma aceleración en caída libre ideal.", "descripcion": "La fuerza gravitatoria aumenta proporcionalmente con la masa, pero la resistencia inercial al cambio de movimiento también aumenta en la misma proporción. Al dividir la fuerza gravitatoria entre la masa, ambas magnitudes se simplifican y queda la aceleración g, siempre que la resistencia del aire sea despreciable."
+            "id": 9,
+            "apartado": "2. Movimientos rectilíneos",
+            "subapartado": "2.3. Caída libre",
+            "termino": "Deduce por qué dos cuerpos de distinta masa presentan la misma aceleración en caída libre ideal.",
+            "descripcion": "La fuerza gravitatoria aumenta proporcionalmente con la masa, pero la resistencia inercial al cambio de movimiento también aumenta en la misma proporción. Al dividir la fuerza gravitatoria entre la masa, ambas magnitudes se simplifican y queda la aceleración g, siempre que la resistencia del aire sea despreciable."
           },
           {
-            "id": 10, "apartado": "3. Movimientos periódicos y circulares", "subapartado": "3.1. Movimiento armónico simple", "termino": "Explica por qué la aceleración del movimiento armónico simple siempre apunta hacia la posición de equilibrio.", "descripcion": "La aceleración cumple la relación a = −ω²x, donde el signo negativo indica que tiene sentido opuesto al desplazamiento. Por tanto, cuando la partícula se aleja del equilibrio, la aceleración intenta devolverla; esta acción restauradora produce una oscilación periódica."
+            "id": 10,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.1. Movimiento armónico simple",
+            "termino": "Explica por qué la aceleración del movimiento armónico simple siempre apunta hacia la posición de equilibrio.",
+            "descripcion": "La aceleración cumple la relación a = −ω²x, donde el signo negativo indica que tiene sentido opuesto al desplazamiento. Por tanto, cuando la partícula se aleja del equilibrio, la aceleración intenta devolverla; esta acción restauradora produce una oscilación periódica."
           },
           {
-            "id": 11, "apartado": "3. Movimientos periódicos y circulares", "subapartado": "3.2. Movimiento circular uniforme", "termino": "Justifica por qué el movimiento circular uniforme es acelerado aunque su rapidez permanezca constante.", "descripcion": "La aceleración no depende únicamente de cambios en el módulo de la velocidad, sino también de cambios en su dirección. En el movimiento circular uniforme, la velocidad es tangente y gira continuamente, por lo que aparece una aceleración normal dirigida hacia el centro: aₙ = v²/R."
+            "id": 11,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.2. Movimiento circular uniforme",
+            "termino": "Justifica por qué el movimiento circular uniforme es acelerado aunque su rapidez permanezca constante.",
+            "descripcion": "La aceleración no depende únicamente de cambios en el módulo de la velocidad, sino también de cambios en su dirección. En el movimiento circular uniforme, la velocidad es tangente y gira continuamente, por lo que aparece una aceleración normal dirigida hacia el centro: aₙ = v²/R."
           },
           {
-            "id": 12, "apartado": "3. Movimientos periódicos y circulares", "subapartado": "3.3. Movimiento circular uniformemente acelerado", "termino": "Analiza la relación entre aceleración angular y componentes de la aceleración lineal.", "descripcion": "La aceleración angular modifica la velocidad angular y genera una componente tangencial, aₜ = αR, que cambia la rapidez. Simultáneamente, la propia velocidad angular produce una componente normal, aₙ = ω²R, que cambia la dirección. Por lo tanto, el movimiento circular acelerado combina ambos efectos."
+            "id": 12,
+            "apartado": "3. Movimientos periódicos y circulares",
+            "subapartado": "3.3. Movimiento circular uniformemente acelerado",
+            "termino": "Analiza la relación entre aceleración angular y componentes de la aceleración lineal.",
+            "descripcion": "La aceleración angular modifica la velocidad angular y genera una componente tangencial, aₜ = αR, que cambia la rapidez. Simultáneamente, la propia velocidad angular produce una componente normal, aₙ = ω²R, que cambia la dirección. Por lo tanto, el movimiento circular acelerado combina ambos efectos."
           },
           {
-            "id": 13, "apartado": "4. Composición y relatividad del movimiento", "subapartado": "4.1. Principio de composición de movimientos", "termino": "Explica por qué la composición de movimientos simplifica el análisis de situaciones complejas.", "descripcion": "Porque permite separar un movimiento resultante en componentes independientes, normalmente asociadas a direcciones perpendiculares. Cada componente puede estudiarse con un modelo sencillo y después combinarse vectorialmente. Así se analiza, por ejemplo, un movimiento parabólico mediante un MRU horizontal y un MRUA vertical."
+            "id": 13,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.1. Principio de composición de movimientos",
+            "termino": "Explica por qué la composición de movimientos simplifica el análisis de situaciones complejas.",
+            "descripcion": "Porque permite separar un movimiento resultante en componentes independientes, normalmente asociadas a direcciones perpendiculares. Cada componente puede estudiarse con un modelo sencillo y después combinarse vectorialmente. Así se analiza, por ejemplo, un movimiento parabólico mediante un MRU horizontal y un MRUA vertical."
           },
           {
-            "id": 14, "apartado": "4. Composición y relatividad del movimiento", "subapartado": "4.2. Movimiento parabólico", "termino": "Deduce por qué la trayectoria de un proyectil ideal es parabólica.", "descripcion": "En la dirección horizontal la posición depende linealmente del tiempo porque la velocidad es constante. En la dirección vertical depende cuadráticamente debido a la aceleración gravitatoria. Al eliminar el tiempo entre ambas ecuaciones, la coordenada vertical queda relacionada cuadráticamente con la horizontal, originando una parábola."
+            "id": 14,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.2. Movimiento parabólico",
+            "termino": "Deduce por qué la trayectoria de un proyectil ideal es parabólica.",
+            "descripcion": "En la dirección horizontal la posición depende linealmente del tiempo porque la velocidad es constante. En la dirección vertical depende cuadráticamente debido a la aceleración gravitatoria. Al eliminar el tiempo entre ambas ecuaciones, la coordenada vertical queda relacionada cuadráticamente con la horizontal, originando una parábola."
           },
           {
-            "id": 15, "apartado": "4. Composición y relatividad del movimiento", "subapartado": "4.2. Movimiento parabólico", "termino": "Justifica por qué la altura máxima se alcanza cuando la velocidad vertical se anula.", "descripcion": "Mientras la velocidad vertical es positiva, el proyectil asciende; cuando es negativa, desciende. El cambio de sentido debe producirse en un instante en el que la componente vertical de la velocidad sea cero. La gravedad continúa actuando, por lo que inmediatamente después comienza el descenso."
+            "id": 15,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.2. Movimiento parabólico",
+            "termino": "Justifica por qué la altura máxima se alcanza cuando la velocidad vertical se anula.",
+            "descripcion": "Mientras la velocidad vertical es positiva, el proyectil asciende; cuando es negativa, desciende. El cambio de sentido debe producirse en un instante en el que la componente vertical de la velocidad sea cero. La gravedad continúa actuando, por lo que inmediatamente después comienza el descenso."
           },
           {
-            "id": 16, "apartado": "4. Composición y relatividad del movimiento", "subapartado": "4.3. Movimiento relativo y transformaciones de Galileo", "termino": "Compara la descripción del movimiento desde dos sistemas inerciales relacionados por una velocidad constante.", "descripcion": "Las posiciones y velocidades dependen del sistema elegido, porque incorporan la velocidad relativa entre observadores. Sin embargo, las aceleraciones coinciden cuando dicha velocidad relativa es constante. Esta invariancia permite formular las leyes de la mecánica clásica de forma equivalente en todos los sistemas inerciales."
+            "id": 16,
+            "apartado": "4. Composición y relatividad del movimiento",
+            "subapartado": "4.3. Movimiento relativo y transformaciones de Galileo",
+            "termino": "Compara la descripción del movimiento desde dos sistemas inerciales relacionados por una velocidad constante.",
+            "descripcion": "Las posiciones y velocidades dependen del sistema elegido, porque incorporan la velocidad relativa entre observadores. Sin embargo, las aceleraciones coinciden cuando dicha velocidad relativa es constante. Esta invariancia permite formular las leyes de la mecánica clásica de forma equivalente en todos los sistemas inerciales."
           },
           {
-            "id": 17, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.1. Métodos manuales", "termino": "Analiza las ventajas y limitaciones de los métodos manuales para estudiar el movimiento.", "descripcion": "Son económicos, accesibles y adecuados para introducir la medida de posiciones y tiempos mediante experiencias sencillas, como un plano inclinado o una caída. Sin embargo, presentan incertidumbres elevadas por la resolución instrumental y el tiempo de reacción, por lo que resultan menos adecuados para movimientos rápidos."
+            "id": 17,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.1. Métodos manuales",
+            "termino": "Analiza las ventajas y limitaciones de los métodos manuales para estudiar el movimiento.",
+            "descripcion": "Son económicos, accesibles y adecuados para introducir la medida de posiciones y tiempos mediante experiencias sencillas, como un plano inclinado o una caída. Sin embargo, presentan incertidumbres elevadas por la resolución instrumental y el tiempo de reacción, por lo que resultan menos adecuados para movimientos rápidos."
           },
           {
-            "id": 18, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.2. Métodos fotográficos y estroboscópicos", "termino": "Explica cómo permite la estroboscopia estimar la velocidad de un móvil.", "descripcion": "Si se registran posiciones sucesivas durante intervalos temporales iguales, la separación entre imágenes informa sobre el desplazamiento realizado en cada intervalo. Dividiendo dicha separación entre el tiempo correspondiente se obtiene una velocidad media. Las variaciones entre separaciones permiten identificar aceleraciones o cambios de trayectoria."
+            "id": 18,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.2. Métodos fotográficos y estroboscópicos",
+            "termino": "Explica cómo permite la estroboscopia estimar la velocidad de un móvil.",
+            "descripcion": "Si se registran posiciones sucesivas durante intervalos temporales iguales, la separación entre imágenes informa sobre el desplazamiento realizado en cada intervalo. Dividiendo dicha separación entre el tiempo correspondiente se obtiene una velocidad media. Las variaciones entre separaciones permiten identificar aceleraciones o cambios de trayectoria."
           },
           {
-            "id": 19, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.3. Métodos automáticos y digitales", "termino": "Analiza por qué los sensores y el análisis digital mejoran el estudio experimental del movimiento.", "descripcion": "Permiten registrar muchas medidas con elevada resolución temporal y reducir errores asociados a la reacción del observador. Además, generan directamente tablas y gráficas de posición, velocidad o aceleración. Como resultado, facilitan el análisis de movimientos rápidos, curvilíneos o difíciles de observar manualmente."
+            "id": 19,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.3. Métodos automáticos y digitales",
+            "termino": "Analiza por qué los sensores y el análisis digital mejoran el estudio experimental del movimiento.",
+            "descripcion": "Permiten registrar muchas medidas con elevada resolución temporal y reducir errores asociados a la reacción del observador. Además, generan directamente tablas y gráficas de posición, velocidad o aceleración. Como resultado, facilitan el análisis de movimientos rápidos, curvilíneos o difíciles de observar manualmente."
           },
           {
-            "id": 20, "apartado": "5. Métodos para el estudio experimental del movimiento", "subapartado": "5.4. Tratamiento experimental de datos", "termino": "Justifica por qué una experiencia cinemática no termina con la toma de medidas.", "descripcion": "Las medidas aisladas no permiten comprobar por sí mismas un modelo físico. Es necesario organizarlas, representarlas gráficamente, ajustar una relación matemática y estimar las incertidumbres. Solo entonces puede compararse el resultado experimental con la predicción teórica y valorar la calidad y las limitaciones del procedimiento."
+            "id": 20,
+            "apartado": "5. Métodos para el estudio experimental del movimiento",
+            "subapartado": "5.4. Tratamiento experimental de datos",
+            "termino": "Justifica por qué una experiencia cinemática no termina con la toma de medidas.",
+            "descripcion": "Las medidas aisladas no permiten comprobar por sí mismas un modelo físico. Es necesario organizarlas, representarlas gráficamente, ajustar una relación matemática y estimar las incertidumbres. Solo entonces puede compararse el resultado experimental con la predicción teórica y valorar la calidad y las limitaciones del procedimiento."
           },
           {
-            "id": 21, "apartado": "6. Conclusión", "subapartado": "6.1. Síntesis e integración de los fundamentos", "termino": "Analiza cómo se integran posición, velocidad y aceleración en la descripción cinemática.", "descripcion": "La posición localiza la partícula, el desplazamiento cuantifica su cambio espacial, la velocidad expresa cómo cambia la posición y la aceleración cómo cambia la velocidad. Estas magnitudes forman una cadena matemática de derivadas sucesivas que permite construir modelos coherentes de movimientos diversos."
+            "id": 21,
+            "apartado": "6. Conclusión",
+            "subapartado": "6.1. Síntesis e integración de los fundamentos",
+            "termino": "Analiza cómo se integran posición, velocidad y aceleración en la descripción cinemática.",
+            "descripcion": "La posición localiza la partícula, el desplazamiento cuantifica su cambio espacial, la velocidad expresa cómo cambia la posición y la aceleración cómo cambia la velocidad. Estas magnitudes forman una cadena matemática de derivadas sucesivas que permite construir modelos coherentes de movimientos diversos."
           },
           {
-            "id": 22, "apartado": "6. Conclusión", "subapartado": "6.2. Relevancia y proyección del tema", "termino": "Deduce qué papel desempeña la cinemática en los vehículos automatizados y la robótica.", "descripcion": "Ambas tecnologías necesitan medir posiciones, velocidades y aceleraciones para predecir trayectorias y controlar movimientos. A partir de sensores y modelos cinemáticos, el sistema puede comparar la situación real con la trayectoria prevista y corregir su comportamiento, lo que resulta esencial para la precisión y la seguridad."
+            "id": 22,
+            "apartado": "6. Conclusión",
+            "subapartado": "6.2. Relevancia y proyección del tema",
+            "termino": "Deduce qué papel desempeña la cinemática en los vehículos automatizados y la robótica.",
+            "descripcion": "Ambas tecnologías necesitan medir posiciones, velocidades y aceleraciones para predecir trayectorias y controlar movimientos. A partir de sensores y modelos cinemáticos, el sistema puede comparar la situación real con la trayectoria prevista y corregir su comportamiento, lo que resulta esencial para la precisión y la seguridad."
           },
           {
-            "id": 23, "apartado": "6. Conclusión", "subapartado": "6.2. Relevancia y proyección del tema", "termino": "Compara el papel del modelo teórico y la experimentación en la proyección tecnológica de la cinemática.", "descripcion": "El modelo teórico permite predecir el comportamiento ideal de un sistema, mientras que la experimentación incorpora errores, incertidumbres y condiciones reales. Su combinación permite validar diseños, mejorar sensores y optimizar sistemas de transporte, robótica o biomecánica, conectando la formulación científica con aplicaciones tecnológicas concretas."
+            "id": 23,
+            "apartado": "6. Conclusión",
+            "subapartado": "6.2. Relevancia y proyección del tema",
+            "termino": "Compara el papel del modelo teórico y la experimentación en la proyección tecnológica de la cinemática.",
+            "descripcion": "El modelo teórico permite predecir el comportamiento ideal de un sistema, mientras que la experimentación incorpora errores, incertidumbres y condiciones reales. Su combinación permite validar diseños, mejorar sensores y optimizar sistemas de transporte, robótica o biomecánica, conectando la formulación científica con aplicaciones tecnológicas concretas."
           }
         ]
       }

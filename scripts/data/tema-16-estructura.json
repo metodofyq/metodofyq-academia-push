@@ -73,6 +73,36 @@
       }
     },
     {
+      "level": 0.5,
+      "title": "TEMA-16 Nivel 0.5",
+      "content_json": {
+        "tipo": "infografias",
+        "description": "Infografías visuales organizadas por apartados (A, B, C, D = posiciones en carousel)",
+        "infografias": [
+          {"order_index": 0, "label": "1.1. Sistema, entorno y variables (A)", "section": "1.1"},
+          {"order_index": 1, "label": "1.1. Sistema, entorno y variables (B)", "section": "1.1"},
+          {"order_index": 2, "label": "1.1. Sistema, entorno y variables (C)", "section": "1.1"},
+          {"order_index": 3, "label": "1.1. Sistema, entorno y variables (D)", "section": "1.1"},
+          {"order_index": 4, "label": "2.1. Conservación de la energía (A)", "section": "2.1"},
+          {"order_index": 5, "label": "2.1. Conservación de la energía (B)", "section": "2.1"},
+          {"order_index": 6, "label": "2.2. Energía interna, calor y trabajo (C)", "section": "2.2"},
+          {"order_index": 7, "label": "2.3. Formulación matemática (D)", "section": "2.3"},
+          {"order_index": 8, "label": "3.1. Máquina térmica general (A)", "section": "3.1"},
+          {"order_index": 9, "label": "3.2. Foco caliente, foco frío (B)", "section": "3.2"},
+          {"order_index": 10, "label": "3.3. Ciclos termodinámicos (C)", "section": "3.3"},
+          {"order_index": 11, "label": "3.4. Limitaciones energéticas (D)", "section": "3.4"},
+          {"order_index": 12, "label": "4.1. Intercambios energéticos (A)", "section": "4.1"},
+          {"order_index": 13, "label": "4.2. Entalpía de reacción (B)", "section": "4.2"},
+          {"order_index": 14, "label": "4.3. Reacciones exotérmicas/endotérmicas (C)", "section": "4.3"},
+          {"order_index": 15, "label": "4.4. Termodinámica y procesos químicos (D)", "section": "4.4"},
+          {"order_index": 16, "label": "5.1. Concepto de rendimiento (A)", "section": "5.1"},
+          {"order_index": 17, "label": "5.2. Rendimiento en máquinas térmicas (B)", "section": "5.2"},
+          {"order_index": 18, "label": "5.3. Pérdidas energéticas (C)", "section": "5.3"},
+          {"order_index": 19, "label": "5.4. Importancia ambiental (D)", "section": "5.4"}
+        ]
+      }
+    },
+    {
       "level": 1,
       "title": "TEMA-16 Nivel 1",
       "content_json": {

@@ -14,15 +14,18 @@ export default async function OverviewPage() {
   const { data: { user } } = await supabase.auth.getUser()
   if (!user) redirect('/login')
 
-  const { pendientes, temaActual, niveles } = await getTareasHoy(supabase, user.id)
+  const { pendientes, temaActual, niveles, hechos } = await getTareasHoy(supabase, user.id)
   const since = format(subDays(new Date(), 30), 'yyyy-MM-dd')
 
   const [{ data: attempts }, { data: medallas }] = await Promise.all([
-    supabase
-      .from('level_attempts')
-      .select('level, completed_at')
-      .eq('student_id', user.id)
-      .gte('completed_at', since),
+    temaActual
+      ? supabase
+          .from('level_attempts')
+          .select('level, completed_at')
+          .eq('student_id', user.id)
+          .eq('topic_id', temaActual.id)
+          .gte('completed_at', since)
+      : Promise.resolve({ data: null }),
     supabase
       .from('medallas')
       .select('*')

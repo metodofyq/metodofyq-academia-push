@@ -54,6 +54,32 @@
       }
     },
     {
+      "level": 0.5,
+      "title": "TEMA-05 Nivel 0.5",
+      "content_json": {
+        "tipo": "infografias",
+        "description": "Infografías visuales organizadas por apartados",
+        "infografias": [
+          { "order_index": 0, "label": "1.1. La mecánica en la Antigüedad y la Edad Media", "section": "1.1" },
+          { "order_index": 1, "label": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo", "section": "1.2" },
+          { "order_index": 2, "label": "1.3. Newton y la formulación de la mecánica clásica", "section": "1.3" },
+          { "order_index": 3, "label": "1.4. Desarrollo posterior y concepción moderna de las interacciones", "section": "1.4" },
+          { "order_index": 4, "label": "2.1. Fundamentos de la dinámica de la partícula", "section": "2.1" },
+          { "order_index": 5, "label": "2.2. Leyes de Newton", "section": "2.2" },
+          { "order_index": 6, "label": "2.3. Sistemas de referencia e invariancia de las leyes de la mecánica", "section": "2.3" },
+          { "order_index": 7, "label": "2.4. Sistemas no inerciales y fuerzas de inercia", "section": "2.4" },
+          { "order_index": 8, "label": "3.1. Momento lineal e impulso", "section": "3.1" },
+          { "order_index": 9, "label": "3.2. Momento lineal de un sistema de partículas", "section": "3.2" },
+          { "order_index": 10, "label": "3.3. Principio de conservación del momento lineal", "section": "3.3" },
+          { "order_index": 11, "label": "3.4. Colisiones, retroceso y propulsión", "section": "3.4" },
+          { "order_index": 12, "label": "4.1. Peso, fuerza normal y tensión", "section": "4.1" },
+          { "order_index": 13, "label": "4.2. Rozamiento sólido y fuerzas de arrastre", "section": "4.2" },
+          { "order_index": 14, "label": "4.3. Diagramas de fuerzas y resolución de problemas", "section": "4.3" },
+          { "order_index": 15, "label": "4.4. Aplicaciones científicas y tecnológicas", "section": "4.4" }
+        ]
+      }
+    },
+    {
       "level": 1,
       "title": "TEMA-05 Nivel 1",
       "content_json": {

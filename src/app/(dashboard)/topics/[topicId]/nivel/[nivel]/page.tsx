@@ -154,7 +154,7 @@ export default async function NivelPage({ params }: Props) {
         legislacionPorCcaa={legislacionPorCcaa}
         temaCode={temaCode}
         temaTitulo={temaTitulo}
-        ccaaInicial={profile?.ccaa}
+        ccaaInicial={profile?.ccaa === 'Valencia' ? 'Comunitat Valenciana' : profile?.ccaa}
       />
     )
   }

@@ -11,7 +11,10 @@
       "content_json": {
         "tipo": "indice",
         "estructura": [
-          { "apartado": "0. Introducción", "subapartados": [] },
+          {
+            "apartado": "0. Introducción",
+            "subapartados": []
+          },
           {
             "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
             "subapartados": [
@@ -48,8 +51,14 @@
               "4.4. Aplicaciones científicas y tecnológicas"
             ]
           },
-          { "apartado": "5. Conclusión", "subapartados": [] },
-          { "apartado": "6. Bibliografía", "subapartados": [] }
+          {
+            "apartado": "5. Conclusión",
+            "subapartados": []
+          },
+          {
+            "apartado": "6. Bibliografía",
+            "subapartados": []
+          }
         ]
       }
     },
@@ -60,22 +69,86 @@
         "tipo": "infografias",
         "description": "Infografías visuales organizadas por apartados",
         "infografias": [
-          { "order_index": 0, "label": "1.1. La mecánica en la Antigüedad y la Edad Media", "section": "1.1" },
-          { "order_index": 1, "label": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo", "section": "1.2" },
-          { "order_index": 2, "label": "1.3. Newton y la formulación de la mecánica clásica", "section": "1.3" },
-          { "order_index": 3, "label": "1.4. Desarrollo posterior y concepción moderna de las interacciones", "section": "1.4" },
-          { "order_index": 4, "label": "2.1. Fundamentos de la dinámica de la partícula", "section": "2.1" },
-          { "order_index": 5, "label": "2.2. Leyes de Newton", "section": "2.2" },
-          { "order_index": 6, "label": "2.3. Sistemas de referencia e invariancia de las leyes de la mecánica", "section": "2.3" },
-          { "order_index": 7, "label": "2.4. Sistemas no inerciales y fuerzas de inercia", "section": "2.4" },
-          { "order_index": 8, "label": "3.1. Momento lineal e impulso", "section": "3.1" },
-          { "order_index": 9, "label": "3.2. Momento lineal de un sistema de partículas", "section": "3.2" },
-          { "order_index": 10, "label": "3.3. Principio de conservación del momento lineal", "section": "3.3" },
-          { "order_index": 11, "label": "3.4. Colisiones, retroceso y propulsión", "section": "3.4" },
-          { "order_index": 12, "label": "4.1. Peso, fuerza normal y tensión", "section": "4.1" },
-          { "order_index": 13, "label": "4.2. Rozamiento sólido y fuerzas de arrastre", "section": "4.2" },
-          { "order_index": 14, "label": "4.3. Diagramas de fuerzas y resolución de problemas", "section": "4.3" },
-          { "order_index": 15, "label": "4.4. Aplicaciones científicas y tecnológicas", "section": "4.4" }
+          {
+            "order_index": 0,
+            "label": "1.1. La mecánica en la Antigüedad y la Edad Media",
+            "section": "1.1"
+          },
+          {
+            "order_index": 1,
+            "label": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo",
+            "section": "1.2"
+          },
+          {
+            "order_index": 2,
+            "label": "1.3. Newton y la formulación de la mecánica clásica",
+            "section": "1.3"
+          },
+          {
+            "order_index": 3,
+            "label": "1.4. Desarrollo posterior y concepción moderna de las interacciones",
+            "section": "1.4"
+          },
+          {
+            "order_index": 4,
+            "label": "2.1. Fundamentos de la dinámica de la partícula",
+            "section": "2.1"
+          },
+          {
+            "order_index": 5,
+            "label": "2.2. Leyes de Newton",
+            "section": "2.2"
+          },
+          {
+            "order_index": 6,
+            "label": "2.3. Sistemas de referencia e invariancia de las leyes de la mecánica",
+            "section": "2.3"
+          },
+          {
+            "order_index": 7,
+            "label": "2.4. Sistemas no inerciales y fuerzas de inercia",
+            "section": "2.4"
+          },
+          {
+            "order_index": 8,
+            "label": "3.1. Momento lineal e impulso",
+            "section": "3.1"
+          },
+          {
+            "order_index": 9,
+            "label": "3.2. Momento lineal de un sistema de partículas",
+            "section": "3.2"
+          },
+          {
+            "order_index": 10,
+            "label": "3.3. Principio de conservación del momento lineal",
+            "section": "3.3"
+          },
+          {
+            "order_index": 11,
+            "label": "3.4. Colisiones, retroceso y propulsión",
+            "section": "3.4"
+          },
+          {
+            "order_index": 12,
+            "label": "4.1. Peso, fuerza normal y tensión",
+            "section": "4.1"
+          },
+          {
+            "order_index": 13,
+            "label": "4.2. Rozamiento sólido y fuerzas de arrastre",
+            "section": "4.2"
+          },
+          {
+            "order_index": 14,
+            "label": "4.3. Diagramas de fuerzas y resolución de problemas",
+            "section": "4.3"
+          },
+          {
+            "order_index": 15,
+            "label": "4.4. Aplicaciones científicas y tecnológicas",
+            "section": "4.4"
+          }
         ]
       }
     },
@@ -118,86 +191,566 @@
       "content_json": {
         "tipo": "recuperacion_activa",
         "flashcards": [
-          { "id": 1, "apartado": "0. Introducción", "subapartado": "0.1. Contextualización y relevancia del concepto central", "termino": "¿Qué estudia la dinámica?", "descripcion": "Relaciona las interacciones con los cambios observados en el estado mecánico de los cuerpos." },
-          { "id": 2, "apartado": "0. Introducción", "subapartado": "0.1. Contextualización y relevancia del concepto central", "termino": "¿Qué magnitudes son esenciales para describir la evolución dinámica?", "descripcion": "La fuerza y el momento lineal." },
-          { "id": 3, "apartado": "0. Introducción", "subapartado": "0.1. Contextualización y relevancia del concepto central", "termino": "¿Qué contextos reales se relacionan con la dinámica del tema?", "descripcion": "Transporte, colisiones, seguridad vial, navegación inercial, robótica y propulsión." },
-          { "id": 4, "apartado": "0. Introducción", "subapartado": "0.1. Contextualización y relevancia del concepto central", "termino": "¿Qué sistemas actuales emplean modelos de dinámica clásica?", "descripcion": "Sensores y sistemas autónomos para medir y controlar trayectorias." },
-          { "id": 5, "apartado": "0. Introducción", "subapartado": "0.2. Enfoque y organización del tema", "termino": "¿Qué evolución histórica estructura el primer bloque del tema?", "descripcion": "El tránsito desde las explicaciones aristotélicas hasta la formulación matemática de Galileo y Newton." },
-          { "id": 6, "apartado": "0. Introducción", "subapartado": "0.2. Enfoque y organización del tema", "termino": "¿Qué elementos integra la dinámica newtoniana en este tema?", "descripcion": "Partícula, masa, leyes fundamentales y comportamiento en distintos sistemas de referencia." },
-          { "id": 7, "apartado": "0. Introducción", "subapartado": "0.2. Enfoque y organización del tema", "termino": "¿Qué contenidos integran el bloque de momento lineal?", "descripcion": "Formulación dinámica, impulso y conservación en sistemas sometidos a resultante externa nula." },
-          { "id": 8, "apartado": "0. Introducción", "subapartado": "0.2. Enfoque y organización del tema", "termino": "¿Qué contenidos integran el bloque de aplicaciones?", "descripcion": "Fuerzas habituales, diagramas de cuerpo libre, rozamiento, arrastre y sistemas tecnológicos." },
-          { "id": 9, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.1. La mecánica en la Antigüedad y la Edad Media", "termino": "¿Qué tipos de movimiento distinguía Aristóteles?", "descripcion": "Movimientos naturales y violentos; los violentos requerían una acción motriz continuada." },
-          { "id": 10, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.1. La mecánica en la Antigüedad y la Edad Media", "termino": "¿Qué papel tenía el medio en la interpretación aristotélica?", "descripcion": "Condicionaba la velocidad y dificultaba admitir la existencia del vacío." },
-          { "id": 11, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.1. La mecánica en la Antigüedad y la Edad Media", "termino": "¿En qué consiste la teoría del ímpetus de Buridan?", "descripcion": "Atribuye al móvil una propiedad adquirida capaz de mantenerlo en movimiento." },
-          { "id": 12, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.1. La mecánica en la Antigüedad y la Edad Media", "termino": "¿Qué relación existe entre el ímpetus y la inercia?", "descripcion": "El ímpetus es un antecedente conceptual de la inercia, pero no equivale al principio newtoniano." },
-          { "id": 13, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo", "termino": "¿Qué aportación se atribuye a Domingo de Soto?", "descripcion": "Anticipó la descripción matemática del movimiento uniformemente acelerado." },
-          { "id": 14, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo", "termino": "¿Qué métodos combinó Galileo en el estudio del movimiento?", "descripcion": "Experimentación, idealización y matematización mediante estudios con planos inclinados." },
-          { "id": 15, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo", "termino": "¿Qué caracteriza la caída libre ideal según Galileo?", "descripcion": "Presenta aceleración independiente de la masa cuando se desprecia la resistencia del aire." },
-          { "id": 16, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo", "termino": "¿Qué ideas aportó Galileo sobre proyectiles e inercia?", "descripcion": "Composición de movimientos independientes y permanencia ideal del movimiento uniforme." },
-          { "id": 17, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.3. Newton y la formulación de la mecánica clásica", "termino": "¿Qué autores precedieron a Newton en el análisis cuantitativo de colisiones?", "descripcion": "Descartes, Wallis, Wren y Huygens." },
-          { "id": 18, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.3. Newton y la formulación de la mecánica clásica", "termino": "¿Qué magnitudes y conceptos relacionó Newton en su síntesis dinámica?", "descripcion": "Masa, interacción y variación del estado dinámico." },
-          { "id": 19, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.3. Newton y la formulación de la mecánica clásica", "termino": "¿Qué importancia tienen los Principia Mathematica de 1687?", "descripcion": "Establecen los principios fundamentales sobre los que se construye la dinámica clásica." },
-          { "id": 20, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.3. Newton y la formulación de la mecánica clásica", "termino": "¿Cuál es el ámbito básico de la mecánica clásica?", "descripcion": "La descripción predictiva de sistemas macroscópicos a velocidades no relativistas." },
-          { "id": 21, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.4. Desarrollo posterior y concepción moderna de las interacciones", "termino": "¿Qué aportaron Euler y Lagrange a la mecánica newtoniana?", "descripcion": "La generalizaron matemáticamente mediante nuevas formulaciones analíticas." },
-          { "id": 22, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.4. Desarrollo posterior y concepción moderna de las interacciones", "termino": "¿Cuáles son las cuatro interacciones fundamentales?", "descripcion": "Gravitatoria, electromagnética, nuclear fuerte y nuclear débil." },
-          { "id": 23, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.4. Desarrollo posterior y concepción moderna de las interacciones", "termino": "¿Cuál es el origen microscópico principal de normal, tensión y rozamiento?", "descripcion": "Las interacciones electromagnéticas entre los constituyentes de la materia." },
-          { "id": 24, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.4. Desarrollo posterior y concepción moderna de las interacciones", "termino": "¿Cuándo es válido el régimen clásico?", "descripcion": "En sistemas macroscópicos con velocidades mucho menores que c; presenta límites relativistas y cuánticos." },
-          { "id": 25, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.1. Fundamentos de la dinámica de la partícula", "termino": "¿Qué es una partícula material?", "descripcion": "Un modelo que desprecia las dimensiones del cuerpo frente a las distancias características estudiadas." },
-          { "id": 26, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.1. Fundamentos de la dinámica de la partícula", "termino": "¿Cómo se caracteriza científicamente una fuerza?", "descripcion": "Como una magnitud vectorial que representa cuantitativamente una interacción entre cuerpos." },
-          { "id": 27, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.1. Fundamentos de la dinámica de la partícula", "termino": "¿Qué representa la fuerza resultante?", "descripcion": "La suma vectorial de todas las acciones externas que actúan sobre la partícula." },
-          { "id": 28, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.1. Fundamentos de la dinámica de la partícula", "termino": "¿Qué mide la masa inercial?", "descripcion": "La resistencia de un cuerpo frente a una determinada variación de velocidad." },
-          { "id": 29, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.2. Leyes de Newton", "termino": "¿Qué establece la primera ley de Newton?", "descripcion": "Si ΣF = 0, la velocidad permanece constante; caracteriza el comportamiento de cuerpos libres en sistemas inerciales." },
-          { "id": 30, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.2. Leyes de Newton", "termino": "¿Cuál es la formulación general de la segunda ley de Newton?", "descripcion": "ΣF = dp/dt; para masa constante se reduce a ΣF = ma." },
-          { "id": 31, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.2. Leyes de Newton", "termino": "¿Cuál es la unidad SI de fuerza?", "descripcion": "El newton: 1 N = 1 kg·m·s⁻²." },
-          { "id": 32, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.2. Leyes de Newton", "termino": "¿Qué establece la tercera ley de Newton?", "descripcion": "FAB = −FBA; ambas fuerzas son simultáneas, iguales en módulo, opuestas y actúan sobre cuerpos diferentes." },
-          { "id": 33, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.3. Sistemas de referencia e invariancia de las leyes de la mecánica", "termino": "¿Cómo se relacionan los sistemas S y S' considerados?", "descripcion": "Mediante movimiento relativo rectilíneo y uniforme con velocidad V." },
-          { "id": 34, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.3. Sistemas de referencia e invariancia de las leyes de la mecánica", "termino": "¿Cuáles son las transformaciones de Galileo en una dimensión?", "descripcion": "x' = x − Vt, y' = y, z' = z y t' = t." },
-          { "id": 35, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.3. Sistemas de referencia e invariancia de las leyes de la mecánica", "termino": "¿Cómo se relacionan velocidades y aceleraciones entre sistemas inerciales?", "descripcion": "v = V + v' y a = a' cuando la velocidad relativa es constante." },
-          { "id": 36, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.3. Sistemas de referencia e invariancia de las leyes de la mecánica", "termino": "¿Qué afirma el principio de relatividad galileano?", "descripcion": "Las leyes de la mecánica conservan su forma en todos los sistemas de referencia inerciales." },
-          { "id": 37, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.4. Sistemas no inerciales y fuerzas de inercia", "termino": "¿Qué ocurre con las aceleraciones en un sistema no inercial?", "descripcion": "Difieren por la aceleración propia del sistema de referencia." },
-          { "id": 38, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.4. Sistemas no inerciales y fuerzas de inercia", "termino": "¿Cómo se define la fuerza ficticia en un sistema acelerado?", "descripcion": "Ffic = −ma₀; aparece al formular las leyes de Newton desde un sistema acelerado." },
-          { "id": 39, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.4. Sistemas no inerciales y fuerzas de inercia", "termino": "¿Qué fuerzas ficticias pueden aparecer en sistemas rotatorios?", "descripcion": "Fuerza centrífuga, fuerza de Coriolis y fuerza de Euler." },
-          { "id": 40, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.4. Sistemas no inerciales y fuerzas de inercia", "termino": "¿Qué representa la fuerza centrípeta?", "descripcion": "La resultante real responsable de la aceleración radial hacia el centro; no es una fuerza ficticia." },
-          { "id": 41, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.1. Momento lineal e impulso", "termino": "¿Cómo se define el momento lineal?", "descripcion": "p = mv; magnitud vectorial cuya unidad SI es kg·m·s⁻¹." },
-          { "id": 42, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.1. Momento lineal e impulso", "termino": "¿Qué determina la fuerza externa resultante respecto al momento lineal?", "descripcion": "Determina su variación temporal según la segunda ley de Newton." },
-          { "id": 43, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.1. Momento lineal e impulso", "termino": "¿Cómo se define el impulso?", "descripcion": "J = ∫F dt = Δp; relaciona intensidad, duración de la interacción y variación del momento." },
-          { "id": 44, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.1. Momento lineal e impulso", "termino": "¿Qué representa el área bajo una gráfica fuerza-tiempo?", "descripcion": "El impulso transferido durante el intervalo considerado." },
-          { "id": 45, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.2. Momento lineal de un sistema de partículas", "termino": "¿Cómo se define el momento lineal total de un sistema?", "descripcion": "P = Σpi; suma vectorial de los momentos individuales de todas las partículas." },
-          { "id": 46, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.2. Momento lineal de un sistema de partículas", "termino": "¿Qué ocurre con las fuerzas internas al considerar el sistema completo?", "descripcion": "Aparecen en pares opuestos y se cancelan en la suma global." },
-          { "id": 47, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.2. Momento lineal de un sistema de partículas", "termino": "¿Qué fuerzas modifican el momento total de un sistema?", "descripcion": "Únicamente las fuerzas externas resultantes." },
-          { "id": 48, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.2. Momento lineal de un sistema de partículas", "termino": "¿Cuál es la relación fundamental para el momento total?", "descripcion": "dP/dt = ΣFext; constituye la base del principio de conservación del momento lineal." },
-          { "id": 49, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.3. Principio de conservación del momento lineal", "termino": "¿Qué condición caracteriza un sistema aislado en este contexto?", "descripcion": "Resultante externa nula o impulso externo despreciable durante la interacción." },
-          { "id": 50, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.3. Principio de conservación del momento lineal", "termino": "¿Cuándo se conserva el momento lineal total?", "descripcion": "Cuando ΣFext = 0, entonces P permanece constante durante la evolución." },
-          { "id": 51, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.3. Principio de conservación del momento lineal", "termino": "¿Cómo se relacionan el momento inicial y final en un sistema aislado?", "descripcion": "Pi = Pf." },
-          { "id": 52, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.3. Principio de conservación del momento lineal", "termino": "¿Para qué resulta especialmente útil la conservación del momento?", "descripcion": "Para estudiar colisiones, explosiones, retrocesos y sistemas interactuantes sin analizar detalladamente las fuerzas internas." },
-          { "id": 53, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.4. Colisiones, retroceso y propulsión", "termino": "¿Qué magnitudes se conservan en una colisión elástica?", "descripcion": "El momento lineal total y la energía cinética total." },
-          { "id": 54, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.4. Colisiones, retroceso y propulsión", "termino": "¿Qué caracteriza una colisión inelástica?", "descripcion": "Conserva el momento lineal total, pero parte de la energía cinética se transforma." },
-          { "id": 55, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.4. Colisiones, retroceso y propulsión", "termino": "¿En qué consiste el retroceso?", "descripcion": "Cuerpos inicialmente acoplados adquieren momentos opuestos cuando el momento total inicial es nulo." },
-          { "id": 56, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.4. Colisiones, retroceso y propulsión", "termino": "¿Cuál es el fundamento de la propulsión?", "descripcion": "El vehículo adquiere momento contrario al transferido a la masa expulsada." },
-          { "id": 57, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.1. Peso, fuerza normal y tensión", "termino": "¿Cómo se define el peso cerca de la superficie terrestre?", "descripcion": "P = mg; interacción gravitatoria cuyo valor depende del campo gravitatorio local." },
-          { "id": 58, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.1. Peso, fuerza normal y tensión", "termino": "¿Qué caracteriza a la fuerza normal?", "descripcion": "Es perpendicular a la superficie de contacto y no constituye la reacción al peso." },
-          { "id": 59, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.1. Peso, fuerza normal y tensión", "termino": "¿Cuándo puede cumplirse N = mg?", "descripcion": "En situaciones concretas sin aceleración vertical adicional, como un cuerpo en reposo sobre una superficie horizontal." },
-          { "id": 60, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.1. Peso, fuerza normal y tensión", "termino": "¿Qué caracteriza a la tensión en una cuerda ideal?", "descripcion": "Es la fuerza transmitida por la cuerda y permanece uniforme si su masa es despreciable." },
-          { "id": 61, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.2. Rozamiento sólido y fuerzas de arrastre", "termino": "¿Cómo se comporta el rozamiento estático?", "descripcion": "fs ≤ μsN; se adapta hasta alcanzar su valor máximo antes del deslizamiento." },
-          { "id": 62, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.2. Rozamiento sólido y fuerzas de arrastre", "termino": "¿Cómo se expresa aproximadamente el rozamiento cinético?", "descripcion": "fk = μkN; habitualmente es menor que el máximo rozamiento estático." },
-          { "id": 63, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.2. Rozamiento sólido y fuerzas de arrastre", "termino": "¿Qué es la fuerza de arrastre?", "descripcion": "La acción ejercida por un fluido en sentido opuesto a la velocidad relativa del cuerpo." },
-          { "id": 64, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.2. Rozamiento sólido y fuerzas de arrastre", "termino": "¿Cómo se expresa el arrastre en régimen cuadrático?", "descripcion": "Fd = ½ρCdAv²; el equilibrio entre fuerzas puede conducir a una velocidad límite." },
-          { "id": 65, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.3. Diagramas de fuerzas y resolución de problemas", "termino": "¿Qué debe contener un diagrama de cuerpo libre?", "descripcion": "El cuerpo aislado y exclusivamente las fuerzas externas que actúan sobre él." },
-          { "id": 66, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.3. Diagramas de fuerzas y resolución de problemas", "termino": "¿Cómo debe elegirse el sistema de coordenadas en un problema dinámico?", "descripcion": "De forma que simplifique las componentes de las fuerzas y las ecuaciones del movimiento." },
-          { "id": 67, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.3. Diagramas de fuerzas y resolución de problemas", "termino": "¿Cuáles son las componentes del peso en un plano inclinado?", "descripcion": "Paralela: mg·sinθ. Perpendicular: mg·cosθ." },
-          { "id": 68, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.3. Diagramas de fuerzas y resolución de problemas", "termino": "¿Qué pasos básicos sigue la resolución dinámica por ejes?", "descripcion": "Descomponer las fuerzas, aplicar la segunda ley en cada eje y comprobar físicamente el resultado." },
-          { "id": 69, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.4. Aplicaciones científicas y tecnológicas", "termino": "¿Cómo reducen lesiones los sistemas de seguridad vial citados?", "descripcion": "Airbags, cinturones y deformación controlada aumentan el tiempo de transferencia del impulso y reducen la fuerza media." },
-          { "id": 70, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.4. Aplicaciones científicas y tecnológicas", "termino": "¿Cuál es la función de los acelerómetros?", "descripcion": "Registrar aceleraciones en vehículos, teléfonos, drones y sistemas de navegación inercial." },
-          { "id": 71, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.4. Aplicaciones científicas y tecnológicas", "termino": "¿Qué aspectos condiciona el arrastre en aerodinámica?", "descripcion": "El consumo energético, la estabilidad y las prestaciones de vehículos y deportistas." },
-          { "id": 72, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.4. Aplicaciones científicas y tecnológicas", "termino": "¿Cómo puede comprobarse experimentalmente la conservación del momento?", "descripcion": "Mediante carros de baja fricción y sensores que comparen el momento total antes y después de una interacción." },
-          { "id": 73, "apartado": "5. Conclusión", "subapartado": "5.1. Síntesis e integración de los fundamentos", "termino": "¿Qué cambio resume la evolución histórica de la mecánica?", "descripcion": "El tránsito desde explicaciones cualitativas hasta una descripción matemática y predictiva del movimiento." },
-          { "id": 74, "apartado": "5. Conclusión", "subapartado": "5.1. Síntesis e integración de los fundamentos", "termino": "¿Qué integran conceptualmente las leyes de Newton?", "descripcion": "Inercia, interacciones y cambios del estado dinámico dentro de un mismo marco." },
-          { "id": 75, "apartado": "5. Conclusión", "subapartado": "5.1. Síntesis e integración de los fundamentos", "termino": "¿Qué conexión fundamental proporciona el momento lineal?", "descripcion": "Relaciona la segunda ley de Newton con un principio de conservación aplicable a sistemas aislados." },
-          { "id": 76, "apartado": "5. Conclusión", "subapartado": "5.1. Síntesis e integración de los fundamentos", "termino": "¿Cuál es la función de los diagramas de cuerpo libre?", "descripcion": "Trasladar los principios generales de la dinámica a problemas mecánicos concretos." },
-          { "id": 77, "apartado": "5. Conclusión", "subapartado": "5.2. Relevancia y proyección del tema", "termino": "¿Qué conceptos dinámicos fundamentan la seguridad vial?", "descripcion": "Impulso, frenado y colisiones, aplicados al diseño de sistemas de protección." },
-          { "id": 78, "apartado": "5. Conclusión", "subapartado": "5.2. Relevancia y proyección del tema", "termino": "¿Qué permiten los sensores inerciales en navegación y robótica?", "descripcion": "Estimar aceleraciones, orientación y evolución del movimiento." },
-          { "id": 79, "apartado": "5. Conclusión", "subapartado": "5.2. Relevancia y proyección del tema", "termino": "¿Qué principio fundamenta la propulsión de cohetes?", "descripcion": "La conservación del momento lineal en sistemas que intercambian masa." },
-          { "id": 80, "apartado": "5. Conclusión", "subapartado": "5.2. Relevancia y proyección del tema", "termino": "¿Qué factores dinámicos condicionan el diseño de sistemas mecánicos?", "descripcion": "Rozamiento, arrastre y dinámica general, por su efecto sobre eficiencia, seguridad y prestaciones." }
+          {
+            "id": 1,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Qué estudia la dinámica?",
+            "descripcion": "Relaciona las interacciones con los cambios observados en el estado mecánico de los cuerpos."
+          },
+          {
+            "id": 2,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Qué magnitudes son esenciales para describir la evolución dinámica?",
+            "descripcion": "La fuerza y el momento lineal."
+          },
+          {
+            "id": 3,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Qué contextos reales se relacionan con la dinámica del tema?",
+            "descripcion": "Transporte, colisiones, seguridad vial, navegación inercial, robótica y propulsión."
+          },
+          {
+            "id": 4,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Qué sistemas actuales emplean modelos de dinámica clásica?",
+            "descripcion": "Sensores y sistemas autónomos para medir y controlar trayectorias."
+          },
+          {
+            "id": 5,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué evolución histórica estructura el primer bloque del tema?",
+            "descripcion": "El tránsito desde las explicaciones aristotélicas hasta la formulación matemática de Galileo y Newton."
+          },
+          {
+            "id": 6,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué elementos integra la dinámica newtoniana en este tema?",
+            "descripcion": "Partícula, masa, leyes fundamentales y comportamiento en distintos sistemas de referencia."
+          },
+          {
+            "id": 7,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué contenidos integran el bloque de momento lineal?",
+            "descripcion": "Formulación dinámica, impulso y conservación en sistemas sometidos a resultante externa nula."
+          },
+          {
+            "id": 8,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué contenidos integran el bloque de aplicaciones?",
+            "descripcion": "Fuerzas habituales, diagramas de cuerpo libre, rozamiento, arrastre y sistemas tecnológicos."
+          },
+          {
+            "id": 9,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.1. La mecánica en la Antigüedad y la Edad Media",
+            "termino": "¿Qué tipos de movimiento distinguía Aristóteles?",
+            "descripcion": "Movimientos naturales y violentos; los violentos requerían una acción motriz continuada."
+          },
+          {
+            "id": 10,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.1. La mecánica en la Antigüedad y la Edad Media",
+            "termino": "¿Qué papel tenía el medio en la interpretación aristotélica?",
+            "descripcion": "Condicionaba la velocidad y dificultaba admitir la existencia del vacío."
+          },
+          {
+            "id": 11,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.1. La mecánica en la Antigüedad y la Edad Media",
+            "termino": "¿En qué consiste la teoría del ímpetus de Buridan?",
+            "descripcion": "Atribuye al móvil una propiedad adquirida capaz de mantenerlo en movimiento."
+          },
+          {
+            "id": 12,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.1. La mecánica en la Antigüedad y la Edad Media",
+            "termino": "¿Qué relación existe entre el ímpetus y la inercia?",
+            "descripcion": "El ímpetus es un antecedente conceptual de la inercia, pero no equivale al principio newtoniano."
+          },
+          {
+            "id": 13,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo",
+            "termino": "¿Qué aportación se atribuye a Domingo de Soto?",
+            "descripcion": "Anticipó la descripción matemática del movimiento uniformemente acelerado."
+          },
+          {
+            "id": 14,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo",
+            "termino": "¿Qué métodos combinó Galileo en el estudio del movimiento?",
+            "descripcion": "Experimentación, idealización y matematización mediante estudios con planos inclinados."
+          },
+          {
+            "id": 15,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo",
+            "termino": "¿Qué caracteriza la caída libre ideal según Galileo?",
+            "descripcion": "Presenta aceleración independiente de la masa cuando se desprecia la resistencia del aire."
+          },
+          {
+            "id": 16,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo",
+            "termino": "¿Qué ideas aportó Galileo sobre proyectiles e inercia?",
+            "descripcion": "Composición de movimientos independientes y permanencia ideal del movimiento uniforme."
+          },
+          {
+            "id": 17,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.3. Newton y la formulación de la mecánica clásica",
+            "termino": "¿Qué autores precedieron a Newton en el análisis cuantitativo de colisiones?",
+            "descripcion": "Descartes, Wallis, Wren y Huygens."
+          },
+          {
+            "id": 18,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.3. Newton y la formulación de la mecánica clásica",
+            "termino": "¿Qué magnitudes y conceptos relacionó Newton en su síntesis dinámica?",
+            "descripcion": "Masa, interacción y variación del estado dinámico."
+          },
+          {
+            "id": 19,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.3. Newton y la formulación de la mecánica clásica",
+            "termino": "¿Qué importancia tienen los Principia Mathematica de 1687?",
+            "descripcion": "Establecen los principios fundamentales sobre los que se construye la dinámica clásica."
+          },
+          {
+            "id": 20,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.3. Newton y la formulación de la mecánica clásica",
+            "termino": "¿Cuál es el ámbito básico de la mecánica clásica?",
+            "descripcion": "La descripción predictiva de sistemas macroscópicos a velocidades no relativistas."
+          },
+          {
+            "id": 21,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.4. Desarrollo posterior y concepción moderna de las interacciones",
+            "termino": "¿Qué aportaron Euler y Lagrange a la mecánica newtoniana?",
+            "descripcion": "La generalizaron matemáticamente mediante nuevas formulaciones analíticas."
+          },
+          {
+            "id": 22,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.4. Desarrollo posterior y concepción moderna de las interacciones",
+            "termino": "¿Cuáles son las cuatro interacciones fundamentales?",
+            "descripcion": "Gravitatoria, electromagnética, nuclear fuerte y nuclear débil."
+          },
+          {
+            "id": 23,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.4. Desarrollo posterior y concepción moderna de las interacciones",
+            "termino": "¿Cuál es el origen microscópico principal de normal, tensión y rozamiento?",
+            "descripcion": "Las interacciones electromagnéticas entre los constituyentes de la materia."
+          },
+          {
+            "id": 24,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.4. Desarrollo posterior y concepción moderna de las interacciones",
+            "termino": "¿Cuándo es válido el régimen clásico?",
+            "descripcion": "En sistemas macroscópicos con velocidades mucho menores que c; presenta límites relativistas y cuánticos."
+          },
+          {
+            "id": 25,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.1. Fundamentos de la dinámica de la partícula",
+            "termino": "¿Qué es una partícula material?",
+            "descripcion": "Un modelo que desprecia las dimensiones del cuerpo frente a las distancias características estudiadas."
+          },
+          {
+            "id": 26,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.1. Fundamentos de la dinámica de la partícula",
+            "termino": "¿Cómo se caracteriza científicamente una fuerza?",
+            "descripcion": "Como una magnitud vectorial que representa cuantitativamente una interacción entre cuerpos."
+          },
+          {
+            "id": 27,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.1. Fundamentos de la dinámica de la partícula",
+            "termino": "¿Qué representa la fuerza resultante?",
+            "descripcion": "La suma vectorial de todas las acciones externas que actúan sobre la partícula."
+          },
+          {
+            "id": 28,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.1. Fundamentos de la dinámica de la partícula",
+            "termino": "¿Qué mide la masa inercial?",
+            "descripcion": "La resistencia de un cuerpo frente a una determinada variación de velocidad."
+          },
+          {
+            "id": 29,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.2. Leyes de Newton",
+            "termino": "¿Qué establece la primera ley de Newton?",
+            "descripcion": "Si ΣF = 0, la velocidad permanece constante; caracteriza el comportamiento de cuerpos libres en sistemas inerciales."
+          },
+          {
+            "id": 30,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.2. Leyes de Newton",
+            "termino": "¿Cuál es la formulación general de la segunda ley de Newton?",
+            "descripcion": "ΣF = dp/dt; para masa constante se reduce a ΣF = ma."
+          },
+          {
+            "id": 31,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.2. Leyes de Newton",
+            "termino": "¿Cuál es la unidad SI de fuerza?",
+            "descripcion": "El newton: 1 N = 1 kg·m·s⁻²."
+          },
+          {
+            "id": 32,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.2. Leyes de Newton",
+            "termino": "¿Qué establece la tercera ley de Newton?",
+            "descripcion": "FAB = −FBA; ambas fuerzas son simultáneas, iguales en módulo, opuestas y actúan sobre cuerpos diferentes."
+          },
+          {
+            "id": 33,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.3. Sistemas de referencia e invariancia de las leyes de la mecánica",
+            "termino": "¿Cómo se relacionan los sistemas S y S' considerados?",
+            "descripcion": "Mediante movimiento relativo rectilíneo y uniforme con velocidad V."
+          },
+          {
+            "id": 34,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.3. Sistemas de referencia e invariancia de las leyes de la mecánica",
+            "termino": "¿Cuáles son las transformaciones de Galileo en una dimensión?",
+            "descripcion": "x' = x − Vt, y' = y, z' = z y t' = t."
+          },
+          {
+            "id": 35,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.3. Sistemas de referencia e invariancia de las leyes de la mecánica",
+            "termino": "¿Cómo se relacionan velocidades y aceleraciones entre sistemas inerciales?",
+            "descripcion": "v = V + v' y a = a' cuando la velocidad relativa es constante."
+          },
+          {
+            "id": 36,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.3. Sistemas de referencia e invariancia de las leyes de la mecánica",
+            "termino": "¿Qué afirma el principio de relatividad galileano?",
+            "descripcion": "Las leyes de la mecánica conservan su forma en todos los sistemas de referencia inerciales."
+          },
+          {
+            "id": 37,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.4. Sistemas no inerciales y fuerzas de inercia",
+            "termino": "¿Qué ocurre con las aceleraciones en un sistema no inercial?",
+            "descripcion": "Difieren por la aceleración propia del sistema de referencia."
+          },
+          {
+            "id": 38,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.4. Sistemas no inerciales y fuerzas de inercia",
+            "termino": "¿Cómo se define la fuerza ficticia en un sistema acelerado?",
+            "descripcion": "Ffic = −ma₀; aparece al formular las leyes de Newton desde un sistema acelerado."
+          },
+          {
+            "id": 39,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.4. Sistemas no inerciales y fuerzas de inercia",
+            "termino": "¿Qué fuerzas ficticias pueden aparecer en sistemas rotatorios?",
+            "descripcion": "Fuerza centrífuga, fuerza de Coriolis y fuerza de Euler."
+          },
+          {
+            "id": 40,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.4. Sistemas no inerciales y fuerzas de inercia",
+            "termino": "¿Qué representa la fuerza centrípeta?",
+            "descripcion": "La resultante real responsable de la aceleración radial hacia el centro; no es una fuerza ficticia."
+          },
+          {
+            "id": 41,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.1. Momento lineal e impulso",
+            "termino": "¿Cómo se define el momento lineal?",
+            "descripcion": "p = mv; magnitud vectorial cuya unidad SI es kg·m·s⁻¹."
+          },
+          {
+            "id": 42,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.1. Momento lineal e impulso",
+            "termino": "¿Qué determina la fuerza externa resultante respecto al momento lineal?",
+            "descripcion": "Determina su variación temporal según la segunda ley de Newton."
+          },
+          {
+            "id": 43,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.1. Momento lineal e impulso",
+            "termino": "¿Cómo se define el impulso?",
+            "descripcion": "J = ∫F dt = Δp; relaciona intensidad, duración de la interacción y variación del momento."
+          },
+          {
+            "id": 44,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.1. Momento lineal e impulso",
+            "termino": "¿Qué representa el área bajo una gráfica fuerza-tiempo?",
+            "descripcion": "El impulso transferido durante el intervalo considerado."
+          },
+          {
+            "id": 45,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.2. Momento lineal de un sistema de partículas",
+            "termino": "¿Cómo se define el momento lineal total de un sistema?",
+            "descripcion": "P = Σpi; suma vectorial de los momentos individuales de todas las partículas."
+          },
+          {
+            "id": 46,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.2. Momento lineal de un sistema de partículas",
+            "termino": "¿Qué ocurre con las fuerzas internas al considerar el sistema completo?",
+            "descripcion": "Aparecen en pares opuestos y se cancelan en la suma global."
+          },
+          {
+            "id": 47,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.2. Momento lineal de un sistema de partículas",
+            "termino": "¿Qué fuerzas modifican el momento total de un sistema?",
+            "descripcion": "Únicamente las fuerzas externas resultantes."
+          },
+          {
+            "id": 48,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.2. Momento lineal de un sistema de partículas",
+            "termino": "¿Cuál es la relación fundamental para el momento total?",
+            "descripcion": "dP/dt = ΣFext; constituye la base del principio de conservación del momento lineal."
+          },
+          {
+            "id": 49,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.3. Principio de conservación del momento lineal",
+            "termino": "¿Qué condición caracteriza un sistema aislado en este contexto?",
+            "descripcion": "Resultante externa nula o impulso externo despreciable durante la interacción."
+          },
+          {
+            "id": 50,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.3. Principio de conservación del momento lineal",
+            "termino": "¿Cuándo se conserva el momento lineal total?",
+            "descripcion": "Cuando ΣFext = 0, entonces P permanece constante durante la evolución."
+          },
+          {
+            "id": 51,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.3. Principio de conservación del momento lineal",
+            "termino": "¿Cómo se relacionan el momento inicial y final en un sistema aislado?",
+            "descripcion": "Pi = Pf."
+          },
+          {
+            "id": 52,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.3. Principio de conservación del momento lineal",
+            "termino": "¿Para qué resulta especialmente útil la conservación del momento?",
+            "descripcion": "Para estudiar colisiones, explosiones, retrocesos y sistemas interactuantes sin analizar detalladamente las fuerzas internas."
+          },
+          {
+            "id": 53,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.4. Colisiones, retroceso y propulsión",
+            "termino": "¿Qué magnitudes se conservan en una colisión elástica?",
+            "descripcion": "El momento lineal total y la energía cinética total."
+          },
+          {
+            "id": 54,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.4. Colisiones, retroceso y propulsión",
+            "termino": "¿Qué caracteriza una colisión inelástica?",
+            "descripcion": "Conserva el momento lineal total, pero parte de la energía cinética se transforma."
+          },
+          {
+            "id": 55,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.4. Colisiones, retroceso y propulsión",
+            "termino": "¿En qué consiste el retroceso?",
+            "descripcion": "Cuerpos inicialmente acoplados adquieren momentos opuestos cuando el momento total inicial es nulo."
+          },
+          {
+            "id": 56,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.4. Colisiones, retroceso y propulsión",
+            "termino": "¿Cuál es el fundamento de la propulsión?",
+            "descripcion": "El vehículo adquiere momento contrario al transferido a la masa expulsada."
+          },
+          {
+            "id": 57,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.1. Peso, fuerza normal y tensión",
+            "termino": "¿Cómo se define el peso cerca de la superficie terrestre?",
+            "descripcion": "P = mg; interacción gravitatoria cuyo valor depende del campo gravitatorio local."
+          },
+          {
+            "id": 58,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.1. Peso, fuerza normal y tensión",
+            "termino": "¿Qué caracteriza a la fuerza normal?",
+            "descripcion": "Es perpendicular a la superficie de contacto y no constituye la reacción al peso."
+          },
+          {
+            "id": 59,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.1. Peso, fuerza normal y tensión",
+            "termino": "¿Cuándo puede cumplirse N = mg?",
+            "descripcion": "En situaciones concretas sin aceleración vertical adicional, como un cuerpo en reposo sobre una superficie horizontal."
+          },
+          {
+            "id": 60,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.1. Peso, fuerza normal y tensión",
+            "termino": "¿Qué caracteriza a la tensión en una cuerda ideal?",
+            "descripcion": "Es la fuerza transmitida por la cuerda y permanece uniforme si su masa es despreciable."
+          },
+          {
+            "id": 61,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.2. Rozamiento sólido y fuerzas de arrastre",
+            "termino": "¿Cómo se comporta el rozamiento estático?",
+            "descripcion": "fs ≤ μsN; se adapta hasta alcanzar su valor máximo antes del deslizamiento."
+          },
+          {
+            "id": 62,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.2. Rozamiento sólido y fuerzas de arrastre",
+            "termino": "¿Cómo se expresa aproximadamente el rozamiento cinético?",
+            "descripcion": "fk = μkN; habitualmente es menor que el máximo rozamiento estático."
+          },
+          {
+            "id": 63,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.2. Rozamiento sólido y fuerzas de arrastre",
+            "termino": "¿Qué es la fuerza de arrastre?",
+            "descripcion": "La acción ejercida por un fluido en sentido opuesto a la velocidad relativa del cuerpo."
+          },
+          {
+            "id": 64,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.2. Rozamiento sólido y fuerzas de arrastre",
+            "termino": "¿Cómo se expresa el arrastre en régimen cuadrático?",
+            "descripcion": "Fd = ½ρCdAv²; el equilibrio entre fuerzas puede conducir a una velocidad límite."
+          },
+          {
+            "id": 65,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.3. Diagramas de fuerzas y resolución de problemas",
+            "termino": "¿Qué debe contener un diagrama de cuerpo libre?",
+            "descripcion": "El cuerpo aislado y exclusivamente las fuerzas externas que actúan sobre él."
+          },
+          {
+            "id": 66,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.3. Diagramas de fuerzas y resolución de problemas",
+            "termino": "¿Cómo debe elegirse el sistema de coordenadas en un problema dinámico?",
+            "descripcion": "De forma que simplifique las componentes de las fuerzas y las ecuaciones del movimiento."
+          },
+          {
+            "id": 67,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.3. Diagramas de fuerzas y resolución de problemas",
+            "termino": "¿Cuáles son las componentes del peso en un plano inclinado?",
+            "descripcion": "Paralela: mg·sinθ. Perpendicular: mg·cosθ."
+          },
+          {
+            "id": 68,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.3. Diagramas de fuerzas y resolución de problemas",
+            "termino": "¿Qué pasos básicos sigue la resolución dinámica por ejes?",
+            "descripcion": "Descomponer las fuerzas, aplicar la segunda ley en cada eje y comprobar físicamente el resultado."
+          },
+          {
+            "id": 69,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.4. Aplicaciones científicas y tecnológicas",
+            "termino": "¿Cómo reducen lesiones los sistemas de seguridad vial citados?",
+            "descripcion": "Airbags, cinturones y deformación controlada aumentan el tiempo de transferencia del impulso y reducen la fuerza media."
+          },
+          {
+            "id": 70,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.4. Aplicaciones científicas y tecnológicas",
+            "termino": "¿Cuál es la función de los acelerómetros?",
+            "descripcion": "Registrar aceleraciones en vehículos, teléfonos, drones y sistemas de navegación inercial."
+          },
+          {
+            "id": 71,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.4. Aplicaciones científicas y tecnológicas",
+            "termino": "¿Qué aspectos condiciona el arrastre en aerodinámica?",
+            "descripcion": "El consumo energético, la estabilidad y las prestaciones de vehículos y deportistas."
+          },
+          {
+            "id": 72,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.4. Aplicaciones científicas y tecnológicas",
+            "termino": "¿Cómo puede comprobarse experimentalmente la conservación del momento?",
+            "descripcion": "Mediante carros de baja fricción y sensores que comparen el momento total antes y después de una interacción."
+          },
+          {
+            "id": 73,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué cambio resume la evolución histórica de la mecánica?",
+            "descripcion": "El tránsito desde explicaciones cualitativas hasta una descripción matemática y predictiva del movimiento."
+          },
+          {
+            "id": 74,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué integran conceptualmente las leyes de Newton?",
+            "descripcion": "Inercia, interacciones y cambios del estado dinámico dentro de un mismo marco."
+          },
+          {
+            "id": 75,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué conexión fundamental proporciona el momento lineal?",
+            "descripcion": "Relaciona la segunda ley de Newton con un principio de conservación aplicable a sistemas aislados."
+          },
+          {
+            "id": 76,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Cuál es la función de los diagramas de cuerpo libre?",
+            "descripcion": "Trasladar los principios generales de la dinámica a problemas mecánicos concretos."
+          },
+          {
+            "id": 77,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.2. Relevancia y proyección del tema",
+            "termino": "¿Qué conceptos dinámicos fundamentan la seguridad vial?",
+            "descripcion": "Impulso, frenado y colisiones, aplicados al diseño de sistemas de protección."
+          },
+          {
+            "id": 78,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.2. Relevancia y proyección del tema",
+            "termino": "¿Qué permiten los sensores inerciales en navegación y robótica?",
+            "descripcion": "Estimar aceleraciones, orientación y evolución del movimiento."
+          },
+          {
+            "id": 79,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.2. Relevancia y proyección del tema",
+            "termino": "¿Qué principio fundamenta la propulsión de cohetes?",
+            "descripcion": "La conservación del momento lineal en sistemas que intercambian masa."
+          },
+          {
+            "id": 80,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.2. Relevancia y proyección del tema",
+            "termino": "¿Qué factores dinámicos condicionan el diseño de sistemas mecánicos?",
+            "descripcion": "Rozamiento, arrastre y dinámica general, por su efecto sobre eficiencia, seguridad y prestaciones."
+          }
         ]
       }
     },
@@ -215,36 +768,174 @@
       "content_json": {
         "tipo": "reconstruccion_cientifica",
         "flashcards": [
-          { "id": 1, "apartado": "0. Introducción", "subapartado": "0. Introducción", "termino": "Explica por qué la relación entre fuerza y movimiento constituye el eje central de la dinámica clásica.", "descripcion": "Porque permite relacionar las interacciones con los cambios del estado de movimiento. Las leyes de Newton proporcionan el marco matemático para esa relación y el momento lineal permite extenderla a sistemas de partículas. Como resultado, se pueden interpretar desde trayectorias sencillas hasta colisiones y propulsión." },
-          { "id": 2, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.1. La mecánica en la Antigüedad y la Edad Media", "termino": "Compara la concepción aristotélica del movimiento con la teoría medieval del ímpetus.", "descripcion": "Aristóteles asociaba el movimiento violento a una acción motriz continuada, mientras que la teoría del ímpetus admitía que el móvil podía conservar una propiedad adquirida tras cesar el contacto. Esto supone un avance conceptual porque reduce la necesidad de una causa externa permanente y anticipa parcialmente la idea de inercia." },
-          { "id": 3, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo", "termino": "Justifica por qué los experimentos de Galileo con planos inclinados fueron decisivos para el desarrollo de la dinámica.", "descripcion": "Porque permitieron estudiar movimientos acelerados de forma controlada y cuantitativa. Al reducir la aceleración efectiva, Galileo pudo establecer relaciones matemáticas entre tiempo, velocidad y distancia. Esto permitió sustituir explicaciones cualitativas por leyes experimentales y preparar el camino hacia la formulación newtoniana." },
-          { "id": 4, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo", "termino": "Analiza cómo las ideas de Galileo sobre caída libre, inercia y proyectiles contribuyeron a superar la física aristotélica.", "descripcion": "Galileo mostró que la caída ideal no depende de la masa, defendió la permanencia del movimiento uniforme sin rozamiento y explicó los proyectiles mediante composición de movimientos. Estas ideas contradicen la necesidad aristotélica de una causa motriz continua y permiten describir el movimiento mediante relaciones matemáticas independientes de explicaciones cualitativas sobre lugares naturales." },
-          { "id": 5, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.3. Newton y la formulación de la mecánica clásica", "termino": "Explica por qué la síntesis de Newton supone un cambio cualitativo respecto a los estudios anteriores del movimiento.", "descripcion": "Porque Newton integra masa, fuerza y variación del movimiento dentro de un mismo marco matemático. Los estudios anteriores describían trayectorias o fenómenos concretos, mientras que sus leyes permiten establecer principios generales aplicables a numerosos sistemas. Esto convierte la mecánica en una teoría predictiva y sistemática." },
-          { "id": 6, "apartado": "1. Evolución histórica de la relación fuerza-movimiento", "subapartado": "1.4. Desarrollo posterior y concepción moderna de las interacciones", "termino": "Analiza cómo la concepción moderna de las interacciones amplía la interpretación newtoniana de la fuerza.", "descripcion": "La mecánica newtoniana trata las fuerzas como magnitudes que determinan cambios del movimiento, pero la física moderna busca además su origen microscópico. Así, fuerzas de contacto como normal o rozamiento se relacionan principalmente con interacciones electromagnéticas. Esto permite conectar la descripción macroscópica con las interacciones fundamentales." },
-          { "id": 7, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.1. Fundamentos de la dinámica de la partícula", "termino": "Justifica por qué el modelo de partícula material resulta útil aunque los cuerpos reales tengan dimensiones.", "descripcion": "Porque cuando las dimensiones del cuerpo son pequeñas frente a las distancias relevantes, su forma y extensión apenas afectan al análisis traslacional. Esto permite concentrar masa y movimiento en un punto ideal y simplificar las ecuaciones sin perder la información dinámica esencial del problema considerado." },
-          { "id": 8, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.2. Leyes de Newton", "termino": "Analiza la relación conceptual entre las tres leyes de Newton dentro de la dinámica clásica.", "descripcion": "La primera identifica los sistemas inerciales y caracteriza el movimiento cuando la resultante es nula. La segunda cuantifica cómo cambia el movimiento ante una fuerza neta. La tercera establece el carácter mutuo de las interacciones. Juntas proporcionan un marco coherente para describir causas, efectos e interacción entre cuerpos." },
-          { "id": 9, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.2. Leyes de Newton", "termino": "Justifica por qué la forma dp/dt de la segunda ley es más general que la expresión ma.", "descripcion": "Porque la relación entre fuerza resultante y variación del momento lineal sigue siendo válida aunque la masa del sistema cambie. La forma ma se obtiene únicamente cuando la masa permanece constante. Por lo tanto, la formulación mediante momento lineal conecta de manera más general la dinámica con sistemas de masa variable." },
-          { "id": 10, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.3. Sistemas de referencia e invariancia de las leyes de la mecánica", "termino": "Deduce por qué dos sistemas inerciales relacionados por una transformación de Galileo miden la misma aceleración.", "descripcion": "Si ambos sistemas se desplazan entre sí con velocidad constante, sus velocidades difieren solo en esa cantidad constante. Al derivar nuevamente respecto al tiempo, dicha diferencia desaparece y las aceleraciones coinciden. Por lo tanto, la segunda ley conserva su forma y ambos observadores describen la misma dinámica." },
-          { "id": 11, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.4. Sistemas no inerciales y fuerzas de inercia", "termino": "Explica por qué es necesario introducir fuerzas ficticias al trabajar desde un sistema no inercial.", "descripcion": "Porque un observador acelerado mide aceleraciones adicionales que no pueden atribuirse directamente a interacciones físicas externas. Para conservar formalmente la estructura de la segunda ley se introduce una fuerza de inercia proporcional y opuesta a la aceleración del sistema. Esto permite describir el movimiento desde ese marco acelerado." },
-          { "id": 12, "apartado": "2. Dinámica de la partícula y leyes de Newton", "subapartado": "2.4. Sistemas no inerciales y fuerzas de inercia", "termino": "Compara la fuerza centrípeta con las fuerzas ficticias que aparecen en sistemas rotatorios.", "descripcion": "La fuerza centrípeta no es una nueva interacción, sino el nombre dado a la resultante real dirigida hacia el centro que produce aceleración radial. En cambio, centrífuga, Coriolis o Euler aparecen por describir el movimiento desde un sistema rotatorio. Por lo tanto, su origen conceptual es diferente." },
-          { "id": 13, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.1. Momento lineal e impulso", "termino": "Analiza la relación entre fuerza, impulso y variación del momento lineal.", "descripcion": "La fuerza determina la rapidez con que cambia el momento lineal, mientras que el impulso acumula ese efecto durante un intervalo temporal. Al integrar la fuerza respecto al tiempo se obtiene la variación total del momento. Esto permite estudiar interacciones breves, como impactos, sin describir cada instante detalladamente." },
-          { "id": 14, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.2. Momento lineal de un sistema de partículas", "termino": "Justifica por qué las fuerzas internas no modifican el momento lineal total de un sistema.", "descripcion": "Porque las fuerzas internas aparecen por pares de acción y reacción, iguales en módulo y opuestas, actuando entre partículas del mismo sistema. Al sumar las ecuaciones de todas las partículas, estos pares se cancelan. Como resultado, únicamente la resultante de las fuerzas externas puede modificar el momento total." },
-          { "id": 15, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.3. Principio de conservación del momento lineal", "termino": "Deduce el principio de conservación del momento lineal a partir de la dinámica de un sistema de partículas.", "descripcion": "La variación temporal del momento total es igual a la resultante de las fuerzas externas. Si dicha resultante es nula, la derivada temporal del momento también lo es. Por lo tanto, el momento total permanece constante y los estados inicial y final pueden relacionarse directamente." },
-          { "id": 16, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.4. Colisiones, retroceso y propulsión", "termino": "Compara una colisión elástica con una inelástica desde el punto de vista de las magnitudes conservadas.", "descripcion": "En ambas se conserva el momento lineal total cuando el impulso externo es despreciable. Sin embargo, solo en la colisión elástica se conserva también la energía cinética total. En una inelástica parte de esa energía se transforma en deformación, calor, sonido u otras formas." },
-          { "id": 17, "apartado": "3. Momento lineal y principio de conservación", "subapartado": "3.4. Colisiones, retroceso y propulsión", "termino": "Explica cómo el principio de conservación del momento permite interpretar retroceso y propulsión.", "descripcion": "Si un sistema inicialmente tiene momento total nulo, sus partes deben adquirir momentos opuestos al separarse para conservarlo. En la propulsión, la masa expulsada recibe momento en una dirección y el vehículo adquiere otro opuesto. Esto permite comprender el movimiento sin invocar una reacción contra el aire." },
-          { "id": 18, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.1. Peso, fuerza normal y tensión", "termino": "Justifica por qué peso y normal no constituyen un par de acción y reacción.", "descripcion": "Porque ambas fuerzas actúan sobre el mismo cuerpo: el peso es ejercido por la Tierra y la normal por la superficie. En la tercera ley, cada par debe actuar sobre cuerpos distintos. La reacción al peso es la fuerza gravitatoria ejercida por el cuerpo sobre la Tierra." },
-          { "id": 19, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.2. Rozamiento sólido y fuerzas de arrastre", "termino": "Compara el comportamiento del rozamiento estático, el cinético y la fuerza de arrastre.", "descripcion": "El rozamiento estático se adapta hasta un máximo antes del deslizamiento, mientras que el cinético actúa durante el movimiento relativo y suele ser menor. El arrastre aparece en fluidos y depende de la velocidad relativa. Por lo tanto, sus modelos matemáticos y condiciones de aplicación son diferentes." },
-          { "id": 20, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.2. Rozamiento sólido y fuerzas de arrastre", "termino": "Deduce cómo puede alcanzarse una velocidad límite durante la caída de un cuerpo en un fluido.", "descripcion": "Al aumentar la velocidad crece la fuerza de arrastre hasta que compensa el peso efectivo. En ese instante la fuerza resultante se anula y, por lo tanto, también la aceleración. Como resultado, el cuerpo continúa descendiendo con velocidad aproximadamente constante, denominada velocidad límite." },
-          { "id": 21, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.3. Diagramas de fuerzas y resolución de problemas", "termino": "Explica por qué un diagrama de cuerpo libre es esencial antes de aplicar las leyes de Newton.", "descripcion": "Porque obliga a delimitar el sistema y a representar únicamente las fuerzas externas que actúan sobre él. Esto evita mezclar pares de acción y reacción o introducir fuerzas inexistentes. Además, facilita elegir ejes adecuados, descomponer vectores y plantear correctamente las ecuaciones dinámicas." },
-          { "id": 22, "apartado": "4. Aplicaciones de la dinámica", "subapartado": "4.4. Aplicaciones científicas y tecnológicas", "termino": "Analiza cómo el concepto de impulso permite interpretar el funcionamiento de airbags y cinturones de seguridad.", "descripcion": "Para una misma variación del momento del ocupante, aumentar el tiempo durante el cual se produce la detención reduce la fuerza media necesaria. Airbags, cinturones y estructuras deformables prolongan ese intervalo. Como resultado, disminuyen las fuerzas máximas sobre el cuerpo y reducen el riesgo de lesiones." },
-          { "id": 23, "apartado": "5. Conclusión", "subapartado": "5. Conclusión", "termino": "Analiza cómo se integran las leyes de Newton y la conservación del momento lineal en una visión unificada de la dinámica.", "descripcion": "Las leyes de Newton describen cómo las interacciones modifican el movimiento, mientras que la formulación mediante momento lineal permite extender ese análisis a sistemas completos. Cuando la resultante externa es nula, surge un principio de conservación. Esto conecta fuerzas, movimiento y sistemas de partículas dentro de un mismo marco." }
+          {
+            "id": 1,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "Explica por qué la relación entre fuerza y movimiento constituye el eje central de la dinámica clásica.",
+            "descripcion": "Porque permite relacionar las interacciones con los cambios del estado de movimiento. Las leyes de Newton proporcionan el marco matemático para esa relación y el momento lineal permite extenderla a sistemas de partículas. Como resultado, se pueden interpretar desde trayectorias sencillas hasta colisiones y propulsión."
+          },
+          {
+            "id": 2,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.1. La mecánica en la Antigüedad y la Edad Media",
+            "termino": "Compara la concepción aristotélica del movimiento con la teoría medieval del ímpetus.",
+            "descripcion": "Aristóteles asociaba el movimiento violento a una acción motriz continuada, mientras que la teoría del ímpetus admitía que el móvil podía conservar una propiedad adquirida tras cesar el contacto. Esto supone un avance conceptual porque reduce la necesidad de una causa externa permanente y anticipa parcialmente la idea de inercia."
+          },
+          {
+            "id": 3,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo",
+            "termino": "Justifica por qué los experimentos de Galileo con planos inclinados fueron decisivos para el desarrollo de la dinámica.",
+            "descripcion": "Porque permitieron estudiar movimientos acelerados de forma controlada y cuantitativa. Al reducir la aceleración efectiva, Galileo pudo establecer relaciones matemáticas entre tiempo, velocidad y distancia. Esto permitió sustituir explicaciones cualitativas por leyes experimentales y preparar el camino hacia la formulación newtoniana."
+          },
+          {
+            "id": 4,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.2. La mecánica en el Renacimiento y las aportaciones de Galileo",
+            "termino": "Analiza cómo las ideas de Galileo sobre caída libre, inercia y proyectiles contribuyeron a superar la física aristotélica.",
+            "descripcion": "Galileo mostró que la caída ideal no depende de la masa, defendió la permanencia del movimiento uniforme sin rozamiento y explicó los proyectiles mediante composición de movimientos. Estas ideas contradicen la necesidad aristotélica de una causa motriz continua y permiten describir el movimiento mediante relaciones matemáticas independientes de explicaciones cualitativas sobre lugares naturales."
+          },
+          {
+            "id": 5,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.3. Newton y la formulación de la mecánica clásica",
+            "termino": "Explica por qué la síntesis de Newton supone un cambio cualitativo respecto a los estudios anteriores del movimiento.",
+            "descripcion": "Porque Newton integra masa, fuerza y variación del movimiento dentro de un mismo marco matemático. Los estudios anteriores describían trayectorias o fenómenos concretos, mientras que sus leyes permiten establecer principios generales aplicables a numerosos sistemas. Esto convierte la mecánica en una teoría predictiva y sistemática."
+          },
+          {
+            "id": 6,
+            "apartado": "1. Evolución histórica de la relación fuerza-movimiento",
+            "subapartado": "1.4. Desarrollo posterior y concepción moderna de las interacciones",
+            "termino": "Analiza cómo la concepción moderna de las interacciones amplía la interpretación newtoniana de la fuerza.",
+            "descripcion": "La mecánica newtoniana trata las fuerzas como magnitudes que determinan cambios del movimiento, pero la física moderna busca además su origen microscópico. Así, fuerzas de contacto como normal o rozamiento se relacionan principalmente con interacciones electromagnéticas. Esto permite conectar la descripción macroscópica con las interacciones fundamentales."
+          },
+          {
+            "id": 7,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.1. Fundamentos de la dinámica de la partícula",
+            "termino": "Justifica por qué el modelo de partícula material resulta útil aunque los cuerpos reales tengan dimensiones.",
+            "descripcion": "Porque cuando las dimensiones del cuerpo son pequeñas frente a las distancias relevantes, su forma y extensión apenas afectan al análisis traslacional. Esto permite concentrar masa y movimiento en un punto ideal y simplificar las ecuaciones sin perder la información dinámica esencial del problema considerado."
+          },
+          {
+            "id": 8,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.2. Leyes de Newton",
+            "termino": "Analiza la relación conceptual entre las tres leyes de Newton dentro de la dinámica clásica.",
+            "descripcion": "La primera identifica los sistemas inerciales y caracteriza el movimiento cuando la resultante es nula. La segunda cuantifica cómo cambia el movimiento ante una fuerza neta. La tercera establece el carácter mutuo de las interacciones. Juntas proporcionan un marco coherente para describir causas, efectos e interacción entre cuerpos."
+          },
+          {
+            "id": 9,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.2. Leyes de Newton",
+            "termino": "Justifica por qué la forma dp/dt de la segunda ley es más general que la expresión ma.",
+            "descripcion": "Porque la relación entre fuerza resultante y variación del momento lineal sigue siendo válida aunque la masa del sistema cambie. La forma ma se obtiene únicamente cuando la masa permanece constante. Por lo tanto, la formulación mediante momento lineal conecta de manera más general la dinámica con sistemas de masa variable."
+          },
+          {
+            "id": 10,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.3. Sistemas de referencia e invariancia de las leyes de la mecánica",
+            "termino": "Deduce por qué dos sistemas inerciales relacionados por una transformación de Galileo miden la misma aceleración.",
+            "descripcion": "Si ambos sistemas se desplazan entre sí con velocidad constante, sus velocidades difieren solo en esa cantidad constante. Al derivar nuevamente respecto al tiempo, dicha diferencia desaparece y las aceleraciones coinciden. Por lo tanto, la segunda ley conserva su forma y ambos observadores describen la misma dinámica."
+          },
+          {
+            "id": 11,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.4. Sistemas no inerciales y fuerzas de inercia",
+            "termino": "Explica por qué es necesario introducir fuerzas ficticias al trabajar desde un sistema no inercial.",
+            "descripcion": "Porque un observador acelerado mide aceleraciones adicionales que no pueden atribuirse directamente a interacciones físicas externas. Para conservar formalmente la estructura de la segunda ley se introduce una fuerza de inercia proporcional y opuesta a la aceleración del sistema. Esto permite describir el movimiento desde ese marco acelerado."
+          },
+          {
+            "id": 12,
+            "apartado": "2. Dinámica de la partícula y leyes de Newton",
+            "subapartado": "2.4. Sistemas no inerciales y fuerzas de inercia",
+            "termino": "Compara la fuerza centrípeta con las fuerzas ficticias que aparecen en sistemas rotatorios.",
+            "descripcion": "La fuerza centrípeta no es una nueva interacción, sino el nombre dado a la resultante real dirigida hacia el centro que produce aceleración radial. En cambio, centrífuga, Coriolis o Euler aparecen por describir el movimiento desde un sistema rotatorio. Por lo tanto, su origen conceptual es diferente."
+          },
+          {
+            "id": 13,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.1. Momento lineal e impulso",
+            "termino": "Analiza la relación entre fuerza, impulso y variación del momento lineal.",
+            "descripcion": "La fuerza determina la rapidez con que cambia el momento lineal, mientras que el impulso acumula ese efecto durante un intervalo temporal. Al integrar la fuerza respecto al tiempo se obtiene la variación total del momento. Esto permite estudiar interacciones breves, como impactos, sin describir cada instante detalladamente."
+          },
+          {
+            "id": 14,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.2. Momento lineal de un sistema de partículas",
+            "termino": "Justifica por qué las fuerzas internas no modifican el momento lineal total de un sistema.",
+            "descripcion": "Porque las fuerzas internas aparecen por pares de acción y reacción, iguales en módulo y opuestas, actuando entre partículas del mismo sistema. Al sumar las ecuaciones de todas las partículas, estos pares se cancelan. Como resultado, únicamente la resultante de las fuerzas externas puede modificar el momento total."
+          },
+          {
+            "id": 15,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.3. Principio de conservación del momento lineal",
+            "termino": "Deduce el principio de conservación del momento lineal a partir de la dinámica de un sistema de partículas.",
+            "descripcion": "La variación temporal del momento total es igual a la resultante de las fuerzas externas. Si dicha resultante es nula, la derivada temporal del momento también lo es. Por lo tanto, el momento total permanece constante y los estados inicial y final pueden relacionarse directamente."
+          },
+          {
+            "id": 16,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.4. Colisiones, retroceso y propulsión",
+            "termino": "Compara una colisión elástica con una inelástica desde el punto de vista de las magnitudes conservadas.",
+            "descripcion": "En ambas se conserva el momento lineal total cuando el impulso externo es despreciable. Sin embargo, solo en la colisión elástica se conserva también la energía cinética total. En una inelástica parte de esa energía se transforma en deformación, calor, sonido u otras formas."
+          },
+          {
+            "id": 17,
+            "apartado": "3. Momento lineal y principio de conservación",
+            "subapartado": "3.4. Colisiones, retroceso y propulsión",
+            "termino": "Explica cómo el principio de conservación del momento permite interpretar retroceso y propulsión.",
+            "descripcion": "Si un sistema inicialmente tiene momento total nulo, sus partes deben adquirir momentos opuestos al separarse para conservarlo. En la propulsión, la masa expulsada recibe momento en una dirección y el vehículo adquiere otro opuesto. Esto permite comprender el movimiento sin invocar una reacción contra el aire."
+          },
+          {
+            "id": 18,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.1. Peso, fuerza normal y tensión",
+            "termino": "Justifica por qué peso y normal no constituyen un par de acción y reacción.",
+            "descripcion": "Porque ambas fuerzas actúan sobre el mismo cuerpo: el peso es ejercido por la Tierra y la normal por la superficie. En la tercera ley, cada par debe actuar sobre cuerpos distintos. La reacción al peso es la fuerza gravitatoria ejercida por el cuerpo sobre la Tierra."
+          },
+          {
+            "id": 19,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.2. Rozamiento sólido y fuerzas de arrastre",
+            "termino": "Compara el comportamiento del rozamiento estático, el cinético y la fuerza de arrastre.",
+            "descripcion": "El rozamiento estático se adapta hasta un máximo antes del deslizamiento, mientras que el cinético actúa durante el movimiento relativo y suele ser menor. El arrastre aparece en fluidos y depende de la velocidad relativa. Por lo tanto, sus modelos matemáticos y condiciones de aplicación son diferentes."
+          },
+          {
+            "id": 20,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.2. Rozamiento sólido y fuerzas de arrastre",
+            "termino": "Deduce cómo puede alcanzarse una velocidad límite durante la caída de un cuerpo en un fluido.",
+            "descripcion": "Al aumentar la velocidad crece la fuerza de arrastre hasta que compensa el peso efectivo. En ese instante la fuerza resultante se anula y, por lo tanto, también la aceleración. Como resultado, el cuerpo continúa descendiendo con velocidad aproximadamente constante, denominada velocidad límite."
+          },
+          {
+            "id": 21,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.3. Diagramas de fuerzas y resolución de problemas",
+            "termino": "Explica por qué un diagrama de cuerpo libre es esencial antes de aplicar las leyes de Newton.",
+            "descripcion": "Porque obliga a delimitar el sistema y a representar únicamente las fuerzas externas que actúan sobre él. Esto evita mezclar pares de acción y reacción o introducir fuerzas inexistentes. Además, facilita elegir ejes adecuados, descomponer vectores y plantear correctamente las ecuaciones dinámicas."
+          },
+          {
+            "id": 22,
+            "apartado": "4. Aplicaciones de la dinámica",
+            "subapartado": "4.4. Aplicaciones científicas y tecnológicas",
+            "termino": "Analiza cómo el concepto de impulso permite interpretar el funcionamiento de airbags y cinturones de seguridad.",
+            "descripcion": "Para una misma variación del momento del ocupante, aumentar el tiempo durante el cual se produce la detención reduce la fuerza media necesaria. Airbags, cinturones y estructuras deformables prolongan ese intervalo. Como resultado, disminuyen las fuerzas máximas sobre el cuerpo y reducen el riesgo de lesiones."
+          },
+          {
+            "id": 23,
+            "apartado": "5. Conclusión",
+            "subapartado": "5. Conclusión",
+            "termino": "Analiza cómo se integran las leyes de Newton y la conservación del momento lineal en una visión unificada de la dinámica.",
+            "descripcion": "Las leyes de Newton describen cómo las interacciones modifican el movimiento, mientras que la formulación mediante momento lineal permite extender ese análisis a sistemas completos. Cuando la resultante externa es nula, surge un principio de conservación. Esto conecta fuerzas, movimiento y sistemas de partículas dentro de un mismo marco."
+          }
         ]
       }
     }
   ],
   "propuesta_didactica": {
-    "lectura": "Limitación de velocidad y frenado automático",
-    "actividad": "Debate en grupos: defender y analizar límites",
+    "lectura": "Este tema puede trasladarse al aula mediante un debate científico guiado sobre la siguiente controversia: ¿deben generalizarse los sistemas de limitación inteligente de velocidad y frenado automático como medida prioritaria para reducir la gravedad de los accidentes de tráfico? Esta cuestión permite relacionar las leyes de Newton, el momento lineal, el impulso, las colisiones y las fuerzas de frenado con una aplicación tecnológica y social cercana al alumnado.\nLa clase se organizará de modo que un grupo defienda estas tecnologías por su potencial para reducir la velocidad de impacto y aumentar el tiempo de frenado, mientras otro analice críticamente sus limitaciones técnicas, económicas o de fiabilidad. El resto del alumnado asumirá funciones de moderación, síntesis y valoración de evidencias.\nPara argumentar, se utilizarán gráficos fuerza-tiempo, datos de distancia de frenado, velocidades de impacto, simulaciones de colisiones y casos reales de seguridad vial, diferenciando hechos, inferencias y opiniones. Para favorecer la inclusión se ofrecerán apoyos visuales, guías de argumentación, roles cooperativos y participación oral o escrita. La actividad podrá evaluarse mediante una breve rúbrica de argumentación científica.",
+    "actividad": "Este tema puede trasladarse al aula mediante un debate científico guiado sobre la siguiente controversia: ¿deben generalizarse los sistemas de limitación inteligente de velocidad y frenado automático como medida prioritaria para reducir la gravedad de los accidentes de tráfico? Esta cuestión permite relacionar las leyes de Newton, el momento lineal, el impulso, las colisiones y las fuerzas de frenado con una aplicación tecnológica y social cercana al alumnado.\nLa clase se organizará de modo que un grupo defienda estas tecnologías por su potencial para reducir la velocidad de impacto y aumentar el tiempo de frenado, mientras otro analice críticamente sus limitaciones técnicas, económicas o de fiabilidad. El resto del alumnado asumirá funciones de moderación, síntesis y valoración de evidencias.\nPara argumentar, se utilizarán gráficos fuerza-tiempo, datos de distancia de frenado, velocidades de impacto, simulaciones de colisiones y casos reales de seguridad vial, diferenciando hechos, inferencias y opiniones. Para favorecer la inclusión se ofrecerán apoyos visuales, guías de argumentación, roles cooperativos y participación oral o escrita. La actividad podrá evaluarse mediante una breve rúbrica de argumentación científica.",
     "dinamica": "Datos de frenado, apoyos visuales, roles"
   }
 }

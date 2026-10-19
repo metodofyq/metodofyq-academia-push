@@ -11,7 +11,10 @@
       "content_json": {
         "tipo": "indice",
         "estructura": [
-          { "apartado": "0. Introducción", "subapartados": [] },
+          {
+            "apartado": "0. Introducción",
+            "subapartados": []
+          },
           {
             "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
             "subapartados": [
@@ -46,8 +49,14 @@
               "4.4. Ley de Kirchhoff y dependencia con la temperatura"
             ]
           },
-          { "apartado": "5. Conclusión", "subapartados": [] },
-          { "apartado": "6. Bibliografía", "subapartados": [] }
+          {
+            "apartado": "5. Conclusión",
+            "subapartados": []
+          },
+          {
+            "apartado": "6. Bibliografía",
+            "subapartados": []
+          }
         ]
       }
     },
@@ -97,60 +106,384 @@
       "content_json": {
         "tipo": "recuperacion_activa",
         "flashcards": [
-          { "id": 1, "apartado": "0. Introducción", "subapartado": "0.1. Contextualización y relevancia del concepto central", "termino": "¿Qué estudia la termoquímica?", "descripcion": "Los intercambios de calor asociados a las transformaciones químicas." },
-          { "id": 2, "apartado": "0. Introducción", "subapartado": "0.1. Contextualización y relevancia del concepto central", "termino": "¿Qué tres procesos representan aplicaciones de la termoquímica?", "descripcion": "Combustión, neutralización y síntesis industrial." },
-          { "id": 3, "apartado": "0. Introducción", "subapartado": "0.1. Contextualización y relevancia del concepto central", "termino": "¿Qué dos retos industriales aborda la termoquímica?", "descripcion": "La eficiencia energética y la descarbonización de los procesos." },
-          { "id": 4, "apartado": "0. Introducción", "subapartado": "0.2. Enfoque y organización del tema", "termino": "¿Qué cuatro fundamentos sustentan el análisis termoquímico?", "descripcion": "Conservación de la energía, trabajo, energía interna y entalpía." },
-          { "id": 5, "apartado": "0. Introducción", "subapartado": "0.2. Enfoque y organización del tema", "termino": "¿Qué tres elementos deben especificarse en una ecuación termoquímica?", "descripcion": "Estequiometría, estados físicos y condiciones estándar o condiciones de reacción." },
-          { "id": 6, "apartado": "0. Introducción", "subapartado": "0.2. Enfoque y organización del tema", "termino": "¿Qué cinco familias de métodos permiten obtener calores de reacción?", "descripcion": "Calorimetría, ley de Hess, entalpías de formación, energías de enlace y ley de Kirchhoff." },
-          { "id": 7, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.1. Sistemas termodinámicos, energía interna y funciones de estado", "termino": "¿Cómo se clasifican los sistemas termodinámicos según sus intercambios?", "descripcion": "Abiertos: materia y energía; cerrados: energía; aislados: ni materia ni energía." },
-          { "id": 8, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.1. Sistemas termodinámicos, energía interna y funciones de estado", "termino": "¿Qué variables caracterizan el estado de un sistema termodinámico?", "descripcion": "Presión, volumen, temperatura y composición." },
-          { "id": 9, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.1. Sistemas termodinámicos, energía interna y funciones de estado", "termino": "¿Qué distingue la energía interna del calor y el trabajo?", "descripcion": "La energía interna es función de estado; su variación depende de estados inicial y final. Calor y trabajo dependen del camino." },
-          { "id": 10, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.2. Primer principio de la termodinámica y trabajo de expansión", "termino": "¿Cuál es la expresión del primer principio con trabajo recibido positivo?", "descripcion": "ΔU = Q + W; W es positivo si el entorno realiza trabajo sobre el sistema." },
-          { "id": 11, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.2. Primer principio de la termodinámica y trabajo de expansión", "termino": "¿Qué signos corresponden al calor absorbido y al trabajo de expansión?", "descripcion": "Calor absorbido positivo; trabajo de expansión negativo." },
-          { "id": 12, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.2. Primer principio de la termodinámica y trabajo de expansión", "termino": "¿Cómo se expresa el trabajo presión-volumen?", "descripcion": "Con presión exterior constante, W = −p_ext ΔV; si varía, W = −∫p_ext dV." },
-          { "id": 13, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.2. Primer principio de la termodinámica y trabajo de expansión", "termino": "¿Cuánto varía U si Q = +50 kJ y W = −20 kJ?", "descripcion": "Aumenta 30 kJ: ΔU = +30 kJ." },
-          { "id": 14, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.3. Procesos isócoros e isóbaros", "termino": "¿Qué caracteriza un proceso isócoro y cómo se relacionan Q y U?", "descripcion": "Volumen constante; sin otros trabajos, Q_V = ΔU." },
-          { "id": 15, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.3. Procesos isócoros e isóbaros", "termino": "¿Qué caracteriza un proceso isóbaro?", "descripcion": "Presión constante; puede existir trabajo presión-volumen." },
-          { "id": 16, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.3. Procesos isócoros e isóbaros", "termino": "¿Es el calor una función de estado cuando el volumen es constante?", "descripcion": "No. Es una transferencia de energía; bajo ciertas restricciones, Q_V coincide con ΔU." },
-          { "id": 17, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.4. Entalpía y su relación con la energía interna", "termino": "¿Cómo se define la entalpía?", "descripcion": "H = U + pV; es una función de estado." },
-          { "id": 18, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.4. Entalpía y su relación con la energía interna", "termino": "¿Cuándo es el calor isóbaro igual a la variación de entalpía?", "descripcion": "Cuando la presión del sistema iguala la exterior y solo existe trabajo presión-volumen: Q_p = ΔH." },
-          { "id": 19, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.4. Entalpía y su relación con la energía interna", "termino": "¿Qué relaciones vinculan las variaciones de entalpía y energía interna?", "descripcion": "ΔH = ΔU + Δ(pV); para gases ideales isotermos, Δ_rH ≈ Δ_rU + Δn_gRT." },
-          { "id": 20, "apartado": "2. Ecuaciones termoquímicas", "subapartado": "2.1. Entalpía de reacción y condiciones estándar", "termino": "¿Qué representa la entalpía de reacción y de qué depende?", "descripcion": "La variación de entalpía por mol de avance estequiométrico; depende de temperatura, presión y estados físicos." },
-          { "id": 21, "apartado": "2. Ecuaciones termoquímicas", "subapartado": "2.1. Entalpía de reacción y condiciones estándar", "termino": "¿Cuál es la presión estándar y qué temperatura se emplea habitualmente?", "descripcion": "La presión estándar es 1 bar; suele indicarse 298,15 K como temperatura de referencia." },
-          { "id": 22, "apartado": "2. Ecuaciones termoquímicas", "subapartado": "2.1. Entalpía de reacción y condiciones estándar", "termino": "¿Qué indica el superíndice ° en Δ_rH°?", "descripcion": "Que reactivos y productos están en sus estados estándar, a la temperatura especificada." },
-          { "id": 23, "apartado": "2. Ecuaciones termoquímicas", "subapartado": "2.2. Ecuaciones termoquímicas y sus propiedades", "termino": "¿Qué información debe contener una ecuación termoquímica?", "descripcion": "Reacción ajustada, estados físicos, temperatura y entalpía de reacción." },
-          { "id": 24, "apartado": "2. Ecuaciones termoquímicas", "subapartado": "2.2. Ecuaciones termoquímicas y sus propiedades", "termino": "¿Cuál es aproximadamente la entalpía estándar de combustión del metano con agua líquida?", "descripcion": "−890,3 kJ por mol de CH₄ a 298 K, para CH₄ + 2O₂ → CO₂(g) + 2H₂O(l)." },
-          { "id": 25, "apartado": "2. Ecuaciones termoquímicas", "subapartado": "2.2. Ecuaciones termoquímicas y sus propiedades", "termino": "¿Cómo cambia la entalpía al invertir, multiplicar o sumar ecuaciones?", "descripcion": "Invertir cambia el signo; multiplicar escala la entalpía; sumar ecuaciones suma sus entalpías." },
-          { "id": 26, "apartado": "2. Ecuaciones termoquímicas", "subapartado": "2.3. Reacciones exotérmicas, endotérmicas y diagramas entálpicos", "termino": "¿Qué signo de ΔH tiene una reacción exotérmica?", "descripcion": "Negativo; a presión constante cede calor y los productos quedan a menor entalpía." },
-          { "id": 27, "apartado": "2. Ecuaciones termoquímicas", "subapartado": "2.3. Reacciones exotérmicas, endotérmicas y diagramas entálpicos", "termino": "¿Qué signo de ΔH tiene una reacción endotérmica?", "descripcion": "Positivo; a presión constante absorbe calor y los productos quedan a mayor entalpía." },
-          { "id": 28, "apartado": "2. Ecuaciones termoquímicas", "subapartado": "2.3. Reacciones exotérmicas, endotérmicas y diagramas entálpicos", "termino": "¿Qué representan los diagramas entálpicos y qué determina la espontaneidad?", "descripcion": "Representan entalpía frente al avance y diferencia ΔH; la espontaneidad requiere considerar también entropía y temperatura." },
-          { "id": 29, "apartado": "3. Métodos experimentales para el cálculo de calores de reacción", "subapartado": "3.1. Fundamentos de calorimetría", "termino": "¿Qué ecuación calorimétrica se aplica sin cambios de fase?", "descripcion": "Q = mcΔT = CΔT." },
-          { "id": 30, "apartado": "3. Métodos experimentales para el cálculo de calores de reacción", "subapartado": "3.1. Fundamentos de calorimetría", "termino": "¿Qué condición caracteriza el balance térmico aproximadamente adiabático?", "descripcion": "La suma de los calores intercambiados por reacción, medio y recipiente es aproximadamente cero." },
-          { "id": 31, "apartado": "3. Métodos experimentales para el cálculo de calores de reacción", "subapartado": "3.1. Fundamentos de calorimetría", "termino": "¿Qué magnitudes y controles exige una medida calorimétrica?", "descripcion": "Calor específico, capacidad calorífica, calibración, incertidumbre y expresión de resultados en kJ por mol." },
-          { "id": 32, "apartado": "3. Métodos experimentales para el cálculo de calores de reacción", "subapartado": "3.2. Calorimetría a volumen constante", "termino": "¿Qué componentes caracterizan una bomba calorimétrica?", "descripcion": "Cámara rígida, oxígeno presurizado y dispositivo de ignición eléctrica." },
-          { "id": 33, "apartado": "3. Métodos experimentales para el cálculo de calores de reacción", "subapartado": "3.2. Calorimetría a volumen constante", "termino": "¿Qué se mide y calibra en una bomba calorimétrica?", "descripcion": "El incremento de temperatura del agua y aparato; se calibra su capacidad calorífica efectiva." },
-          { "id": 34, "apartado": "3. Métodos experimentales para el cálculo de calores de reacción", "subapartado": "3.2. Calorimetría a volumen constante", "termino": "¿Qué calor determina una bomba calorimétrica y cómo se transforma en entalpía?", "descripcion": "Q_V = −C_ef·ΔT = ΔU, tras correcciones; para ΔH se aplica la relación entre ambas funciones." },
-          { "id": 35, "apartado": "3. Métodos experimentales para el cálculo de calores de reacción", "subapartado": "3.3. Calorimetría a presión constante", "termino": "¿Qué reacciones se estudian en un calorímetro de vaso?", "descripcion": "Neutralizaciones y disoluciones a presión aproximadamente constante, registrando masas y temperaturas." },
-          { "id": 36, "apartado": "3. Métodos experimentales para el cálculo de calores de reacción", "subapartado": "3.3. Calorimetría a presión constante", "termino": "¿Cuál es el balance de calor del vaso calorimétrico?", "descripcion": "Q_p = −(m·c + C_cal)·ΔT, incluyendo la capacidad térmica del calorímetro." },
-          { "id": 37, "apartado": "3. Métodos experimentales para el cálculo de calores de reacción", "subapartado": "3.3. Calorimetría a presión constante", "termino": "¿Cómo se obtiene la entalpía molar con calorimetría isóbara?", "descripcion": "Dividiendo Q_p entre moles de avance y considerando dilución y pérdidas térmicas." },
-          { "id": 38, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.1. Ley de Hess y ciclos termoquímicos", "termino": "¿Qué establece la ley de Hess?", "descripcion": "La entalpía total es la suma de las entalpías parciales, independientemente del camino." },
-          { "id": 39, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.1. Ley de Hess y ciclos termoquímicos", "termino": "¿Qué operaciones algebraicas permite la ley de Hess?", "descripcion": "Invertir, multiplicar y sumar ecuaciones, realizando las operaciones correspondientes sobre las entalpías." },
-          { "id": 40, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.1. Ley de Hess y ciclos termoquímicos", "termino": "¿Cuál es aproximadamente la entalpía estándar de formación de CO(g) desde C(s)?", "descripcion": "−110,5 kJ/mol para C(s) + ½O₂(g) → CO(g)." },
-          { "id": 41, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.1. Ley de Hess y ciclos termoquímicos", "termino": "¿Qué representa un ciclo termoquímico?", "descripcion": "Vías distintas entre los mismos estados inicial y final, con igual variación total de entalpía." },
-          { "id": 42, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.2. Entalpías estándar de formación", "termino": "¿Qué es la entalpía estándar de formación?", "descripcion": "La entalpía al formar un mol de compuesto desde sus elementos en estados estándar de referencia." },
-          { "id": 43, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.2. Entalpías estándar de formación", "termino": "¿Qué valor se asigna a Δ_fH° de los elementos en estado de referencia?", "descripcion": "Cero, por convenio." },
-          { "id": 44, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.2. Entalpías estándar de formación", "termino": "¿Cómo se calcula Δ_rH° mediante entalpías de formación?", "descripcion": "Suma estequiométrica de entalpías de formación de productos menos la de reactivos." },
-          { "id": 45, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.3. Energías de enlace", "termino": "¿Qué signo energético caracteriza la ruptura y la formación de enlaces?", "descripcion": "Romper enlaces requiere energía; formarlos la libera. Se usan entalpías medias de enlace gaseosas." },
-          { "id": 46, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.3. Energías de enlace", "termino": "¿Cómo se estima Δ_rH mediante energías de enlace?", "descripcion": "Suma de energías de enlaces rotos menos suma de energías de enlaces formados." },
-          { "id": 47, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.3. Energías de enlace", "termino": "¿Qué enlaces se rompen y forman para obtener un mol de agua gaseosa?", "descripcion": "Se rompe un H–H y medio O=O; se forman dos O–H." },
-          { "id": 48, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.4. Ley de Kirchhoff y dependencia con la temperatura", "termino": "¿Qué relaciona la ley de Kirchhoff?", "descripcion": "La entalpía de reacción a distintas temperaturas mediante la integral de la capacidad calorífica de reacción." },
-          { "id": 49, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.4. Ley de Kirchhoff y dependencia con la temperatura", "termino": "¿Cómo se obtiene la capacidad calorífica de reacción?", "descripcion": "Suma estequiométrica de capacidades caloríficas de productos menos la de reactivos." },
-          { "id": 50, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.4. Ley de Kirchhoff y dependencia con la temperatura", "termino": "¿Qué simplificación admite Kirchhoff si Δ_rC_p es constante?", "descripcion": "Δ_rH(T₂) ≈ Δ_rH(T₁) + Δ_rC_p(T₂−T₁); los cambios de fase exigen correcciones." },
-          { "id": 51, "apartado": "5. Conclusión", "subapartado": "5.1. Síntesis e integración de los fundamentos", "termino": "¿Qué magnitudes principales integra el fundamento energético de la termoquímica?", "descripcion": "Energía interna, entalpía y su relación con el primer principio de la termodinámica." },
-          { "id": 52, "apartado": "5. Conclusión", "subapartado": "5.1. Síntesis e integración de los fundamentos", "termino": "¿Qué dos vías permiten determinar los calores de reacción?", "descripcion": "Mediciones experimentales mediante calorimetría y cálculos indirectos mediante relaciones termoquímicas." },
-          { "id": 53, "apartado": "5. Conclusión", "subapartado": "5.2. Relevancia y proyección del tema", "termino": "¿Para qué se emplean balances termoquímicos en reactores industriales?", "descripcion": "Para dimensionar intercambios térmicos y controlar la temperatura del proceso." },
-          { "id": 54, "apartado": "5. Conclusión", "subapartado": "5.2. Relevancia y proyección del tema", "termino": "¿Qué aplicaciones tiene la termoquímica en la transición energética?", "descripcion": "Comparar combustibles, evaluar hidrógeno y cuantificar las necesidades térmicas de procesos industriales de baja emisión." }
+          {
+            "id": 1,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Qué estudia la termoquímica?",
+            "descripcion": "Los intercambios de calor asociados a las transformaciones químicas."
+          },
+          {
+            "id": 2,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Qué tres procesos representan aplicaciones de la termoquímica?",
+            "descripcion": "Combustión, neutralización y síntesis industrial."
+          },
+          {
+            "id": 3,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Qué dos retos industriales aborda la termoquímica?",
+            "descripcion": "La eficiencia energética y la descarbonización de los procesos."
+          },
+          {
+            "id": 4,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué cuatro fundamentos sustentan el análisis termoquímico?",
+            "descripcion": "Conservación de la energía, trabajo, energía interna y entalpía."
+          },
+          {
+            "id": 5,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué tres elementos deben especificarse en una ecuación termoquímica?",
+            "descripcion": "Estequiometría, estados físicos y condiciones estándar o condiciones de reacción."
+          },
+          {
+            "id": 6,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué cinco familias de métodos permiten obtener calores de reacción?",
+            "descripcion": "Calorimetría, ley de Hess, entalpías de formación, energías de enlace y ley de Kirchhoff."
+          },
+          {
+            "id": 7,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.1. Sistemas termodinámicos, energía interna y funciones de estado",
+            "termino": "¿Cómo se clasifican los sistemas termodinámicos según sus intercambios?",
+            "descripcion": "Abiertos: materia y energía; cerrados: energía; aislados: ni materia ni energía."
+          },
+          {
+            "id": 8,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.1. Sistemas termodinámicos, energía interna y funciones de estado",
+            "termino": "¿Qué variables caracterizan el estado de un sistema termodinámico?",
+            "descripcion": "Presión, volumen, temperatura y composición."
+          },
+          {
+            "id": 9,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.1. Sistemas termodinámicos, energía interna y funciones de estado",
+            "termino": "¿Qué distingue la energía interna del calor y el trabajo?",
+            "descripcion": "La energía interna es función de estado; su variación depende de estados inicial y final. Calor y trabajo dependen del camino."
+          },
+          {
+            "id": 10,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.2. Primer principio de la termodinámica y trabajo de expansión",
+            "termino": "¿Cuál es la expresión del primer principio con trabajo recibido positivo?",
+            "descripcion": "ΔU = Q + W; W es positivo si el entorno realiza trabajo sobre el sistema."
+          },
+          {
+            "id": 11,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.2. Primer principio de la termodinámica y trabajo de expansión",
+            "termino": "¿Qué signos corresponden al calor absorbido y al trabajo de expansión?",
+            "descripcion": "Calor absorbido positivo; trabajo de expansión negativo."
+          },
+          {
+            "id": 12,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.2. Primer principio de la termodinámica y trabajo de expansión",
+            "termino": "¿Cómo se expresa el trabajo presión-volumen?",
+            "descripcion": "Con presión exterior constante, W = −p_ext ΔV; si varía, W = −∫p_ext dV."
+          },
+          {
+            "id": 13,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.2. Primer principio de la termodinámica y trabajo de expansión",
+            "termino": "¿Cuánto varía U si Q = +50 kJ y W = −20 kJ?",
+            "descripcion": "Aumenta 30 kJ: ΔU = +30 kJ."
+          },
+          {
+            "id": 14,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.3. Procesos isócoros e isóbaros",
+            "termino": "¿Qué caracteriza un proceso isócoro y cómo se relacionan Q y U?",
+            "descripcion": "Volumen constante; sin otros trabajos, Q_V = ΔU."
+          },
+          {
+            "id": 15,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.3. Procesos isócoros e isóbaros",
+            "termino": "¿Qué caracteriza un proceso isóbaro?",
+            "descripcion": "Presión constante; puede existir trabajo presión-volumen."
+          },
+          {
+            "id": 16,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.3. Procesos isócoros e isóbaros",
+            "termino": "¿Es el calor una función de estado cuando el volumen es constante?",
+            "descripcion": "No. Es una transferencia de energía; bajo ciertas restricciones, Q_V coincide con ΔU."
+          },
+          {
+            "id": 17,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.4. Entalpía y su relación con la energía interna",
+            "termino": "¿Cómo se define la entalpía?",
+            "descripcion": "H = U + pV; es una función de estado."
+          },
+          {
+            "id": 18,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.4. Entalpía y su relación con la energía interna",
+            "termino": "¿Cuándo es el calor isóbaro igual a la variación de entalpía?",
+            "descripcion": "Cuando la presión del sistema iguala la exterior y solo existe trabajo presión-volumen: Q_p = ΔH."
+          },
+          {
+            "id": 19,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.4. Entalpía y su relación con la energía interna",
+            "termino": "¿Qué relaciones vinculan las variaciones de entalpía y energía interna?",
+            "descripcion": "ΔH = ΔU + Δ(pV); para gases ideales isotermos, Δ_rH ≈ Δ_rU + Δn_gRT."
+          },
+          {
+            "id": 20,
+            "apartado": "2. Ecuaciones termoquímicas",
+            "subapartado": "2.1. Entalpía de reacción y condiciones estándar",
+            "termino": "¿Qué representa la entalpía de reacción y de qué depende?",
+            "descripcion": "La variación de entalpía por mol de avance estequiométrico; depende de temperatura, presión y estados físicos."
+          },
+          {
+            "id": 21,
+            "apartado": "2. Ecuaciones termoquímicas",
+            "subapartado": "2.1. Entalpía de reacción y condiciones estándar",
+            "termino": "¿Cuál es la presión estándar y qué temperatura se emplea habitualmente?",
+            "descripcion": "La presión estándar es 1 bar; suele indicarse 298,15 K como temperatura de referencia."
+          },
+          {
+            "id": 22,
+            "apartado": "2. Ecuaciones termoquímicas",
+            "subapartado": "2.1. Entalpía de reacción y condiciones estándar",
+            "termino": "¿Qué indica el superíndice ° en Δ_rH°?",
+            "descripcion": "Que reactivos y productos están en sus estados estándar, a la temperatura especificada."
+          },
+          {
+            "id": 23,
+            "apartado": "2. Ecuaciones termoquímicas",
+            "subapartado": "2.2. Ecuaciones termoquímicas y sus propiedades",
+            "termino": "¿Qué información debe contener una ecuación termoquímica?",
+            "descripcion": "Reacción ajustada, estados físicos, temperatura y entalpía de reacción."
+          },
+          {
+            "id": 24,
+            "apartado": "2. Ecuaciones termoquímicas",
+            "subapartado": "2.2. Ecuaciones termoquímicas y sus propiedades",
+            "termino": "¿Cuál es aproximadamente la entalpía estándar de combustión del metano con agua líquida?",
+            "descripcion": "−890,3 kJ por mol de CH₄ a 298 K, para CH₄ + 2O₂ → CO₂(g) + 2H₂O(l)."
+          },
+          {
+            "id": 25,
+            "apartado": "2. Ecuaciones termoquímicas",
+            "subapartado": "2.2. Ecuaciones termoquímicas y sus propiedades",
+            "termino": "¿Cómo cambia la entalpía al invertir, multiplicar o sumar ecuaciones?",
+            "descripcion": "Invertir cambia el signo; multiplicar escala la entalpía; sumar ecuaciones suma sus entalpías."
+          },
+          {
+            "id": 26,
+            "apartado": "2. Ecuaciones termoquímicas",
+            "subapartado": "2.3. Reacciones exotérmicas, endotérmicas y diagramas entálpicos",
+            "termino": "¿Qué signo de ΔH tiene una reacción exotérmica?",
+            "descripcion": "Negativo; a presión constante cede calor y los productos quedan a menor entalpía."
+          },
+          {
+            "id": 27,
+            "apartado": "2. Ecuaciones termoquímicas",
+            "subapartado": "2.3. Reacciones exotérmicas, endotérmicas y diagramas entálpicos",
+            "termino": "¿Qué signo de ΔH tiene una reacción endotérmica?",
+            "descripcion": "Positivo; a presión constante absorbe calor y los productos quedan a mayor entalpía."
+          },
+          {
+            "id": 28,
+            "apartado": "2. Ecuaciones termoquímicas",
+            "subapartado": "2.3. Reacciones exotérmicas, endotérmicas y diagramas entálpicos",
+            "termino": "¿Qué representan los diagramas entálpicos y qué determina la espontaneidad?",
+            "descripcion": "Representan entalpía frente al avance y diferencia ΔH; la espontaneidad requiere considerar también entropía y temperatura."
+          },
+          {
+            "id": 29,
+            "apartado": "3. Métodos experimentales para el cálculo de calores de reacción",
+            "subapartado": "3.1. Fundamentos de calorimetría",
+            "termino": "¿Qué ecuación calorimétrica se aplica sin cambios de fase?",
+            "descripcion": "Q = mcΔT = CΔT."
+          },
+          {
+            "id": 30,
+            "apartado": "3. Métodos experimentales para el cálculo de calores de reacción",
+            "subapartado": "3.1. Fundamentos de calorimetría",
+            "termino": "¿Qué condición caracteriza el balance térmico aproximadamente adiabático?",
+            "descripcion": "La suma de los calores intercambiados por reacción, medio y recipiente es aproximadamente cero."
+          },
+          {
+            "id": 31,
+            "apartado": "3. Métodos experimentales para el cálculo de calores de reacción",
+            "subapartado": "3.1. Fundamentos de calorimetría",
+            "termino": "¿Qué magnitudes y controles exige una medida calorimétrica?",
+            "descripcion": "Calor específico, capacidad calorífica, calibración, incertidumbre y expresión de resultados en kJ por mol."
+          },
+          {
+            "id": 32,
+            "apartado": "3. Métodos experimentales para el cálculo de calores de reacción",
+            "subapartado": "3.2. Calorimetría a volumen constante",
+            "termino": "¿Qué componentes caracterizan una bomba calorimétrica?",
+            "descripcion": "Cámara rígida, oxígeno presurizado y dispositivo de ignición eléctrica."
+          },
+          {
+            "id": 33,
+            "apartado": "3. Métodos experimentales para el cálculo de calores de reacción",
+            "subapartado": "3.2. Calorimetría a volumen constante",
+            "termino": "¿Qué se mide y calibra en una bomba calorimétrica?",
+            "descripcion": "El incremento de temperatura del agua y aparato; se calibra su capacidad calorífica efectiva."
+          },
+          {
+            "id": 34,
+            "apartado": "3. Métodos experimentales para el cálculo de calores de reacción",
+            "subapartado": "3.2. Calorimetría a volumen constante",
+            "termino": "¿Qué calor determina una bomba calorimétrica y cómo se transforma en entalpía?",
+            "descripcion": "Q_V = −C_ef·ΔT = ΔU, tras correcciones; para ΔH se aplica la relación entre ambas funciones."
+          },
+          {
+            "id": 35,
+            "apartado": "3. Métodos experimentales para el cálculo de calores de reacción",
+            "subapartado": "3.3. Calorimetría a presión constante",
+            "termino": "¿Qué reacciones se estudian en un calorímetro de vaso?",
+            "descripcion": "Neutralizaciones y disoluciones a presión aproximadamente constante, registrando masas y temperaturas."
+          },
+          {
+            "id": 36,
+            "apartado": "3. Métodos experimentales para el cálculo de calores de reacción",
+            "subapartado": "3.3. Calorimetría a presión constante",
+            "termino": "¿Cuál es el balance de calor del vaso calorimétrico?",
+            "descripcion": "Q_p = −(m·c + C_cal)·ΔT, incluyendo la capacidad térmica del calorímetro."
+          },
+          {
+            "id": 37,
+            "apartado": "3. Métodos experimentales para el cálculo de calores de reacción",
+            "subapartado": "3.3. Calorimetría a presión constante",
+            "termino": "¿Cómo se obtiene la entalpía molar con calorimetría isóbara?",
+            "descripcion": "Dividiendo Q_p entre moles de avance y considerando dilución y pérdidas térmicas."
+          },
+          {
+            "id": 38,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.1. Ley de Hess y ciclos termoquímicos",
+            "termino": "¿Qué establece la ley de Hess?",
+            "descripcion": "La entalpía total es la suma de las entalpías parciales, independientemente del camino."
+          },
+          {
+            "id": 39,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.1. Ley de Hess y ciclos termoquímicos",
+            "termino": "¿Qué operaciones algebraicas permite la ley de Hess?",
+            "descripcion": "Invertir, multiplicar y sumar ecuaciones, realizando las operaciones correspondientes sobre las entalpías."
+          },
+          {
+            "id": 40,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.1. Ley de Hess y ciclos termoquímicos",
+            "termino": "¿Cuál es aproximadamente la entalpía estándar de formación de CO(g) desde C(s)?",
+            "descripcion": "−110,5 kJ/mol para C(s) + ½O₂(g) → CO(g)."
+          },
+          {
+            "id": 41,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.1. Ley de Hess y ciclos termoquímicos",
+            "termino": "¿Qué representa un ciclo termoquímico?",
+            "descripcion": "Vías distintas entre los mismos estados inicial y final, con igual variación total de entalpía."
+          },
+          {
+            "id": 42,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.2. Entalpías estándar de formación",
+            "termino": "¿Qué es la entalpía estándar de formación?",
+            "descripcion": "La entalpía al formar un mol de compuesto desde sus elementos en estados estándar de referencia."
+          },
+          {
+            "id": 43,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.2. Entalpías estándar de formación",
+            "termino": "¿Qué valor se asigna a Δ_fH° de los elementos en estado de referencia?",
+            "descripcion": "Cero, por convenio."
+          },
+          {
+            "id": 44,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.2. Entalpías estándar de formación",
+            "termino": "¿Cómo se calcula Δ_rH° mediante entalpías de formación?",
+            "descripcion": "Suma estequiométrica de entalpías de formación de productos menos la de reactivos."
+          },
+          {
+            "id": 45,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.3. Energías de enlace",
+            "termino": "¿Qué signo energético caracteriza la ruptura y la formación de enlaces?",
+            "descripcion": "Romper enlaces requiere energía; formarlos la libera. Se usan entalpías medias de enlace gaseosas."
+          },
+          {
+            "id": 46,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.3. Energías de enlace",
+            "termino": "¿Cómo se estima Δ_rH mediante energías de enlace?",
+            "descripcion": "Suma de energías de enlaces rotos menos suma de energías de enlaces formados."
+          },
+          {
+            "id": 47,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.3. Energías de enlace",
+            "termino": "¿Qué enlaces se rompen y forman para obtener un mol de agua gaseosa?",
+            "descripcion": "Se rompe un H–H y medio O=O; se forman dos O–H."
+          },
+          {
+            "id": 48,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.4. Ley de Kirchhoff y dependencia con la temperatura",
+            "termino": "¿Qué relaciona la ley de Kirchhoff?",
+            "descripcion": "La entalpía de reacción a distintas temperaturas mediante la integral de la capacidad calorífica de reacción."
+          },
+          {
+            "id": 49,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.4. Ley de Kirchhoff y dependencia con la temperatura",
+            "termino": "¿Cómo se obtiene la capacidad calorífica de reacción?",
+            "descripcion": "Suma estequiométrica de capacidades caloríficas de productos menos la de reactivos."
+          },
+          {
+            "id": 50,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.4. Ley de Kirchhoff y dependencia con la temperatura",
+            "termino": "¿Qué simplificación admite Kirchhoff si Δ_rC_p es constante?",
+            "descripcion": "Δ_rH(T₂) ≈ Δ_rH(T₁) + Δ_rC_p(T₂−T₁); los cambios de fase exigen correcciones."
+          },
+          {
+            "id": 51,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué magnitudes principales integra el fundamento energético de la termoquímica?",
+            "descripcion": "Energía interna, entalpía y su relación con el primer principio de la termodinámica."
+          },
+          {
+            "id": 52,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué dos vías permiten determinar los calores de reacción?",
+            "descripcion": "Mediciones experimentales mediante calorimetría y cálculos indirectos mediante relaciones termoquímicas."
+          },
+          {
+            "id": 53,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.2. Relevancia y proyección del tema",
+            "termino": "¿Para qué se emplean balances termoquímicos en reactores industriales?",
+            "descripcion": "Para dimensionar intercambios térmicos y controlar la temperatura del proceso."
+          },
+          {
+            "id": 54,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.2. Relevancia y proyección del tema",
+            "termino": "¿Qué aplicaciones tiene la termoquímica en la transición energética?",
+            "descripcion": "Comparar combustibles, evaluar hidrógeno y cuantificar las necesidades térmicas de procesos industriales de baja emisión."
+          }
         ]
       }
     },
@@ -168,36 +501,174 @@
       "content_json": {
         "tipo": "reconstruccion_cientifica",
         "flashcards": [
-          { "id": 1, "apartado": "0. Introducción", "subapartado": "0. Introducción", "termino": "Analiza por qué la termoquímica es necesaria para comparar procesos químicos de interés energético e industrial.", "descripcion": "La termoquímica cuantifica el calor intercambiado en condiciones definidas y permite comparar reacciones mediante magnitudes como la entalpía. Así pueden evaluarse combustiones, neutralizaciones y procesos industriales sin confundir calor liberado con eficiencia global. Sus datos sustentan balances energéticos y decisiones técnicas relacionadas con consumo de recursos y descarbonización." },
-          { "id": 2, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.1. Sistemas termodinámicos, energía interna y funciones de estado", "termino": "Justifica por qué dos procesos diferentes entre los mismos estados tienen idéntica variación de energía interna, pero no necesariamente el mismo calor.", "descripcion": "La energía interna es una función de estado, de modo que ΔU solo depende de las condiciones iniciales y finales. En cambio, calor y trabajo describen transferencias dependientes del camino. Si un proceso intercambia más trabajo que otro entre los mismos estados, el calor deberá compensarlo para satisfacer el primer principio." },
-          { "id": 3, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.2. Primer principio de la termodinámica y trabajo de expansión", "termino": "Razona por qué un sistema puede absorber calor sin que aumente su energía interna.", "descripcion": "El primer principio establece ΔU = Q + W si el trabajo recibido es positivo. Aunque Q sea positivo, el sistema puede realizar suficiente trabajo sobre el entorno, de signo negativo, para compensar exactamente ese aporte. Si W = −Q, la energía interna permanece constante pese al intercambio de calor." },
-          { "id": 4, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.2. Primer principio de la termodinámica y trabajo de expansión", "termino": "Deduce cómo cambia el signo del trabajo presión-volumen entre una expansión y una compresión y por qué importa la presión exterior.", "descripcion": "El trabajo sobre el sistema se expresa como W = −∫p_ext dV. En una expansión, dV es positivo y W resulta negativo; en una compresión sucede lo contrario. La presión exterior es la fuerza resistente por unidad de superficie que determina el trabajo intercambiado, por lo que su evolución condiciona el resultado." },
-          { "id": 5, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.3. Procesos isócoros e isóbaros", "termino": "Justifica por qué puede identificarse el calor a volumen constante con ΔU sin afirmar que el calor es una función de estado.", "descripcion": "A volumen constante no existe trabajo presión-volumen. Si tampoco se realizan otros trabajos, el primer principio se reduce a Q_V = ΔU. Esta igualdad corresponde a una restricción específica del proceso; el calor continúa siendo una transferencia dependiente del camino y no una propiedad del estado termodinámico." },
-          { "id": 6, "apartado": "1. Fundamentos energéticos de las transformaciones químicas", "subapartado": "1.4. Entalpía y su relación con la energía interna", "termino": "Deduce por qué la entalpía es la magnitud adecuada para describir calores de reacción a presión constante.", "descripcion": "La entalpía incluye energía interna y término pV: H = U + pV. Si la presión del sistema coincide con la exterior y solo existe trabajo de expansión, este compensa la variación pV. Por ello, a presión constante, Q_p = ΔH. En gases ideales, la diferencia con ΔU depende de Δn_gRT." },
-          { "id": 7, "apartado": "2. Ecuaciones termoquímicas", "subapartado": "2.1. Entalpía de reacción y condiciones estándar", "termino": "Analiza por qué una entalpía de reacción no está completamente definida si se omiten los estados físicos o las condiciones de referencia.", "descripcion": "La entalpía depende de la temperatura, la presión y la naturaleza de cada fase. Formar agua líquida o vapor implica distintos cambios energéticos, y los valores tabulados suelen fijar presión estándar de 1 bar y temperatura indicada, frecuentemente 298,15 K. Omitir estas condiciones impide interpretar o comparar inequívocamente los resultados." },
-          { "id": 8, "apartado": "2. Ecuaciones termoquímicas", "subapartado": "2.2. Ecuaciones termoquímicas y sus propiedades", "termino": "Justifica por qué al invertir una ecuación termoquímica cambia el signo de ΔH y al multiplicarla cambia su valor proporcionalmente.", "descripcion": "Invertir la reacción intercambia los estados inicial y final; por ser la entalpía función de estado, la variación cambia de signo. Multiplicar la ecuación por un factor modifica el número de moles de reacción y escala la variación energética por ese mismo factor. Estas propiedades hacen posible combinar ecuaciones mediante Hess." },
-          { "id": 9, "apartado": "2. Ecuaciones termoquímicas", "subapartado": "2.2. Ecuaciones termoquímicas y sus propiedades", "termino": "Analiza por qué la combustión del metano produce valores distintos de entalpía según se obtenga agua líquida o gaseosa.", "descripcion": "La reacción con agua líquida incluye la energía liberada al condensar el vapor formado. Por ello su entalpía estándar es más negativa, aproximadamente −890,3 kJ/mol, frente a −802,3 kJ/mol si el agua permanece gaseosa, a 298 K. El estado de agregación es parte imprescindible de la ecuación termoquímica." },
-          { "id": 10, "apartado": "2. Ecuaciones termoquímicas", "subapartado": "2.3. Reacciones exotérmicas, endotérmicas y diagramas entálpicos", "termino": "Explica por qué un diagrama entálpico y el signo de ΔH no bastan para decidir si una reacción es espontánea.", "descripcion": "El diagrama entálpico compara los niveles energéticos de reactivos y productos y permite identificar procesos exotérmicos o endotérmicos. Sin embargo, la espontaneidad a temperatura y presión constantes depende de la energía libre de Gibbs, que integra entalpía, entropía y temperatura. Una reacción exotérmica no tiene por qué ser espontánea." },
-          { "id": 11, "apartado": "3. Métodos experimentales para el cálculo de calores de reacción", "subapartado": "3.1. Fundamentos de calorimetría", "termino": "Justifica por qué un experimento calorimétrico debe considerar la capacidad calorífica del aparato y las pérdidas térmicas.", "descripcion": "La variación de temperatura no corresponde exclusivamente al calor absorbido por el agua o la disolución: el propio calorímetro también intercambia energía. Además, las pérdidas al exterior rompen el balance adiabático ideal. La calibración permite estimar la capacidad efectiva y las correcciones reducen errores sistemáticos en el calor de reacción." },
-          { "id": 12, "apartado": "3. Métodos experimentales para el cálculo de calores de reacción", "subapartado": "3.2. Calorimetría a volumen constante", "termino": "Analiza por qué una bomba calorimétrica proporciona directamente ΔU y cuándo es necesaria una corrección para calcular ΔH.", "descripcion": "La cámara rígida impide trabajo de expansión y, despreciando otros trabajos netos, el calor medido corresponde a ΔU. Como muchos procesos se comparan mediante entalpías a presión constante, hay que convertir ΔU en ΔH. En reacciones gaseosas ideales, la corrección aproximada incorpora Δn_gRT, además de las condiciones experimentales pertinentes." },
-          { "id": 13, "apartado": "3. Métodos experimentales para el cálculo de calores de reacción", "subapartado": "3.3. Calorimetría a presión constante", "termino": "Explica por qué un calorímetro de vaso permite obtener la entalpía molar de una neutralización a partir de la temperatura registrada.", "descripcion": "En un vaso a presión prácticamente constante, el calor de reacción coincide con ΔH si solo existe trabajo presión-volumen. El aumento térmico de disolución y calorímetro permite calcular Q_reacción = −(m·c + C_cal)·ΔT. Dividir este calor entre los moles de avance proporciona la entalpía molar, con atención al reactivo limitante." },
-          { "id": 14, "apartado": "3. Métodos experimentales para el cálculo de calores de reacción", "subapartado": "3.3. Calorimetría a presión constante", "termino": "Analiza qué sesgos aparecen al suponer que toda disolución tiene el calor específico del agua y que no existe calor de dilución.", "descripcion": "Si la capacidad calorífica real difiere de la del agua, el producto m·c·ΔT proporciona un calor incorrecto. Además, mezclar o diluir sustancias puede intercambiar energía independientemente de la reacción objetivo. Ambos efectos sesgan la entalpía atribuida al proceso, por lo que deben estimarse o corregirse experimentalmente." },
-          { "id": 15, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.1. Ley de Hess y ciclos termoquímicos", "termino": "Justifica por qué la ley de Hess permite calcular la entalpía de una reacción difícil de medir mediante otras reacciones conocidas.", "descripcion": "La entalpía es función de estado: únicamente importan los estados inicial y final. Si una reacción objetivo puede obtenerse sumando algebraicamente otras ecuaciones, su ΔH es la suma correspondiente de las entalpías parciales. Por ello puede calcularse indirectamente un proceso aunque no pueda medirse de forma aislada." },
-          { "id": 16, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.1. Ley de Hess y ciclos termoquímicos", "termino": "Deduce cómo obtener la entalpía de formación de CO(g) combinando las combustiones de C(s) y CO(g).", "descripcion": "La combustión C(s) + O₂(g) → CO₂(g) libera 393,5 kJ/mol y CO(g) + ½O₂(g) → CO₂(g) libera 283,0 kJ/mol. Invirtiendo la segunda y sumándola a la primera queda C(s) + ½O₂(g) → CO(g), con Δ_rH° = −393,5 + 283,0 = −110,5 kJ/mol." },
-          { "id": 17, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.2. Entalpías estándar de formación", "termino": "Deduce por qué la entalpía estándar de reacción se calcula restando las sumas de entalpías de formación de reactivos y productos.", "descripcion": "Por Hess, puede imaginarse que los reactivos se descomponen en elementos de referencia y estos forman los productos. La primera etapa invierte las entalpías de formación de reactivos; la segunda suma las de productos. Se obtiene Δ_rH° = Σν·Δ_fH°(productos) − Σν·Δ_fH°(reactivos), incluyendo los coeficientes estequiométricos." },
-          { "id": 18, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.2. Entalpías estándar de formación", "termino": "Justifica por qué un elemento en su estado estándar de referencia tiene entalpía de formación nula y por qué eso no significa ausencia de energía.", "descripcion": "La entalpía absoluta no se determina directamente; se establece un origen convencional para comparar variaciones. Por definición, formar un elemento a partir de sí mismo en su estado estándar de referencia no implica cambio químico, por lo que Δ_fH° = 0. El valor nulo es una referencia, no energía interna inexistente." },
-          { "id": 19, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.3. Energías de enlace", "termino": "Analiza por qué en un cálculo por energías de enlace deben contabilizarse por separado los enlaces rotos y los formados.", "descripcion": "Romper enlaces requiere energía, mientras que formarlos la libera. Por eso el balance aproximado es la suma de entalpías de enlaces rotos menos la de enlaces formados. También importa su cantidad estequiométrica: en la formación de un mol de agua gaseosa aparecen dos enlaces O–H por molécula." },
-          { "id": 20, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.3. Energías de enlace", "termino": "Justifica por qué las energías medias de enlace permiten estimaciones, pero no sustituyen a las entalpías de formación para cualquier reacción.", "descripcion": "Las energías tabuladas suelen ser promedios de disociación de enlaces en fase gaseosa y varían con el entorno molecular. Además, una reacción con sustancias líquidas o sólidas incluye cambios energéticos de fase e interacciones no representados por ese recuento simple. Por ello el método es aproximado y requiere cautela." },
-          { "id": 21, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.4. Ley de Kirchhoff y dependencia con la temperatura", "termino": "Deduce por qué la entalpía de reacción varía con la temperatura y cuándo puede emplearse la aproximación de capacidad calorífica constante.", "descripcion": "Al elevar la temperatura, reactivos y productos cambian su entalpía según sus capacidades caloríficas molares. Su diferencia estequiométrica, Δ_rC_p, determina la variación de Δ_rH mediante una integral en temperatura. Si Δ_rC_p varía poco en el intervalo, puede sustituirse por una constante y multiplicarse por ΔT." },
-          { "id": 22, "apartado": "4. Métodos teóricos para el cálculo de calores de reacción", "subapartado": "4.4. Ley de Kirchhoff y dependencia con la temperatura", "termino": "Analiza qué problema surge al aplicar directamente la ley de Kirchhoff a un intervalo que atraviesa un cambio de fase.", "descripcion": "La capacidad calorífica describe variaciones de entalpía dentro de una misma fase, pero durante una transición se intercambia calor latente. Si el intervalo cruza una fusión o vaporización, deben dividirse los tramos por fases e incorporarse sus entalpías de transición. Ignorarlas conduce a un resultado incorrecto." },
-          { "id": 23, "apartado": "5. Conclusión", "subapartado": "5. Conclusión", "termino": "Analiza cómo se complementan la calorimetría, Hess, las entalpías de formación, las energías de enlace y Kirchhoff en la evaluación energética industrial.", "descripcion": "La calorimetría proporciona medidas de calor bajo condiciones controladas; Hess y las entalpías de formación calculan variaciones entre estados; los enlaces ofrecen estimaciones microscópicas y Kirchhoff ajusta datos a otras temperaturas. Su combinación permite contrastar resultados y efectuar balances térmicos más fiables para optimizar procesos y valorar alternativas energéticas." }
+          {
+            "id": 1,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "Analiza por qué la termoquímica es necesaria para comparar procesos químicos de interés energético e industrial.",
+            "descripcion": "La termoquímica cuantifica el calor intercambiado en condiciones definidas y permite comparar reacciones mediante magnitudes como la entalpía. Así pueden evaluarse combustiones, neutralizaciones y procesos industriales sin confundir calor liberado con eficiencia global. Sus datos sustentan balances energéticos y decisiones técnicas relacionadas con consumo de recursos y descarbonización."
+          },
+          {
+            "id": 2,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.1. Sistemas termodinámicos, energía interna y funciones de estado",
+            "termino": "Justifica por qué dos procesos diferentes entre los mismos estados tienen idéntica variación de energía interna, pero no necesariamente el mismo calor.",
+            "descripcion": "La energía interna es una función de estado, de modo que ΔU solo depende de las condiciones iniciales y finales. En cambio, calor y trabajo describen transferencias dependientes del camino. Si un proceso intercambia más trabajo que otro entre los mismos estados, el calor deberá compensarlo para satisfacer el primer principio."
+          },
+          {
+            "id": 3,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.2. Primer principio de la termodinámica y trabajo de expansión",
+            "termino": "Razona por qué un sistema puede absorber calor sin que aumente su energía interna.",
+            "descripcion": "El primer principio establece ΔU = Q + W si el trabajo recibido es positivo. Aunque Q sea positivo, el sistema puede realizar suficiente trabajo sobre el entorno, de signo negativo, para compensar exactamente ese aporte. Si W = −Q, la energía interna permanece constante pese al intercambio de calor."
+          },
+          {
+            "id": 4,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.2. Primer principio de la termodinámica y trabajo de expansión",
+            "termino": "Deduce cómo cambia el signo del trabajo presión-volumen entre una expansión y una compresión y por qué importa la presión exterior.",
+            "descripcion": "El trabajo sobre el sistema se expresa como W = −∫p_ext dV. En una expansión, dV es positivo y W resulta negativo; en una compresión sucede lo contrario. La presión exterior es la fuerza resistente por unidad de superficie que determina el trabajo intercambiado, por lo que su evolución condiciona el resultado."
+          },
+          {
+            "id": 5,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.3. Procesos isócoros e isóbaros",
+            "termino": "Justifica por qué puede identificarse el calor a volumen constante con ΔU sin afirmar que el calor es una función de estado.",
+            "descripcion": "A volumen constante no existe trabajo presión-volumen. Si tampoco se realizan otros trabajos, el primer principio se reduce a Q_V = ΔU. Esta igualdad corresponde a una restricción específica del proceso; el calor continúa siendo una transferencia dependiente del camino y no una propiedad del estado termodinámico."
+          },
+          {
+            "id": 6,
+            "apartado": "1. Fundamentos energéticos de las transformaciones químicas",
+            "subapartado": "1.4. Entalpía y su relación con la energía interna",
+            "termino": "Deduce por qué la entalpía es la magnitud adecuada para describir calores de reacción a presión constante.",
+            "descripcion": "La entalpía incluye energía interna y término pV: H = U + pV. Si la presión del sistema coincide con la exterior y solo existe trabajo de expansión, este compensa la variación pV. Por ello, a presión constante, Q_p = ΔH. En gases ideales, la diferencia con ΔU depende de Δn_gRT."
+          },
+          {
+            "id": 7,
+            "apartado": "2. Ecuaciones termoquímicas",
+            "subapartado": "2.1. Entalpía de reacción y condiciones estándar",
+            "termino": "Analiza por qué una entalpía de reacción no está completamente definida si se omiten los estados físicos o las condiciones de referencia.",
+            "descripcion": "La entalpía depende de la temperatura, la presión y la naturaleza de cada fase. Formar agua líquida o vapor implica distintos cambios energéticos, y los valores tabulados suelen fijar presión estándar de 1 bar y temperatura indicada, frecuentemente 298,15 K. Omitir estas condiciones impide interpretar o comparar inequívocamente los resultados."
+          },
+          {
+            "id": 8,
+            "apartado": "2. Ecuaciones termoquímicas",
+            "subapartado": "2.2. Ecuaciones termoquímicas y sus propiedades",
+            "termino": "Justifica por qué al invertir una ecuación termoquímica cambia el signo de ΔH y al multiplicarla cambia su valor proporcionalmente.",
+            "descripcion": "Invertir la reacción intercambia los estados inicial y final; por ser la entalpía función de estado, la variación cambia de signo. Multiplicar la ecuación por un factor modifica el número de moles de reacción y escala la variación energética por ese mismo factor. Estas propiedades hacen posible combinar ecuaciones mediante Hess."
+          },
+          {
+            "id": 9,
+            "apartado": "2. Ecuaciones termoquímicas",
+            "subapartado": "2.2. Ecuaciones termoquímicas y sus propiedades",
+            "termino": "Analiza por qué la combustión del metano produce valores distintos de entalpía según se obtenga agua líquida o gaseosa.",
+            "descripcion": "La reacción con agua líquida incluye la energía liberada al condensar el vapor formado. Por ello su entalpía estándar es más negativa, aproximadamente −890,3 kJ/mol, frente a −802,3 kJ/mol si el agua permanece gaseosa, a 298 K. El estado de agregación es parte imprescindible de la ecuación termoquímica."
+          },
+          {
+            "id": 10,
+            "apartado": "2. Ecuaciones termoquímicas",
+            "subapartado": "2.3. Reacciones exotérmicas, endotérmicas y diagramas entálpicos",
+            "termino": "Explica por qué un diagrama entálpico y el signo de ΔH no bastan para decidir si una reacción es espontánea.",
+            "descripcion": "El diagrama entálpico compara los niveles energéticos de reactivos y productos y permite identificar procesos exotérmicos o endotérmicos. Sin embargo, la espontaneidad a temperatura y presión constantes depende de la energía libre de Gibbs, que integra entalpía, entropía y temperatura. Una reacción exotérmica no tiene por qué ser espontánea."
+          },
+          {
+            "id": 11,
+            "apartado": "3. Métodos experimentales para el cálculo de calores de reacción",
+            "subapartado": "3.1. Fundamentos de calorimetría",
+            "termino": "Justifica por qué un experimento calorimétrico debe considerar la capacidad calorífica del aparato y las pérdidas térmicas.",
+            "descripcion": "La variación de temperatura no corresponde exclusivamente al calor absorbido por el agua o la disolución: el propio calorímetro también intercambia energía. Además, las pérdidas al exterior rompen el balance adiabático ideal. La calibración permite estimar la capacidad efectiva y las correcciones reducen errores sistemáticos en el calor de reacción."
+          },
+          {
+            "id": 12,
+            "apartado": "3. Métodos experimentales para el cálculo de calores de reacción",
+            "subapartado": "3.2. Calorimetría a volumen constante",
+            "termino": "Analiza por qué una bomba calorimétrica proporciona directamente ΔU y cuándo es necesaria una corrección para calcular ΔH.",
+            "descripcion": "La cámara rígida impide trabajo de expansión y, despreciando otros trabajos netos, el calor medido corresponde a ΔU. Como muchos procesos se comparan mediante entalpías a presión constante, hay que convertir ΔU en ΔH. En reacciones gaseosas ideales, la corrección aproximada incorpora Δn_gRT, además de las condiciones experimentales pertinentes."
+          },
+          {
+            "id": 13,
+            "apartado": "3. Métodos experimentales para el cálculo de calores de reacción",
+            "subapartado": "3.3. Calorimetría a presión constante",
+            "termino": "Explica por qué un calorímetro de vaso permite obtener la entalpía molar de una neutralización a partir de la temperatura registrada.",
+            "descripcion": "En un vaso a presión prácticamente constante, el calor de reacción coincide con ΔH si solo existe trabajo presión-volumen. El aumento térmico de disolución y calorímetro permite calcular Q_reacción = −(m·c + C_cal)·ΔT. Dividir este calor entre los moles de avance proporciona la entalpía molar, con atención al reactivo limitante."
+          },
+          {
+            "id": 14,
+            "apartado": "3. Métodos experimentales para el cálculo de calores de reacción",
+            "subapartado": "3.3. Calorimetría a presión constante",
+            "termino": "Analiza qué sesgos aparecen al suponer que toda disolución tiene el calor específico del agua y que no existe calor de dilución.",
+            "descripcion": "Si la capacidad calorífica real difiere de la del agua, el producto m·c·ΔT proporciona un calor incorrecto. Además, mezclar o diluir sustancias puede intercambiar energía independientemente de la reacción objetivo. Ambos efectos sesgan la entalpía atribuida al proceso, por lo que deben estimarse o corregirse experimentalmente."
+          },
+          {
+            "id": 15,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.1. Ley de Hess y ciclos termoquímicos",
+            "termino": "Justifica por qué la ley de Hess permite calcular la entalpía de una reacción difícil de medir mediante otras reacciones conocidas.",
+            "descripcion": "La entalpía es función de estado: únicamente importan los estados inicial y final. Si una reacción objetivo puede obtenerse sumando algebraicamente otras ecuaciones, su ΔH es la suma correspondiente de las entalpías parciales. Por ello puede calcularse indirectamente un proceso aunque no pueda medirse de forma aislada."
+          },
+          {
+            "id": 16,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.1. Ley de Hess y ciclos termoquímicos",
+            "termino": "Deduce cómo obtener la entalpía de formación de CO(g) combinando las combustiones de C(s) y CO(g).",
+            "descripcion": "La combustión C(s) + O₂(g) → CO₂(g) libera 393,5 kJ/mol y CO(g) + ½O₂(g) → CO₂(g) libera 283,0 kJ/mol. Invirtiendo la segunda y sumándola a la primera queda C(s) + ½O₂(g) → CO(g), con Δ_rH° = −393,5 + 283,0 = −110,5 kJ/mol."
+          },
+          {
+            "id": 17,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.2. Entalpías estándar de formación",
+            "termino": "Deduce por qué la entalpía estándar de reacción se calcula restando las sumas de entalpías de formación de reactivos y productos.",
+            "descripcion": "Por Hess, puede imaginarse que los reactivos se descomponen en elementos de referencia y estos forman los productos. La primera etapa invierte las entalpías de formación de reactivos; la segunda suma las de productos. Se obtiene Δ_rH° = Σν·Δ_fH°(productos) − Σν·Δ_fH°(reactivos), incluyendo los coeficientes estequiométricos."
+          },
+          {
+            "id": 18,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.2. Entalpías estándar de formación",
+            "termino": "Justifica por qué un elemento en su estado estándar de referencia tiene entalpía de formación nula y por qué eso no significa ausencia de energía.",
+            "descripcion": "La entalpía absoluta no se determina directamente; se establece un origen convencional para comparar variaciones. Por definición, formar un elemento a partir de sí mismo en su estado estándar de referencia no implica cambio químico, por lo que Δ_fH° = 0. El valor nulo es una referencia, no energía interna inexistente."
+          },
+          {
+            "id": 19,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.3. Energías de enlace",
+            "termino": "Analiza por qué en un cálculo por energías de enlace deben contabilizarse por separado los enlaces rotos y los formados.",
+            "descripcion": "Romper enlaces requiere energía, mientras que formarlos la libera. Por eso el balance aproximado es la suma de entalpías de enlaces rotos menos la de enlaces formados. También importa su cantidad estequiométrica: en la formación de un mol de agua gaseosa aparecen dos enlaces O–H por molécula."
+          },
+          {
+            "id": 20,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.3. Energías de enlace",
+            "termino": "Justifica por qué las energías medias de enlace permiten estimaciones, pero no sustituyen a las entalpías de formación para cualquier reacción.",
+            "descripcion": "Las energías tabuladas suelen ser promedios de disociación de enlaces en fase gaseosa y varían con el entorno molecular. Además, una reacción con sustancias líquidas o sólidas incluye cambios energéticos de fase e interacciones no representados por ese recuento simple. Por ello el método es aproximado y requiere cautela."
+          },
+          {
+            "id": 21,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.4. Ley de Kirchhoff y dependencia con la temperatura",
+            "termino": "Deduce por qué la entalpía de reacción varía con la temperatura y cuándo puede emplearse la aproximación de capacidad calorífica constante.",
+            "descripcion": "Al elevar la temperatura, reactivos y productos cambian su entalpía según sus capacidades caloríficas molares. Su diferencia estequiométrica, Δ_rC_p, determina la variación de Δ_rH mediante una integral en temperatura. Si Δ_rC_p varía poco en el intervalo, puede sustituirse por una constante y multiplicarse por ΔT."
+          },
+          {
+            "id": 22,
+            "apartado": "4. Métodos teóricos para el cálculo de calores de reacción",
+            "subapartado": "4.4. Ley de Kirchhoff y dependencia con la temperatura",
+            "termino": "Analiza qué problema surge al aplicar directamente la ley de Kirchhoff a un intervalo que atraviesa un cambio de fase.",
+            "descripcion": "La capacidad calorífica describe variaciones de entalpía dentro de una misma fase, pero durante una transición se intercambia calor latente. Si el intervalo cruza una fusión o vaporización, deben dividirse los tramos por fases e incorporarse sus entalpías de transición. Ignorarlas conduce a un resultado incorrecto."
+          },
+          {
+            "id": 23,
+            "apartado": "5. Conclusión",
+            "subapartado": "5. Conclusión",
+            "termino": "Analiza cómo se complementan la calorimetría, Hess, las entalpías de formación, las energías de enlace y Kirchhoff en la evaluación energética industrial.",
+            "descripcion": "La calorimetría proporciona medidas de calor bajo condiciones controladas; Hess y las entalpías de formación calculan variaciones entre estados; los enlaces ofrecen estimaciones microscópicas y Kirchhoff ajusta datos a otras temperaturas. Su combinación permite contrastar resultados y efectuar balances térmicos más fiables para optimizar procesos y valorar alternativas energéticas."
+          }
         ]
       }
     }
   ],
   "propuesta_didactica": {
-    "lectura": "Hidrógeno verde frente a gas natural",
-    "actividad": "Debate en tres grupos con moderación",
+    "lectura": "Propuesta didáctica e inclusiva\nEste tema puede trasladarse al aula mediante un debate científico guiado sobre la controversia actual: ¿debería sustituirse el gas natural por hidrógeno verde como combustible en la industria? El alumnado investigará las entalpías de combustión, el poder calorífico, la eficiencia energética y las emisiones asociadas a ambos combustibles, utilizando datos termoquímicos, gráficos e informes científicos recientes.\nLa clase se dividirá en tres grupos: uno defenderá la sustitución, otro analizará críticamente sus limitaciones y el tercero moderará el debate y contrastará las evidencias. Las argumentaciones deberán fundamentarse en cálculos termoquímicos y distinguir los resultados científicos de las opiniones.\nPara garantizar la inclusión, se facilitarán apoyos visuales, guías de argumentación, roles cooperativos y alternativas de participación oral o escrita. La evaluación se realizará mediante una rúbrica de argumentación científica, fomentando el pensamiento crítico y la aplicación competencial de la termoquímica a la transición energética.",
+    "actividad": "Propuesta didáctica e inclusiva\nEste tema puede trasladarse al aula mediante un debate científico guiado sobre la controversia actual: ¿debería sustituirse el gas natural por hidrógeno verde como combustible en la industria? El alumnado investigará las entalpías de combustión, el poder calorífico, la eficiencia energética y las emisiones asociadas a ambos combustibles, utilizando datos termoquímicos, gráficos e informes científicos recientes.\nLa clase se dividirá en tres grupos: uno defenderá la sustitución, otro analizará críticamente sus limitaciones y el tercero moderará el debate y contrastará las evidencias. Las argumentaciones deberán fundamentarse en cálculos termoquímicos y distinguir los resultados científicos de las opiniones.\nPara garantizar la inclusión, se facilitarán apoyos visuales, guías de argumentación, roles cooperativos y alternativas de participación oral o escrita. La evaluación se realizará mediante una rúbrica de argumentación científica, fomentando el pensamiento crítico y la aplicación competencial de la termoquímica a la transición energética.",
     "dinamica": "Cálculos termoquímicos, apoyos y rúbrica"
   }
 }

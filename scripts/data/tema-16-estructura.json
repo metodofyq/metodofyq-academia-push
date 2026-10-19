@@ -79,26 +79,106 @@
         "tipo": "infografias",
         "description": "Infografías visuales organizadas por apartados (A, B, C, D = posiciones en carousel)",
         "infografias": [
-          {"order_index": 0, "label": "1.1. Sistema, entorno y variables (A)", "section": "1.1"},
-          {"order_index": 1, "label": "1.1. Sistema, entorno y variables (B)", "section": "1.1"},
-          {"order_index": 2, "label": "1.1. Sistema, entorno y variables (C)", "section": "1.1"},
-          {"order_index": 3, "label": "1.1. Sistema, entorno y variables (D)", "section": "1.1"},
-          {"order_index": 4, "label": "2.1. Conservación de la energía (A)", "section": "2.1"},
-          {"order_index": 5, "label": "2.1. Conservación de la energía (B)", "section": "2.1"},
-          {"order_index": 6, "label": "2.2. Energía interna, calor y trabajo (C)", "section": "2.2"},
-          {"order_index": 7, "label": "2.3. Formulación matemática (D)", "section": "2.3"},
-          {"order_index": 8, "label": "3.1. Máquina térmica general (A)", "section": "3.1"},
-          {"order_index": 9, "label": "3.2. Foco caliente, foco frío (B)", "section": "3.2"},
-          {"order_index": 10, "label": "3.3. Ciclos termodinámicos (C)", "section": "3.3"},
-          {"order_index": 11, "label": "3.4. Limitaciones energéticas (D)", "section": "3.4"},
-          {"order_index": 12, "label": "4.1. Intercambios energéticos (A)", "section": "4.1"},
-          {"order_index": 13, "label": "4.2. Entalpía de reacción (B)", "section": "4.2"},
-          {"order_index": 14, "label": "4.3. Reacciones exotérmicas/endotérmicas (C)", "section": "4.3"},
-          {"order_index": 15, "label": "4.4. Termodinámica y procesos químicos (D)", "section": "4.4"},
-          {"order_index": 16, "label": "5.1. Concepto de rendimiento (A)", "section": "5.1"},
-          {"order_index": 17, "label": "5.2. Rendimiento en máquinas térmicas (B)", "section": "5.2"},
-          {"order_index": 18, "label": "5.3. Pérdidas energéticas (C)", "section": "5.3"},
-          {"order_index": 19, "label": "5.4. Importancia ambiental (D)", "section": "5.4"}
+          {
+            "order_index": 0,
+            "label": "1.1. Sistema, entorno y variables (A)",
+            "section": "1.1"
+          },
+          {
+            "order_index": 1,
+            "label": "1.1. Sistema, entorno y variables (B)",
+            "section": "1.1"
+          },
+          {
+            "order_index": 2,
+            "label": "1.1. Sistema, entorno y variables (C)",
+            "section": "1.1"
+          },
+          {
+            "order_index": 3,
+            "label": "1.1. Sistema, entorno y variables (D)",
+            "section": "1.1"
+          },
+          {
+            "order_index": 4,
+            "label": "2.1. Conservación de la energía (A)",
+            "section": "2.1"
+          },
+          {
+            "order_index": 5,
+            "label": "2.1. Conservación de la energía (B)",
+            "section": "2.1"
+          },
+          {
+            "order_index": 6,
+            "label": "2.2. Energía interna, calor y trabajo (C)",
+            "section": "2.2"
+          },
+          {
+            "order_index": 7,
+            "label": "2.3. Formulación matemática (D)",
+            "section": "2.3"
+          },
+          {
+            "order_index": 8,
+            "label": "3.1. Máquina térmica general (A)",
+            "section": "3.1"
+          },
+          {
+            "order_index": 9,
+            "label": "3.2. Foco caliente, foco frío (B)",
+            "section": "3.2"
+          },
+          {
+            "order_index": 10,
+            "label": "3.3. Ciclos termodinámicos (C)",
+            "section": "3.3"
+          },
+          {
+            "order_index": 11,
+            "label": "3.4. Limitaciones energéticas (D)",
+            "section": "3.4"
+          },
+          {
+            "order_index": 12,
+            "label": "4.1. Intercambios energéticos (A)",
+            "section": "4.1"
+          },
+          {
+            "order_index": 13,
+            "label": "4.2. Entalpía de reacción (B)",
+            "section": "4.2"
+          },
+          {
+            "order_index": 14,
+            "label": "4.3. Reacciones exotérmicas/endotérmicas (C)",
+            "section": "4.3"
+          },
+          {
+            "order_index": 15,
+            "label": "4.4. Termodinámica y procesos químicos (D)",
+            "section": "4.4"
+          },
+          {
+            "order_index": 16,
+            "label": "5.1. Concepto de rendimiento (A)",
+            "section": "5.1"
+          },
+          {
+            "order_index": 17,
+            "label": "5.2. Rendimiento en máquinas térmicas (B)",
+            "section": "5.2"
+          },
+          {
+            "order_index": 18,
+            "label": "5.3. Pérdidas energéticas (C)",
+            "section": "5.3"
+          },
+          {
+            "order_index": 19,
+            "label": "5.4. Importancia ambiental (D)",
+            "section": "5.4"
+          }
         ]
       }
     },
@@ -153,156 +233,1056 @@
       "content_json": {
         "tipo": "recuperacion_activa",
         "flashcards": [
-          {"id": 1, "apartado": "0. Introducción", "subapartado": "0. Introducción", "termino": "¿Qué estudian los procesos termodinámicos?", "descripcion": "Los intercambios energéticos macroscópicos entre sistema y entorno."},
-          {"id": 2, "apartado": "0. Introducción", "subapartado": "0. Introducción", "termino": "¿Qué expresa la primera ley de la termodinámica?", "descripcion": "La conservación de la energía aplicada a calor, trabajo y energía interna."},
-          {"id": 3, "apartado": "0. Introducción", "subapartado": "0. Introducción", "termino": "¿Qué realizan las máquinas térmicas?", "descripcion": "Convierten parcialmente calor en trabajo mediante ciclos termodinámicos."},
-          {"id": 4, "apartado": "0. Introducción", "subapartado": "0. Introducción", "termino": "¿Qué estudia la termoquímica?", "descripcion": "Los calores de reacción mediante energía interna, entalpía y balances energéticos."},
-          {"id": 5, "apartado": "0. Introducción", "subapartado": "0. Introducción", "termino": "¿Qué compara el rendimiento energético?", "descripcion": "La energía aportada, la energía útil obtenida y las pérdidas del proceso."},
-          {"id": 6, "apartado": "0. Introducción", "subapartado": "0. Introducción", "termino": "¿Qué líneas actuales se relacionan con este tema?", "descripcion": "Eficiencia energética, bombas de calor, almacenamiento energético e hidrógeno verde."},
-          {"id": 7, "apartado": "0. Introducción", "subapartado": "0. Introducción", "termino": "¿Cuál es la frase-faro del tema?", "descripcion": "El calor y el trabajo conectan la conservación de la energía con el rendimiento real de máquinas térmicas y reacciones químicas."},
-          {"id": 8, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.1. Sistema, entorno y variables termodinámicas", "termino": "¿Qué es un sistema termodinámico?", "descripcion": "La porción del universo elegida para analizar intercambios energéticos."},
-          {"id": 9, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.1. Sistema, entorno y variables termodinámicas", "termino": "¿Qué es el entorno en termodinámica?", "descripcion": "El medio exterior con el que el sistema puede intercambiar energía o materia."},
-          {"id": 10, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.1. Sistema, entorno y variables termodinámicas", "termino": "¿Qué es la frontera de un sistema?", "descripcion": "La separación real o imaginaria entre sistema y entorno."},
-          {"id": 11, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.1. Sistema, entorno y variables termodinámicas", "termino": "¿Cómo se clasifican los sistemas termodinámicos?", "descripcion": "En abiertos, cerrados y aislados, según intercambien materia y energía."},
-          {"id": 12, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.1. Sistema, entorno y variables termodinámicas", "termino": "¿Qué son las variables intensivas?", "descripcion": "Magnitudes que no dependen de la cantidad de materia, como presión, temperatura y densidad."},
-          {"id": 13, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.1. Sistema, entorno y variables termodinámicas", "termino": "¿Qué son las variables extensivas?", "descripcion": "Magnitudes que dependen del tamaño del sistema, como volumen, masa, energía interna y entalpía."},
-          {"id": 14, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.1. Sistema, entorno y variables termodinámicas", "termino": "¿Qué caracteriza al equilibrio termodinámico?", "descripcion": "Variables macroscópicas constantes y ausencia de gradientes internos."},
-          {"id": 15, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.2. Calor como transferencia de energía térmica", "termino": "¿Qué es el calor?", "descripcion": "Energía transferida entre sistema y entorno por diferencia de temperatura."},
-          {"id": 16, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.2. Calor como transferencia de energía térmica", "termino": "¿Qué condición permite el flujo espontáneo de calor?", "descripcion": "La existencia de una diferencia de temperatura."},
-          {"id": 17, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.2. Calor como transferencia de energía térmica", "termino": "¿Cuál es el convenio de signos del calor?", "descripcion": "Q > 0 cuando el sistema recibe calor."},
-          {"id": 18, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.2. Calor como transferencia de energía térmica", "termino": "¿Por qué el calor es una magnitud de proceso?", "descripcion": "Porque depende del camino seguido durante la transformación."},
-          {"id": 19, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.2. Calor como transferencia de energía térmica", "termino": "¿Cómo se representa el calor infinitesimal?", "descripcion": "Como δQ, porque es una diferencial inexacta."},
-          {"id": 20, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.2. Calor como transferencia de energía térmica", "termino": "¿Qué relaciona el calor específico?", "descripcion": "El calor intercambiado, la masa y la variación de temperatura."},
-          {"id": 21, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.2. Calor como transferencia de energía térmica", "termino": "¿Qué mide la calorimetría?", "descripcion": "Intercambios térmicos mediante balances energéticos."},
-          {"id": 22, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión", "termino": "¿Qué es el trabajo termodinámico?", "descripcion": "Transferencia energética asociada a cambios de variables externas."},
-          {"id": 23, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión", "termino": "¿Qué puede actuar como parámetro externo?", "descripcion": "Volumen, frontera móvil, carga eléctrica o imanación."},
-          {"id": 24, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión", "termino": "¿Qué ocurre en una expansión?", "descripcion": "El volumen aumenta y el sistema realiza trabajo sobre el entorno."},
-          {"id": 25, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión", "termino": "¿Qué ocurre en una compresión?", "descripcion": "El volumen disminuye y el entorno realiza trabajo sobre el sistema."},
-          {"id": 26, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión", "termino": "¿Cuál es la expresión del trabajo presión-volumen?", "descripcion": "δW = -p_ext dV, con trabajo positivo cuando lo recibe el sistema."},
-          {"id": 27, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión", "termino": "¿Qué representa el área en un diagrama presión-volumen?", "descripcion": "El trabajo mecánico intercambiado durante el proceso."},
-          {"id": 28, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión", "termino": "¿Por qué el trabajo depende del camino?", "descripcion": "Porque no es función de estado y varía según la transformación seguida."},
-          {"id": 29, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.4. Procesos reversibles e irreversibles", "termino": "¿Qué es un proceso reversible?", "descripcion": "Una transformación ideal invertible mediante cambios infinitesimales."},
-          {"id": 30, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.4. Procesos reversibles e irreversibles", "termino": "¿Qué es un proceso irreversible?", "descripcion": "Una transformación real con disipación energética."},
-          {"id": 31, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.4. Procesos reversibles e irreversibles", "termino": "¿Qué papel tienen los estados de equilibrio?", "descripcion": "Son condición aproximada de los procesos cuasiestáticos."},
-          {"id": 32, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.4. Procesos reversibles e irreversibles", "termino": "¿Qué causan el rozamiento y las turbulencias?", "descripcion": "Irreversibilidad y disipación energética."},
-          {"id": 33, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.4. Procesos reversibles e irreversibles", "termino": "¿Qué caracteriza a la expansión libre?", "descripcion": "Es un proceso irreversible sin trabajo útil recuperable."},
-          {"id": 34, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.4. Procesos reversibles e irreversibles", "termino": "¿Qué es la disipación energética?", "descripcion": "Conversión de energía organizada en energía menos aprovechable."},
-          {"id": 35, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.4. Procesos reversibles e irreversibles", "termino": "¿Por qué disminuye el trabajo útil disponible?", "descripcion": "Por irreversibilidades y degradación energética."},
-          {"id": 36, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos", "termino": "¿Qué afirma la conservación de la energía?", "descripcion": "La energía se transforma y transfiere sin destruirse."},
-          {"id": 37, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos", "termino": "¿Qué caracteriza a un sistema cerrado?", "descripcion": "Tiene balance energético sin intercambio de materia."},
-          {"id": 38, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos", "termino": "¿Qué es la energía interna?", "descripcion": "La suma de energías microscópicas del sistema."},
-          {"id": 39, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos", "termino": "¿Qué incluye la energía cinética microscópica?", "descripcion": "Traslación, rotación y vibración molecular."},
-          {"id": 40, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos", "termino": "¿Qué representa la energía potencial intermolecular?", "descripcion": "Las interacciones atractivas y repulsivas entre partículas."},
-          {"id": 41, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos", "termino": "¿Cómo se produce el intercambio energético?", "descripcion": "Mediante calor o trabajo."},
-          {"id": 42, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.2. Energía interna, calor y trabajo", "termino": "¿Qué es una función de estado?", "descripcion": "Una magnitud que depende solo de los estados inicial y final."},
-          {"id": 43, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.2. Energía interna, calor y trabajo", "termino": "¿Qué representa la variación de energía interna?", "descripcion": "El cambio energético microscópico global del sistema."},
-          {"id": 44, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.2. Energía interna, calor y trabajo", "termino": "¿Qué mostró el experimento de Joule?", "descripcion": "La equivalencia entre trabajo mecánico y aumento térmico."},
-          {"id": 45, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.2. Energía interna, calor y trabajo", "termino": "¿Qué significa la equivalencia calor-trabajo?", "descripcion": "Que ambos son formas de transferencia energética."},
-          {"id": 46, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.2. Energía interna, calor y trabajo", "termino": "¿Qué era la teoría del calórico?", "descripcion": "Un modelo histórico superado que interpretaba el calor como sustancia."},
-          {"id": 47, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.2. Energía interna, calor y trabajo", "termino": "¿Qué son las magnitudes de proceso?", "descripcion": "Magnitudes que dependen de la transformación realizada, como calor y trabajo."},
-          {"id": 48, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.3. Formulación matemática de la primera ley", "termino": "¿Cuál es el balance energético de la primera ley?", "descripcion": "ΔU = Q + W, con trabajo positivo recibido por el sistema."},
-          {"id": 49, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.3. Formulación matemática de la primera ley", "termino": "¿Qué efecto tiene el calor recibido?", "descripcion": "Contribuye a aumentar la energía interna."},
-          {"id": 50, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.3. Formulación matemática de la primera ley", "termino": "¿Qué efecto tiene el trabajo recibido?", "descripcion": "Contribuye a aumentar la energía interna."},
-          {"id": 51, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.3. Formulación matemática de la primera ley", "termino": "¿Qué diferencial exacta aparece en la primera ley?", "descripcion": "dU, asociada a la energía interna como función de estado."},
-          {"id": 52, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.3. Formulación matemática de la primera ley", "termino": "¿Qué diferenciales inexactas aparecen en termodinámica?", "descripcion": "δQ y δW, dependientes del proceso."},
-          {"id": 53, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.3. Formulación matemática de la primera ley", "termino": "¿Qué exige el convenio termodinámico?", "descripcion": "Coherencia de signos en todos los balances energéticos."},
-          {"id": 54, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos", "termino": "¿Qué caracteriza a un proceso isocoro?", "descripcion": "Volumen constante y trabajo presión-volumen nulo."},
-          {"id": 55, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos", "termino": "¿Qué caracteriza a un proceso isobárico?", "descripcion": "Presión constante y trabajo proporcional a la variación de volumen."},
-          {"id": 56, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos", "termino": "¿Qué caracteriza a un proceso isotermo?", "descripcion": "Temperatura constante; en gas ideal, ΔU = 0."},
-          {"id": 57, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos", "termino": "¿Qué caracteriza a un proceso adiabático?", "descripcion": "No hay intercambio de calor; Q = 0."},
-          {"id": 58, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos", "termino": "¿De qué depende la energía interna de un gas ideal?", "descripcion": "Solo de la temperatura."},
-          {"id": 59, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos", "termino": "¿Qué provoca una compresión adiabática?", "descripcion": "Aumenta la energía interna y la temperatura."},
-          {"id": 60, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos", "termino": "¿Qué provoca una expansión adiabática?", "descripcion": "Disminuye la energía interna y la temperatura."},
-          {"id": 61, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica", "termino": "¿Qué es una máquina térmica?", "descripcion": "Dispositivo cíclico que transforma parte del calor absorbido en trabajo."},
-          {"id": 62, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica", "termino": "¿Qué implica el funcionamiento cíclico?", "descripcion": "La sustancia de trabajo regresa al estado inicial."},
-          {"id": 63, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica", "termino": "¿Qué es la sustancia de trabajo?", "descripcion": "El fluido que experimenta transformaciones termodinámicas."},
-          {"id": 64, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica", "termino": "¿Qué es el calor absorbido?", "descripcion": "La energía recibida desde una fuente térmica de alta temperatura."},
-          {"id": 65, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica", "termino": "¿Qué es el trabajo mecánico en una máquina térmica?", "descripcion": "La energía útil producida por el ciclo."},
-          {"id": 66, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica", "termino": "¿Qué ejemplos técnicos representan máquinas térmicas?", "descripcion": "Motor de combustión, turbina de gas y central térmica."},
-          {"id": 67, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido", "termino": "¿Qué es el foco caliente?", "descripcion": "El depósito térmico que suministra energía a temperatura alta."},
-          {"id": 68, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido", "termino": "¿Qué es el foco frío?", "descripcion": "El depósito térmico que recibe energía residual."},
-          {"id": 69, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido", "termino": "¿Qué es el calor cedido?", "descripcion": "La parte del calor absorbido no transformada en trabajo."},
-          {"id": 70, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido", "termino": "¿Qué es el trabajo útil?", "descripcion": "La diferencia entre calor absorbido y calor cedido."},
-          {"id": 71, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido", "termino": "¿Cuál es el balance cíclico de una máquina térmica?", "descripcion": "QH = W útil + |QC|."},
-          {"id": 72, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido", "termino": "¿Qué ocurre con la energía interna en un ciclo?", "descripcion": "Su variación es nula al volver al estado inicial."},
-          {"id": 73, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo", "termino": "¿Qué es un ciclo termodinámico?", "descripcion": "Una sucesión de procesos con retorno al estado inicial."},
-          {"id": 74, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo", "termino": "¿Qué es el trabajo neto?", "descripcion": "El resultado energético global del ciclo."},
-          {"id": 75, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo", "termino": "¿Qué representa el área en un diagrama presión-volumen cíclico?", "descripcion": "El trabajo neto del ciclo."},
-          {"id": 76, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo", "termino": "¿Qué es el ciclo de Carnot?", "descripcion": "Un ciclo reversible ideal entre dos focos."},
-          {"id": 77, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo", "termino": "¿Qué son las isotermas reversibles?", "descripcion": "Procesos reversibles con intercambio de calor a temperatura constante."},
-          {"id": 78, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo", "termino": "¿Qué son las adiabáticas reversibles?", "descripcion": "Procesos reversibles con cambio de temperatura sin intercambio de calor."},
-          {"id": 79, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo", "termino": "¿Qué fija el rendimiento máximo?", "descripcion": "Las temperaturas de los focos en un ciclo reversible ideal."},
-          {"id": 80, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas", "termino": "¿Qué establece el segundo principio?", "descripcion": "La dirección y los límites de las transformaciones energéticas."},
-          {"id": 81, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas", "termino": "¿Qué afirma Kelvin-Planck?", "descripcion": "Es imposible convertir todo el calor absorbido en trabajo."},
-          {"id": 82, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas", "termino": "¿Qué es el calor residual?", "descripcion": "La energía cedida inevitablemente al foco frío."},
-          {"id": 83, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas", "termino": "¿Es posible el rendimiento total en una máquina térmica real?", "descripcion": "No; es imposible en una máquina térmica cíclica real."},
-          {"id": 84, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas", "termino": "¿Qué irreversibilidades reducen el rendimiento?", "descripcion": "Rozamientos, gradientes térmicos y disipación."},
-          {"id": 85, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas", "termino": "¿Qué son las pérdidas térmicas?", "descripcion": "Energía transferida al entorno sin producir trabajo."},
-          {"id": 86, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas", "termino": "¿Qué implica la combustión incompleta?", "descripcion": "Una pérdida química y ambiental en motores reales."},
-          {"id": 87, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.1. Intercambios energéticos en las reacciones químicas", "termino": "¿Qué requiere la ruptura de enlaces?", "descripcion": "Aporte energético."},
-          {"id": 88, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.1. Intercambios energéticos en las reacciones químicas", "termino": "¿Qué produce la formación de enlaces?", "descripcion": "Liberación de energía."},
-          {"id": 89, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.1. Intercambios energéticos en las reacciones químicas", "termino": "¿Qué representan reactivos y productos?", "descripcion": "Los estados inicial y final de la transformación química."},
-          {"id": 90, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.1. Intercambios energéticos en las reacciones químicas", "termino": "¿Qué es la energía interna química?", "descripcion": "Energía microscópica asociada a estructura e interacciones."},
-          {"id": 91, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.1. Intercambios energéticos en las reacciones químicas", "termino": "¿Qué es la entalpía?", "descripcion": "Una función de estado adecuada para procesos a presión constante."},
-          {"id": 92, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.1. Intercambios energéticos en las reacciones químicas", "termino": "¿Qué permite una función de estado en termoquímica?", "descripcion": "Calcular balances sin depender del camino seguido."},
-          {"id": 93, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.2. Entalpía de reacción y calor de reacción", "termino": "¿Con qué coincide el calor a volumen constante?", "descripcion": "Con la variación de energía interna: ΔU."},
-          {"id": 94, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.2. Entalpía de reacción y calor de reacción", "termino": "¿Para qué sirve la bomba calorimétrica?", "descripcion": "Para medir calores a volumen constante."},
-          {"id": 95, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.2. Entalpía de reacción y calor de reacción", "termino": "¿Qué condición es habitual en muchas reacciones químicas?", "descripcion": "La presión constante."},
-          {"id": 96, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.2. Entalpía de reacción y calor de reacción", "termino": "¿Cuál es la expresión de la entalpía?", "descripcion": "H = U + pV."},
-          {"id": 97, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.2. Entalpía de reacción y calor de reacción", "termino": "¿Con qué coincide el calor a presión constante?", "descripcion": "Con la variación de entalpía: ΔH."},
-          {"id": 98, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.2. Entalpía de reacción y calor de reacción", "termino": "¿Qué es la entalpía de reacción?", "descripcion": "El calor intercambiado por una reacción a presión constante."},
-          {"id": 99, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.2. Entalpía de reacción y calor de reacción", "termino": "¿Para qué sirven las entalpías estándar de formación?", "descripcion": "Para calcular entalpías de reacción."},
-          {"id": 100, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.2. Entalpía de reacción y calor de reacción", "termino": "¿Cómo se plantea el balance termoquímico?", "descripcion": "Productos menos reactivos, ponderados por coeficientes estequiométricos."},
-          {"id": 101, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.3. Reacciones exotérmicas y endotérmicas", "termino": "¿Qué es una reacción exotérmica?", "descripcion": "Una reacción que libera calor; ΔH < 0."},
-          {"id": 102, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.3. Reacciones exotérmicas y endotérmicas", "termino": "¿Qué es una reacción endotérmica?", "descripcion": "Una reacción que absorbe calor; ΔH > 0."},
-          {"id": 103, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.3. Reacciones exotérmicas y endotérmicas", "termino": "¿Qué indica el signo de la entalpía?", "descripcion": "El tipo de intercambio energético de la reacción."},
-          {"id": 104, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.3. Reacciones exotérmicas y endotérmicas", "termino": "¿Qué tipo de reacción es la combustión?", "descripcion": "Una reacción exotérmica de interés energético."},
-          {"id": 105, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.3. Reacciones exotérmicas y endotérmicas", "termino": "¿Cómo suele ser la neutralización ácido-base?", "descripcion": "Generalmente exotérmica."},
-          {"id": 106, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.3. Reacciones exotérmicas y endotérmicas", "termino": "¿Qué tipo de proceso es la descomposición térmica?", "descripcion": "Un proceso endotérmico frecuente."},
-          {"id": 107, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.3. Reacciones exotérmicas y endotérmicas", "termino": "¿Qué establece la ley de Hess?", "descripcion": "La entalpía depende solo de los estados inicial y final."},
-          {"id": 108, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.4. Relación entre termodinámica y procesos químicos", "termino": "¿Qué estudia la termodinámica química?", "descripcion": "Balances energéticos y espontaneidad global de procesos químicos."},
-          {"id": 109, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.4. Relación entre termodinámica y procesos químicos", "termino": "¿A qué se vincula el calor de reacción?", "descripcion": "A ΔU o ΔH, según las condiciones experimentales."},
-          {"id": 110, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.4. Relación entre termodinámica y procesos químicos", "termino": "¿Para qué sirve la entalpía de combustión?", "descripcion": "Para comparar energéticamente distintos combustibles."},
-          {"id": 111, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.4. Relación entre termodinámica y procesos químicos", "termino": "¿Qué es el metabolismo desde el punto de vista energético?", "descripcion": "Un conjunto de transformaciones bioquímicas con balance energético."},
-          {"id": 112, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.4. Relación entre termodinámica y procesos químicos", "termino": "¿Con qué se relaciona la producción de hidrógeno?", "descripcion": "Con almacenamiento energético y transición energética."},
-          {"id": 113, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.4. Relación entre termodinámica y procesos químicos", "termino": "¿Qué implica el almacenamiento energético?", "descripcion": "Conversión entre energía eléctrica, química y térmica."},
-          {"id": 114, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.4. Relación entre termodinámica y procesos químicos", "termino": "¿Qué aporta la cinética química?", "descripcion": "Complementa la termodinámica al estudiar la velocidad de reacción."},
-          {"id": 115, "apartado": "5. Rendimiento energético", "subapartado": "5.1. Concepto de rendimiento energético", "termino": "¿Qué es el rendimiento energético?", "descripcion": "El cociente entre energía útil obtenida y energía aportada."},
-          {"id": 116, "apartado": "5. Rendimiento energético", "subapartado": "5.1. Concepto de rendimiento energético", "termino": "¿Qué es la energía útil?", "descripcion": "La parte transformada en el efecto deseado."},
-          {"id": 117, "apartado": "5. Rendimiento energético", "subapartado": "5.1. Concepto de rendimiento energético", "termino": "¿Qué es la energía aportada?", "descripcion": "La energía inicial suministrada al proceso."},
-          {"id": 118, "apartado": "5. Rendimiento energético", "subapartado": "5.1. Concepto de rendimiento energético", "termino": "¿Cómo suele expresarse el porcentaje de aprovechamiento?", "descripcion": "Como rendimiento o eficiencia del proceso."},
-          {"id": 119, "apartado": "5. Rendimiento energético", "subapartado": "5.1. Concepto de rendimiento energético", "termino": "¿Qué es la energía no útil?", "descripcion": "La parte no convertida en el objetivo del sistema."},
-          {"id": 120, "apartado": "5. Rendimiento energético", "subapartado": "5.1. Concepto de rendimiento energético", "termino": "¿Qué son las pérdidas energéticas?", "descripcion": "Transferencias o degradaciones inevitables en sistemas reales."},
-          {"id": 121, "apartado": "5. Rendimiento energético", "subapartado": "5.2. Rendimiento en máquinas térmicas", "termino": "¿Cuál es la expresión del rendimiento térmico?", "descripcion": "η = W útil / QH."},
-          {"id": 122, "apartado": "5. Rendimiento energético", "subapartado": "5.2. Rendimiento en máquinas térmicas", "termino": "¿Qué es el trabajo producido?", "descripcion": "La energía mecánica obtenida por ciclo."},
-          {"id": 123, "apartado": "5. Rendimiento energético", "subapartado": "5.2. Rendimiento en máquinas térmicas", "termino": "¿Qué es el calor residual?", "descripcion": "La energía cedida al foco frío."},
-          {"id": 124, "apartado": "5. Rendimiento energético", "subapartado": "5.2. Rendimiento en máquinas térmicas", "termino": "¿Qué representa la máquina de Carnot?", "descripcion": "La referencia ideal de rendimiento máximo."},
-          {"id": 125, "apartado": "5. Rendimiento energético", "subapartado": "5.2. Rendimiento en máquinas térmicas", "termino": "¿Por qué se usa temperatura absoluta en Carnot?", "descripcion": "Porque el rendimiento de Carnot se calcula con temperaturas en kelvin."},
-          {"id": 126, "apartado": "5. Rendimiento energético", "subapartado": "5.2. Rendimiento en máquinas térmicas", "termino": "¿Cuál es el límite de Carnot?", "descripcion": "ηC = 1 - TC/TH."},
-          {"id": 127, "apartado": "5. Rendimiento energético", "subapartado": "5.3. Pérdidas energéticas y degradación de la energía", "termino": "¿Qué es la degradación energética?", "descripcion": "Pérdida de capacidad para producir trabajo útil."},
-          {"id": 128, "apartado": "5. Rendimiento energético", "subapartado": "5.3. Pérdidas energéticas y degradación de la energía", "termino": "¿Qué provoca el rozamiento?", "descripcion": "Convierte energía mecánica en calor disipado."},
-          {"id": 129, "apartado": "5. Rendimiento energético", "subapartado": "5.3. Pérdidas energéticas y degradación de la energía", "termino": "¿Qué es la disipación térmica?", "descripcion": "Transferencia energética no aprovechada."},
-          {"id": 130, "apartado": "5. Rendimiento energético", "subapartado": "5.3. Pérdidas energéticas y degradación de la energía", "termino": "¿Qué generan las turbulencias?", "descripcion": "Pérdidas internas en fluidos reales."},
-          {"id": 131, "apartado": "5. Rendimiento energético", "subapartado": "5.3. Pérdidas energéticas y degradación de la energía", "termino": "¿Qué causa la resistencia eléctrica?", "descripcion": "Disipación energética por efecto Joule."},
-          {"id": 132, "apartado": "5. Rendimiento energético", "subapartado": "5.3. Pérdidas energéticas y degradación de la energía", "termino": "¿Qué es una transferencia irreversible?", "descripcion": "Intercambio térmico con diferencia finita de temperatura."},
-          {"id": 133, "apartado": "5. Rendimiento energético", "subapartado": "5.3. Pérdidas energéticas y degradación de la energía", "termino": "¿Con qué se asocia la entropía?", "descripcion": "Con irreversibilidad y dispersión energética."},
-          {"id": 134, "apartado": "5. Rendimiento energético", "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento", "termino": "¿Qué límite teórico fija Carnot?", "descripcion": "La eficiencia máxima entre dos focos térmicos."},
-          {"id": 135, "apartado": "5. Rendimiento energético", "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento", "termino": "¿Qué busca el diseño de motores?", "descripcion": "Optimizar combustión, rozamiento y transferencia térmica."},
-          {"id": 136, "apartado": "5. Rendimiento energético", "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento", "termino": "¿Qué persiguen las centrales eléctricas eficientes?", "descripcion": "Mejorar el aprovechamiento energético."},
-          {"id": 137, "apartado": "5. Rendimiento energético", "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento", "termino": "¿Qué hacen las bombas de calor?", "descripcion": "Transfieren calor de forma eficiente mediante trabajo externo."},
-          {"id": 138, "apartado": "5. Rendimiento energético", "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento", "termino": "¿Qué hacen los frigoríficos?", "descripcion": "Extraen calor desde un foco frío."},
-          {"id": 139, "apartado": "5. Rendimiento energético", "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento", "termino": "¿Qué busca la eficiencia industrial?", "descripcion": "Reducir el consumo energético en procesos productivos."},
-          {"id": 140, "apartado": "5. Rendimiento energético", "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento", "termino": "¿Qué consecuencia tiene mejorar el aprovechamiento energético?", "descripcion": "La reducción de emisiones."},
-          {"id": 141, "apartado": "5. Rendimiento energético", "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento", "termino": "¿Qué implica la sostenibilidad energética?", "descripcion": "Uso racional de recursos y transición energética."},
-          {"id": 142, "apartado": "6. Conclusión", "subapartado": "6. Conclusión", "termino": "¿Qué papel tiene la energía interna en el tema?", "descripcion": "Es la función de estado central en la primera ley."},
-          {"id": 143, "apartado": "6. Conclusión", "subapartado": "6. Conclusión", "termino": "¿Qué relaciona la primera ley?", "descripcion": "Calor, trabajo y energía interna de forma cuantitativa."},
-          {"id": 144, "apartado": "6. Conclusión", "subapartado": "6. Conclusión", "termino": "¿Para qué sirve el balance energético?", "descripcion": "Para analizar procesos físicos, máquinas y reacciones."},
-          {"id": 145, "apartado": "6. Conclusión", "subapartado": "6. Conclusión", "termino": "¿Qué representa una máquina térmica?", "descripcion": "La conversión cíclica y parcial de calor en trabajo."},
-          {"id": 146, "apartado": "6. Conclusión", "subapartado": "6. Conclusión", "termino": "¿Qué papel tiene la entalpía?", "descripcion": "Es una magnitud clave en reacciones a presión constante."},
-          {"id": 147, "apartado": "6. Conclusión", "subapartado": "6. Conclusión", "termino": "¿Para qué sirve la ley de Hess?", "descripcion": "Para calcular calores de reacción mediante rutas alternativas."},
-          {"id": 148, "apartado": "6. Conclusión", "subapartado": "6. Conclusión", "termino": "¿Qué mide el rendimiento energético?", "descripcion": "El aprovechamiento real de la energía."},
-          {"id": 149, "apartado": "6. Conclusión", "subapartado": "6. Conclusión", "termino": "¿Qué explica la degradación energética?", "descripcion": "Pérdidas, irreversibilidad y límites tecnológicos."},
-          {"id": 150, "apartado": "6. Conclusión", "subapartado": "6. Conclusión", "termino": "¿Qué conecta la eficiencia energética?", "descripcion": "Termodinámica, sostenibilidad y transición energética."}
+          {
+            "id": 1,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "¿Qué estudian los procesos termodinámicos?",
+            "descripcion": "Los intercambios energéticos macroscópicos entre sistema y entorno."
+          },
+          {
+            "id": 2,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "¿Qué expresa la primera ley de la termodinámica?",
+            "descripcion": "La conservación de la energía aplicada a calor, trabajo y energía interna."
+          },
+          {
+            "id": 3,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "¿Qué realizan las máquinas térmicas?",
+            "descripcion": "Convierten parcialmente calor en trabajo mediante ciclos termodinámicos."
+          },
+          {
+            "id": 4,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "¿Qué estudia la termoquímica?",
+            "descripcion": "Los calores de reacción mediante energía interna, entalpía y balances energéticos."
+          },
+          {
+            "id": 5,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "¿Qué compara el rendimiento energético?",
+            "descripcion": "La energía aportada, la energía útil obtenida y las pérdidas del proceso."
+          },
+          {
+            "id": 6,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "¿Qué líneas actuales se relacionan con este tema?",
+            "descripcion": "Eficiencia energética, bombas de calor, almacenamiento energético e hidrógeno verde."
+          },
+          {
+            "id": 7,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "¿Cuál es la frase-faro del tema?",
+            "descripcion": "El calor y el trabajo conectan la conservación de la energía con el rendimiento real de máquinas térmicas y reacciones químicas."
+          },
+          {
+            "id": 8,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.1. Sistema, entorno y variables termodinámicas",
+            "termino": "¿Qué es un sistema termodinámico?",
+            "descripcion": "La porción del universo elegida para analizar intercambios energéticos."
+          },
+          {
+            "id": 9,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.1. Sistema, entorno y variables termodinámicas",
+            "termino": "¿Qué es el entorno en termodinámica?",
+            "descripcion": "El medio exterior con el que el sistema puede intercambiar energía o materia."
+          },
+          {
+            "id": 10,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.1. Sistema, entorno y variables termodinámicas",
+            "termino": "¿Qué es la frontera de un sistema?",
+            "descripcion": "La separación real o imaginaria entre sistema y entorno."
+          },
+          {
+            "id": 11,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.1. Sistema, entorno y variables termodinámicas",
+            "termino": "¿Cómo se clasifican los sistemas termodinámicos?",
+            "descripcion": "En abiertos, cerrados y aislados, según intercambien materia y energía."
+          },
+          {
+            "id": 12,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.1. Sistema, entorno y variables termodinámicas",
+            "termino": "¿Qué son las variables intensivas?",
+            "descripcion": "Magnitudes que no dependen de la cantidad de materia, como presión, temperatura y densidad."
+          },
+          {
+            "id": 13,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.1. Sistema, entorno y variables termodinámicas",
+            "termino": "¿Qué son las variables extensivas?",
+            "descripcion": "Magnitudes que dependen del tamaño del sistema, como volumen, masa, energía interna y entalpía."
+          },
+          {
+            "id": 14,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.1. Sistema, entorno y variables termodinámicas",
+            "termino": "¿Qué caracteriza al equilibrio termodinámico?",
+            "descripcion": "Variables macroscópicas constantes y ausencia de gradientes internos."
+          },
+          {
+            "id": 15,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.2. Calor como transferencia de energía térmica",
+            "termino": "¿Qué es el calor?",
+            "descripcion": "Energía transferida entre sistema y entorno por diferencia de temperatura."
+          },
+          {
+            "id": 16,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.2. Calor como transferencia de energía térmica",
+            "termino": "¿Qué condición permite el flujo espontáneo de calor?",
+            "descripcion": "La existencia de una diferencia de temperatura."
+          },
+          {
+            "id": 17,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.2. Calor como transferencia de energía térmica",
+            "termino": "¿Cuál es el convenio de signos del calor?",
+            "descripcion": "Q > 0 cuando el sistema recibe calor."
+          },
+          {
+            "id": 18,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.2. Calor como transferencia de energía térmica",
+            "termino": "¿Por qué el calor es una magnitud de proceso?",
+            "descripcion": "Porque depende del camino seguido durante la transformación."
+          },
+          {
+            "id": 19,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.2. Calor como transferencia de energía térmica",
+            "termino": "¿Cómo se representa el calor infinitesimal?",
+            "descripcion": "Como δQ, porque es una diferencial inexacta."
+          },
+          {
+            "id": 20,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.2. Calor como transferencia de energía térmica",
+            "termino": "¿Qué relaciona el calor específico?",
+            "descripcion": "El calor intercambiado, la masa y la variación de temperatura."
+          },
+          {
+            "id": 21,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.2. Calor como transferencia de energía térmica",
+            "termino": "¿Qué mide la calorimetría?",
+            "descripcion": "Intercambios térmicos mediante balances energéticos."
+          },
+          {
+            "id": 22,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión",
+            "termino": "¿Qué es el trabajo termodinámico?",
+            "descripcion": "Transferencia energética asociada a cambios de variables externas."
+          },
+          {
+            "id": 23,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión",
+            "termino": "¿Qué puede actuar como parámetro externo?",
+            "descripcion": "Volumen, frontera móvil, carga eléctrica o imanación."
+          },
+          {
+            "id": 24,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión",
+            "termino": "¿Qué ocurre en una expansión?",
+            "descripcion": "El volumen aumenta y el sistema realiza trabajo sobre el entorno."
+          },
+          {
+            "id": 25,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión",
+            "termino": "¿Qué ocurre en una compresión?",
+            "descripcion": "El volumen disminuye y el entorno realiza trabajo sobre el sistema."
+          },
+          {
+            "id": 26,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión",
+            "termino": "¿Cuál es la expresión del trabajo presión-volumen?",
+            "descripcion": "δW = -p_ext dV, con trabajo positivo cuando lo recibe el sistema."
+          },
+          {
+            "id": 27,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión",
+            "termino": "¿Qué representa el área en un diagrama presión-volumen?",
+            "descripcion": "El trabajo mecánico intercambiado durante el proceso."
+          },
+          {
+            "id": 28,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión",
+            "termino": "¿Por qué el trabajo depende del camino?",
+            "descripcion": "Porque no es función de estado y varía según la transformación seguida."
+          },
+          {
+            "id": 29,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.4. Procesos reversibles e irreversibles",
+            "termino": "¿Qué es un proceso reversible?",
+            "descripcion": "Una transformación ideal invertible mediante cambios infinitesimales."
+          },
+          {
+            "id": 30,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.4. Procesos reversibles e irreversibles",
+            "termino": "¿Qué es un proceso irreversible?",
+            "descripcion": "Una transformación real con disipación energética."
+          },
+          {
+            "id": 31,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.4. Procesos reversibles e irreversibles",
+            "termino": "¿Qué papel tienen los estados de equilibrio?",
+            "descripcion": "Son condición aproximada de los procesos cuasiestáticos."
+          },
+          {
+            "id": 32,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.4. Procesos reversibles e irreversibles",
+            "termino": "¿Qué causan el rozamiento y las turbulencias?",
+            "descripcion": "Irreversibilidad y disipación energética."
+          },
+          {
+            "id": 33,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.4. Procesos reversibles e irreversibles",
+            "termino": "¿Qué caracteriza a la expansión libre?",
+            "descripcion": "Es un proceso irreversible sin trabajo útil recuperable."
+          },
+          {
+            "id": 34,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.4. Procesos reversibles e irreversibles",
+            "termino": "¿Qué es la disipación energética?",
+            "descripcion": "Conversión de energía organizada en energía menos aprovechable."
+          },
+          {
+            "id": 35,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.4. Procesos reversibles e irreversibles",
+            "termino": "¿Por qué disminuye el trabajo útil disponible?",
+            "descripcion": "Por irreversibilidades y degradación energética."
+          },
+          {
+            "id": 36,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos",
+            "termino": "¿Qué afirma la conservación de la energía?",
+            "descripcion": "La energía se transforma y transfiere sin destruirse."
+          },
+          {
+            "id": 37,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos",
+            "termino": "¿Qué caracteriza a un sistema cerrado?",
+            "descripcion": "Tiene balance energético sin intercambio de materia."
+          },
+          {
+            "id": 38,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos",
+            "termino": "¿Qué es la energía interna?",
+            "descripcion": "La suma de energías microscópicas del sistema."
+          },
+          {
+            "id": 39,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos",
+            "termino": "¿Qué incluye la energía cinética microscópica?",
+            "descripcion": "Traslación, rotación y vibración molecular."
+          },
+          {
+            "id": 40,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos",
+            "termino": "¿Qué representa la energía potencial intermolecular?",
+            "descripcion": "Las interacciones atractivas y repulsivas entre partículas."
+          },
+          {
+            "id": 41,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos",
+            "termino": "¿Cómo se produce el intercambio energético?",
+            "descripcion": "Mediante calor o trabajo."
+          },
+          {
+            "id": 42,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.2. Energía interna, calor y trabajo",
+            "termino": "¿Qué es una función de estado?",
+            "descripcion": "Una magnitud que depende solo de los estados inicial y final."
+          },
+          {
+            "id": 43,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.2. Energía interna, calor y trabajo",
+            "termino": "¿Qué representa la variación de energía interna?",
+            "descripcion": "El cambio energético microscópico global del sistema."
+          },
+          {
+            "id": 44,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.2. Energía interna, calor y trabajo",
+            "termino": "¿Qué mostró el experimento de Joule?",
+            "descripcion": "La equivalencia entre trabajo mecánico y aumento térmico."
+          },
+          {
+            "id": 45,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.2. Energía interna, calor y trabajo",
+            "termino": "¿Qué significa la equivalencia calor-trabajo?",
+            "descripcion": "Que ambos son formas de transferencia energética."
+          },
+          {
+            "id": 46,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.2. Energía interna, calor y trabajo",
+            "termino": "¿Qué era la teoría del calórico?",
+            "descripcion": "Un modelo histórico superado que interpretaba el calor como sustancia."
+          },
+          {
+            "id": 47,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.2. Energía interna, calor y trabajo",
+            "termino": "¿Qué son las magnitudes de proceso?",
+            "descripcion": "Magnitudes que dependen de la transformación realizada, como calor y trabajo."
+          },
+          {
+            "id": 48,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.3. Formulación matemática de la primera ley",
+            "termino": "¿Cuál es el balance energético de la primera ley?",
+            "descripcion": "ΔU = Q + W, con trabajo positivo recibido por el sistema."
+          },
+          {
+            "id": 49,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.3. Formulación matemática de la primera ley",
+            "termino": "¿Qué efecto tiene el calor recibido?",
+            "descripcion": "Contribuye a aumentar la energía interna."
+          },
+          {
+            "id": 50,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.3. Formulación matemática de la primera ley",
+            "termino": "¿Qué efecto tiene el trabajo recibido?",
+            "descripcion": "Contribuye a aumentar la energía interna."
+          },
+          {
+            "id": 51,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.3. Formulación matemática de la primera ley",
+            "termino": "¿Qué diferencial exacta aparece en la primera ley?",
+            "descripcion": "dU, asociada a la energía interna como función de estado."
+          },
+          {
+            "id": 52,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.3. Formulación matemática de la primera ley",
+            "termino": "¿Qué diferenciales inexactas aparecen en termodinámica?",
+            "descripcion": "δQ y δW, dependientes del proceso."
+          },
+          {
+            "id": 53,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.3. Formulación matemática de la primera ley",
+            "termino": "¿Qué exige el convenio termodinámico?",
+            "descripcion": "Coherencia de signos en todos los balances energéticos."
+          },
+          {
+            "id": 54,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos",
+            "termino": "¿Qué caracteriza a un proceso isocoro?",
+            "descripcion": "Volumen constante y trabajo presión-volumen nulo."
+          },
+          {
+            "id": 55,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos",
+            "termino": "¿Qué caracteriza a un proceso isobárico?",
+            "descripcion": "Presión constante y trabajo proporcional a la variación de volumen."
+          },
+          {
+            "id": 56,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos",
+            "termino": "¿Qué caracteriza a un proceso isotermo?",
+            "descripcion": "Temperatura constante; en gas ideal, ΔU = 0."
+          },
+          {
+            "id": 57,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos",
+            "termino": "¿Qué caracteriza a un proceso adiabático?",
+            "descripcion": "No hay intercambio de calor; Q = 0."
+          },
+          {
+            "id": 58,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos",
+            "termino": "¿De qué depende la energía interna de un gas ideal?",
+            "descripcion": "Solo de la temperatura."
+          },
+          {
+            "id": 59,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos",
+            "termino": "¿Qué provoca una compresión adiabática?",
+            "descripcion": "Aumenta la energía interna y la temperatura."
+          },
+          {
+            "id": 60,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos",
+            "termino": "¿Qué provoca una expansión adiabática?",
+            "descripcion": "Disminuye la energía interna y la temperatura."
+          },
+          {
+            "id": 61,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica",
+            "termino": "¿Qué es una máquina térmica?",
+            "descripcion": "Dispositivo cíclico que transforma parte del calor absorbido en trabajo."
+          },
+          {
+            "id": 62,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica",
+            "termino": "¿Qué implica el funcionamiento cíclico?",
+            "descripcion": "La sustancia de trabajo regresa al estado inicial."
+          },
+          {
+            "id": 63,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica",
+            "termino": "¿Qué es la sustancia de trabajo?",
+            "descripcion": "El fluido que experimenta transformaciones termodinámicas."
+          },
+          {
+            "id": 64,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica",
+            "termino": "¿Qué es el calor absorbido?",
+            "descripcion": "La energía recibida desde una fuente térmica de alta temperatura."
+          },
+          {
+            "id": 65,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica",
+            "termino": "¿Qué es el trabajo mecánico en una máquina térmica?",
+            "descripcion": "La energía útil producida por el ciclo."
+          },
+          {
+            "id": 66,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica",
+            "termino": "¿Qué ejemplos técnicos representan máquinas térmicas?",
+            "descripcion": "Motor de combustión, turbina de gas y central térmica."
+          },
+          {
+            "id": 67,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido",
+            "termino": "¿Qué es el foco caliente?",
+            "descripcion": "El depósito térmico que suministra energía a temperatura alta."
+          },
+          {
+            "id": 68,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido",
+            "termino": "¿Qué es el foco frío?",
+            "descripcion": "El depósito térmico que recibe energía residual."
+          },
+          {
+            "id": 69,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido",
+            "termino": "¿Qué es el calor cedido?",
+            "descripcion": "La parte del calor absorbido no transformada en trabajo."
+          },
+          {
+            "id": 70,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido",
+            "termino": "¿Qué es el trabajo útil?",
+            "descripcion": "La diferencia entre calor absorbido y calor cedido."
+          },
+          {
+            "id": 71,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido",
+            "termino": "¿Cuál es el balance cíclico de una máquina térmica?",
+            "descripcion": "QH = W útil + |QC|."
+          },
+          {
+            "id": 72,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido",
+            "termino": "¿Qué ocurre con la energía interna en un ciclo?",
+            "descripcion": "Su variación es nula al volver al estado inicial."
+          },
+          {
+            "id": 73,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo",
+            "termino": "¿Qué es un ciclo termodinámico?",
+            "descripcion": "Una sucesión de procesos con retorno al estado inicial."
+          },
+          {
+            "id": 74,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo",
+            "termino": "¿Qué es el trabajo neto?",
+            "descripcion": "El resultado energético global del ciclo."
+          },
+          {
+            "id": 75,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo",
+            "termino": "¿Qué representa el área en un diagrama presión-volumen cíclico?",
+            "descripcion": "El trabajo neto del ciclo."
+          },
+          {
+            "id": 76,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo",
+            "termino": "¿Qué es el ciclo de Carnot?",
+            "descripcion": "Un ciclo reversible ideal entre dos focos."
+          },
+          {
+            "id": 77,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo",
+            "termino": "¿Qué son las isotermas reversibles?",
+            "descripcion": "Procesos reversibles con intercambio de calor a temperatura constante."
+          },
+          {
+            "id": 78,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo",
+            "termino": "¿Qué son las adiabáticas reversibles?",
+            "descripcion": "Procesos reversibles con cambio de temperatura sin intercambio de calor."
+          },
+          {
+            "id": 79,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo",
+            "termino": "¿Qué fija el rendimiento máximo?",
+            "descripcion": "Las temperaturas de los focos en un ciclo reversible ideal."
+          },
+          {
+            "id": 80,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas",
+            "termino": "¿Qué establece el segundo principio?",
+            "descripcion": "La dirección y los límites de las transformaciones energéticas."
+          },
+          {
+            "id": 81,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas",
+            "termino": "¿Qué afirma Kelvin-Planck?",
+            "descripcion": "Es imposible convertir todo el calor absorbido en trabajo."
+          },
+          {
+            "id": 82,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas",
+            "termino": "¿Qué es el calor residual?",
+            "descripcion": "La energía cedida inevitablemente al foco frío."
+          },
+          {
+            "id": 83,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas",
+            "termino": "¿Es posible el rendimiento total en una máquina térmica real?",
+            "descripcion": "No; es imposible en una máquina térmica cíclica real."
+          },
+          {
+            "id": 84,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas",
+            "termino": "¿Qué irreversibilidades reducen el rendimiento?",
+            "descripcion": "Rozamientos, gradientes térmicos y disipación."
+          },
+          {
+            "id": 85,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas",
+            "termino": "¿Qué son las pérdidas térmicas?",
+            "descripcion": "Energía transferida al entorno sin producir trabajo."
+          },
+          {
+            "id": 86,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas",
+            "termino": "¿Qué implica la combustión incompleta?",
+            "descripcion": "Una pérdida química y ambiental en motores reales."
+          },
+          {
+            "id": 87,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.1. Intercambios energéticos en las reacciones químicas",
+            "termino": "¿Qué requiere la ruptura de enlaces?",
+            "descripcion": "Aporte energético."
+          },
+          {
+            "id": 88,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.1. Intercambios energéticos en las reacciones químicas",
+            "termino": "¿Qué produce la formación de enlaces?",
+            "descripcion": "Liberación de energía."
+          },
+          {
+            "id": 89,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.1. Intercambios energéticos en las reacciones químicas",
+            "termino": "¿Qué representan reactivos y productos?",
+            "descripcion": "Los estados inicial y final de la transformación química."
+          },
+          {
+            "id": 90,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.1. Intercambios energéticos en las reacciones químicas",
+            "termino": "¿Qué es la energía interna química?",
+            "descripcion": "Energía microscópica asociada a estructura e interacciones."
+          },
+          {
+            "id": 91,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.1. Intercambios energéticos en las reacciones químicas",
+            "termino": "¿Qué es la entalpía?",
+            "descripcion": "Una función de estado adecuada para procesos a presión constante."
+          },
+          {
+            "id": 92,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.1. Intercambios energéticos en las reacciones químicas",
+            "termino": "¿Qué permite una función de estado en termoquímica?",
+            "descripcion": "Calcular balances sin depender del camino seguido."
+          },
+          {
+            "id": 93,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.2. Entalpía de reacción y calor de reacción",
+            "termino": "¿Con qué coincide el calor a volumen constante?",
+            "descripcion": "Con la variación de energía interna: ΔU."
+          },
+          {
+            "id": 94,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.2. Entalpía de reacción y calor de reacción",
+            "termino": "¿Para qué sirve la bomba calorimétrica?",
+            "descripcion": "Para medir calores a volumen constante."
+          },
+          {
+            "id": 95,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.2. Entalpía de reacción y calor de reacción",
+            "termino": "¿Qué condición es habitual en muchas reacciones químicas?",
+            "descripcion": "La presión constante."
+          },
+          {
+            "id": 96,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.2. Entalpía de reacción y calor de reacción",
+            "termino": "¿Cuál es la expresión de la entalpía?",
+            "descripcion": "H = U + pV."
+          },
+          {
+            "id": 97,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.2. Entalpía de reacción y calor de reacción",
+            "termino": "¿Con qué coincide el calor a presión constante?",
+            "descripcion": "Con la variación de entalpía: ΔH."
+          },
+          {
+            "id": 98,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.2. Entalpía de reacción y calor de reacción",
+            "termino": "¿Qué es la entalpía de reacción?",
+            "descripcion": "El calor intercambiado por una reacción a presión constante."
+          },
+          {
+            "id": 99,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.2. Entalpía de reacción y calor de reacción",
+            "termino": "¿Para qué sirven las entalpías estándar de formación?",
+            "descripcion": "Para calcular entalpías de reacción."
+          },
+          {
+            "id": 100,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.2. Entalpía de reacción y calor de reacción",
+            "termino": "¿Cómo se plantea el balance termoquímico?",
+            "descripcion": "Productos menos reactivos, ponderados por coeficientes estequiométricos."
+          },
+          {
+            "id": 101,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.3. Reacciones exotérmicas y endotérmicas",
+            "termino": "¿Qué es una reacción exotérmica?",
+            "descripcion": "Una reacción que libera calor; ΔH < 0."
+          },
+          {
+            "id": 102,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.3. Reacciones exotérmicas y endotérmicas",
+            "termino": "¿Qué es una reacción endotérmica?",
+            "descripcion": "Una reacción que absorbe calor; ΔH > 0."
+          },
+          {
+            "id": 103,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.3. Reacciones exotérmicas y endotérmicas",
+            "termino": "¿Qué indica el signo de la entalpía?",
+            "descripcion": "El tipo de intercambio energético de la reacción."
+          },
+          {
+            "id": 104,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.3. Reacciones exotérmicas y endotérmicas",
+            "termino": "¿Qué tipo de reacción es la combustión?",
+            "descripcion": "Una reacción exotérmica de interés energético."
+          },
+          {
+            "id": 105,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.3. Reacciones exotérmicas y endotérmicas",
+            "termino": "¿Cómo suele ser la neutralización ácido-base?",
+            "descripcion": "Generalmente exotérmica."
+          },
+          {
+            "id": 106,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.3. Reacciones exotérmicas y endotérmicas",
+            "termino": "¿Qué tipo de proceso es la descomposición térmica?",
+            "descripcion": "Un proceso endotérmico frecuente."
+          },
+          {
+            "id": 107,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.3. Reacciones exotérmicas y endotérmicas",
+            "termino": "¿Qué establece la ley de Hess?",
+            "descripcion": "La entalpía depende solo de los estados inicial y final."
+          },
+          {
+            "id": 108,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.4. Relación entre termodinámica y procesos químicos",
+            "termino": "¿Qué estudia la termodinámica química?",
+            "descripcion": "Balances energéticos y espontaneidad global de procesos químicos."
+          },
+          {
+            "id": 109,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.4. Relación entre termodinámica y procesos químicos",
+            "termino": "¿A qué se vincula el calor de reacción?",
+            "descripcion": "A ΔU o ΔH, según las condiciones experimentales."
+          },
+          {
+            "id": 110,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.4. Relación entre termodinámica y procesos químicos",
+            "termino": "¿Para qué sirve la entalpía de combustión?",
+            "descripcion": "Para comparar energéticamente distintos combustibles."
+          },
+          {
+            "id": 111,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.4. Relación entre termodinámica y procesos químicos",
+            "termino": "¿Qué es el metabolismo desde el punto de vista energético?",
+            "descripcion": "Un conjunto de transformaciones bioquímicas con balance energético."
+          },
+          {
+            "id": 112,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.4. Relación entre termodinámica y procesos químicos",
+            "termino": "¿Con qué se relaciona la producción de hidrógeno?",
+            "descripcion": "Con almacenamiento energético y transición energética."
+          },
+          {
+            "id": 113,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.4. Relación entre termodinámica y procesos químicos",
+            "termino": "¿Qué implica el almacenamiento energético?",
+            "descripcion": "Conversión entre energía eléctrica, química y térmica."
+          },
+          {
+            "id": 114,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.4. Relación entre termodinámica y procesos químicos",
+            "termino": "¿Qué aporta la cinética química?",
+            "descripcion": "Complementa la termodinámica al estudiar la velocidad de reacción."
+          },
+          {
+            "id": 115,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.1. Concepto de rendimiento energético",
+            "termino": "¿Qué es el rendimiento energético?",
+            "descripcion": "El cociente entre energía útil obtenida y energía aportada."
+          },
+          {
+            "id": 116,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.1. Concepto de rendimiento energético",
+            "termino": "¿Qué es la energía útil?",
+            "descripcion": "La parte transformada en el efecto deseado."
+          },
+          {
+            "id": 117,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.1. Concepto de rendimiento energético",
+            "termino": "¿Qué es la energía aportada?",
+            "descripcion": "La energía inicial suministrada al proceso."
+          },
+          {
+            "id": 118,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.1. Concepto de rendimiento energético",
+            "termino": "¿Cómo suele expresarse el porcentaje de aprovechamiento?",
+            "descripcion": "Como rendimiento o eficiencia del proceso."
+          },
+          {
+            "id": 119,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.1. Concepto de rendimiento energético",
+            "termino": "¿Qué es la energía no útil?",
+            "descripcion": "La parte no convertida en el objetivo del sistema."
+          },
+          {
+            "id": 120,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.1. Concepto de rendimiento energético",
+            "termino": "¿Qué son las pérdidas energéticas?",
+            "descripcion": "Transferencias o degradaciones inevitables en sistemas reales."
+          },
+          {
+            "id": 121,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.2. Rendimiento en máquinas térmicas",
+            "termino": "¿Cuál es la expresión del rendimiento térmico?",
+            "descripcion": "η = W útil / QH."
+          },
+          {
+            "id": 122,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.2. Rendimiento en máquinas térmicas",
+            "termino": "¿Qué es el trabajo producido?",
+            "descripcion": "La energía mecánica obtenida por ciclo."
+          },
+          {
+            "id": 123,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.2. Rendimiento en máquinas térmicas",
+            "termino": "¿Qué es el calor residual?",
+            "descripcion": "La energía cedida al foco frío."
+          },
+          {
+            "id": 124,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.2. Rendimiento en máquinas térmicas",
+            "termino": "¿Qué representa la máquina de Carnot?",
+            "descripcion": "La referencia ideal de rendimiento máximo."
+          },
+          {
+            "id": 125,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.2. Rendimiento en máquinas térmicas",
+            "termino": "¿Por qué se usa temperatura absoluta en Carnot?",
+            "descripcion": "Porque el rendimiento de Carnot se calcula con temperaturas en kelvin."
+          },
+          {
+            "id": 126,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.2. Rendimiento en máquinas térmicas",
+            "termino": "¿Cuál es el límite de Carnot?",
+            "descripcion": "ηC = 1 - TC/TH."
+          },
+          {
+            "id": 127,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.3. Pérdidas energéticas y degradación de la energía",
+            "termino": "¿Qué es la degradación energética?",
+            "descripcion": "Pérdida de capacidad para producir trabajo útil."
+          },
+          {
+            "id": 128,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.3. Pérdidas energéticas y degradación de la energía",
+            "termino": "¿Qué provoca el rozamiento?",
+            "descripcion": "Convierte energía mecánica en calor disipado."
+          },
+          {
+            "id": 129,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.3. Pérdidas energéticas y degradación de la energía",
+            "termino": "¿Qué es la disipación térmica?",
+            "descripcion": "Transferencia energética no aprovechada."
+          },
+          {
+            "id": 130,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.3. Pérdidas energéticas y degradación de la energía",
+            "termino": "¿Qué generan las turbulencias?",
+            "descripcion": "Pérdidas internas en fluidos reales."
+          },
+          {
+            "id": 131,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.3. Pérdidas energéticas y degradación de la energía",
+            "termino": "¿Qué causa la resistencia eléctrica?",
+            "descripcion": "Disipación energética por efecto Joule."
+          },
+          {
+            "id": 132,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.3. Pérdidas energéticas y degradación de la energía",
+            "termino": "¿Qué es una transferencia irreversible?",
+            "descripcion": "Intercambio térmico con diferencia finita de temperatura."
+          },
+          {
+            "id": 133,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.3. Pérdidas energéticas y degradación de la energía",
+            "termino": "¿Con qué se asocia la entropía?",
+            "descripcion": "Con irreversibilidad y dispersión energética."
+          },
+          {
+            "id": 134,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento",
+            "termino": "¿Qué límite teórico fija Carnot?",
+            "descripcion": "La eficiencia máxima entre dos focos térmicos."
+          },
+          {
+            "id": 135,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento",
+            "termino": "¿Qué busca el diseño de motores?",
+            "descripcion": "Optimizar combustión, rozamiento y transferencia térmica."
+          },
+          {
+            "id": 136,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento",
+            "termino": "¿Qué persiguen las centrales eléctricas eficientes?",
+            "descripcion": "Mejorar el aprovechamiento energético."
+          },
+          {
+            "id": 137,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento",
+            "termino": "¿Qué hacen las bombas de calor?",
+            "descripcion": "Transfieren calor de forma eficiente mediante trabajo externo."
+          },
+          {
+            "id": 138,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento",
+            "termino": "¿Qué hacen los frigoríficos?",
+            "descripcion": "Extraen calor desde un foco frío."
+          },
+          {
+            "id": 139,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento",
+            "termino": "¿Qué busca la eficiencia industrial?",
+            "descripcion": "Reducir el consumo energético en procesos productivos."
+          },
+          {
+            "id": 140,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento",
+            "termino": "¿Qué consecuencia tiene mejorar el aprovechamiento energético?",
+            "descripcion": "La reducción de emisiones."
+          },
+          {
+            "id": 141,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento",
+            "termino": "¿Qué implica la sostenibilidad energética?",
+            "descripcion": "Uso racional de recursos y transición energética."
+          },
+          {
+            "id": 142,
+            "apartado": "6. Conclusión",
+            "subapartado": "6. Conclusión",
+            "termino": "¿Qué papel tiene la energía interna en el tema?",
+            "descripcion": "Es la función de estado central en la primera ley."
+          },
+          {
+            "id": 143,
+            "apartado": "6. Conclusión",
+            "subapartado": "6. Conclusión",
+            "termino": "¿Qué relaciona la primera ley?",
+            "descripcion": "Calor, trabajo y energía interna de forma cuantitativa."
+          },
+          {
+            "id": 144,
+            "apartado": "6. Conclusión",
+            "subapartado": "6. Conclusión",
+            "termino": "¿Para qué sirve el balance energético?",
+            "descripcion": "Para analizar procesos físicos, máquinas y reacciones."
+          },
+          {
+            "id": 145,
+            "apartado": "6. Conclusión",
+            "subapartado": "6. Conclusión",
+            "termino": "¿Qué representa una máquina térmica?",
+            "descripcion": "La conversión cíclica y parcial de calor en trabajo."
+          },
+          {
+            "id": 146,
+            "apartado": "6. Conclusión",
+            "subapartado": "6. Conclusión",
+            "termino": "¿Qué papel tiene la entalpía?",
+            "descripcion": "Es una magnitud clave en reacciones a presión constante."
+          },
+          {
+            "id": 147,
+            "apartado": "6. Conclusión",
+            "subapartado": "6. Conclusión",
+            "termino": "¿Para qué sirve la ley de Hess?",
+            "descripcion": "Para calcular calores de reacción mediante rutas alternativas."
+          },
+          {
+            "id": 148,
+            "apartado": "6. Conclusión",
+            "subapartado": "6. Conclusión",
+            "termino": "¿Qué mide el rendimiento energético?",
+            "descripcion": "El aprovechamiento real de la energía."
+          },
+          {
+            "id": 149,
+            "apartado": "6. Conclusión",
+            "subapartado": "6. Conclusión",
+            "termino": "¿Qué explica la degradación energética?",
+            "descripcion": "Pérdidas, irreversibilidad y límites tecnológicos."
+          },
+          {
+            "id": 150,
+            "apartado": "6. Conclusión",
+            "subapartado": "6. Conclusión",
+            "termino": "¿Qué conecta la eficiencia energética?",
+            "descripcion": "Termodinámica, sostenibilidad y transición energética."
+          }
         ]
       }
     },
@@ -312,36 +1292,174 @@
       "content_json": {
         "tipo": "reconstruccion_cientifica",
         "flashcards": [
-          {"id": 1, "apartado": "0. Introducción", "subapartado": "0. Introducción", "termino": "Explica por qué el calor y el trabajo son conceptos centrales para comprender la transformación de la energía.", "descripcion": "Porque ambos representan formas de transferencia energética entre sistema y entorno. El calor aparece por diferencia de temperatura y el trabajo por cambios de variables externas. Como resultado, permiten aplicar la conservación de la energía a máquinas térmicas, reacciones químicas y problemas tecnológicos reales."},
-          {"id": 2, "apartado": "0. Introducción", "subapartado": "0. Introducción", "termino": "Analiza cómo se relaciona este tema con la transición energética actual.", "descripcion": "El tema se relaciona con la transición energética porque permite valorar el aprovechamiento real de la energía. Al estudiar rendimiento, pérdidas e irreversibilidades, se comprende por qué tecnologías como bombas de calor, motores eficientes o hidrógeno verde buscan reducir consumo, emisiones y degradación energética."},
-          {"id": 3, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.1. Sistema, entorno y variables termodinámicas", "termino": "Justifica por qué es necesario delimitar sistema, entorno y frontera antes de aplicar un balance energético.", "descripcion": "Porque el balance depende de qué parte del universo se estudia y qué intercambios atraviesan la frontera. Si no se delimita el sistema, no puede saberse si hay entrada o salida de calor, trabajo o materia. Por lo tanto, la definición previa condiciona toda la interpretación termodinámica."},
-          {"id": 4, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.1. Sistema, entorno y variables termodinámicas", "termino": "Compara la utilidad de las variables intensivas y extensivas en la descripción de un sistema.", "descripcion": "Las variables intensivas, como presión y temperatura, caracterizan el estado local sin depender de la cantidad de materia. Las extensivas, como volumen o energía interna, dependen del tamaño del sistema. Ambas son necesarias porque unas describen condiciones de equilibrio y otras permiten plantear balances energéticos."},
-          {"id": 5, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.2. Calor como transferencia de energía térmica", "termino": "Explica por qué el calor no debe considerarse una propiedad contenida en los cuerpos.", "descripcion": "Porque el calor solo existe durante una transferencia energética causada por diferencia de temperatura. Un cuerpo posee energía interna, no calor almacenado. Esta distinción evita errores conceptuales y permite entender por qué el calor depende del proceso seguido, no únicamente del estado inicial y final."},
-          {"id": 6, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión", "termino": "Analiza por qué el trabajo presión-volumen depende del camino seguido.", "descripcion": "El trabajo presión-volumen depende del camino porque se obtiene integrando la presión respecto al volumen durante la transformación. Dos procesos con los mismos estados inicial y final pueden recorrer curvas distintas en el diagrama presión-volumen. Por lo tanto, el área y el trabajo intercambiado cambian."},
-          {"id": 7, "apartado": "1. Calor y trabajo en los procesos termodinámicos", "subapartado": "1.4. Procesos reversibles e irreversibles", "termino": "Justifica por qué los procesos reversibles representan un límite ideal y no una situación real habitual.", "descripcion": "Porque requieren equilibrio continuo, cambios infinitesimales y ausencia de disipación. En los sistemas reales aparecen rozamiento, turbulencias o diferencias finitas de temperatura, que impiden recuperar exactamente el estado inicial del sistema y del entorno. Por eso sirven como modelo límite de máximo aprovechamiento."},
-          {"id": 8, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos", "termino": "Explica cómo la primera ley traslada la conservación de la energía al estudio de sistemas termodinámicos.", "descripcion": "La primera ley adapta la conservación de la energía a sistemas que intercambian calor y trabajo. La variación de energía interna se interpreta como resultado de esas transferencias. Así, los cambios térmicos o mecánicos no crean energía, sino que la redistribuyen entre sistema y entorno."},
-          {"id": 9, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.2. Energía interna, calor y trabajo", "termino": "Compara energía interna, calor y trabajo desde el punto de vista de las funciones de estado.", "descripcion": "La energía interna es función de estado porque depende solo de los estados inicial y final. En cambio, calor y trabajo dependen del proceso concreto seguido. Esta diferencia es esencial porque permite calcular variaciones energéticas globales sin confundirlas con las vías de transferencia."},
-          {"id": 10, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.3. Formulación matemática de la primera ley", "termino": "Justifica la importancia de mantener un convenio de signos coherente en la primera ley.", "descripcion": "El convenio de signos determina si el calor y el trabajo aumentan o disminuyen la energía interna. Si se mezclan criterios, las ecuaciones conducen a contradicciones, especialmente en expansiones, compresiones y máquinas térmicas. Por eso debe fijarse desde el inicio y mantenerse en todo el desarrollo."},
-          {"id": 11, "apartado": "2. Primera ley de la termodinámica", "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos", "termino": "Analiza cómo cambian los balances energéticos según el tipo de proceso termodinámico.", "descripcion": "Cada proceso anula o mantiene una variable distinta. En el isocoro no hay trabajo de volumen; en el isotermo de gas ideal no cambia la energía interna; en el adiabático no hay calor. Como resultado, la primera ley adopta formas simplificadas útiles para resolver situaciones concretas."},
-          {"id": 12, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica", "termino": "Explica por qué una máquina térmica debe funcionar cíclicamente para producir trabajo de forma continuada.", "descripcion": "Debe funcionar cíclicamente porque la sustancia de trabajo necesita volver a su estado inicial para repetir el proceso. Al cerrar el ciclo, la variación de energía interna total es nula y el balance permite transformar parte del calor absorbido en trabajo útil repetible."},
-          {"id": 13, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido", "termino": "Justifica por qué una máquina térmica necesita un foco frío además de un foco caliente.", "descripcion": "Necesita un foco frío porque no puede transformar todo el calor absorbido en trabajo. Parte de la energía debe rechazarse como calor residual para completar el ciclo. Esta necesidad expresa una limitación del segundo principio y explica que el rendimiento nunca sea total."},
-          {"id": 14, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo", "termino": "Analiza por qué el ciclo de Carnot se utiliza como referencia ideal de rendimiento.", "descripcion": "Se utiliza como referencia porque está formado por procesos reversibles y opera entre dos focos térmicos. Al eliminar irreversibilidades, proporciona el máximo rendimiento posible para esas temperaturas. Por lo tanto, permite comparar máquinas reales con un límite teórico inalcanzable."},
-          {"id": 15, "apartado": "3. Aplicación a las máquinas térmicas", "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas", "termino": "Deduce qué consecuencias tiene el segundo principio sobre las máquinas térmicas reales.", "descripcion": "El segundo principio implica que ninguna máquina real convierte todo el calor en trabajo. Siempre existen calor residual e irreversibilidades. Como consecuencia, el rendimiento es menor que el ideal de Carnot y aparecen pérdidas por rozamiento, disipación térmica, combustión incompleta o transferencia irreversible."},
-          {"id": 16, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.1. Intercambios energéticos en las reacciones químicas", "termino": "Explica cómo la ruptura y formación de enlaces determinan el balance energético de una reacción.", "descripcion": "La ruptura de enlaces requiere aporte energético, mientras que la formación de enlaces libera energía. El balance entre ambos efectos determina si la reacción absorbe o desprende calor. Por ello, la energía química de reactivos y productos permite interpretar el intercambio energético global."},
-          {"id": 17, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.2. Entalpía de reacción y calor de reacción", "termino": "Justifica por qué la entalpía es especialmente útil para estudiar reacciones químicas abiertas.", "descripcion": "Porque muchas reacciones se realizan a presión aproximadamente constante, como ocurre en recipientes abiertos. En esas condiciones, el calor intercambiado coincide con la variación de entalpía. Esto permite analizar experimentalmente el calor de reacción y compararlo mediante tablas de entalpías estándar."},
-          {"id": 18, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.3. Reacciones exotérmicas y endotérmicas", "termino": "Compara una reacción exotérmica y una endotérmica desde el punto de vista de la entalpía.", "descripcion": "En una reacción exotérmica, los productos quedan a menor entalpía que los reactivos y se libera calor. En una endotérmica ocurre lo contrario: se absorbe energía y los productos quedan a mayor entalpía. El signo de ΔH resume esta diferencia energética."},
-          {"id": 19, "apartado": "4. Aplicación a las reacciones químicas", "subapartado": "4.4. Relación entre termodinámica y procesos químicos", "termino": "Analiza por qué la termodinámica química no sustituye a la cinética química.", "descripcion": "La termodinámica informa sobre balances energéticos y tendencia global, pero no indica la velocidad del proceso. Una reacción puede ser favorable energéticamente y aun así ser lenta. Por eso la cinética complementa el análisis al estudiar mecanismos, energía de activación y rapidez."},
-          {"id": 20, "apartado": "5. Rendimiento energético", "subapartado": "5.1. Concepto de rendimiento energético", "termino": "Explica por qué el rendimiento energético no contradice la conservación de la energía.", "descripcion": "No la contradice porque la energía total se conserva, pero no toda se transforma en energía útil. Parte se degrada o se transfiere al entorno de forma no aprovechable. Por tanto, el rendimiento mide calidad y utilidad de la transformación, no desaparición de energía."},
-          {"id": 21, "apartado": "5. Rendimiento energético", "subapartado": "5.2. Rendimiento en máquinas térmicas", "termino": "Deduce cómo afectan las temperaturas de los focos al rendimiento de Carnot.", "descripcion": "El rendimiento de Carnot aumenta si crece la temperatura del foco caliente o disminuye la del foco frío, siempre en kelvin. Esto ocurre porque la fracción de calor convertible en trabajo depende del desnivel térmico. Sin embargo, límites materiales y ambientales restringen esos cambios."},
-          {"id": 22, "apartado": "5. Rendimiento energético", "subapartado": "5.3. Pérdidas energéticas y degradación de la energía", "termino": "Analiza la relación entre irreversibilidad, degradación energética y entropía.", "descripcion": "La irreversibilidad dispersa la energía y reduce su capacidad para producir trabajo útil. Esa dispersión se interpreta como degradación energética y se asocia al aumento de entropía. Como resultado, aunque la energía se conserva, su aprovechamiento práctico disminuye en los procesos reales."},
-          {"id": 23, "apartado": "5. Rendimiento energético", "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento", "termino": "Justifica por qué mejorar el rendimiento tiene consecuencias ambientales relevantes.", "descripcion": "Mejorar el rendimiento reduce la energía necesaria para obtener el mismo efecto útil. Como consecuencia, disminuyen el consumo de combustibles, las emisiones y las pérdidas térmicas. Esto conecta la termodinámica con sostenibilidad, eficiencia industrial y transición hacia sistemas energéticos menos contaminantes."}
+          {
+            "id": 1,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "Explica por qué el calor y el trabajo son conceptos centrales para comprender la transformación de la energía.",
+            "descripcion": "Porque ambos representan formas de transferencia energética entre sistema y entorno. El calor aparece por diferencia de temperatura y el trabajo por cambios de variables externas. Como resultado, permiten aplicar la conservación de la energía a máquinas térmicas, reacciones químicas y problemas tecnológicos reales."
+          },
+          {
+            "id": 2,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "Analiza cómo se relaciona este tema con la transición energética actual.",
+            "descripcion": "El tema se relaciona con la transición energética porque permite valorar el aprovechamiento real de la energía. Al estudiar rendimiento, pérdidas e irreversibilidades, se comprende por qué tecnologías como bombas de calor, motores eficientes o hidrógeno verde buscan reducir consumo, emisiones y degradación energética."
+          },
+          {
+            "id": 3,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.1. Sistema, entorno y variables termodinámicas",
+            "termino": "Justifica por qué es necesario delimitar sistema, entorno y frontera antes de aplicar un balance energético.",
+            "descripcion": "Porque el balance depende de qué parte del universo se estudia y qué intercambios atraviesan la frontera. Si no se delimita el sistema, no puede saberse si hay entrada o salida de calor, trabajo o materia. Por lo tanto, la definición previa condiciona toda la interpretación termodinámica."
+          },
+          {
+            "id": 4,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.1. Sistema, entorno y variables termodinámicas",
+            "termino": "Compara la utilidad de las variables intensivas y extensivas en la descripción de un sistema.",
+            "descripcion": "Las variables intensivas, como presión y temperatura, caracterizan el estado local sin depender de la cantidad de materia. Las extensivas, como volumen o energía interna, dependen del tamaño del sistema. Ambas son necesarias porque unas describen condiciones de equilibrio y otras permiten plantear balances energéticos."
+          },
+          {
+            "id": 5,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.2. Calor como transferencia de energía térmica",
+            "termino": "Explica por qué el calor no debe considerarse una propiedad contenida en los cuerpos.",
+            "descripcion": "Porque el calor solo existe durante una transferencia energética causada por diferencia de temperatura. Un cuerpo posee energía interna, no calor almacenado. Esta distinción evita errores conceptuales y permite entender por qué el calor depende del proceso seguido, no únicamente del estado inicial y final."
+          },
+          {
+            "id": 6,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.3. Trabajo termodinámico y procesos de expansión y compresión",
+            "termino": "Analiza por qué el trabajo presión-volumen depende del camino seguido.",
+            "descripcion": "El trabajo presión-volumen depende del camino porque se obtiene integrando la presión respecto al volumen durante la transformación. Dos procesos con los mismos estados inicial y final pueden recorrer curvas distintas en el diagrama presión-volumen. Por lo tanto, el área y el trabajo intercambiado cambian."
+          },
+          {
+            "id": 7,
+            "apartado": "1. Calor y trabajo en los procesos termodinámicos",
+            "subapartado": "1.4. Procesos reversibles e irreversibles",
+            "termino": "Justifica por qué los procesos reversibles representan un límite ideal y no una situación real habitual.",
+            "descripcion": "Porque requieren equilibrio continuo, cambios infinitesimales y ausencia de disipación. En los sistemas reales aparecen rozamiento, turbulencias o diferencias finitas de temperatura, que impiden recuperar exactamente el estado inicial del sistema y del entorno. Por eso sirven como modelo límite de máximo aprovechamiento."
+          },
+          {
+            "id": 8,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.1. Conservación de la energía en sistemas termodinámicos",
+            "termino": "Explica cómo la primera ley traslada la conservación de la energía al estudio de sistemas termodinámicos.",
+            "descripcion": "La primera ley adapta la conservación de la energía a sistemas que intercambian calor y trabajo. La variación de energía interna se interpreta como resultado de esas transferencias. Así, los cambios térmicos o mecánicos no crean energía, sino que la redistribuyen entre sistema y entorno."
+          },
+          {
+            "id": 9,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.2. Energía interna, calor y trabajo",
+            "termino": "Compara energía interna, calor y trabajo desde el punto de vista de las funciones de estado.",
+            "descripcion": "La energía interna es función de estado porque depende solo de los estados inicial y final. En cambio, calor y trabajo dependen del proceso concreto seguido. Esta diferencia es esencial porque permite calcular variaciones energéticas globales sin confundirlas con las vías de transferencia."
+          },
+          {
+            "id": 10,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.3. Formulación matemática de la primera ley",
+            "termino": "Justifica la importancia de mantener un convenio de signos coherente en la primera ley.",
+            "descripcion": "El convenio de signos determina si el calor y el trabajo aumentan o disminuyen la energía interna. Si se mezclan criterios, las ecuaciones conducen a contradicciones, especialmente en expansiones, compresiones y máquinas térmicas. Por eso debe fijarse desde el inicio y mantenerse en todo el desarrollo."
+          },
+          {
+            "id": 11,
+            "apartado": "2. Primera ley de la termodinámica",
+            "subapartado": "2.4. Aplicación a procesos isocoros, isobáricos, isotermos y adiabáticos",
+            "termino": "Analiza cómo cambian los balances energéticos según el tipo de proceso termodinámico.",
+            "descripcion": "Cada proceso anula o mantiene una variable distinta. En el isocoro no hay trabajo de volumen; en el isotermo de gas ideal no cambia la energía interna; en el adiabático no hay calor. Como resultado, la primera ley adopta formas simplificadas útiles para resolver situaciones concretas."
+          },
+          {
+            "id": 12,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.1. Concepto y funcionamiento general de una máquina térmica",
+            "termino": "Explica por qué una máquina térmica debe funcionar cíclicamente para producir trabajo de forma continuada.",
+            "descripcion": "Debe funcionar cíclicamente porque la sustancia de trabajo necesita volver a su estado inicial para repetir el proceso. Al cerrar el ciclo, la variación de energía interna total es nula y el balance permite transformar parte del calor absorbido en trabajo útil repetible."
+          },
+          {
+            "id": 13,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.2. Foco caliente, foco frío, trabajo útil y calor cedido",
+            "termino": "Justifica por qué una máquina térmica necesita un foco frío además de un foco caliente.",
+            "descripcion": "Necesita un foco frío porque no puede transformar todo el calor absorbido en trabajo. Parte de la energía debe rechazarse como calor residual para completar el ciclo. Esta necesidad expresa una limitación del segundo principio y explica que el rendimiento nunca sea total."
+          },
+          {
+            "id": 14,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.3. Ciclos termodinámicos y transformación de calor en trabajo",
+            "termino": "Analiza por qué el ciclo de Carnot se utiliza como referencia ideal de rendimiento.",
+            "descripcion": "Se utiliza como referencia porque está formado por procesos reversibles y opera entre dos focos térmicos. Al eliminar irreversibilidades, proporciona el máximo rendimiento posible para esas temperaturas. Por lo tanto, permite comparar máquinas reales con un límite teórico inalcanzable."
+          },
+          {
+            "id": 15,
+            "apartado": "3. Aplicación a las máquinas térmicas",
+            "subapartado": "3.4. Limitaciones energéticas de las máquinas térmicas",
+            "termino": "Deduce qué consecuencias tiene el segundo principio sobre las máquinas térmicas reales.",
+            "descripcion": "El segundo principio implica que ninguna máquina real convierte todo el calor en trabajo. Siempre existen calor residual e irreversibilidades. Como consecuencia, el rendimiento es menor que el ideal de Carnot y aparecen pérdidas por rozamiento, disipación térmica, combustión incompleta o transferencia irreversible."
+          },
+          {
+            "id": 16,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.1. Intercambios energéticos en las reacciones químicas",
+            "termino": "Explica cómo la ruptura y formación de enlaces determinan el balance energético de una reacción.",
+            "descripcion": "La ruptura de enlaces requiere aporte energético, mientras que la formación de enlaces libera energía. El balance entre ambos efectos determina si la reacción absorbe o desprende calor. Por ello, la energía química de reactivos y productos permite interpretar el intercambio energético global."
+          },
+          {
+            "id": 17,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.2. Entalpía de reacción y calor de reacción",
+            "termino": "Justifica por qué la entalpía es especialmente útil para estudiar reacciones químicas abiertas.",
+            "descripcion": "Porque muchas reacciones se realizan a presión aproximadamente constante, como ocurre en recipientes abiertos. En esas condiciones, el calor intercambiado coincide con la variación de entalpía. Esto permite analizar experimentalmente el calor de reacción y compararlo mediante tablas de entalpías estándar."
+          },
+          {
+            "id": 18,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.3. Reacciones exotérmicas y endotérmicas",
+            "termino": "Compara una reacción exotérmica y una endotérmica desde el punto de vista de la entalpía.",
+            "descripcion": "En una reacción exotérmica, los productos quedan a menor entalpía que los reactivos y se libera calor. En una endotérmica ocurre lo contrario: se absorbe energía y los productos quedan a mayor entalpía. El signo de ΔH resume esta diferencia energética."
+          },
+          {
+            "id": 19,
+            "apartado": "4. Aplicación a las reacciones químicas",
+            "subapartado": "4.4. Relación entre termodinámica y procesos químicos",
+            "termino": "Analiza por qué la termodinámica química no sustituye a la cinética química.",
+            "descripcion": "La termodinámica informa sobre balances energéticos y tendencia global, pero no indica la velocidad del proceso. Una reacción puede ser favorable energéticamente y aun así ser lenta. Por eso la cinética complementa el análisis al estudiar mecanismos, energía de activación y rapidez."
+          },
+          {
+            "id": 20,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.1. Concepto de rendimiento energético",
+            "termino": "Explica por qué el rendimiento energético no contradice la conservación de la energía.",
+            "descripcion": "No la contradice porque la energía total se conserva, pero no toda se transforma en energía útil. Parte se degrada o se transfiere al entorno de forma no aprovechable. Por tanto, el rendimiento mide calidad y utilidad de la transformación, no desaparición de energía."
+          },
+          {
+            "id": 21,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.2. Rendimiento en máquinas térmicas",
+            "termino": "Deduce cómo afectan las temperaturas de los focos al rendimiento de Carnot.",
+            "descripcion": "El rendimiento de Carnot aumenta si crece la temperatura del foco caliente o disminuye la del foco frío, siempre en kelvin. Esto ocurre porque la fracción de calor convertible en trabajo depende del desnivel térmico. Sin embargo, límites materiales y ambientales restringen esos cambios."
+          },
+          {
+            "id": 22,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.3. Pérdidas energéticas y degradación de la energía",
+            "termino": "Analiza la relación entre irreversibilidad, degradación energética y entropía.",
+            "descripcion": "La irreversibilidad dispersa la energía y reduce su capacidad para producir trabajo útil. Esa dispersión se interpreta como degradación energética y se asocia al aumento de entropía. Como resultado, aunque la energía se conserva, su aprovechamiento práctico disminuye en los procesos reales."
+          },
+          {
+            "id": 23,
+            "apartado": "5. Rendimiento energético",
+            "subapartado": "5.4. Importancia científica, tecnológica y ambiental del rendimiento",
+            "termino": "Justifica por qué mejorar el rendimiento tiene consecuencias ambientales relevantes.",
+            "descripcion": "Mejorar el rendimiento reduce la energía necesaria para obtener el mismo efecto útil. Como consecuencia, disminuyen el consumo de combustibles, las emisiones y las pérdidas térmicas. Esto conecta la termodinámica con sostenibilidad, eficiencia industrial y transición hacia sistemas energéticos menos contaminantes."
+          }
         ]
       }
     }
   ],
   "propuesta_didactica": {
-    "lectura": "Bombas de calor vs combustibles/hidrógeno",
-    "actividad": "Debate en grupos: defender, analizar límites",
+    "lectura": "Este tema puede trasladarse al aula mediante un debate científico guiado sobre la siguiente controversia actual: ¿debe priorizarse la electrificación mediante bombas de calor frente al uso de combustibles e hidrógeno como solución energética principal? Esta controversia permite conectar el calor, el trabajo, la primera ley de la termodinámica, las máquinas térmicas, las reacciones químicas y el rendimiento energético con una situación real vinculada a la transición energética, la eficiencia, las emisiones y el uso responsable de recursos.\nLa clase se organizará de forma que al menos un tercio del alumnado defienda una postura favorable a la electrificación y al uso de bombas de calor por su alto rendimiento energético, y otro tercio adopte una postura crítica o alternativa, valorando las limitaciones tecnológicas, económicas, materiales o la posible función del hidrógeno y otros combustibles en determinados sectores. El resto del alumnado asumirá tareas de moderación, síntesis, contraste de datos o valoración final de los argumentos.\nEl alumnado deberá argumentar a partir de datos de rendimiento, esquemas de máquinas térmicas, gráficos de pérdidas energéticas, información sobre emisiones, ejemplos de bombas de calor, motores térmicos, combustión e hidrógeno verde, diferenciando hechos, opiniones e inferencias. Para favorecer la inclusión, se ofrecerán apoyos visuales, guías de argumentación, vocabulario científico previo, roles cooperativos y distintas formas de participación oral o escrita. La actividad puede evaluarse mediante una breve rúbrica de argumentación científica, valorando el uso correcto de conceptos como energía interna, calor, trabajo, entalpía, rendimiento, irreversibilidad y degradación energética, abordando el contenido de forma competencial e innovadora sin desplazar el desarrollo científico del tema.",
+    "actividad": "Este tema puede trasladarse al aula mediante un debate científico guiado sobre la siguiente controversia actual: ¿debe priorizarse la electrificación mediante bombas de calor frente al uso de combustibles e hidrógeno como solución energética principal? Esta controversia permite conectar el calor, el trabajo, la primera ley de la termodinámica, las máquinas térmicas, las reacciones químicas y el rendimiento energético con una situación real vinculada a la transición energética, la eficiencia, las emisiones y el uso responsable de recursos.\nLa clase se organizará de forma que al menos un tercio del alumnado defienda una postura favorable a la electrificación y al uso de bombas de calor por su alto rendimiento energético, y otro tercio adopte una postura crítica o alternativa, valorando las limitaciones tecnológicas, económicas, materiales o la posible función del hidrógeno y otros combustibles en determinados sectores. El resto del alumnado asumirá tareas de moderación, síntesis, contraste de datos o valoración final de los argumentos.\nEl alumnado deberá argumentar a partir de datos de rendimiento, esquemas de máquinas térmicas, gráficos de pérdidas energéticas, información sobre emisiones, ejemplos de bombas de calor, motores térmicos, combustión e hidrógeno verde, diferenciando hechos, opiniones e inferencias. Para favorecer la inclusión, se ofrecerán apoyos visuales, guías de argumentación, vocabulario científico previo, roles cooperativos y distintas formas de participación oral o escrita. La actividad puede evaluarse mediante una breve rúbrica de argumentación científica, valorando el uso correcto de conceptos como energía interna, calor, trabajo, entalpía, rendimiento, irreversibilidad y degradación energética, abordando el contenido de forma competencial e innovadora sin desplazar el desarrollo científico del tema.",
     "dinamica": "Datos, gráficos, apoyos visuales, roles coop."
   }
 }

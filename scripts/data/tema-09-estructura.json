@@ -1,0 +1,900 @@
+{
+  "tema": {
+    "code": "TEMA-09",
+    "title": "Estática de los cuerpos rígidos. Condiciones de equilibrio. Máquinas. Influencia en el desarrollo social.",
+    "subject": "Física"
+  },
+  "niveles": [
+    {
+      "level": 0,
+      "title": "TEMA-09 Nivel 0",
+      "content_json": {
+        "tipo": "indice",
+        "estructura": [
+          {
+            "apartado": "0. Introducción",
+            "subapartados": []
+          },
+          {
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartados": [
+              "1.1. Concepto de sólido rígido y fundamentos de la estática",
+              "1.2. Postulados de la estática del sólido rígido",
+              "1.3. Sistemas de fuerzas, momentos y pares de fuerzas",
+              "1.4. Sistemas equivalentes y reducción de fuerzas"
+            ]
+          },
+          {
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartados": [
+              "2.1. Ecuaciones fundamentales del equilibrio",
+              "2.2. Diagrama del sólido rígido libre",
+              "2.3. Ligaduras, reacciones y grados de libertad",
+              "2.4. Centro de gravedad y estabilidad del equilibrio"
+            ]
+          },
+          {
+            "apartado": "3. Máquinas",
+            "subapartados": [
+              "3.1. Concepto, funcionamiento y clasificación de las máquinas",
+              "3.2. Ventaja mecánica y rendimiento",
+              "3.3. Máquinas simples",
+              "3.4. Máquinas compuestas y aplicaciones tecnológicas"
+            ]
+          },
+          {
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartados": [
+              "4.1. Evolución histórica y Revolución Industrial",
+              "4.2. Transformaciones económicas y sociales",
+              "4.3. Automatización, desarrollo tecnológico y sostenibilidad"
+            ]
+          },
+          {
+            "apartado": "5. Conclusión",
+            "subapartados": []
+          },
+          {
+            "apartado": "6. Bibliografía",
+            "subapartados": []
+          }
+        ]
+      }
+    },
+    {
+      "level": 0.5,
+      "title": "TEMA-09 Nivel 0.5",
+      "content_json": {
+        "tipo": "infografias",
+        "description": "Infografías visuales organizadas por apartados",
+        "infografias": []
+      }
+    },
+    {
+      "level": 1,
+      "title": "TEMA-09 Nivel 1",
+      "content_json": {
+        "tipo": "palabras_clave",
+        "keywords": {
+          "1.1. Concepto de sólido rígido y fundamentos de la estática": "Modelo de sólido rígido · Indeformabilidad · Partícula material · Traslación · Rotación · Equilibrio mecánico · Equilibrio estático",
+          "1.2. Postulados de la estática del sólido rígido": "Principio de transmisibilidad · Recta de acción · Vectores deslizantes · Equilibrio de dos fuerzas · Colinealidad · Equivalencia mecánica",
+          "1.3. Sistemas de fuerzas, momentos y pares de fuerzas": "Fuerzas externas · Resultante de fuerzas · Momento de una fuerza · Brazo perpendicular · Producto vectorial · Regla de la mano derecha · Par de fuerzas · Momento de un par",
+          "1.4. Sistemas equivalentes y reducción de fuerzas": "Equivalencia estática · Momento resultante · Centro de reducción · Reducción fuerza-par · Fuerzas auxiliares opuestas · Sistemas concurrentes · Sistemas de resultante nula",
+          "2.1. Ecuaciones fundamentales del equilibrio": "Equilibrio traslacional · Equilibrio rotacional · Resultante nula · Momento resultante nulo · Ecuaciones del equilibrio plano · Ecuaciones del equilibrio espacial · Centro de momentos",
+          "2.2. Diagrama del sólido rígido libre": "Aislamiento del sólido · Fuerzas aplicadas · Peso · Reacciones de apoyo · Sistema de coordenadas · Descomposición vectorial · Resolución de incógnitas",
+          "2.3. Ligaduras, reacciones y grados de libertad": "Ligaduras mecánicas · Reacciones de ligadura · Apoyo móvil · Articulación · Empotramiento · Grados de libertad · Restricciones independientes · Hiperestaticidad · Compatibilidad de deformaciones",
+          "2.4. Centro de gravedad y estabilidad del equilibrio": "Centro de gravedad · Centro de masas · Campo gravitatorio uniforme · Cálculo del centro de masas · Método experimental de suspensión · Equilibrio estable · Equilibrio inestable · Equilibrio indiferente · Base de sustentación · Vuelco",
+          "3.1. Concepto, funcionamiento y clasificación de las máquinas": "Máquina mecánica · Fuerza motriz · Fuerza resistente · Mecanismos de transmisión · Máquinas simples · Máquinas compuestas · Máquinas motoras · Máquinas receptoras",
+          "3.2. Ventaja mecánica y rendimiento": "Ventaja mecánica · Ventaja mecánica ideal · Ventaja mecánica real · Relación fuerza-desplazamiento · Conservación de la energía · Trabajo motor · Trabajo útil · Trabajo disipado · Rendimiento mecánico",
+          "3.3. Máquinas simples": "Ley de la palanca · Géneros de palancas · Polea fija · Polea móvil · Polipastos · Torno · Plano inclinado · Cuña · Tornillo · Ensayo con dinamómetro",
+          "3.4. Máquinas compuestas y aplicaciones tecnológicas": "Combinación de mecanismos · Relaciones de transmisión · Ventaja mecánica global · Rendimiento global · Grúas · Ascensores · Prensas mecánicas · Seguridad estructural",
+          "4.1. Evolución histórica y Revolución Industrial": "Máquinas preindustriales · Energía hidráulica · Máquina de vapor · Mecanización industrial · Revolución Industrial · Producción mecanizada",
+          "4.2. Transformaciones económicas y sociales": "Productividad industrial · Reducción de costes · Urbanización · División del trabajo · Especialización laboral · Condiciones laborales · Seguridad laboral",
+          "4.3. Automatización, desarrollo tecnológico y sostenibilidad": "Electrificación · Control electrónico · Automatización industrial · Robótica · Sensores · Eficiencia energética · Mantenimiento industrial · Impacto ambiental"
+        }
+      }
+    },
+    {
+      "level": 2,
+      "title": "TEMA-09 Nivel 2",
+      "content_json": {
+        "tipo": "desarrollo_esquematico",
+        "texto": "Tema 9. Estática de los cuerpos rígidos, condiciones de equilibrio, máquinas e influencia en el desarrollo social\n\n1. Estática de los cuerpos rígidos\n\n1.1. Concepto de sólido rígido y fundamentos de la estática\nSólido rígido: modelo ideal con distancias internas constantes, aunque actúen fuerzas.\nPartícula y sólido: la extensión del sólido permite traslación y rotación.\nEquilibrio mecánico: centro de masas sin aceleración y momento angular constante.\nEquilibrio estático: sólido en reposo respecto a un sistema de referencia inercial.\n\n1.2. Postulados de la estática del sólido rígido\nTransmisibilidad: trasladar una fuerza sobre su recta de acción mantiene el efecto mecánico externo.\nVector deslizante: fuerza definida por módulo, dirección, sentido y recta de acción.\nEquilibrio de dos fuerzas: mismo módulo, sentidos opuestos y recta de acción común.\nLímite del modelo: la transmisibilidad no garantiza idénticas tensiones internas en sólidos deformables.\n\n1.3. Sistemas de fuerzas, momentos y pares de fuerzas\nResultante: R = Σ F_i; determina la traslación del centro de masas.\nMomento: M_O = r × F; cuantifica la acción rotacional respecto a O.\nBrazo de palanca: d, distancia perpendicular desde O a la recta de acción de la fuerza; el momento se expresa en N·m.\nSentido del momento: orientación del producto vectorial mediante la regla de la mano derecha.\nPar de fuerzas: fuerzas paralelas opuestas, resultante nula y momento independiente del origen.\n\n1.4. Sistemas equivalentes y reducción de fuerzas\nEquivalencia estática: mismos valores de resultante y momento respecto a un mismo punto.\nReducción general: una fuerza resultante y un par aplicado en el centro elegido.\nProcedimiento: introducir fuerzas auxiliares opuestas sin modificar el sistema original.\nCasos particulares: fuerzas concurrentes y sistemas con resultante nula pero momento no nulo.\n\n2. Condiciones de equilibrio de un sólido rígido\n\n2.1. Ecuaciones fundamentales del equilibrio\nEquilibrio traslacional: ΣF_i = 0; aceleración del centro de masas nula.\nEquilibrio rotacional: ΣM_O,i = 0; momento angular constante respecto a O inercial.\nProblemas planos: tres ecuaciones escalares; espaciales: seis, si las restricciones son independientes.\nCentro de momentos: escoger un apoyo elimina de la ecuación las fuerzas que pasan por él.\n\n2.2. Diagrama del sólido rígido libre\nAislamiento: separar el sólido y sustituir contactos por reacciones de ligadura.\nFuerzas externas: señalar peso, cargas y reacciones con posiciones y sentidos.\nGeometría: seleccionar ejes y señalar distancias para descomponer fuerzas y calcular momentos.\nResolución: plantear ecuaciones de equilibrio y obtener las reacciones incógnitas.\n\n2.3. Ligaduras, reacciones y grados de libertad\nLigadura: restricción de movimiento que origina fuerzas o momentos de reacción.\nApoyos planos: móvil aporta una reacción; articulación, dos; empotramiento, dos fuerzas y un momento.\nGrados de libertad: seis en un sólido espacial libre y tres en uno plano.\nRestricciones independientes: reducen movimientos posibles; dos puntos fijos permiten girar sobre su eje.\nHiperestaticidad: las ecuaciones de equilibrio requieren además compatibilidad geométrica y deformaciones.\n\n2.4. Centro de gravedad y estabilidad del equilibrio\nCentro de gravedad: punto de aplicación de la resultante del peso en un campo paralelo.\nCentro de masas: r_G = Σ m_i r_i / Σ m_i; coincide con el de gravedad en campo uniforme.\nDeterminación: simetría geométrica, masas compuestas o intersección de verticales de suspensión.\nEstabilidad: estable, inestable e indiferente según aumente, disminuya o no cambie la energía potencial.\nVuelco: proyección vertical del centro de gravedad fuera de la base de sustentación.\n\n3. Máquinas\n\n3.1. Concepto, funcionamiento y clasificación de las máquinas\nMáquina: dispositivo que transmite o transforma fuerzas, movimiento y energía para realizar trabajo útil.\nElementos: fuerza motriz, fuerza resistente y mecanismo transmisor entre entrada y salida.\nComplejidad: máquinas simples frente a compuestas por combinación de mecanismos.\nFunción energética: motoras convierten energía en trabajo mecánico; receptoras utilizan trabajo suministrado.\n\n3.2. Ventaja mecánica y rendimiento\nVentaja mecánica: VM = F_R / F_P; compara fuerzas, sin medir directamente la eficiencia.\nModelo ideal: el aumento de fuerza exige mayor recorrido del punto de aplicación.\nTrabajo: W_entrada = W_útil + W_disipado; balance energético de una máquina real.\nRendimiento: η = W_útil / W_entrada; fricción y deformaciones reducen su valor.\nVentaja ideal y real: las pérdidas pueden reducir la fuerza útil respecto al caso sin rozamiento.\n\n3.3. Máquinas simples\nPalanca: F_P·b_P = F_R·b_R; tres géneros según posiciones de fulcro, potencia y resistencia.\nPolea fija: modifica la dirección de esfuerzo y tiene ventaja mecánica ideal igual a uno.\nPolea móvil y polipasto: ventaja ideal igual al número de ramales que sustentan la carga.\nTorno: F_P·R = F_R·r; brazo de manivela y radio del tambor equilibran momentos.\nPlano inclinado: F_P = mg·sen α; ventaja ideal con fuerza paralela y sin rozamiento.\nCuña: dos superficies inclinadas convierten un esfuerzo de entrada en fuerzas de separación.\nTornillo: plano inclinado helicoidal; cada vuelta produce un avance correspondiente al paso de rosca.\nVerificación experimental: dinamómetro, fuerzas y recorridos para comparar ventaja ideal y real.\n\n3.4. Máquinas compuestas y aplicaciones tecnológicas\nComposición: palancas, poleas o engranajes combinan transformación y transmisión del movimiento.\nRelación de transmisión: vincula velocidades angulares de entrada y salida en mecanismos rotatorios.\nPrestaciones globales: producto de ventajas ideales; rendimiento total condicionado por pérdidas de cada etapa.\nAplicaciones: grúas, ascensores y prensas requieren control de cargas y estabilidad.\n\n4. Influencia de las máquinas en el desarrollo social\n\n4.1. Evolución histórica y Revolución Industrial\nMáquinas preindustriales: palancas, ruedas y poleas facilitan construcción, agricultura y transporte.\nEnergía hidráulica y vapor: accionamiento progresivo de sistemas de producción mecanizada.\nRevolución Industrial: expansión de fábricas y sustitución parcial del esfuerzo manual por mecanismos.\n\n4.2. Transformaciones económicas y sociales\nProductividad: mayor producción por unidad de trabajo y reducción de costes.\nUrbanización: concentración fabril, migraciones y división especializada del trabajo.\nTrabajo: nuevos riesgos mecánicos, normas de seguridad y necesidades de cualificación.\n\n4.3. Automatización, desarrollo tecnológico y sostenibilidad\nElectrificación: accionamientos eléctricos que facilitan control y distribución de potencia.\nAutomatización: sensores y sistemas electrónicos gobiernan maquinaria y robots.\nEmpleo: transformación de tareas y demanda de competencias técnicas nuevas.\nSostenibilidad: eficiencia, durabilidad y mantenimiento disminuyen recursos consumidos y pérdidas energéticas."
+      }
+    },
+    {
+      "level": 2.5,
+      "title": "TEMA-09 Nivel 2.5",
+      "content_json": {
+        "tipo": "recuperacion_activa",
+        "flashcards": [
+          {
+            "id": 1,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Qué estudia la estática de sólidos rígidos?",
+            "descripcion": "Las condiciones de equilibrio de cuerpos extensos sometidos a fuerzas y momentos externos."
+          },
+          {
+            "id": 2,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Qué sistemas técnicos requieren principios de estática?",
+            "descripcion": "Estructuras, grúas, elevadores y mecanismos que transmiten fuerzas."
+          },
+          {
+            "id": 3,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Qué dos líneas tecnológicas actuales aplican la estática?",
+            "descripcion": "La simulación estructural y la optimización de sistemas mecánicos."
+          },
+          {
+            "id": 4,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué modelo físico sustenta la estática del tema?",
+            "descripcion": "El sólido rígido, que conserva las distancias entre sus puntos."
+          },
+          {
+            "id": 5,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué elementos científicos integran el análisis del equilibrio?",
+            "descripcion": "Resultante de fuerzas, momento resultante, ligaduras y estabilidad."
+          },
+          {
+            "id": 6,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué magnitudes caracterizan el funcionamiento de las máquinas?",
+            "descripcion": "Fuerzas motriz y resistente, ventaja mecánica, trabajo y rendimiento."
+          },
+          {
+            "id": 7,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué consecuencias sociales y tecnológicas se vinculan a las máquinas?",
+            "descripcion": "Mecanización, aumento de productividad, automatización e impactos ambientales."
+          },
+          {
+            "id": 8,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.1. Concepto de sólido rígido y fundamentos de la estática",
+            "termino": "¿Qué caracteriza a un sólido rígido ideal?",
+            "descripcion": "Las distancias entre cualesquiera dos puntos permanecen constantes incluso bajo fuerzas externas."
+          },
+          {
+            "id": 9,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.1. Concepto de sólido rígido y fundamentos de la estática",
+            "termino": "¿Qué movimiento adicional debe analizarse en un sólido frente a una partícula?",
+            "descripcion": "La rotación, además de la traslación del centro de masas."
+          },
+          {
+            "id": 10,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.1. Concepto de sólido rígido y fundamentos de la estática",
+            "termino": "¿Qué magnitudes permanecen constantes en equilibrio mecánico?",
+            "descripcion": "La velocidad del centro de masas y el momento angular respecto a un origen inercial."
+          },
+          {
+            "id": 11,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.1. Concepto de sólido rígido y fundamentos de la estática",
+            "termino": "¿Qué diferencia el equilibrio estático del equilibrio mecánico general?",
+            "descripcion": "Que el cuerpo permanece en reposo respecto a un sistema de referencia inercial."
+          },
+          {
+            "id": 12,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.2. Postulados de la estática del sólido rígido",
+            "termino": "¿En qué consiste el principio de transmisibilidad?",
+            "descripcion": "Desplazar una fuerza a lo largo de su línea de acción sin alterar su efecto mecánico externo sobre el sólido rígido."
+          },
+          {
+            "id": 13,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.2. Postulados de la estática del sólido rígido",
+            "termino": "¿Qué datos caracterizan una fuerza como vector deslizante?",
+            "descripcion": "Módulo, dirección, sentido y recta de acción."
+          },
+          {
+            "id": 14,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.2. Postulados de la estática del sólido rígido",
+            "termino": "¿Cuándo equilibran un sólido rígido exactamente dos fuerzas?",
+            "descripcion": "Cuando tienen igual módulo, sentidos opuestos y una misma recta de acción."
+          },
+          {
+            "id": 15,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.2. Postulados de la estática del sólido rígido",
+            "termino": "¿Cuál es una limitación del principio de transmisibilidad?",
+            "descripcion": "No asegura idénticas tensiones ni deformaciones internas en un cuerpo real deformable."
+          },
+          {
+            "id": 16,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.3. Sistemas de fuerzas, momentos y pares de fuerzas",
+            "termino": "¿Cómo se calcula la resultante y qué movimiento determina?",
+            "descripcion": "Es la suma vectorial de fuerzas externas y determina la aceleración del centro de masas."
+          },
+          {
+            "id": 17,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.3. Sistemas de fuerzas, momentos y pares de fuerzas",
+            "termino": "¿Cómo se obtiene el momento de una fuerza respecto a O?",
+            "descripcion": "Mediante el producto vectorial entre el vector posición desde O y la fuerza aplicada."
+          },
+          {
+            "id": 18,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.3. Sistemas de fuerzas, momentos y pares de fuerzas",
+            "termino": "¿Qué distancia interviene en el módulo del momento y en qué unidades se expresa?",
+            "descripcion": "El brazo perpendicular a la línea de acción; el momento se mide en newton metro."
+          },
+          {
+            "id": 19,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.3. Sistemas de fuerzas, momentos y pares de fuerzas",
+            "termino": "¿Qué regla determina el sentido vectorial del momento?",
+            "descripcion": "La regla de la mano derecha aplicada al producto vectorial del vector posición y la fuerza."
+          },
+          {
+            "id": 20,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.3. Sistemas de fuerzas, momentos y pares de fuerzas",
+            "termino": "¿Qué caracteriza mecánicamente a un par de fuerzas?",
+            "descripcion": "Dos fuerzas paralelas opuestas y no colineales: resultante nula y momento independiente del punto de referencia."
+          },
+          {
+            "id": 21,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.4. Sistemas equivalentes y reducción de fuerzas",
+            "termino": "¿Cuándo son estáticamente equivalentes dos sistemas de fuerzas?",
+            "descripcion": "Cuando comparten resultante y momento respecto a un mismo punto de referencia."
+          },
+          {
+            "id": 22,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.4. Sistemas equivalentes y reducción de fuerzas",
+            "termino": "¿A qué sistema se reduce cualquier conjunto de fuerzas?",
+            "descripcion": "A una fuerza resultante y un par de fuerzas equivalente respecto al centro seleccionado."
+          },
+          {
+            "id": 23,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.4. Sistemas equivalentes y reducción de fuerzas",
+            "termino": "¿Qué recurso permite reducir un sistema de fuerzas?",
+            "descripcion": "Introducir parejas de fuerzas iguales y opuestas en el punto elegido, sin alterar el efecto externo."
+          },
+          {
+            "id": 24,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.4. Sistemas equivalentes y reducción de fuerzas",
+            "termino": "¿Qué dos casos particulares aparecen en la reducción de sistemas?",
+            "descripcion": "Fuerzas concurrentes y sistemas de resultante cero que conservan un momento de par."
+          },
+          {
+            "id": 25,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.1. Ecuaciones fundamentales del equilibrio",
+            "termino": "¿Qué condición algebraica define el equilibrio traslacional?",
+            "descripcion": "Que la suma vectorial de las fuerzas externas sea cero."
+          },
+          {
+            "id": 26,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.1. Ecuaciones fundamentales del equilibrio",
+            "termino": "¿Cuál es la condición de equilibrio rotacional respecto a un origen inercial?",
+            "descripcion": "Que el momento externo total respecto a ese origen sea nulo."
+          },
+          {
+            "id": 27,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.1. Ecuaciones fundamentales del equilibrio",
+            "termino": "¿Cuántas ecuaciones independientes de equilibrio tiene un sólido en dos y tres dimensiones?",
+            "descripcion": "Tres en el plano y seis en el espacio."
+          },
+          {
+            "id": 28,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.1. Ecuaciones fundamentales del equilibrio",
+            "termino": "¿Para qué se elige estratégicamente el centro de momentos?",
+            "descripcion": "Para anular el momento de fuerzas cuyas rectas de acción atraviesan ese punto."
+          },
+          {
+            "id": 29,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.2. Diagrama del sólido rígido libre",
+            "termino": "¿Cuál es el primer paso para construir un diagrama de cuerpo libre?",
+            "descripcion": "Aislar el sólido y sustituir los apoyos y contactos por sus reacciones mecánicas."
+          },
+          {
+            "id": 30,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.2. Diagrama del sólido rígido libre",
+            "termino": "¿Qué fuerzas deben figurar en un diagrama de cuerpo libre?",
+            "descripcion": "Peso, cargas externas y reacciones de apoyo, ubicadas en sus puntos de aplicación."
+          },
+          {
+            "id": 31,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.2. Diagrama del sólido rígido libre",
+            "termino": "¿Qué datos geométricos exige un diagrama de cuerpo libre?",
+            "descripcion": "Ejes de coordenadas, puntos de aplicación y distancias necesarias para hallar momentos."
+          },
+          {
+            "id": 32,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.2. Diagrama del sólido rígido libre",
+            "termino": "¿Qué procedimiento sigue a la construcción del diagrama de cuerpo libre?",
+            "descripcion": "Plantear las ecuaciones de equilibrio y despejar las fuerzas o momentos desconocidos."
+          },
+          {
+            "id": 33,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.3. Ligaduras, reacciones y grados de libertad",
+            "termino": "¿Qué es una ligadura mecánica?",
+            "descripcion": "Una restricción del movimiento cuya acción sobre el cuerpo se representa mediante fuerzas o momentos de reacción."
+          },
+          {
+            "id": 34,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.3. Ligaduras, reacciones y grados de libertad",
+            "termino": "¿Qué incógnitas generan los apoyos más comunes en problemas planos?",
+            "descripcion": "Apoyo móvil: una fuerza; articulación: dos componentes de fuerza; empotramiento: dos fuerzas y un momento."
+          },
+          {
+            "id": 35,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.3. Ligaduras, reacciones y grados de libertad",
+            "termino": "¿Cuántos grados de libertad tiene un sólido rígido libre?",
+            "descripcion": "Seis en tres dimensiones: tres traslaciones y tres rotaciones; tres en movimiento plano."
+          },
+          {
+            "id": 36,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.3. Ligaduras, reacciones y grados de libertad",
+            "termino": "¿Qué movimiento conserva un sólido con dos puntos distintos fijos?",
+            "descripcion": "Únicamente la rotación alrededor de la recta que une ambos puntos."
+          },
+          {
+            "id": 37,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.3. Ligaduras, reacciones y grados de libertad",
+            "termino": "¿Qué relaciones adicionales exige resolver una estructura hiperestática?",
+            "descripcion": "Compatibilidad de deformaciones y relaciones constitutivas del material, además de las ecuaciones de equilibrio."
+          },
+          {
+            "id": 38,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.4. Centro de gravedad y estabilidad del equilibrio",
+            "termino": "¿Qué representa el centro de gravedad de un cuerpo?",
+            "descripcion": "El punto de aplicación de la resultante de los pesos cuando estos constituyen un sistema de fuerzas paralelas."
+          },
+          {
+            "id": 39,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.4. Centro de gravedad y estabilidad del equilibrio",
+            "termino": "¿Cómo se calcula el centro de masas de partículas discretas?",
+            "descripcion": "Como el promedio de sus posiciones ponderado por las masas; coincide con el centro de gravedad en campo uniforme."
+          },
+          {
+            "id": 40,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.4. Centro de gravedad y estabilidad del equilibrio",
+            "termino": "¿Qué métodos permiten localizar el centro de gravedad?",
+            "descripcion": "Simetría, cálculo por distribución de masas y cruce de verticales al suspender el cuerpo desde dos puntos."
+          },
+          {
+            "id": 41,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.4. Centro de gravedad y estabilidad del equilibrio",
+            "termino": "¿Qué tres tipos de equilibrio se distinguen por la energía potencial?",
+            "descripcion": "Estable: mínimo local; inestable: máximo local; indiferente: energía constante ante pequeñas perturbaciones."
+          },
+          {
+            "id": 42,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.4. Centro de gravedad y estabilidad del equilibrio",
+            "termino": "¿Cuál es el criterio geométrico de vuelco de un cuerpo apoyado?",
+            "descripcion": "La vertical del centro de gravedad sobrepasa el borde de la base de sustentación."
+          },
+          {
+            "id": 43,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.1. Concepto, funcionamiento y clasificación de las máquinas",
+            "termino": "¿Cuál es la función física de una máquina?",
+            "descripcion": "Transmitir o transformar fuerzas, movimientos y energía para efectuar un trabajo útil."
+          },
+          {
+            "id": 44,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.1. Concepto, funcionamiento y clasificación de las máquinas",
+            "termino": "¿Qué elementos funcionales intervienen en una máquina?",
+            "descripcion": "Una acción motriz, una resistencia y mecanismos que comunican la entrada con la salida."
+          },
+          {
+            "id": 45,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.1. Concepto, funcionamiento y clasificación de las máquinas",
+            "termino": "¿Cómo se clasifican las máquinas por su complejidad?",
+            "descripcion": "En simples, basadas en un mecanismo elemental, y compuestas, que combinan varios mecanismos."
+          },
+          {
+            "id": 46,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.1. Concepto, funcionamiento y clasificación de las máquinas",
+            "termino": "¿Cómo se distinguen máquinas motoras y receptoras?",
+            "descripcion": "Las motoras producen trabajo mecánico desde otra energía; las receptoras emplean el trabajo suministrado."
+          },
+          {
+            "id": 47,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.2. Ventaja mecánica y rendimiento",
+            "termino": "¿Cómo se define la ventaja mecánica?",
+            "descripcion": "Como el cociente entre la fuerza resistente y la fuerza motriz; no equivale al rendimiento energético."
+          },
+          {
+            "id": 48,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.2. Ventaja mecánica y rendimiento",
+            "termino": "¿Qué compensación caracteriza a una máquina ideal que multiplica la fuerza?",
+            "descripcion": "La fuerza motriz actúa a lo largo de un desplazamiento mayor que el de la resistencia."
+          },
+          {
+            "id": 49,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.2. Ventaja mecánica y rendimiento",
+            "termino": "¿Cuál es el balance de trabajo de una máquina real?",
+            "descripcion": "El trabajo aportado se reparte entre trabajo útil y trabajo disipado por pérdidas."
+          },
+          {
+            "id": 50,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.2. Ventaja mecánica y rendimiento",
+            "termino": "¿Cómo se define el rendimiento mecánico?",
+            "descripcion": "Como la razón entre trabajo útil y trabajo suministrado; es menor que uno cuando existen pérdidas."
+          },
+          {
+            "id": 51,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.2. Ventaja mecánica y rendimiento",
+            "termino": "¿Por qué difieren las ventajas mecánicas ideal y real?",
+            "descripcion": "Por rozamiento y otras pérdidas que reducen la fuerza útil obtenida con una misma fuerza motriz."
+          },
+          {
+            "id": 52,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.3. Máquinas simples",
+            "termino": "¿Qué ley y clasificación caracterizan a la palanca?",
+            "descripcion": "La igualdad de momentos de potencia y resistencia; existen palancas de primero, segundo y tercer género."
+          },
+          {
+            "id": 53,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.3. Máquinas simples",
+            "termino": "¿Qué ventaja mecánica ideal tiene una polea fija?",
+            "descripcion": "Uno; permite cambiar la dirección de la fuerza sin reducir su módulo en condiciones ideales."
+          },
+          {
+            "id": 54,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.3. Máquinas simples",
+            "termino": "¿De qué depende la ventaja mecánica ideal de un polipasto?",
+            "descripcion": "Del número de tramos de cuerda que sostienen el conjunto móvil, supuesto ideal."
+          },
+          {
+            "id": 55,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.3. Máquinas simples",
+            "termino": "¿Qué condición determina el equilibrio ideal de un torno?",
+            "descripcion": "La fuerza motriz por el brazo de la manivela iguala la carga por el radio del tambor."
+          },
+          {
+            "id": 56,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.3. Máquinas simples",
+            "termino": "¿Qué fuerza mantiene una carga en equilibrio sobre un plano inclinado ideal?",
+            "descripcion": "La componente del peso paralela a la rampa, igual al peso multiplicado por el seno del ángulo."
+          },
+          {
+            "id": 57,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.3. Máquinas simples",
+            "termino": "¿En qué principio mecánico se basa una cuña?",
+            "descripcion": "En superficies inclinadas que transforman la fuerza aplicada en fuerzas laterales sobre los materiales."
+          },
+          {
+            "id": 58,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.3. Máquinas simples",
+            "termino": "¿Qué relación geométrica caracteriza al tornillo mecánico?",
+            "descripcion": "El avance axial por vuelta equivale al paso de la rosca en un tornillo de una entrada."
+          },
+          {
+            "id": 59,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.3. Máquinas simples",
+            "termino": "¿Qué magnitudes se miden para comprobar experimentalmente una máquina simple?",
+            "descripcion": "Fuerzas de entrada y salida, recorridos y, a partir de ellos, ventaja mecánica o rendimiento."
+          },
+          {
+            "id": 60,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.4. Máquinas compuestas y aplicaciones tecnológicas",
+            "termino": "¿De qué elementos se construyen las máquinas compuestas?",
+            "descripcion": "De varios mecanismos simples acoplados, como palancas, poleas o engranajes."
+          },
+          {
+            "id": 61,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.4. Máquinas compuestas y aplicaciones tecnológicas",
+            "termino": "¿Qué magnitudes conecta una relación de transmisión?",
+            "descripcion": "Las velocidades angulares de los ejes de entrada y salida de un mecanismo."
+          },
+          {
+            "id": 62,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.4. Máquinas compuestas y aplicaciones tecnológicas",
+            "termino": "¿Cómo se obtiene el rendimiento global de etapas mecánicas consecutivas?",
+            "descripcion": "Como producto de sus rendimientos individuales cuando las etapas transmiten sucesivamente la energía."
+          },
+          {
+            "id": 63,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.4. Máquinas compuestas y aplicaciones tecnológicas",
+            "termino": "¿Qué tres máquinas ilustran la aplicación de la estática industrial?",
+            "descripcion": "Grúas, ascensores y prensas mecánicas, con atención a cargas, reacciones y seguridad."
+          },
+          {
+            "id": 64,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.1. Evolución histórica y Revolución Industrial",
+            "termino": "¿Qué máquinas simples se utilizaron en actividades preindustriales?",
+            "descripcion": "Palancas, ruedas y poleas para construir, cultivar y transportar cargas."
+          },
+          {
+            "id": 65,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.1. Evolución histórica y Revolución Industrial",
+            "termino": "¿Qué fuentes de energía impulsaron la primera mecanización industrial?",
+            "descripcion": "La energía hidráulica y, posteriormente, la obtenida mediante máquinas de vapor."
+          },
+          {
+            "id": 66,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.1. Evolución histórica y Revolución Industrial",
+            "termino": "¿Qué cambio productivo caracterizó la Revolución Industrial?",
+            "descripcion": "La expansión de la fabricación mecanizada en instalaciones industriales."
+          },
+          {
+            "id": 67,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.2. Transformaciones económicas y sociales",
+            "termino": "¿Qué efecto productivo tuvo la mecanización?",
+            "descripcion": "Aumentó la producción por unidad de trabajo y redujo el coste de numerosos bienes."
+          },
+          {
+            "id": 68,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.2. Transformaciones económicas y sociales",
+            "termino": "¿Qué transformaciones demográficas y laborales acompañaron a la industria?",
+            "descripcion": "Urbanización, concentración de empleo fabril y mayor división del trabajo."
+          },
+          {
+            "id": 69,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.2. Transformaciones económicas y sociales",
+            "termino": "¿Qué efectos laborales relevantes introdujeron las máquinas?",
+            "descripcion": "Riesgos mecánicos, mayores exigencias de seguridad y necesidad de nuevas cualificaciones."
+          },
+          {
+            "id": 70,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.3. Automatización, desarrollo tecnológico y sostenibilidad",
+            "termino": "¿Qué permitió la electrificación de las máquinas?",
+            "descripcion": "Accionamientos con control más flexible y distribución eficiente de potencia en muchos entornos."
+          },
+          {
+            "id": 71,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.3. Automatización, desarrollo tecnológico y sostenibilidad",
+            "termino": "¿Qué componentes hacen posible la automatización de máquinas?",
+            "descripcion": "Sensores, sistemas electrónicos de control y actuadores mecánicos."
+          },
+          {
+            "id": 72,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.3. Automatización, desarrollo tecnológico y sostenibilidad",
+            "termino": "¿Qué cambio profesional implica la automatización?",
+            "descripcion": "Transformación de tareas rutinarias y mayor demanda de mantenimiento, programación y supervisión técnica."
+          },
+          {
+            "id": 73,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.3. Automatización, desarrollo tecnológico y sostenibilidad",
+            "termino": "¿Qué medidas reducen el impacto ambiental de las máquinas?",
+            "descripcion": "Mejorar eficiencia, prolongar vida útil, mantener equipos y reducir consumos y residuos."
+          },
+          {
+            "id": 74,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué dos condiciones constituyen el núcleo de la estática?",
+            "descripcion": "Resultante de fuerzas externas nula y momento externo resultante nulo."
+          },
+          {
+            "id": 75,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué conceptos permiten valorar la estabilidad de un sólido apoyado?",
+            "descripcion": "Reacciones de ligadura, posición del centro de gravedad y base de sustentación."
+          },
+          {
+            "id": 76,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué principio limita la multiplicación de fuerza en las máquinas?",
+            "descripcion": "La conservación de la energía, que exige compensar una mayor fuerza útil con un recorrido o aporte correspondiente."
+          },
+          {
+            "id": 77,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.2. Relevancia y proyección del tema",
+            "termino": "¿Qué aporta la estática al diseño estructural?",
+            "descripcion": "Cálculo de reacciones y evaluación de estabilidad y riesgos de vuelco."
+          },
+          {
+            "id": 78,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.2. Relevancia y proyección del tema",
+            "termino": "¿Qué se optimiza en máquinas y mecanismos industriales?",
+            "descripcion": "Transmisión de fuerzas, relaciones de movimiento y aprovechamiento de la energía suministrada."
+          },
+          {
+            "id": 79,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.2. Relevancia y proyección del tema",
+            "termino": "¿Qué decisiones técnicas favorecen máquinas más sostenibles?",
+            "descripcion": "Diseño duradero, mantenimiento preventivo, menores pérdidas energéticas y uso eficiente de materiales."
+          }
+        ]
+      }
+    },
+    {
+      "level": 3,
+      "title": "TEMA-09 Nivel 3",
+      "content_json": {
+        "tipo": "redaccion_completa",
+        "texto": "Tema 9. Estática de los cuerpos rígidos. Condiciones de equilibrio. Máquina. Influencia en el desarrollo social.\n\nÍNDICE\n0. Introducción\n1. Estática de los cuerpos rígidos\n1.1. Concepto de sólido rígido y fundamentos de la estática\n1.2. Postulados de la estática del sólido rígido\n1.3. Sistemas de fuerzas, momentos y pares de fuerzas\n1.4. Sistemas equivalentes y reducción de fuerzas\n2. Condiciones de equilibrio de un sólido rígido\n2.1. Ecuaciones fundamentales del equilibrio\n2.2. Diagrama del sólido rígido libre\n2.3. Ligaduras, reacciones y grados de libertad\n2.4. Centro de gravedad y estabilidad del equilibrio\n3. Máquinas\n3.1. Concepto, funcionamiento y clasificación de las máquinas\n3.2. Ventaja mecánica y rendimiento\n3.3. Máquinas simples\n3.4. Máquinas compuestas y aplicaciones tecnológicas\n4. Influencia de las máquinas en el desarrollo social\n4.1. Evolución histórica y Revolución Industrial\n4.2. Transformaciones económicas y sociales\n4.3. Automatización, desarrollo tecnológico y sostenibilidad\n5. Conclusión\n6. Bibliografía\n\n0. Introducción\nLa estática de los cuerpos rígidos constituye un contenido fundamental de la física para comprender las condiciones que permiten mantener el equilibrio de los sistemas materiales, de acuerdo con el enunciado oficial del tema, centrado en los fundamentos de la estática, las condiciones de equilibrio, las máquinas y su influencia en el desarrollo social.\nSu estudio permite interpretar la estabilidad de las estructuras, el funcionamiento de las máquinas simples y la distribución de fuerzas en sistemas mecánicos, aplicando las leyes del equilibrio traslacional y rotacional. Desde una perspectiva CTSA, este conocimiento ayuda a valorar cómo la mecanización ha transformado la industria, las condiciones laborales y el consumo de recursos.\nAdemás, la investigación actual en optimización estructural, simulación computacional y diseño de mecanismos eficientes muestra la vigencia del tema para desarrollar tecnologías más seguras y sostenibles. Comprender el equilibrio de fuerzas y momentos permite explicar cómo se sostienen las estructuras y cómo las máquinas transforman el esfuerzo humano.\n\n1. Estática de los cuerpos rígidos\n\n1.1. Concepto de sólido rígido y fundamentos de la estática\nUn sólido rígido es un modelo ideal en el que permanece constante la distancia entre dos puntos cualesquiera, aunque actúen fuerzas. A diferencia de una partícula, posee extensión y puede experimentar traslación y rotación.\nLa estática estudia situaciones de reposo en un sistema de referencia inercial. Un cuerpo también puede satisfacer las ecuaciones de equilibrio mecánico sin permanecer inmóvil: una resultante nula implica velocidad constante del centro de masas, pero no necesariamente reposo.\n\n1.2. Postulados de la estática del sólido rígido\nEl principio de transmisibilidad establece que una fuerza puede desplazarse a lo largo de su recta de acción sin modificar su efecto mecánico externo sobre un sólido rígido.\nDos fuerzas iguales, opuestas y colineales se equilibran. Sin embargo, fuerzas iguales aplicadas sobre rectas paralelas distintas pueden constituir un par capaz de producir rotación. Por ello, no basta con conocer la suma de fuerzas para caracterizar cualquier sistema.\n\n1.3. Sistemas de fuerzas, momentos y pares de fuerzas\nLa resultante de las fuerzas externas gobierna la traslación del centro de masas: R = Σ F_i.\nEl momento de una fuerza respecto a un punto O mide su tendencia a producir giro y depende del brazo perpendicular: M_O = r × F.\nEl momento total de un sistema de fuerzas resulta: M_O,total = Σ r_i × F_i.\nSu módulo es el producto de fuerza y distancia perpendicular; se mide en N·m y su sentido sigue la regla de la mano derecha. Un par consta de dos fuerzas opuestas y no colineales: tiene resultante nula y momento no nulo, independiente del origen.\n\n1.4. Sistemas equivalentes y reducción de fuerzas\nDos sistemas son estáticamente equivalentes si presentan la misma resultante y el mismo momento respecto a un punto.\nTodo sistema puede reducirse, en un punto elegido, a una fuerza resultante aplicada allí y a un par de momento igual al momento total original. Para justificarlo, se introducen pares de fuerzas opuestas en el punto de reducción, sin alterar el sistema.\nCuando las fuerzas son concurrentes, su resultante pasa por el punto de concurrencia; cuando la resultante es nula, puede subsistir un par.\n\n2. Condiciones de equilibrio de un sólido rígido\n\n2.1. Ecuaciones fundamentales del equilibrio\nEl equilibrio exige simultáneamente anular las acciones que provocan traslación y rotación: Σ F_i = 0 y Σ M_O,i = 0.\nEn el espacio proporcionan seis ecuaciones escalares; en problemas planos, tres: dos de fuerzas y una de momentos perpendiculares al plano.\nSu cumplimiento mantiene el reposo si las velocidades iniciales son nulas. La elección conveniente del punto O simplifica el cálculo porque las fuerzas cuya recta de acción pasa por él no producen momento respecto a ese punto.\n\n2.2. Diagrama del sólido rígido libre\nPara estudiar un sistema se aísla el cuerpo y se sustituyen los contactos por las reacciones correspondientes. Se representan el peso, las cargas, las distancias y los ejes; después se descomponen las fuerzas y se aplican las ecuaciones de equilibrio.\nEn una viga apoyada, por ejemplo, aparecen las cargas verticales y las reacciones de apoyo, además de una posible componente horizontal. El esquema permite identificar incógnitas y evitar omisiones o signos incorrectos.\n\n2.3. Ligaduras, reacciones y grados de libertad\nUna ligadura limita movimientos y genera fuerzas o momentos de reacción. Un apoyo móvil impide el desplazamiento normal; una articulación plana impide dos traslaciones, pero permite el giro; un empotramiento también impide girar.\nUn sólido rígido libre posee seis grados de libertad en el espacio y tres en el plano. Las restricciones independientes los reducen: si dos puntos distintos permanecen fijos, solo puede girar alrededor del eje que los une.\nEn sistemas hiperestáticos, las ecuaciones de equilibrio son insuficientes y deben incorporarse relaciones de deformación y compatibilidad.\n\n2.4. Centro de gravedad y estabilidad del equilibrio\nEl centro de gravedad es el punto de aplicación de la resultante de los pesos; en un campo gravitatorio uniforme coincide con el centro de masas. Para masas discretas: r_G = Σ m_i r_i / Σ m_i.\nPuede determinarse por simetría o experimentalmente suspendiendo una lámina desde dos puntos y trazando verticales.\nEl equilibrio es estable si pequeñas perturbaciones elevan la energía potencial y aparece una tendencia restauradora; inestable si la disminuyen, e indiferente si permanece constante.\nUn cuerpo apoyado vuelca cuando la línea de acción del peso cruza el borde de su base de sustentación.\n\n3. Máquinas\n\n3.1. Concepto, funcionamiento y clasificación de las máquinas\nUna máquina es un dispositivo que transmite o transforma fuerzas, movimiento y energía para realizar un trabajo. Sobre ella actúan una fuerza motriz o potencia y una fuerza resistente; sus mecanismos enlazan entrada y salida.\nLas máquinas simples utilizan principios mecánicos elementales; las compuestas combinan varios mecanismos.\nSegún su función energética, una máquina motora convierte energía de otra naturaleza en trabajo mecánico, mientras que una receptora emplea este trabajo en una operación útil.\n\n3.2. Ventaja mecánica y rendimiento\nLa ventaja mecánica expresa la relación entre fuerza resistente y motriz: VM = F_R / F_P.\nEn una máquina ideal, el aumento de fuerza se compensa mediante un mayor desplazamiento de su punto de aplicación: no se crea trabajo.\nEn la realidad, el rozamiento y las deformaciones originan pérdidas; el rendimiento compara el trabajo útil con el suministrado: η = W_útil / W_entrada.\nSu valor no supera la unidad. Conviene distinguir rendimiento, que cuantifica aprovechamiento energético, de ventaja mecánica, que relaciona fuerzas y puede superar uno.\n\n3.3. Máquinas simples\nLa palanca es una barra que gira alrededor de un fulcro. Su equilibrio responde a la igualdad de momentos: F_P·b_P = F_R·b_R.\nSegún la posición relativa de fulcro, potencia y resistencia, existen palancas de primero, segundo y tercer género.\nEn una polea fija ideal se modifica la dirección de la fuerza, sin ventaja mecánica. Una polea móvil requiere la mitad de fuerza para sostener la carga; en un polipasto ideal, la ventaja equivale al número de ramales que sostienen el conjunto móvil.\nEl torno equilibra los momentos sobre manivela y tambor: F_P·R = F_R·r.\nEn el plano inclinado, la fuerza paralela necesaria para ascender sin rozamiento a velocidad constante es: F_P = mg·sen α.\nSu ventaja ideal es: VM_ideal = L/h.\nSe emplea la longitud de la rampa, no su base horizontal. La cuña aprovecha el plano inclinado para separar materiales y el tornillo convierte el giro en avance mediante una hélice. El rozamiento incrementa el esfuerzo requerido.\nUn ensayo con dinamómetro permite medir la fuerza necesaria en rampas de diferente inclinación y confrontarla con la predicción teórica, identificando desviaciones por rozamiento.\n\n3.4. Máquinas compuestas y aplicaciones tecnológicas\nLas máquinas compuestas combinan palancas, poleas, engranajes o tornillos para transmitir movimiento y adaptar fuerzas y velocidades.\nEn mecanismos ideales, las ventajas de etapas sucesivas se multiplican; en los reales, se acumulan pérdidas energéticas. Grúas, ascensores, prensas y sistemas de asistencia mecánica muestran que la estática resulta imprescindible para dimensionar elementos, controlar cargas y garantizar seguridad.\n\n4. Influencia de las máquinas en el desarrollo social\n\n4.1. Evolución histórica y Revolución Industrial\nLas máquinas simples facilitaron desde la Antigüedad la construcción, la agricultura y el transporte. La Revolución Industrial amplió su alcance mediante la mecanización, primero con aprovechamientos hidráulicos y después con máquinas de vapor.\nLa producción dejó de depender exclusivamente del esfuerzo humano o animal y las fábricas incrementaron notablemente su capacidad. El desarrollo de máquinas y transmisiones acompañó la expansión de la industria y las infraestructuras.\n\n4.2. Transformaciones económicas y sociales\nLa mecanización elevó la productividad, abarató bienes y favoreció la urbanización y nuevas especializaciones laborales.\nTambién introdujo riesgos, explotación y desigualdades, que impulsaron reivindicaciones y mejoras de seguridad. Sus beneficios dependieron no solo del progreso técnico, sino de su distribución social y de las condiciones de trabajo.\nLa evolución posterior transformó oficios y exigió nuevas cualificaciones.\n\n4.3. Automatización, desarrollo tecnológico y sostenibilidad\nLa electrificación y el control electrónico permitieron automatizar operaciones; actualmente, la robótica integra mecanismos, sensores y programas para ejecutar tareas con precisión.\nEstos cambios mejoran producción y seguridad, pero plantean desafíos de empleo y capacitación. Desde el punto de vista ambiental, fabricar y utilizar máquinas consume materiales y energía.\nDiseños duraderos, mantenimiento, recuperación de materiales y mayor rendimiento energético contribuyen a reducir impactos. La conexión entre leyes mecánicas y necesidades sociales sigue siendo esencial.\n\n5. Conclusión\nEn conclusión, el estudio de la estática de los cuerpos rígidos permite comprender el equilibrio de los sistemas materiales a partir de las fuerzas, los momentos y sus condiciones de aplicación. A lo largo del tema se ha mostrado cómo la reducción de sistemas de fuerzas, las ecuaciones de equilibrio y los principios de funcionamiento de las máquinas se relacionan para explicar la estabilidad de las estructuras y la transformación del esfuerzo mecánico.\nDe este modo, se recupera la idea inicial: el equilibrio de fuerzas y momentos constituye el fundamento físico de la estabilidad estructural y del funcionamiento de numerosas máquinas. El valor del tema no reside solo en su importancia teórica, sino también en su aplicación al diseño de mecanismos, la seguridad de las construcciones y la mejora de la eficiencia energética.\nPor ello, este contenido contribuye a una comprensión científica más rigurosa de la realidad y favorece la toma de decisiones fundamentadas ante los retos actuales de la automatización industrial, la seguridad mecánica y el desarrollo tecnológico sostenible.\n\n6. Bibliografía\nHibbeler, R. C. (2026). Engineering mechanics: Statics (16.ª ed.). Pearson.\nTang, T., Wang, L., Zhu, M., Zhang, H., Dong, J., Yue, W., & Xia, H. (2024). Topology optimization: A review for structural designs under statics problems. Materials.\nYoung, H. D., & Freedman, R. A. (2026). University physics with modern physics (16.ª ed.). Pearson."
+      }
+    },
+    {
+      "level": 3.5,
+      "title": "TEMA-09 Nivel 3.5",
+      "content_json": {
+        "tipo": "reconstruccion_cientifica",
+        "flashcards": [
+          {
+            "id": 1,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "Analiza por qué la estática de los sólidos rígidos conecta el diseño de estructuras con la evolución de las máquinas.",
+            "descripcion": "Porque las fuerzas y sus momentos determinan si una estructura permanece en equilibrio o tiende a girar. Al aplicar estas condiciones a mecanismos, se pueden transmitir y modificar esfuerzos de forma controlada. Esto permite construir dispositivos seguros y aumentar la capacidad técnica y productiva de las sociedades."
+          },
+          {
+            "id": 2,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.1. Concepto de sólido rígido y fundamentos de la estática",
+            "termino": "Compara las posibilidades de análisis mecánico de una partícula y de un sólido rígido cuando actúan fuerzas externas.",
+            "descripcion": "Una partícula se caracteriza por su traslación, de modo que resulta suficiente estudiar la fuerza neta. En un sólido rígido, las fuerzas pueden actuar sobre distintas rectas y provocar además rotación. Por lo tanto, conocer solo la resultante es insuficiente: también deben calcularse sus momentos."
+          },
+          {
+            "id": 3,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.1. Concepto de sólido rígido y fundamentos de la estática",
+            "termino": "Justifica por qué un sólido puede encontrarse en equilibrio mecánico sin permanecer necesariamente en reposo.",
+            "descripcion": "La resultante nula implica que el centro de masas no acelera, pero puede seguir moviéndose con velocidad constante. Asimismo, un momento externo nulo no obliga a que el sólido esté inmóvil. El equilibrio estático exige adicionalmente reposo respecto al sistema de referencia elegido."
+          },
+          {
+            "id": 4,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.2. Postulados de la estática del sólido rígido",
+            "termino": "Analiza por qué desplazar una fuerza a lo largo de su recta de acción conserva el efecto externo, pero trasladarla paralelamente puede alterarlo.",
+            "descripcion": "En un sólido rígido, desplazar la fuerza sobre su recta mantiene tanto su valor vectorial como su momento respecto a cualquier punto. Si se desplaza a otra recta paralela, cambia el brazo perpendicular y, por tanto, el momento. Para recuperar la equivalencia habría que añadir el par correspondiente."
+          },
+          {
+            "id": 5,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.3. Sistemas de fuerzas, momentos y pares de fuerzas",
+            "termino": "Explica por qué dos fuerzas de igual módulo pueden provocar efectos rotacionales diferentes sobre un cuerpo.",
+            "descripcion": "El efecto rotacional depende de la distancia perpendicular entre la recta de acción de cada fuerza y el punto de referencia. Aunque sus módulos coincidan, distintos brazos producen momentos diferentes. Además, el sentido del giro depende de la orientación del producto vectorial entre posición y fuerza."
+          },
+          {
+            "id": 6,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.3. Sistemas de fuerzas, momentos y pares de fuerzas",
+            "termino": "Justifica cómo un par de fuerzas puede producir giro sin provocar aceleración traslacional del centro de masas.",
+            "descripcion": "Las dos fuerzas del par son paralelas, iguales y opuestas, por lo que su suma vectorial es cero. Sin embargo, actúan sobre rectas distintas y sus momentos se suman. Como resultado, el sistema ejerce una acción rotacional neta sin una fuerza resultante que acelere el centro de masas."
+          },
+          {
+            "id": 7,
+            "apartado": "1. Estática de los cuerpos rígidos",
+            "subapartado": "1.4. Sistemas equivalentes y reducción de fuerzas",
+            "termino": "Deduce por qué la igualdad de resultantes no basta para sustituir un sistema de fuerzas por otro equivalente.",
+            "descripcion": "Dos sistemas pueden compartir fuerza resultante y producir efectos rotacionales distintos si sus momentos difieren. Por ello, la reducción general conserva ambos elementos: una fuerza aplicada en el punto elegido y un par. Esta representación permite simplificar el cálculo sin alterar los efectos mecánicos externos del sistema."
+          },
+          {
+            "id": 8,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.1. Ecuaciones fundamentales del equilibrio",
+            "termino": "Justifica por qué un sólido rígido requiere simultáneamente equilibrio de fuerzas y de momentos para permanecer en reposo.",
+            "descripcion": "Anular la resultante evita la aceleración traslacional del centro de masas, pero aún puede existir un par capaz de generar rotación. Anular únicamente los momentos tampoco impide una traslación acelerada. Por lo tanto, ambas condiciones deben cumplirse y el sólido debe partir del reposo para mantener el equilibrio estático."
+          },
+          {
+            "id": 9,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.1. Ecuaciones fundamentales del equilibrio",
+            "termino": "Explica cómo influye la elección del centro de momentos en la resolución de un problema de equilibrio.",
+            "descripcion": "Si se elige como referencia un apoyo por el que pasan fuerzas desconocidas, sus momentos respecto a ese punto se anulan. Así disminuye el número de incógnitas de la ecuación rotacional. El resultado físico no cambia, porque un sólido en equilibrio satisface el equilibrio de momentos respecto a cualquier punto."
+          },
+          {
+            "id": 10,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.2. Diagrama del sólido rígido libre",
+            "termino": "Analiza por qué resulta imprescindible aislar el sólido antes de aplicar las ecuaciones del equilibrio.",
+            "descripcion": "Al aislarlo se distinguen las fuerzas externas de las interacciones internas del conjunto y se sustituyen los contactos por reacciones. Esto evita omitir cargas o incluir fuerzas que no actúan sobre el cuerpo estudiado. Como resultado, las ecuaciones representan correctamente el sistema físico que se pretende resolver."
+          },
+          {
+            "id": 11,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.2. Diagrama del sólido rígido libre",
+            "termino": "Deduce qué información debe aportar el diagrama de una viga con apoyos para calcular sus reacciones.",
+            "descripcion": "Debe representar las cargas, el peso, los puntos de aplicación, las distancias y las componentes de reacción permitidas por cada apoyo. Con estos datos pueden plantearse las dos ecuaciones de fuerzas y la de momentos del equilibrio plano. Las distancias son decisivas porque determinan los brazos de las cargas."
+          },
+          {
+            "id": 12,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.3. Ligaduras, reacciones y grados de libertad",
+            "termino": "Compara cómo un apoyo móvil, una articulación y un empotramiento condicionan el equilibrio de una estructura plana.",
+            "descripcion": "Un apoyo móvil impide el desplazamiento normal y origina una reacción. Una articulación restringe las dos traslaciones, pero permite girar. El empotramiento también bloquea la rotación y aporta un momento de reacción. Por tanto, cada ligadura determina distintas incógnitas y posibilidades de movimiento."
+          },
+          {
+            "id": 13,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.3. Ligaduras, reacciones y grados de libertad",
+            "termino": "Justifica por qué las ecuaciones de la estática pueden ser insuficientes para hallar todas las reacciones de una estructura.",
+            "descripcion": "Cuando el número de reacciones independientes supera las ecuaciones disponibles, el sistema es hiperestático. El equilibrio solo fija ciertas combinaciones de esfuerzos; para obtener los restantes valores se necesita considerar cómo se deforman los elementos y qué condiciones geométricas deben cumplir conjuntamente."
+          },
+          {
+            "id": 14,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.4. Centro de gravedad y estabilidad del equilibrio",
+            "termino": "Analiza en qué condiciones puede utilizarse el centro de masas como punto de aplicación del peso de un cuerpo.",
+            "descripcion": "Si el campo gravitatorio es uniforme, todos los elementos de masa experimentan aceleraciones gravitatorias iguales. Entonces la resultante de sus pesos actúa en el centro de masas. Si el campo varía apreciablemente de un punto a otro, ambos centros pueden diferir y debe evaluarse la distribución de fuerzas gravitatorias."
+          },
+          {
+            "id": 15,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.4. Centro de gravedad y estabilidad del equilibrio",
+            "termino": "Compara el comportamiento de un equilibrio estable, inestable e indiferente ante una pequeña perturbación.",
+            "descripcion": "En el equilibrio estable, una perturbación aumenta la energía potencial y aparece una tendencia a recuperar la configuración inicial. En el inestable, puede reducirla y alejar más al cuerpo de su posición. En el indiferente, pequeños desplazamientos mantienen la misma energía potencial, por lo que no existe tendencia restauradora."
+          },
+          {
+            "id": 16,
+            "apartado": "2. Condiciones de equilibrio de un sólido rígido",
+            "subapartado": "2.4. Centro de gravedad y estabilidad del equilibrio",
+            "termino": "Deduce cómo influye la base de sustentación en el riesgo de vuelco de un cuerpo apoyado.",
+            "descripcion": "Mientras la proyección vertical del centro de gravedad permanezca dentro de la base, el peso puede equilibrarse con las reacciones de apoyo. Cuando supera su borde, el peso genera un momento que favorece el vuelco. Por eso ampliar la base de sustentación mejora la estabilidad frente a inclinaciones."
+          },
+          {
+            "id": 17,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.1. Concepto, funcionamiento y clasificación de las máquinas",
+            "termino": "Analiza por qué una máquina puede facilitar una tarea sin generar trabajo mecánico adicional por sí misma.",
+            "descripcion": "Un mecanismo adapta la magnitud o dirección de las fuerzas y el recorrido necesario para realizar una operación. Cuando aumenta la fuerza disponible, suele exigir más desplazamiento de entrada. En máquinas reales, parte del trabajo suministrado se disipa; por ello, el trabajo útil no puede superar al recibido."
+          },
+          {
+            "id": 18,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.2. Ventaja mecánica y rendimiento",
+            "termino": "Justifica por qué una ventaja mecánica mayor que la unidad no significa que una máquina tenga un rendimiento superior al cien por cien.",
+            "descripcion": "La ventaja mecánica compara fuerzas de salida y entrada, mientras que el rendimiento relaciona trabajos. Una máquina puede multiplicar la fuerza porque el punto de aplicación recorre mayor distancia. Como el trabajo depende de fuerza y desplazamiento, no se crea energía y las pérdidas reducen el rendimiento real."
+          },
+          {
+            "id": 19,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.2. Ventaja mecánica y rendimiento",
+            "termino": "Compara el comportamiento de una máquina ideal y una real cuando se consideran rozamiento y deformaciones.",
+            "descripcion": "En el modelo ideal, todo el trabajo suministrado se transforma en trabajo útil y las relaciones geométricas determinan la ventaja mecánica. En una máquina real, el rozamiento y las deformaciones disipan parte de la energía. Por ello aumenta el esfuerzo necesario o disminuye el trabajo recuperable en la salida."
+          },
+          {
+            "id": 20,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.3. Máquinas simples",
+            "termino": "Explica cómo la ley de la palanca permite levantar una carga elevada mediante una fuerza menor.",
+            "descripcion": "El equilibrio requiere compensar los momentos de potencia y resistencia respecto al fulcro. Al aumentar el brazo de aplicación de la potencia, puede reducirse la fuerza necesaria para sostener la carga. Como contrapartida, su punto de aplicación recorre una distancia mayor, coherente con la conservación del trabajo ideal."
+          },
+          {
+            "id": 21,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.3. Máquinas simples",
+            "termino": "Compara la ventaja mecánica de una polea fija, una móvil y un polipasto ideal.",
+            "descripcion": "La polea fija modifica la dirección de la tracción sin reducir su módulo. En una polea móvil ideal, dos ramales sostienen la carga y cada uno soporta aproximadamente la mitad. Un polipasto reparte la carga entre más ramales, disminuyendo la fuerza a costa de tirar de más cuerda."
+          },
+          {
+            "id": 22,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.3. Máquinas simples",
+            "termino": "Justifica por qué alargar un plano inclinado reduce la fuerza necesaria para elevar una carga hasta la misma altura.",
+            "descripcion": "Al mantener fija la altura y aumentar la longitud de la rampa, disminuye el ángulo y, por tanto, la componente del peso paralela al plano. La fuerza ideal requerida es menor, pero debe aplicarse durante un recorrido mayor. El trabajo ideal permanece igual; con rozamiento aparecen pérdidas adicionales."
+          },
+          {
+            "id": 23,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.3. Máquinas simples",
+            "termino": "Analiza cómo relacionan la cuña y el tornillo el plano inclinado con la transformación de fuerzas y movimientos.",
+            "descripcion": "La cuña convierte una fuerza aplicada en acciones laterales que separan materiales gracias a sus superficies inclinadas. El tornillo dispone ese plano en forma helicoidal y transforma rotaciones en avances axiales pequeños. Ambos aprovechan recorridos distintos para obtener grandes esfuerzos útiles, aunque el rozamiento afecta significativamente a su funcionamiento."
+          },
+          {
+            "id": 24,
+            "apartado": "3. Máquinas",
+            "subapartado": "3.4. Máquinas compuestas y aplicaciones tecnológicas",
+            "termino": "Deduce cómo influye la combinación de mecanismos en la ventaja mecánica y la eficiencia de una máquina compuesta.",
+            "descripcion": "Los mecanismos consecutivos adaptan las fuerzas y los desplazamientos de cada etapa, de modo que sus ventajas ideales pueden multiplicarse. Sin embargo, cada contacto o transmisión introduce pérdidas de energía. Por tanto, una combinación puede proporcionar grandes esfuerzos, pero su rendimiento global disminuye si las etapas son poco eficientes."
+          },
+          {
+            "id": 25,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.1. Evolución histórica y Revolución Industrial",
+            "termino": "Analiza cómo las máquinas simples ampliaron las capacidades técnicas de las sociedades preindustriales.",
+            "descripcion": "Palancas, poleas y otros mecanismos permitieron modificar esfuerzos y elevar o desplazar cargas que resultaban difíciles de manejar directamente. Esto facilitó tareas de construcción, agricultura y transporte. Aunque no eliminaban la necesidad de trabajo, reorganizaban la fuerza humana y animal para alcanzar operaciones más complejas."
+          },
+          {
+            "id": 26,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.1. Evolución histórica y Revolución Industrial",
+            "termino": "Explica por qué la mecanización impulsada por la energía hidráulica y el vapor transformó la producción industrial.",
+            "descripcion": "Las nuevas fuentes de potencia accionaron mecanismos de forma continuada y a mayor escala que el esfuerzo exclusivamente manual. Esto permitió concentrar operaciones en fábricas, aumentar el ritmo productivo y extender la mecanización a diferentes sectores. Como resultado, cambiaron tanto los procesos técnicos como la organización económica."
+          },
+          {
+            "id": 27,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.2. Transformaciones económicas y sociales",
+            "termino": "Analiza la relación entre aumento de productividad, urbanización y transformación del trabajo durante la industrialización.",
+            "descripcion": "La mecanización elevó la producción por trabajador y favoreció fábricas que concentraban equipos y mano de obra. Esta concentración impulsó migraciones hacia ciudades y una mayor división del trabajo. Al mismo tiempo aparecieron riesgos y desigualdades laborales, lo que hizo necesarias mejoras de seguridad y nuevas cualificaciones."
+          },
+          {
+            "id": 28,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.3. Automatización, desarrollo tecnológico y sostenibilidad",
+            "termino": "Compara la mecanización industrial tradicional con la automatización mediante sensores y control electrónico.",
+            "descripcion": "La mecanización tradicional sustituye o amplifica principalmente esfuerzos mediante dispositivos físicos. La automatización añade sensores y sistemas de control capaces de supervisar y ajustar operaciones sin intervención continua. Así se mejora la precisión y se transforman las tareas humanas, que pasan a incluir programación, supervisión y mantenimiento."
+          },
+          {
+            "id": 29,
+            "apartado": "4. Influencia de las máquinas en el desarrollo social",
+            "subapartado": "4.3. Automatización, desarrollo tecnológico y sostenibilidad",
+            "termino": "Justifica por qué la eficiencia energética y la durabilidad son criterios relevantes para diseñar máquinas sostenibles.",
+            "descripcion": "Las pérdidas mecánicas obligan a consumir más energía para obtener el mismo trabajo útil. Reducirlas disminuye el consumo durante el funcionamiento; además, prolongar la vida útil mediante mantenimiento evita parte de los materiales y residuos asociados a sustituciones prematuras. Por ello, rendimiento y durabilidad deben valorarse conjuntamente."
+          },
+          {
+            "id": 30,
+            "apartado": "5. Conclusión",
+            "subapartado": "5. Conclusión",
+            "termino": "Deduce cómo se relacionan las condiciones de equilibrio con la seguridad y la sostenibilidad del desarrollo tecnológico.",
+            "descripcion": "El análisis conjunto de fuerzas, momentos, apoyos y estabilidad permite diseñar estructuras y mecanismos capaces de trabajar con cargas controladas. A su vez, la ventaja mecánica y el rendimiento orientan el aprovechamiento de energía. Aplicar ambos enfoques favorece máquinas más seguras, eficientes y duraderas."
+          }
+        ]
+      }
+    }
+  ],
+  "propuesta_didactica": {
+    "lectura": "Propuesta didáctica e inclusiva\nEste tema puede trasladarse al aula mediante un debate científico guiado sobre la controversia: ¿debería generalizarse el uso de grúas y sistemas automatizados de elevación en la construcción, pese a sus costes económicos y ambientales? Esta cuestión permite relacionar las condiciones de equilibrio, los momentos de fuerza, la estabilidad y el funcionamiento de las máquinas con la seguridad laboral y el desarrollo tecnológico.\nUn tercio del alumnado defenderá su implantación, otro analizará sus inconvenientes y el resto moderará y contrastará evidencias. Los equipos utilizarán diagramas de fuerzas, tablas de carga, datos de consumo energético e informes de seguridad para fundamentar sus argumentos, diferenciando hechos y opiniones.\nPara favorecer la inclusión, se proporcionarán apoyos visuales, guías de argumentación y roles cooperativos, permitiendo intervenciones orales o escritas. La actividad se evaluará mediante una rúbrica de argumentación científica que valore el rigor conceptual, las evidencias y el razonamiento.",
+    "actividad": "Propuesta didáctica e inclusiva\nEste tema puede trasladarse al aula mediante un debate científico guiado sobre la controversia: ¿debería generalizarse el uso de grúas y sistemas automatizados de elevación en la construcción, pese a sus costes económicos y ambientales? Esta cuestión permite relacionar las condiciones de equilibrio, los momentos de fuerza, la estabilidad y el funcionamiento de las máquinas con la seguridad laboral y el desarrollo tecnológico.\nUn tercio del alumnado defenderá su implantación, otro analizará sus inconvenientes y el resto moderará y contrastará evidencias. Los equipos utilizarán diagramas de fuerzas, tablas de carga, datos de consumo energético e informes de seguridad para fundamentar sus argumentos, diferenciando hechos y opiniones.\nPara favorecer la inclusión, se proporcionarán apoyos visuales, guías de argumentación y roles cooperativos, permitiendo intervenciones orales o escritas. La actividad se evaluará mediante una rúbrica de argumentación científica que valore el rigor conceptual, las evidencias y el razonamiento.",
+    "dinamica": "Diagramas de fuerzas, tablas de carga, rúbrica"
+  }
+}

@@ -1,0 +1,921 @@
+{
+  "tema": {
+    "code": "TEMA-40",
+    "title": "Evolución histórica de la clasificación de los elementos químicos. Periodicidad de las propiedades y relación con la configuración electrónica. Estudio experimental de algunas de las propiedades.",
+    "subject": "Química"
+  },
+  "niveles": [
+    {
+      "level": 0,
+      "title": "TEMA-40 Nivel 0",
+      "content_json": {
+        "tipo": "indice",
+        "estructura": [
+          {
+            "apartado": "0. Introducción",
+            "subapartados": []
+          },
+          {
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartados": [
+              "1.1. Primeros intentos de clasificación de los elementos",
+              "1.2. Sistemas periódicos de Mendeléiev y Lothar Meyer",
+              "1.3. Moseley y la ley periódica moderna",
+              "1.4. Organización de la tabla periódica actual"
+            ]
+          },
+          {
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartados": [
+              "2.1. Configuración electrónica y principios de ocupación",
+              "2.2. Relación entre la configuración electrónica y la tabla periódica",
+              "2.3. Carga nuclear efectiva y apantallamiento electrónico"
+            ]
+          },
+          {
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartados": [
+              "3.1. Radio atómico y radio iónico",
+              "3.2. Energía de ionización y afinidad electrónica",
+              "3.3. Electronegatividad",
+              "3.4. Carácter metálico"
+            ]
+          },
+          {
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartados": [
+              "4.1. Determinación experimental del tamaño atómico",
+              "4.2. Determinación de la energía de ionización y la afinidad electrónica",
+              "4.3. Determinación de la electronegatividad",
+              "4.4. Caracterización experimental del carácter metálico"
+            ]
+          },
+          {
+            "apartado": "5. Conclusión",
+            "subapartados": []
+          },
+          {
+            "apartado": "6. Bibliografía",
+            "subapartados": []
+          }
+        ]
+      }
+    },
+    {
+      "level": 0.5,
+      "title": "TEMA-40 Nivel 0.5",
+      "content_json": {
+        "tipo": "infografias",
+        "description": "Infografías visuales organizadas por apartados",
+        "infografias": []
+      }
+    },
+    {
+      "level": 1,
+      "title": "TEMA-40 Nivel 1",
+      "content_json": {
+        "tipo": "palabras_clave",
+        "keywords": {
+          "1.1. Primeros intentos de clasificación de los elementos": "Clasificación de Lavoisier · Tríadas de Döbereiner · Hélice telúrica de Chancourtois · Ley de las octavas de Newlands · Limitaciones de las primeras clasificaciones",
+          "1.2. Sistemas periódicos de Mendeléiev y Lothar Meyer": "Ley periódica de Mendeléiev · Masas atómicas crecientes · Grupos y períodos · Huecos predictivos · Galio y germanio · Corrección de masas atómicas · Volumen atómico de Lothar Meyer · Anomalías Te/I y Co/Ni",
+          "1.3. Moseley y la ley periódica moderna": "Experimentos de Moseley · Espectros de rayos X característicos · Ley de Moseley · Número atómico · Ley periódica moderna",
+          "1.4. Organización de la tabla periódica actual": "IUPAC: 118 elementos · Siete períodos · Dieciocho grupos · Bloques electrónicos s, p, d y f · Longitud de los períodos · Gases nobles · Lantánidos y actínidos · Seaborg",
+          "2.1. Configuración electrónica y principios de ocupación": "Orbital atómico · Números cuánticos · Principio de Aufbau · Regla de Madelung · Principio de exclusión de Pauli · Regla de Hund · Capacidad de los subniveles · Capacidad electrónica de las capas",
+          "2.2. Relación entre la configuración electrónica y la tabla periódica": "Configuración electrónica externa · Electrones de valencia · Configuración de alcalinos · Configuración de halógenos · Configuración de gases nobles · Formación de iones · Subniveles de transición d y f · Excepciones de Cr y Cu · Ionización de orbitales ns",
+          "2.3. Carga nuclear efectiva y apantallamiento electrónico": "Apantallamiento electrónico · Carga nuclear efectiva · Penetración orbital · Variación de la carga nuclear efectiva · Distancia electrón-núcleo · Apantallamiento de electrones f · Contracción lantánida",
+          "3.1. Radio atómico y radio iónico": "Radio covalente · Radio metálico · Radio de van der Waals · Tendencia periódica del radio · Radio catiónico · Radio aniónico · Series isoelectrónicas",
+          "3.2. Energía de ionización y afinidad electrónica": "Primera energía de ionización · Ionizaciones sucesivas · Tendencias periódicas de ionización · Anomalía Be/B · Anomalía N/O · Afinidad electrónica · Convenio de signos · Tendencias y excepciones de afinidad electrónica · Excepción Cl/F",
+          "3.3. Electronegatividad": "Electronegatividad · Tendencias periódicas · Escala de Pauling · Escala de Mulliken · Polaridad de enlace · Carácter iónico parcial",
+          "3.4. Carácter metálico": "Carácter metálico · Tendencia periódica · Facilidad de oxidación · Óxidos básicos · Propiedades físicas de los metales · Metaloides",
+          "4.1. Determinación experimental del tamaño atómico": "Difracción de rayos X · Ley de Bragg · Distancia interplanar · Parámetro reticular · Estructura cúbica centrada en las caras · Cálculo del radio metálico · Propagación de incertidumbres",
+          "4.2. Determinación de la energía de ionización y la afinidad electrónica": "Fotoionización · Espectroscopia fotoelectrónica · Umbral de ionización · Energía cinética del fotoelectrón · Fotodesprendimiento de aniones · Ciclos termoquímicos · Calibración instrumental",
+          "4.3. Determinación de la electronegatividad": "Determinación indirecta · Energías de disociación · Enlaces homonucleares · Enlaces heteronucleares · Energías experimentales de ionización · Afinidades electrónicas experimentales",
+          "4.4. Caracterización experimental del carácter metálico": "Medida de resistencia eléctrica · Conductividad experimental · Reactividad de Mg, Zn y Cu · Desprendimiento de hidrógeno · Variables controladas · Repetibilidad experimental · Media y dispersión · Pasivación superficial"
+        }
+      }
+    },
+    {
+      "level": 2,
+      "title": "TEMA-40 Nivel 2",
+      "content_json": {
+        "tipo": "desarrollo_esquematico",
+        "texto": "TEMA 40. Evolución histórica de la clasificación de los elementos químicos. Periodicidad de las propiedades y relación con la configuración electrónica. Estudio experimental de algunas de las propiedades.\n\n0. Introducción\n\n0.1. Contextualización y relevancia del concepto central\nTabla periódica: clasificación y predicción de propiedades según el número atómico.\nFundamento: configuración electrónica y periodicidad química.\nAplicaciones: baterías, semiconductores y nuevos materiales.\nActualidad: minerales críticos y almacenamiento energético.\n\n0.2. Enfoque y organización del tema\nEvolución histórica: clasificaciones empíricas y ley periódica moderna.\nFundamento cuántico: configuración electrónica y carga nuclear efectiva.\nPropiedades periódicas: tendencias, anomalías y determinación experimental.\nFrase-faro: La configuración electrónica explica la periodicidad de los elementos químicos, cuyas propiedades pueden determinarse experimentalmente.\n\n1. Evolución histórica de la clasificación de los elementos químicos\n\n1.1. Primeros intentos de clasificación de los elementos\nLavoisier: clasificación inicial de sustancias simples.\nDöbereiner: tríadas; masa central aproximadamente igual a la media de las extremas.\nChancourtois: hélice telúrica y alineación de elementos semejantes.\nNewlands: ley de las octavas; limitaciones para elementos pesados.\n\n1.2. Sistemas periódicos de Mendeléiev y Lothar Meyer\nMendeléiev: masas atómicas crecientes y semejanzas químicas.\nGrupos y períodos: regularidades y huecos predictivos.\nPredicciones: galio, germanio y corrección de masas atómicas.\nMeyer: periodicidad del volumen atómico.\nLimitaciones: inversiones Te/I y Co/Ni.\n\n1.3. Moseley y la ley periódica moderna\nMoseley: espectros de rayos X característicos.\nLey de Moseley: √ν = a(Z − b), para una misma serie espectral.\nNúmero atómico: carga nuclear y resolución de anomalías.\nLey moderna: periodicidad de propiedades en función del número atómico Z.\n\n1.4. Organización de la tabla periódica actual\nIUPAC: 118 elementos, siete períodos y dieciocho grupos.\nBloques s, p, d y f: capacidades de 2, 6, 10 y 14 electrones.\nLongitud de los períodos: ocupación progresiva de subniveles.\nNuevas familias: gases nobles y actínidos; contribución de Seaborg.\n\n2. Configuración electrónica y fundamento de la periodicidad\n\n2.1. Configuración electrónica y principios de ocupación\nOrbital: distribución probabilística; números cuánticos n, l y mₗ; mₛ describe el espín.\nAufbau-Madelung: llenado por n+l creciente; empate resuelto por menor n.\nPauli: máximo dos electrones por orbital, con espines opuestos.\nHund: ocupación individual de orbitales degenerados antes del apareamiento.\nCapacidad de capas: máximo 2n² electrones.\n\n2.2. Relación entre la configuración electrónica y la tabla periódica\nValencia: alcalinos ns¹; halógenos ns²np⁵; gases nobles ns²np⁶, excepto He (1s²).\nFormación de iones: pérdida o ganancia electrónica.\nTransición: ocupación de subniveles d y f; ionización preferente de electrones ns.\nExcepciones: Cr: [Ar]3d⁵4s¹; Cu: [Ar]3d¹⁰4s¹.\n\n2.3. Carga nuclear efectiva y apantallamiento electrónico\nApantallamiento: Z_ef = Z − σ, reducción de la atracción nuclear por los electrones internos y de la misma capa.\nPenetración orbital: influencia sobre la atracción nuclear.\nPeríodo: aumento habitual de la carga nuclear efectiva.\nGrupo: nuevas capas electrónicas y mayor distancia nuclear.\nContracción lantánida: apantallamiento relativamente débil de electrones 4f.\n\n3. Propiedades periódicas de los elementos químicos\n\n3.1. Radio atómico y radio iónico\nRadios covalente, metálico y de van der Waals: diferentes criterios interatómicos.\nTendencia: disminución a lo largo de períodos; aumento al descender en grupos.\nIones: cationes generalmente menores; aniones mayores.\nSeries isoelectrónicas: mayor carga nuclear, menor radio.\n\n3.2. Energía de ionización y afinidad electrónica\nIonización: X(g) → X⁺(g) + e⁻; unidades eV/átomo o kJ/mol.\nTendencia: aumento hacia la derecha; ionizaciones sucesivas crecientes.\nAnomalías Be/B y N/O: penetración orbital y repulsión electrónica.\nAfinidad electrónica: captura gaseosa; energía liberada y convenio de signos.\nExcepciones: Cl/F y estabilidad de subniveles llenos o semillenos.\n\n3.3. Electronegatividad\nElectronegatividad: atracción de electrones compartidos.\nTendencia: aumento hacia la derecha y arriba; flúor máximo.\nPauling: escala basada en energías de enlace.\nMulliken: χ = (EI + A)/2, con unidades compatibles.\nPolaridad: diferencia de electronegatividades y carácter iónico parcial.\n\n3.4. Carácter metálico\nMetalicidad: facilidad de oxidación y baja energía de ionización.\nTendencia: aumento hacia la izquierda y abajo.\nPropiedades: óxidos básicos, conductividad y maleabilidad habituales.\nMetaloides: propiedades intermedias y comportamiento semiconductor.\n\n4. Estudio experimental de las propiedades periódicas\n\n4.1. Determinación experimental del tamaño atómico\nDifracción de rayos X: máximos de interferencia cristalina.\nLey de Bragg: mλ = 2d·senθ.\nCristalografía: distancias interplanares y parámetro reticular.\nCobre CFC: r = a√2/4; radio metálico aproximado de 127,8 pm.\nIncertidumbre: propagación desde el parámetro reticular.\n\n4.2. Determinación de la energía de ionización y la afinidad electrónica\nFotoionización: umbral energético de extracción.\nEspectroscopia fotoelectrónica: EI = hν − E_cin, para átomos gaseosos.\nFotodesprendimiento: umbral energético de aniones.\nCiclos termoquímicos: determinación indirecta de afinidades.\nCalibración: control instrumental y estados electrónicos.\n\n4.3. Determinación de la electronegatividad\nPauling: comparación de energías de enlaces homonucleares y heteronucleares.\nMulliken: energías experimentales de ionización y afinidad electrónica.\nDeterminación indirecta: escalas relativas, unidades homogéneas y entorno químico.\n\n4.4. Caracterización experimental del carácter metálico\nConductividad: resistencia eléctrica y geometría de muestras.\nReactividad: Mg, Zn y Cu frente a ácido diluido.\nVariables controladas: superficie, temperatura y concentración.\nTratamiento de datos: triplicados, media, dispersión e incertidumbre.\nLimitaciones: pasivación, cinética y seguridad ante hidrógeno inflamable.\n\n5. Conclusión\n\n5.1. Síntesis e integración de los fundamentos\nLey periódica: transición de masas atómicas a número atómico.\nFundamento cuántico: configuración electrónica y carga nuclear efectiva.\nPropiedades: tendencias periódicas y anomalías.\nExperimentación: difracción, espectroscopia y medidas eléctricas.\n\n5.2. Relevancia y proyección del tema\nSemiconductores: estructura electrónica y diseño de materiales.\nBaterías: propiedades de elementos empleados en almacenamiento energético.\nMinerales críticos: extracción e impacto ambiental.\nCiencia de materiales: predicción y optimización de propiedades."
+      }
+    },
+    {
+      "level": 2.5,
+      "title": "TEMA-40 Nivel 2.5",
+      "content_json": {
+        "tipo": "recuperacion_activa",
+        "flashcards": [
+          {
+            "id": 1,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Qué criterio organiza los elementos en la tabla periódica moderna?",
+            "descripcion": "El número atómico creciente, que permite clasificar los elementos y predecir sus propiedades periódicas."
+          },
+          {
+            "id": 2,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Cuál es el fundamento de la periodicidad química?",
+            "descripcion": "La repetición de configuraciones electrónicas externas semejantes al aumentar el número atómico."
+          },
+          {
+            "id": 3,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Qué tres aplicaciones tecnológicas destacan en este tema?",
+            "descripcion": "Baterías para almacenamiento energético, semiconductores para electrónica y desarrollo de nuevos materiales."
+          },
+          {
+            "id": 4,
+            "apartado": "0. Introducción",
+            "subapartado": "0.1. Contextualización y relevancia del concepto central",
+            "termino": "¿Qué dos retos tecnológicos actuales se relacionan con la tabla periódica?",
+            "descripcion": "La disponibilidad de minerales críticos y el desarrollo de sistemas de almacenamiento energético."
+          },
+          {
+            "id": 5,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué dos etapas principales comprende la evolución histórica de la clasificación periódica?",
+            "descripcion": "Las clasificaciones empíricas iniciales y la formulación de la ley periódica moderna basada en el número atómico."
+          },
+          {
+            "id": 6,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué dos conceptos fundamentan la explicación cuántica de la periodicidad?",
+            "descripcion": "La configuración electrónica de los átomos y la carga nuclear efectiva experimentada por sus electrones."
+          },
+          {
+            "id": 7,
+            "apartado": "0. Introducción",
+            "subapartado": "0.2. Enfoque y organización del tema",
+            "termino": "¿Qué tres aspectos se estudian sobre las propiedades periódicas?",
+            "descripcion": "Sus tendencias generales, las anomalías observadas y los procedimientos empleados para determinarlas experimentalmente."
+          },
+          {
+            "id": 8,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.1. Primeros intentos de clasificación de los elementos",
+            "termino": "¿Qué aportó Lavoisier a la clasificación de los elementos?",
+            "descripcion": "Una clasificación temprana de sustancias simples, diferenciándolas de los compuestos conocidos."
+          },
+          {
+            "id": 9,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.1. Primeros intentos de clasificación de los elementos",
+            "termino": "¿En qué consistían las tríadas de Döbereiner?",
+            "descripcion": "Tres elementos semejantes cuya masa atómica central se aproximaba a la media de las otras dos."
+          },
+          {
+            "id": 10,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.1. Primeros intentos de clasificación de los elementos",
+            "termino": "¿Qué representación propuso Chancourtois?",
+            "descripcion": "Una hélice telúrica sobre un cilindro que alineaba elementos con propiedades químicas semejantes."
+          },
+          {
+            "id": 11,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.1. Primeros intentos de clasificación de los elementos",
+            "termino": "¿Qué establecía la ley de las octavas de Newlands y cuál era su limitación?",
+            "descripcion": "Las propiedades se repetían aproximadamente cada ocho elementos; la regularidad fallaba para elementos más pesados."
+          },
+          {
+            "id": 12,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.2. Sistemas periódicos de Mendeléiev y Lothar Meyer",
+            "termino": "¿Qué criterios utilizó Mendeléiev para ordenar los elementos?",
+            "descripcion": "Masas atómicas generalmente crecientes y semejanzas en sus propiedades químicas."
+          },
+          {
+            "id": 13,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.2. Sistemas periódicos de Mendeléiev y Lothar Meyer",
+            "termino": "¿Qué organización y recurso predictivo caracterizaban la tabla de Mendeléiev?",
+            "descripcion": "Grupos y períodos con regularidades químicas, dejando huecos para elementos todavía desconocidos."
+          },
+          {
+            "id": 14,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.2. Sistemas periódicos de Mendeléiev y Lothar Meyer",
+            "termino": "¿Qué elementos predijo Mendeléiev y qué otra aportación realizó?",
+            "descripcion": "Predijo propiedades del galio y germanio y propuso correcciones de determinadas masas atómicas."
+          },
+          {
+            "id": 15,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.2. Sistemas periódicos de Mendeléiev y Lothar Meyer",
+            "termino": "¿Qué propiedad física utilizó Lothar Meyer para evidenciar la periodicidad?",
+            "descripcion": "El volumen atómico representado frente a la masa atómica de los elementos."
+          },
+          {
+            "id": 16,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.2. Sistemas periódicos de Mendeléiev y Lothar Meyer",
+            "termino": "¿Qué dos pares de elementos mostraban inversiones respecto al orden creciente de masas?",
+            "descripcion": "Telurio-yodo y cobalto-níquel, correctamente ordenados al considerar sus propiedades químicas."
+          },
+          {
+            "id": 17,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.3. Moseley y la ley periódica moderna",
+            "termino": "¿Qué magnitud experimental estudió Moseley?",
+            "descripcion": "Las frecuencias de los rayos X característicos emitidos por diferentes elementos."
+          },
+          {
+            "id": 18,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.3. Moseley y la ley periódica moderna",
+            "termino": "¿Cuál es la expresión matemática aproximada de la ley de Moseley?",
+            "descripcion": "√ν = a(Z − b), para una misma serie espectral; ν es frecuencia, Z número atómico y a, b constantes."
+          },
+          {
+            "id": 19,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.3. Moseley y la ley periódica moderna",
+            "termino": "¿Qué significado físico tiene el número atómico?",
+            "descripcion": "El número de protones del núcleo, relacionado con su carga eléctrica positiva y responsable del orden periódico moderno."
+          },
+          {
+            "id": 20,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.3. Moseley y la ley periódica moderna",
+            "termino": "¿Cómo se formula la ley periódica moderna?",
+            "descripcion": "Las propiedades físicas y químicas de los elementos son funciones periódicas de su número atómico."
+          },
+          {
+            "id": 21,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.4. Organización de la tabla periódica actual",
+            "termino": "¿Cuántos elementos, períodos y grupos comprende la tabla periódica reconocida por la IUPAC?",
+            "descripcion": "118 elementos, siete períodos horizontales y dieciocho grupos verticales."
+          },
+          {
+            "id": 22,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.4. Organización de la tabla periódica actual",
+            "termino": "¿Qué capacidad electrónica tienen los bloques s, p, d y f?",
+            "descripcion": "Bloque s: 2 electrones; p: 6; d: 10; f: 14."
+          },
+          {
+            "id": 23,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.4. Organización de la tabla periódica actual",
+            "termino": "¿Qué determina la longitud de los períodos?",
+            "descripcion": "El número de electrones incorporados durante la ocupación progresiva de los subniveles correspondientes."
+          },
+          {
+            "id": 24,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.4. Organización de la tabla periódica actual",
+            "termino": "¿Qué cambios históricos afectaron a los gases nobles y actínidos?",
+            "descripcion": "Se incorporaron los gases nobles como familia y Seaborg propuso organizar los actínidos en una serie del bloque f."
+          },
+          {
+            "id": 25,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.1. Configuración electrónica y principios de ocupación",
+            "termino": "¿Qué representa un orbital y cuáles son los cuatro números cuánticos?",
+            "descripcion": "Una distribución de probabilidad electrónica; números cuánticos principal n, azimutal l, magnético mₗ y espín mₛ."
+          },
+          {
+            "id": 26,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.1. Configuración electrónica y principios de ocupación",
+            "termino": "¿Qué reglas establece el principio de Aufbau-Madelung?",
+            "descripcion": "Ocupación preferente de orbitales de menor energía, siguiendo n+l y, en caso de empate, menor n."
+          },
+          {
+            "id": 27,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.1. Configuración electrónica y principios de ocupación",
+            "termino": "¿Qué establece el principio de exclusión de Pauli?",
+            "descripcion": "Ningún par de electrones puede compartir los cuatro números cuánticos; máximo dos por orbital, con espines opuestos."
+          },
+          {
+            "id": 28,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.1. Configuración electrónica y principios de ocupación",
+            "termino": "¿Qué establece la regla de Hund?",
+            "descripcion": "Los orbitales degenerados se ocupan individualmente con espines paralelos antes de producirse el apareamiento electrónico."
+          },
+          {
+            "id": 29,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.1. Configuración electrónica y principios de ocupación",
+            "termino": "¿Cuál es la capacidad electrónica máxima de una capa?",
+            "descripcion": "2n² electrones, donde n representa el número cuántico principal."
+          },
+          {
+            "id": 30,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.2. Relación entre la configuración electrónica y la tabla periódica",
+            "termino": "¿Qué configuraciones externas presentan alcalinos, halógenos y gases nobles?",
+            "descripcion": "Alcalinos ns¹; halógenos ns²np⁵; gases nobles ns²np⁶, excepto helio, con 1s²."
+          },
+          {
+            "id": 31,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.2. Relación entre la configuración electrónica y la tabla periódica",
+            "termino": "¿Qué procesos electrónicos originan cationes y aniones?",
+            "descripcion": "La pérdida de electrones origina cationes positivos; la ganancia de electrones origina aniones negativos."
+          },
+          {
+            "id": 32,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.2. Relación entre la configuración electrónica y la tabla periódica",
+            "termino": "¿Qué subniveles caracterizan los elementos de transición y qué electrones suelen perder primero?",
+            "descripcion": "Se ocupan subniveles d o f; los cationes de transición suelen perder primero los electrones ns."
+          },
+          {
+            "id": 33,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.2. Relación entre la configuración electrónica y la tabla periódica",
+            "termino": "¿Cuáles son las configuraciones electrónicas fundamentales excepcionales de Cr y Cu?",
+            "descripcion": "Cromo: [Ar]3d⁵4s¹; cobre: [Ar]3d¹⁰4s¹."
+          },
+          {
+            "id": 34,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.3. Carga nuclear efectiva y apantallamiento electrónico",
+            "termino": "¿Cómo se expresa la carga nuclear efectiva?",
+            "descripcion": "Zₑf = Z − σ, donde Z es número atómico y σ representa el apantallamiento electrónico."
+          },
+          {
+            "id": 35,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.3. Carga nuclear efectiva y apantallamiento electrónico",
+            "termino": "¿Qué efecto tiene la penetración orbital sobre los electrones?",
+            "descripcion": "Modifica su exposición a la atracción nuclear y, por tanto, su energía y apantallamiento."
+          },
+          {
+            "id": 36,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.3. Carga nuclear efectiva y apantallamiento electrónico",
+            "termino": "¿Cómo suele variar la carga nuclear efectiva a lo largo de un período?",
+            "descripcion": "Generalmente aumenta de izquierda a derecha al crecer la carga nuclear sin aumentar proporcionalmente el apantallamiento."
+          },
+          {
+            "id": 37,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.3. Carga nuclear efectiva y apantallamiento electrónico",
+            "termino": "¿Qué cambios electrónicos suelen producirse al descender en un grupo?",
+            "descripcion": "Se incorporan nuevas capas electrónicas y aumenta la distancia media de los electrones de valencia al núcleo."
+          },
+          {
+            "id": 38,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.3. Carga nuclear efectiva y apantallamiento electrónico",
+            "termino": "¿Cuál es la causa electrónica principal de la contracción lantánida?",
+            "descripcion": "El apantallamiento relativamente débil de los electrones 4f frente al incremento de carga nuclear."
+          },
+          {
+            "id": 39,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.1. Radio atómico y radio iónico",
+            "termino": "¿Cuáles son los tres tipos principales de radio atómico según el entorno?",
+            "descripcion": "Radio covalente, radio metálico y radio de van der Waals, definidos mediante diferentes distancias interatómicas."
+          },
+          {
+            "id": 40,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.1. Radio atómico y radio iónico",
+            "termino": "¿Cómo varía generalmente el radio atómico en la tabla periódica?",
+            "descripcion": "Disminuye de izquierda a derecha en los períodos y aumenta al descender en los grupos."
+          },
+          {
+            "id": 41,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.1. Radio atómico y radio iónico",
+            "termino": "¿Cómo suele cambiar el tamaño atómico al formar cationes y aniones?",
+            "descripcion": "Los cationes suelen ser menores que los átomos neutros; los aniones, mayores."
+          },
+          {
+            "id": 42,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.1. Radio atómico y radio iónico",
+            "termino": "¿Cómo varía el radio dentro de una serie isoelectrónica?",
+            "descripcion": "Disminuye al aumentar la carga nuclear, manteniéndose constante el número de electrones."
+          },
+          {
+            "id": 43,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.2. Energía de ionización y afinidad electrónica",
+            "termino": "¿Qué es la primera energía de ionización y cuáles son sus unidades?",
+            "descripcion": "Energía mínima para extraer un electrón de un átomo gaseoso fundamental; eV por átomo o kJ/mol."
+          },
+          {
+            "id": 44,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.2. Energía de ionización y afinidad electrónica",
+            "termino": "¿Cómo varían la primera energía de ionización y las ionizaciones sucesivas?",
+            "descripcion": "La primera aumenta generalmente hacia la derecha y disminuye hacia abajo; las energías de ionizaciones sucesivas aumentan."
+          },
+          {
+            "id": 45,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.2. Energía de ionización y afinidad electrónica",
+            "termino": "¿Qué factores explican las anomalías de ionización Be/B y N/O?",
+            "descripcion": "Be/B: diferente penetración de orbitales 2s y 2p; N/O: repulsión entre electrones apareados."
+          },
+          {
+            "id": 46,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.2. Energía de ionización y afinidad electrónica",
+            "termino": "¿Qué proceso define la afinidad electrónica y qué convenio de signos puede utilizarse?",
+            "descripcion": "Captura de un electrón por un átomo gaseoso; energía liberada positiva y entalpía del proceso negativa cuando es exotérmico."
+          },
+          {
+            "id": 47,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.2. Energía de ionización y afinidad electrónica",
+            "termino": "¿Qué excepción presentan cloro y flúor en su afinidad electrónica?",
+            "descripcion": "El cloro libera más energía que el flúor al captar un electrón, pese a su menor electronegatividad."
+          },
+          {
+            "id": 48,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.3. Electronegatividad",
+            "termino": "¿Cómo se define la electronegatividad?",
+            "descripcion": "Tendencia de un átomo enlazado a atraer hacia sí los electrones compartidos."
+          },
+          {
+            "id": 49,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.3. Electronegatividad",
+            "termino": "¿Cómo varía generalmente la electronegatividad y qué elemento presenta el valor máximo?",
+            "descripcion": "Aumenta hacia la derecha y arriba de la tabla; el flúor presenta el valor máximo en Pauling."
+          },
+          {
+            "id": 50,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.3. Electronegatividad",
+            "termino": "¿En qué magnitudes experimentales se basa la escala de Pauling?",
+            "descripcion": "En las energías de disociación de enlaces químicos entre diferentes pares de átomos."
+          },
+          {
+            "id": 51,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.3. Electronegatividad",
+            "termino": "¿Cuál es la expresión de la electronegatividad de Mulliken?",
+            "descripcion": "χₘ = (EI + A)/2, utilizando energía de ionización y afinidad electrónica con unidades compatibles."
+          },
+          {
+            "id": 52,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.3. Electronegatividad",
+            "termino": "¿Qué propiedad de un enlace permite estimar la diferencia de electronegatividad?",
+            "descripcion": "Su polaridad y el carácter iónico parcial asociado a la distribución desigual de electrones."
+          },
+          {
+            "id": 53,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.4. Carácter metálico",
+            "termino": "¿Qué características electrónicas se asocian con el carácter metálico?",
+            "descripcion": "Facilidad para perder electrones, tendencia a oxidarse y energía de ionización relativamente baja."
+          },
+          {
+            "id": 54,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.4. Carácter metálico",
+            "termino": "¿Cómo varía generalmente el carácter metálico en la tabla periódica?",
+            "descripcion": "Aumenta hacia la izquierda de los períodos y hacia abajo de los grupos."
+          },
+          {
+            "id": 55,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.4. Carácter metálico",
+            "termino": "¿Qué tres propiedades suelen caracterizar a los metales?",
+            "descripcion": "Formación habitual de óxidos básicos, buena conductividad eléctrica y maleabilidad."
+          },
+          {
+            "id": 56,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.4. Carácter metálico",
+            "termino": "¿Qué características presentan los metaloides?",
+            "descripcion": "Propiedades intermedias entre metales y no metales, frecuentemente asociadas al comportamiento semiconductor."
+          },
+          {
+            "id": 57,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.1. Determinación experimental del tamaño atómico",
+            "termino": "¿Qué técnica experimental permite obtener información sobre distancias cristalinas?",
+            "descripcion": "La difracción de rayos X mediante el registro de máximos de interferencia."
+          },
+          {
+            "id": 58,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.1. Determinación experimental del tamaño atómico",
+            "termino": "¿Cuál es la ecuación de la ley de Bragg?",
+            "descripcion": "mλ = 2d senθ; relaciona orden de difracción, longitud de onda, distancia interplanar y ángulo de Bragg."
+          },
+          {
+            "id": 59,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.1. Determinación experimental del tamaño atómico",
+            "termino": "¿Qué dos magnitudes estructurales se obtienen mediante cristalografía de rayos X?",
+            "descripcion": "Las distancias interplanares y el parámetro reticular de la estructura cristalina."
+          },
+          {
+            "id": 60,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.1. Determinación experimental del tamaño atómico",
+            "termino": "¿Cómo se calcula el radio metálico del cobre en una estructura CFC?",
+            "descripcion": "r = a√2/4; para el cobre, el radio metálico aproximado es 127,8 pm."
+          },
+          {
+            "id": 61,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.1. Determinación experimental del tamaño atómico",
+            "termino": "¿Qué procedimiento permite estimar la incertidumbre del radio metálico calculado?",
+            "descripcion": "La propagación de la incertidumbre experimental del parámetro reticular utilizado en el cálculo."
+          },
+          {
+            "id": 62,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.2. Determinación de la energía de ionización y la afinidad electrónica",
+            "termino": "¿Qué magnitud permite obtener el umbral de fotoionización?",
+            "descripcion": "La energía mínima necesaria para extraer un electrón de una especie gaseosa en un estado electrónico determinado."
+          },
+          {
+            "id": 63,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.2. Determinación de la energía de ionización y la afinidad electrónica",
+            "termino": "¿Qué relación utiliza la espectroscopia fotoelectrónica para determinar la energía de ionización?",
+            "descripcion": "EI = hν − Ecin, para un átomo gaseoso aislado, despreciando el retroceso."
+          },
+          {
+            "id": 64,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.2. Determinación de la energía de ionización y la afinidad electrónica",
+            "termino": "¿Qué procedimiento experimental permite determinar afinidades electrónicas mediante aniones?",
+            "descripcion": "El fotodesprendimiento electrónico, identificando el umbral energético necesario para separar un electrón del anión."
+          },
+          {
+            "id": 65,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.2. Determinación de la energía de ionización y la afinidad electrónica",
+            "termino": "¿Qué procedimiento permite obtener indirectamente afinidades electrónicas?",
+            "descripcion": "Los ciclos termoquímicos, combinando variaciones energéticas conocidas mediante la ley de Hess."
+          },
+          {
+            "id": 66,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.2. Determinación de la energía de ionización y la afinidad electrónica",
+            "termino": "¿Qué dos aspectos deben controlarse en las determinaciones espectroscópicas?",
+            "descripcion": "La calibración instrumental y la identificación de los estados electrónicos de las especies estudiadas."
+          },
+          {
+            "id": 67,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.3. Determinación de la electronegatividad",
+            "termino": "¿Qué energías se comparan en el método experimental de Pauling?",
+            "descripcion": "Las energías de disociación de enlaces homonucleares y heteronucleares."
+          },
+          {
+            "id": 68,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.3. Determinación de la electronegatividad",
+            "termino": "¿Qué magnitudes experimentales utiliza el método de Mulliken?",
+            "descripcion": "La energía de ionización y la afinidad electrónica de los átomos."
+          },
+          {
+            "id": 69,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.3. Determinación de la electronegatividad",
+            "termino": "¿Qué precauciones requiere comparar valores de electronegatividad?",
+            "descripcion": "Utilizar una escala común, unidades homogéneas y considerar el entorno químico de los átomos."
+          },
+          {
+            "id": 70,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.4. Caracterización experimental del carácter metálico",
+            "termino": "¿Qué magnitudes deben conocerse para determinar experimentalmente la conductividad eléctrica?",
+            "descripcion": "La resistencia eléctrica y la geometría de la muestra, especialmente longitud y sección transversal."
+          },
+          {
+            "id": 71,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.4. Caracterización experimental del carácter metálico",
+            "termino": "¿Qué tres metales se proponen para comparar su reactividad frente a ácido diluido?",
+            "descripcion": "Magnesio, zinc y cobre, con comportamientos diferentes frente al ácido diluido."
+          },
+          {
+            "id": 72,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.4. Caracterización experimental del carácter metálico",
+            "termino": "¿Qué tres variables deben controlarse al comparar la reactividad de metales?",
+            "descripcion": "La superficie metálica expuesta, la temperatura y la concentración del ácido."
+          },
+          {
+            "id": 73,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.4. Caracterización experimental del carácter metálico",
+            "termino": "¿Qué tratamiento estadístico básico requieren las medidas experimentales repetidas?",
+            "descripcion": "Realizar triplicados y calcular media, dispersión e incertidumbre de los resultados."
+          },
+          {
+            "id": 74,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.4. Caracterización experimental del carácter metálico",
+            "termino": "¿Qué limitaciones y precauciones presenta el ensayo de reactividad metálica?",
+            "descripcion": "La pasivación y la cinética afectan al resultado; el hidrógeno producido es inflamable y exige evitar fuentes de ignición."
+          },
+          {
+            "id": 75,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué cambio fundamental caracteriza la evolución de la ley periódica?",
+            "descripcion": "La sustitución de la ordenación por masas atómicas por la ordenación según números atómicos."
+          },
+          {
+            "id": 76,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué dos conceptos constituyen el fundamento cuántico de las tendencias periódicas?",
+            "descripcion": "La configuración electrónica y la carga nuclear efectiva de los átomos."
+          },
+          {
+            "id": 77,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué dos características deben considerarse al estudiar las propiedades periódicas?",
+            "descripcion": "Las tendencias generales de las propiedades y las anomalías derivadas de la estructura electrónica."
+          },
+          {
+            "id": 78,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.1. Síntesis e integración de los fundamentos",
+            "termino": "¿Qué tres familias de técnicas proporcionan evidencias experimentales de las propiedades periódicas?",
+            "descripcion": "Difracción de rayos X, técnicas espectroscópicas y medidas eléctricas."
+          },
+          {
+            "id": 79,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.2. Relevancia y proyección del tema",
+            "termino": "¿Qué dos aspectos de los semiconductores se relacionan con el estudio de la periodicidad?",
+            "descripcion": "Su estructura electrónica y la selección de materiales para dispositivos tecnológicos."
+          },
+          {
+            "id": 80,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.2. Relevancia y proyección del tema",
+            "termino": "¿Qué aplicación energética relevante depende de las propiedades de los elementos químicos?",
+            "descripcion": "La fabricación de baterías y sistemas electroquímicos de almacenamiento de energía."
+          },
+          {
+            "id": 81,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.2. Relevancia y proyección del tema",
+            "termino": "¿Qué problema ambiental y tecnológico plantea el uso de minerales críticos?",
+            "descripcion": "La disponibilidad de recursos minerales y los impactos ambientales asociados a su extracción."
+          },
+          {
+            "id": 82,
+            "apartado": "5. Conclusión",
+            "subapartado": "5.2. Relevancia y proyección del tema",
+            "termino": "¿Qué dos objetivos tiene la ciencia de materiales relacionados con la tabla periódica?",
+            "descripcion": "Predecir propiedades de materiales y optimizarlas para aplicaciones tecnológicas específicas."
+          }
+        ]
+      }
+    },
+    {
+      "level": 3,
+      "title": "TEMA-40 Nivel 3",
+      "content_json": {
+        "tipo": "redaccion_completa",
+        "texto": "TEMA 40. Evolución histórica de la clasificación de los elementos químicos. Periodicidad de las propiedades y relación con la configuración electrónica. Estudio experimental de algunas de las propiedades.\n\nÍNDICE\n0. Introducción\n1. Evolución histórica de la clasificación de los elementos químicos\n1.1. Primeros intentos de clasificación de los elementos\n1.2. Sistemas periódicos de Mendeléiev y Lothar Meyer\n1.3. Moseley y la ley periódica moderna\n1.4. Organización de la tabla periódica actual\n2. Configuración electrónica y fundamento de la periodicidad\n2.1. Configuración electrónica y principios de ocupación\n2.2. Relación entre la configuración electrónica y la tabla periódica\n2.3. Carga nuclear efectiva y apantallamiento electrónico\n3. Propiedades periódicas de los elementos químicos\n3.1. Radio atómico y radio iónico\n3.2. Energía de ionización y afinidad electrónica\n3.3. Electronegatividad\n3.4. Carácter metálico\n4. Estudio experimental de las propiedades periódicas\n4.1. Determinación experimental del tamaño atómico\n4.2. Determinación de la energía de ionización y la afinidad electrónica\n4.3. Determinación de la electronegatividad\n4.4. Caracterización experimental del carácter metálico\n5. Conclusión\n6. Bibliografía\n\n0. Introducción\nLa clasificación periódica de los elementos constituye uno de los fundamentos de la Química, pues permite comprender y predecir las propiedades de la materia. Su estudio abarca la evolución histórica de la clasificación de los elementos químicos, la periodicidad de sus propiedades y su relación con la configuración electrónica, así como la determinación experimental de algunas de ellas.\nEste conocimiento permite interpretar la reactividad de los metales, la formación de enlaces químicos y el comportamiento de los materiales semiconductores. Desde una perspectiva CTSA, resulta esencial para comprender el desarrollo de nuevas tecnologías y valorar el uso responsable de los recursos minerales.\nAdemás, la investigación actual sobre elementos superpesados y materiales para baterías muestra la vigencia de la tabla periódica para afrontar nuevos desafíos científicos y tecnológicos. La tabla periódica no solo clasifica los elementos: explica y permite predecir su comportamiento a partir de su estructura electrónica.\n\n1. Evolución histórica de la clasificación de los elementos químicos\n\n1.1. Primeros intentos de clasificación de los elementos\nLavoisier distinguió sustancias simples y estableció una clasificación temprana. Döbereiner identificó tríadas de propiedades semejantes, como Li–Na–K: la masa del elemento central se aproxima a la media de las otras dos.\nChancourtois dispuso los elementos por masas crecientes sobre una hélice cilíndrica; los de comportamiento parecido aparecían alineados verticalmente.\nNewlands formuló la ley de las octavas: determinadas propiedades reaparecían aproximadamente cada ocho elementos, aunque la regularidad dejaba de cumplirse para elementos más pesados.\n\n1.2. Sistemas periódicos de Mendeléiev y Lothar Meyer\nEn 1869, Mendeléiev ordenó los elementos atendiendo a masas y propiedades químicas, formando grupos y períodos. Dejó huecos y predijo propiedades del ekaaluminio y el ekasilicio, posteriormente identificados como galio y germanio; también revisó masas atómicas atribuidas incorrectamente.\nLothar Meyer evidenció, independientemente, la periodicidad del volumen atómico frente a la masa.\nEl sistema presentaba inversiones, como Te/I y Co/Ni, y no explicaba la distinta longitud de los períodos.\n\n1.3. Moseley y la ley periódica moderna\nEn 1913, Moseley midió frecuencias de rayos X característicos. Dentro de una serie espectral, la raíz cuadrada de la frecuencia sigue aproximadamente una relación lineal con el número atómico: √ν = a(Z − b).\nEste resultado vinculó el orden periódico con la carga nuclear, corrigió las inversiones de masas y estableció la formulación moderna: las propiedades varían periódicamente con el número atómico.\n\n1.4. Organización de la tabla periódica actual\nLa tabla reconocida por la IUPAC reúne 118 elementos, siete períodos y dieciocho grupos. Los bloques s, p, d y f dependen del subnivel que se ocupa.\nSu capacidad —2, 6, 10 y 14 electrones— explica la organización general y la distinta longitud de los períodos. Los gases nobles completaron un nuevo grupo; la reorganización de los actínidos propuesta por Seaborg consolidó el bloque.\n\n2. Configuración electrónica y fundamento de la periodicidad\n\n2.1. Configuración electrónica y principios de ocupación\nUn orbital representa una distribución de probabilidad electrónica, no una trayectoria. Los números cuánticos n, l y mₗ describen nivel, subnivel y orientación; mₛ caracteriza el espín.\nAufbau establece el llenado de menor a mayor energía, aproximado mediante la regla n+l y, en caso de empate, menor n. Pauli permite dos electrones por orbital con espines opuestos; Hund favorece la ocupación individual de orbitales degenerados.\nUn subnivel s, p, d o f contiene 1, 3, 5 o 7 orbitales, respectivamente. La capacidad máxima de una capa es: N_max = 2n².\n\n2.2. Relación entre la configuración electrónica y la tabla periódica\nLos alcalinos presentan configuración externa ns¹; los halógenos, ns²np⁵; y los gases nobles, salvo He, ns²np⁶.\nAsí, Na es [Ne]3s¹ y tiende a formar Na⁺, mientras Cl, [Ne]3s²3p⁵, suele formar Cl⁻.\nEn los elementos de transición se ocupan subniveles d; en los de transición interna, orbitales f.\nEl llenado simple admite excepciones, como:\nCr: [Ar]3d⁵4s¹\nCu: [Ar]3d¹⁰4s¹\nEstas configuraciones reflejan el equilibrio energético entre subniveles próximos. Al formar cationes de transición se eliminan generalmente primero los electrones ns.\n\n2.3. Carga nuclear efectiva y apantallamiento electrónico\nLa repulsión entre electrones reduce la atracción nuclear efectiva: Z_ef = Z − σ.\nEl apantallamiento depende de la distribución y penetración orbital. En un período suele aumentar la carga nuclear efectiva, contrayendo la nube electrónica; al descender por un grupo predominan la incorporación de capas y la mayor distancia.\nLos electrones 4f apantallan débilmente, contribuyendo a la contracción lantánida. Esta explicación enlaza estructura electrónica y tendencias, sin convertirlas en reglas absolutas.\n\n3. Propiedades periódicas de los elementos químicos\n\n3.1. Radio atómico y radio iónico\nEl radio no es una frontera física rígida: el covalente corresponde aproximadamente a media distancia entre núcleos enlazados idénticos; el metálico se infiere de vecinos en el cristal, y el de van der Waals, de contactos no enlazantes.\nGeneralmente disminuye a lo largo del período por el aumento de la carga nuclear efectiva y crece al descender por un grupo. Los cationes suelen ser menores y los aniones mayores que sus átomos; en series isoelectrónicas disminuye con la carga nuclear.\n\n3.2. Energía de ionización y afinidad electrónica\nLa primera energía de ionización es la necesaria para arrancar un electrón de un átomo gaseoso fundamental, expresada en eV/átomo o kJ/mol: X(g) → X⁺(g) + e⁻.\nAumenta generalmente hacia la derecha de un período y disminuye hacia abajo de un grupo; las sucesivas ionizaciones requieren mayor energía.\nBe (9,3 eV) supera a B (8,2 eV), porque el electrón del boro está menos ligado que el del berilio. N (14,5 eV) supera a O (13,6 eV), ya que aparear electrones en 2p aumenta la repulsión.\nLa afinidad electrónica se define aquí como energía liberada cuando un átomo gaseoso capta un electrón: X(g) + e⁻ → X⁻(g). Con esta convención, un valor positivo corresponde a una entalpía de captura negativa.\nLa tendencia general presenta excepciones en subniveles llenos o semillenos; Cl libera más energía que F y la captura en gases nobles resulta desfavorable.\n\n3.3. Electronegatividad\nLa electronegatividad es la tendencia de un átomo enlazado a atraer densidad electrónica compartida. Suele aumentar hacia la derecha y arriba; el flúor alcanza 3,98 en la escala de Pauling.\nPauling compara energías de disociación de enlaces; Mulliken utiliza energía de ionización y afinidad electrónica expresadas en unidades compatibles: χ_M = (EI + A)/2.\nLas diferencias de electronegatividad ayudan a interpretar la polaridad y el carácter iónico parcial, pero los valores dependen de la escala y del entorno químico.\n\n3.4. Carácter metálico\nEl carácter metálico suele aumentar hacia la izquierda y abajo: favorece la cesión electrónica, se asocia a bajas energías de ionización y a la formación de óxidos básicos.\nLos metales suelen conducir electricidad y calor y ser maleables; los metaloides muestran comportamientos intermedios.\nConductividad y reactividad no son medidas equivalentes: intervienen estructura de bandas, estados superficiales y condiciones experimentales.\n\n4. Estudio experimental de las propiedades periódicas\n\n4.1. Determinación experimental del tamaño atómico\nLa difracción de rayos X mide máximos de interferencia de los planos cristalinos. Con longitud de onda calibrada y ángulo observado se obtiene la distancia interplanar: mλ = 2d·senθ.\nDeterminada la estructura, se calcula el parámetro de red. Para cobre cúbico centrado en las caras, la geometría de contacto es: r = a√2/4 = 127,8 pm.\nSe debe tener en cuenta el error y la incertidumbre de las medidas.\n\n4.2. Determinación de la energía de ionización y la afinidad electrónica\nLa fotoionización de especies gaseosas permite medir el umbral energético; en espectroscopia fotoelectrónica se determina la energía cinética del electrón y se calcula, para átomos aislados: EI = hν − E_cin.\nComo ejemplo, un fotón de 200 nm posee aproximadamente 6,20 eV: al ionizar sodio gaseoso fundamental (EI = 5,14 eV), el fotoelectrón ideal tendría aproximadamente 1,06 eV.\nLa afinidad electrónica se determina por fotodesprendimiento de aniones o indirectamente mediante ciclos termoquímicos. Deben calibrarse los instrumentos y distinguir los estados electrónicos.\n\n4.3. Determinación de la electronegatividad\nNo existe un electronegativímetro universal: las escalas se deducen de medidas independientes.\nEn la escala de Pauling se comparan energías de disociación heteronucleares y homonucleares; en la de Mulliken se emplean energías de ionización y afinidades electrónicas.\nLa comparación exige la misma convención, unidades homogéneas y una escala común. Las diferencias obtenidas informan sobre polaridad, pero no representan observables absolutos.\n\n4.4. Caracterización experimental del carácter metálico\nUn estudio comparativo puede contrastar la conductividad eléctrica de materiales y la reactividad de Mg, Zn y Cu frente a ácido diluido.\nSe formula la hipótesis de respuestas distintas, se mantienen constantes superficie expuesta, temperatura y concentración, y se mide resistencia o volumen de hidrógeno por unidad de tiempo. Se emplean gafas, pequeñas cantidades y ausencia de llamas.\nSe realizan tres mediciones por muestra, se calculan la media y la dispersión y se representan los resultados. La pasivación y la cinética obligan a interpretarlos con cautela: el Cu no libera hidrógeno apreciable con HCl diluido.\n\n5. Conclusión\nEn conclusión, el estudio de la clasificación periódica permite comprender y predecir las propiedades de los elementos químicos mediante su número atómico, configuración electrónica y carga nuclear efectiva. A lo largo del tema se ha mostrado cómo la evolución histórica de la tabla periódica, su fundamento cuántico y la determinación experimental de las propiedades se relacionan para explicar el comportamiento de los elementos y sus tendencias periódicas.\nDe este modo, se recupera la idea inicial: la tabla periódica constituye un modelo científico que transforma las observaciones experimentales en explicaciones y predicciones fundamentadas. Su valor no reside únicamente en la organización de los elementos, sino también en sus aplicaciones al desarrollo de materiales, las tecnologías energéticas y los procesos industriales.\nPor ello, este conocimiento contribuye a comprender científicamente la materia y favorece decisiones fundamentadas sobre la innovación tecnológica y el aprovechamiento sostenible de los recursos naturales.\n\n6. Bibliografía\nAgencia Internacional de la Energía. (2025). World Energy Outlook 2025: Resumen ejecutivo [Versión en español]. https://www.iea.org/reports/world-energy-outlook-2025/executive-summary?language=es\nAtkins, P. W., Jones, L., Laverman, L., Patterson, J., & Young, K. (2025). Principios de química: Los caminos del descubrimiento (8.ª ed.). Editorial Médica Panamericana.\nScerri, E. R. (2025). La tabla periódica: Una breve introducción (M. Paredes Larrucea, trad.; 2.ª ed.). Alianza Editorial."
+      }
+    },
+    {
+      "level": 3.5,
+      "title": "TEMA-40 Nivel 3.5",
+      "content_json": {
+        "tipo": "reconstruccion_cientifica",
+        "flashcards": [
+          {
+            "id": 1,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "Explica por qué la tabla periódica constituye un modelo predictivo y no únicamente una clasificación de elementos.",
+            "descripcion": "Porque la posición de cada elemento refleja su número atómico y su configuración electrónica, que condicionan sus propiedades químicas. La repetición de configuraciones externas semejantes genera regularidades periódicas. Por ello, conocer la posición de un elemento permite anticipar su reactividad, sus estados de oxidación habituales y determinadas propiedades."
+          },
+          {
+            "id": 2,
+            "apartado": "0. Introducción",
+            "subapartado": "0. Introducción",
+            "termino": "Analiza la relación entre las propiedades periódicas y el desarrollo de tecnologías energéticas actuales.",
+            "descripcion": "Las propiedades electrónicas condicionan la capacidad de los elementos para formar iones, participar en reacciones redox y constituir materiales funcionales. Esto permite seleccionar elementos para baterías y semiconductores. Como consecuencia, la investigación relaciona el rendimiento tecnológico con la disponibilidad de minerales críticos y sus impactos ambientales."
+          },
+          {
+            "id": 3,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.1. Primeros intentos de clasificación de los elementos",
+            "termino": "Compara las aportaciones de Döbereiner, Chancourtois y Newlands a la identificación de la periodicidad química.",
+            "descripcion": "Döbereiner identificó semejanzas en tríadas y relaciones aproximadas entre masas atómicas. Chancourtois representó elementos sobre una hélice, mostrando alineaciones de propiedades semejantes. Newlands observó repeticiones aproximadamente cada ocho elementos. Estos intentos revelaron regularidades empíricas, aunque todavía no podían explicar su fundamento electrónico ni clasificar satisfactoriamente todos los elementos."
+          },
+          {
+            "id": 4,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.2. Sistemas periódicos de Mendeléiev y Lothar Meyer",
+            "termino": "Justifica por qué las predicciones de Mendeléiev resultaron decisivas para la aceptación de su sistema periódico.",
+            "descripcion": "Porque Mendeléiev no se limitó a ordenar elementos conocidos, sino que dejó huecos y predijo propiedades de elementos desconocidos. El descubrimiento posterior del galio y el germanio confirmó aproximadamente sus predicciones. Como resultado, su clasificación demostró capacidad predictiva y adquirió mayor respaldo científico."
+          },
+          {
+            "id": 5,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.2. Sistemas periódicos de Mendeléiev y Lothar Meyer",
+            "termino": "Compara los criterios científicos de Mendeléiev y Lothar Meyer e identifica una limitación común.",
+            "descripcion": "Mendeléiev priorizó las propiedades químicas y las masas atómicas para organizar grupos y períodos. Meyer destacó regularidades físicas, especialmente del volumen atómico. Ambos reconocieron la periodicidad, pero sus sistemas carecían de una explicación microscópica y no justificaban completamente determinadas inversiones en el orden de las masas."
+          },
+          {
+            "id": 6,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.3. Moseley y la ley periódica moderna",
+            "termino": "Justifica por qué los experimentos de Moseley permitieron sustituir la masa atómica por el número atómico.",
+            "descripcion": "Moseley encontró una relación sistemática entre la raíz cuadrada de las frecuencias de rayos X característicos y el número atómico. Esta relación permitió ordenar los elementos según su carga nuclear, resolviendo inversiones como telurio-yodo. Por tanto, el número atómico proporcionó un criterio físico más fundamental que la masa."
+          },
+          {
+            "id": 7,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.3. Moseley y la ley periódica moderna",
+            "termino": "Analiza qué relación existe entre la ley de Moseley y la formulación moderna de la ley periódica.",
+            "descripcion": "La ley de Moseley relaciona las frecuencias características de rayos X con el número atómico, mientras que la ley periódica moderna expresa la repetición de propiedades en función de ese número. El experimento estableció el criterio ordenador correcto; posteriormente, la estructura electrónica explicó por qué aparecen regularidades químicas."
+          },
+          {
+            "id": 8,
+            "apartado": "1. Evolución histórica de la clasificación de los elementos químicos",
+            "subapartado": "1.4. Organización de la tabla periódica actual",
+            "termino": "Deduce cómo la capacidad de los subniveles electrónicos condiciona la organización de la tabla periódica.",
+            "descripcion": "Los subniveles s, p, d y f admiten respectivamente 2, 6, 10 y 14 electrones. Su ocupación progresiva origina bloques de diferente anchura y contribuye a explicar la longitud de los períodos. Así, la estructura de la tabla refleja regularidades del llenado electrónico y no una disposición arbitraria."
+          },
+          {
+            "id": 9,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.1. Configuración electrónica y principios de ocupación",
+            "termino": "Explica cómo se combinan los principios de Aufbau, Pauli y Hund para construir una configuración electrónica.",
+            "descripcion": "Aufbau establece la ocupación preferente de orbitales de menor energía. Pauli limita cada orbital a dos electrones de espines opuestos. Hund establece la ocupación individual de orbitales degenerados antes del apareamiento. Su aplicación conjunta permite distribuir los electrones, aunque el orden energético simplificado presenta excepciones."
+          },
+          {
+            "id": 10,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.1. Configuración electrónica y principios de ocupación",
+            "termino": "Justifica por qué la regla de Madelung no predice correctamente todas las configuraciones electrónicas fundamentales.",
+            "descripcion": "Porque las energías orbitales de los átomos polielectrónicos dependen de interacciones electrónicas, penetración, apantallamiento y otros efectos. Los subniveles próximos pueden presentar diferencias energéticas pequeñas. Por tanto, una distribución alternativa puede resultar más estable que la prevista por el llenado simplificado, como sucede en algunos metales de transición."
+          },
+          {
+            "id": 11,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.2. Relación entre la configuración electrónica y la tabla periódica",
+            "termino": "Analiza cómo la configuración electrónica externa permite anticipar el comportamiento químico del sodio y del cloro.",
+            "descripcion": "El sodio posee un electrón externo 3s y suele perderlo, formando un catión. El cloro presenta siete electrones de valencia y tiende a ganar uno o compartir electrones. Estas configuraciones explican sus comportamientos químicos diferentes y la formación de compuestos iónicos como el cloruro de sodio."
+          },
+          {
+            "id": 12,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.2. Relación entre la configuración electrónica y la tabla periódica",
+            "termino": "Justifica las configuraciones excepcionales del cromo y del cobre y su relación con la formación de cationes.",
+            "descripcion": "Los orbitales 3d y 4s presentan energías próximas, por lo que determinadas distribuciones electrónicas resultan especialmente favorables. El cromo presenta 3d⁵4s¹ y el cobre 3d¹⁰4s¹. Al formar cationes, suelen perderse primero los electrones 4s, debido al cambio de energías orbitales asociado a la ocupación electrónica."
+          },
+          {
+            "id": 13,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.3. Carga nuclear efectiva y apantallamiento electrónico",
+            "termino": "Explica por qué el tamaño atómico suele disminuir al avanzar de izquierda a derecha en un período.",
+            "descripcion": "Al avanzar en un período aumenta la carga nuclear, mientras los electrones añadidos ocupan principalmente la misma capa. El apantallamiento no compensa completamente ese incremento. Como consecuencia, aumenta generalmente la carga nuclear efectiva, crece la atracción sobre los electrones externos y disminuye el radio atómico."
+          },
+          {
+            "id": 14,
+            "apartado": "2. Configuración electrónica y fundamento de la periodicidad",
+            "subapartado": "2.3. Carga nuclear efectiva y apantallamiento electrónico",
+            "termino": "Justifica el origen de la contracción lantánida a partir del comportamiento de los electrones 4f.",
+            "descripcion": "Al aumentar el número atómico de los lantánidos se incorporan electrones al subnivel 4f. Estos electrones apantallan relativamente poco el incremento de carga nuclear. Como resultado, aumenta la atracción efectiva sobre otros electrones y se produce una reducción progresiva de los radios, conocida como contracción lantánida."
+          },
+          {
+            "id": 15,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.1. Radio atómico y radio iónico",
+            "termino": "Compara los radios covalente, metálico y de van der Waals y justifica por qué no son directamente equivalentes.",
+            "descripcion": "Cada radio procede de un criterio estructural distinto: distancias entre átomos enlazados covalentemente, vecinos en una red metálica o contactos no enlazantes. Como la distribución electrónica depende del entorno y de las interacciones, los valores obtenidos pueden diferir. Por ello, una comparación periódica requiere utilizar definiciones homogéneas."
+          },
+          {
+            "id": 16,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.1. Radio atómico y radio iónico",
+            "termino": "Deduce cómo varía el tamaño de los iones de una serie isoelectrónica al aumentar la carga nuclear.",
+            "descripcion": "Los iones isoelectrónicos poseen igual número de electrones, pero diferente número de protones. Al aumentar la carga nuclear, los electrones experimentan una atracción más intensa. En consecuencia, la distribución electrónica se contrae y disminuye el radio iónico, siempre que se comparen radios definidos con criterios equivalentes."
+          },
+          {
+            "id": 17,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.2. Energía de ionización y afinidad electrónica",
+            "termino": "Justifica por qué la primera energía de ionización del berilio supera a la del boro.",
+            "descripcion": "En el berilio se extrae un electrón del subnivel 2s, más penetrante y generalmente más fuertemente ligado. En el boro se extrae un electrón 2p, de mayor energía. Por ello, aunque el boro tiene mayor número atómico, requiere menos energía para su primera ionización."
+          },
+          {
+            "id": 18,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.2. Energía de ionización y afinidad electrónica",
+            "termino": "Justifica por qué el oxígeno presenta una primera energía de ionización inferior a la del nitrógeno.",
+            "descripcion": "El nitrógeno tiene tres electrones 2p desapareados, distribuidos en orbitales diferentes. El oxígeno incorpora un cuarto electrón 2p, generando un par con repulsión adicional. Esta circunstancia facilita relativamente su extracción y explica que la energía de ionización del oxígeno sea inferior a la del nitrógeno."
+          },
+          {
+            "id": 19,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.2. Energía de ionización y afinidad electrónica",
+            "termino": "Analiza por qué el cloro libera más energía que el flúor al captar un electrón, pese a su menor electronegatividad.",
+            "descripcion": "El flúor incorpora el electrón al compacto subnivel 2p, donde las repulsiones electrónicas son intensas. El cloro lo incorpora al subnivel 3p, más extenso, con menor repulsión relativa. Como consecuencia, la captura electrónica libera más energía en el cloro, aunque el flúor presenta mayor electronegatividad."
+          },
+          {
+            "id": 20,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.3. Electronegatividad",
+            "termino": "Compara los fundamentos de las escalas de Pauling y Mulliken y sus principales limitaciones.",
+            "descripcion": "Pauling utiliza diferencias entre energías de disociación de enlaces para establecer electronegatividades relativas. Mulliken combina energía de ionización y afinidad electrónica de átomos aislados. Como parten de magnitudes distintas, sus valores no son directamente intercambiables y requieren conversiones o normalizaciones para compararse."
+          },
+          {
+            "id": 21,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.3. Electronegatividad",
+            "termino": "Deduce cómo la diferencia de electronegatividad influye en la distribución electrónica de un enlace químico.",
+            "descripcion": "Cuando dos átomos enlazados presentan electronegatividades diferentes, la densidad electrónica compartida tiende a desplazarse hacia el más electronegativo. Esto genera cargas parciales y polaridad. Una diferencia elevada suele indicar mayor carácter iónico, aunque el tipo de enlace también depende de otros factores estructurales y energéticos."
+          },
+          {
+            "id": 22,
+            "apartado": "3. Propiedades periódicas de los elementos químicos",
+            "subapartado": "3.4. Carácter metálico",
+            "termino": "Analiza por qué la conductividad eléctrica y la facilidad de oxidación no son medidas equivalentes del carácter metálico.",
+            "descripcion": "La facilidad de oxidación depende de factores energéticos y del entorno químico, mientras la conductividad depende de la estructura electrónica colectiva y de la movilidad de los portadores de carga. Por ello, un material puede conducir adecuadamente sin presentar necesariamente una elevada reactividad frente a un ácido."
+          },
+          {
+            "id": 23,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.1. Determinación experimental del tamaño atómico",
+            "termino": "Explica cómo la difracción de rayos X permite obtener información cuantitativa sobre el tamaño atómico.",
+            "descripcion": "Los rayos X producen máximos de difracción asociados a familias de planos cristalinos. Aplicando la ley de Bragg se obtienen distancias interplanares. Conocida la estructura cristalina, se calcula el parámetro reticular y, mediante relaciones geométricas, se estima un radio atómico definido según el tipo de estructura."
+          },
+          {
+            "id": 24,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.1. Determinación experimental del tamaño atómico",
+            "termino": "Deduce cómo se obtiene el radio metálico del cobre a partir de su parámetro reticular y cómo afecta la incertidumbre.",
+            "descripcion": "El cobre presenta estructura cúbica centrada en las caras, donde los átomos contactan a lo largo de la diagonal de una cara. Por geometría, r = a√2/4. Con a = 361,47 pm resulta r ≈ 127,8 pm. La incertidumbre del parámetro se transmite proporcionalmente al radio calculado."
+          },
+          {
+            "id": 25,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.2. Determinación de la energía de ionización y la afinidad electrónica",
+            "termino": "Explica cómo se determina experimentalmente la energía de ionización mediante espectroscopia fotoelectrónica.",
+            "descripcion": "Se irradia una especie gaseosa con fotones de energía conocida y se mide la energía cinética de los electrones emitidos. Por conservación de la energía, la diferencia permite determinar la energía de ionización correspondiente. Es necesario identificar los estados electrónicos y calibrar el instrumento para obtener resultados fiables."
+          },
+          {
+            "id": 26,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.2. Determinación de la energía de ionización y la afinidad electrónica",
+            "termino": "Compara la determinación de la afinidad electrónica mediante fotodesprendimiento y mediante ciclos termoquímicos.",
+            "descripcion": "El fotodesprendimiento utiliza radiación para separar un electrón de un anión gaseoso y determina directamente el umbral energético. Los ciclos termoquímicos combinan variaciones de entalpía conocidas mediante la ley de Hess. Ambos permiten obtener afinidades, pero dependen de medidas experimentales y supuestos metodológicos diferentes."
+          },
+          {
+            "id": 27,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.3. Determinación de la electronegatividad",
+            "termino": "Justifica por qué la electronegatividad se obtiene mediante escalas indirectas y no mediante una medida instrumental única.",
+            "descripcion": "La electronegatividad caracteriza la tendencia de un átomo enlazado a atraer electrones, pero no corresponde a un observable único e independiente del entorno. Por ello, se construyen escalas utilizando magnitudes medibles, como energías de enlace, ionización y afinidad electrónica. Los resultados dependen de las definiciones y métodos empleados."
+          },
+          {
+            "id": 28,
+            "apartado": "4. Estudio experimental de las propiedades periódicas",
+            "subapartado": "4.4. Caracterización experimental del carácter metálico",
+            "termino": "Analiza cómo diseñar un experimento comparativo de reactividad metálica y qué limitaciones presentan sus resultados.",
+            "descripcion": "Se comparan muestras de Mg, Zn y Cu frente a ácido diluido, controlando superficie, concentración y temperatura. Se registra la producción de hidrógeno y se realizan medidas repetidas. Las diferencias observadas deben interpretarse considerando pasivación, cinética y condiciones experimentales, porque la velocidad de reacción no mide directamente el carácter metálico."
+          },
+          {
+            "id": 29,
+            "apartado": "5. Conclusión",
+            "subapartado": "5. Conclusión",
+            "termino": "Analiza cómo se relacionan la evolución histórica, la configuración electrónica y la experimentación en la construcción de la ley periódica.",
+            "descripcion": "Las primeras clasificaciones identificaron regularidades mediante observaciones empíricas. Moseley estableció el número atómico como criterio ordenador, mientras la configuración electrónica proporcionó una explicación microscópica de las propiedades. Finalmente, técnicas como espectroscopia y difracción permiten medir magnitudes, comprobar tendencias y reconocer anomalías. Así se conectan observación, teoría y predicción."
+          },
+          {
+            "id": 30,
+            "apartado": "5. Conclusión",
+            "subapartado": "5. Conclusión",
+            "termino": "Deduce qué ventajas ofrece el conocimiento de las propiedades periódicas para diseñar materiales y afrontar retos tecnológicos actuales.",
+            "descripcion": "La comprensión de las configuraciones electrónicas y las tendencias periódicas permite seleccionar elementos con propiedades adecuadas para baterías, semiconductores y otros materiales. Esto orienta la investigación y reduce ensayos innecesarios. Además, la disponibilidad de minerales críticos obliga a considerar conjuntamente rendimiento tecnológico, impacto ambiental y sostenibilidad de los recursos."
+          }
+        ]
+      }
+    }
+  ],
+  "propuesta_didactica": {
+    "lectura": "Este tema puede trasladarse al aula mediante un debate científico guiado sobre la controversia: ¿Es sostenible aumentar la extracción de litio y otros metales para fabricar baterías destinadas a la transición energética? La actividad permitirá relacionar la posición de los elementos en la tabla periódica, su configuración electrónica y sus propiedades con sus aplicaciones tecnológicas e impactos ambientales.\nUn tercio del alumnado defenderá los beneficios de esta extracción, otro tercio analizará sus riesgos ambientales y sociales, mientras que el resto moderará y contrastará las evidencias. Las argumentaciones se fundamentarán en gráficos de propiedades periódicas, datos de extracción y estudios científicos, diferenciando hechos y opiniones.\nPara garantizar la inclusión, se proporcionarán apoyos visuales, guías de argumentación, roles cooperativos y alternativas de participación oral o escrita. La evaluación utilizará una rúbrica de argumentación científica y pensamiento crítico.",
+    "actividad": "Este tema puede trasladarse al aula mediante un debate científico guiado sobre la controversia: ¿Es sostenible aumentar la extracción de litio y otros metales para fabricar baterías destinadas a la transición energética? La actividad permitirá relacionar la posición de los elementos en la tabla periódica, su configuración electrónica y sus propiedades con sus aplicaciones tecnológicas e impactos ambientales.\nUn tercio del alumnado defenderá los beneficios de esta extracción, otro tercio analizará sus riesgos ambientales y sociales, mientras que el resto moderará y contrastará las evidencias. Las argumentaciones se fundamentarán en gráficos de propiedades periódicas, datos de extracción y estudios científicos, diferenciando hechos y opiniones.\nPara garantizar la inclusión, se proporcionarán apoyos visuales, guías de argumentación, roles cooperativos y alternativas de participación oral o escrita. La evaluación utilizará una rúbrica de argumentación científica y pensamiento crítico.",
+    "dinamica": "Propiedades periódicas, roles, rúbrica"
+  }
+}

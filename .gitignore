@@ -42,3 +42,6 @@ supabase/.env
 # fuente bruta de temas (con imágenes en base64) — ya cargada en Supabase Storage
 metodofyq_tema19.jsx
 .env*
+
+# Fotos del nivel 0.5 (demasiado pesadas para GitHub; se guardan fuera del repo)
+scripts/data/FOTOS NIVEL 0.5/

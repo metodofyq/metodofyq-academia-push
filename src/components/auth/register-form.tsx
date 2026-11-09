@@ -126,7 +126,11 @@ export function RegisterForm() {
             </Link>
           </p>
           <p className="text-xs text-muted-foreground text-center">
-            Al registrarte aceptas los Términos de uso y la Política de privacidad.
+            Al registrarte aceptas la{' '}
+            <Link href="/privacidad" className="text-primary hover:underline font-medium">
+              Política de privacidad
+            </Link>
+            .
           </p>
         </CardFooter>
       </form>

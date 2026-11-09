@@ -20,9 +20,9 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-4">Legal</h4>
             <p className="text-sm">
-              <a href="#" className="text-blue-400 hover:underline">Términos de servicio</a>
+              <a href="/privacidad" className="text-blue-400 hover:underline">Política de privacidad</a>
               <br />
-              <a href="#" className="text-blue-400 hover:underline">Política de privacidad</a>
+              <a href="mailto:metodofyq@metodofyq.com" className="text-blue-400 hover:underline">Contacto</a>
             </p>
           </div>
         </div>

@@ -1,8 +1,33 @@
 "use client";
 
+import { Youtube } from "lucide-react";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-12 px-6">
+      {/* YouTube Notice */}
+      <div className="max-w-5xl mx-auto mb-8 bg-gray-800 p-4 rounded-lg border border-red-600">
+        <div className="flex items-center gap-2 mb-2">
+          <Youtube className="w-5 h-5 text-red-600" />
+          <span className="text-white font-semibold">Vídeos alojados en YouTube</span>
+        </div>
+        <p className="text-sm text-gray-400">
+          Esta plataforma utiliza vídeos de YouTube. Al reproducirlos, aceptas los{" "}
+          <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+            Términos de Servicio de YouTube
+          </a>
+          {" "}y la{" "}
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+            Política de Privacidad de Google
+          </a>
+          . Consulta nuestra{" "}
+          <a href="/privacidad" className="text-blue-400 hover:underline font-semibold">
+            Política de Privacidad
+          </a>
+          {" "}para más información.
+        </p>
+      </div>
+
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
           <div>

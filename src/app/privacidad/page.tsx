@@ -22,7 +22,8 @@ export default function PrivacyPolicy() {
             <li><a href="#destinatarios" className="text-blue-600 hover:underline">5. Destinatarios y proveedores</a></li>
             <li><a href="#derechos" className="text-blue-600 hover:underline">6. Tus derechos</a></li>
             <li><a href="#seguridad" className="text-blue-600 hover:underline">7. Medidas de seguridad</a></li>
-            <li><a href="#cookies" className="text-blue-600 hover:underline">8. Cookies</a></li>
+            <li><a href="#youtube" className="text-blue-600 hover:underline">8. YouTube y Google</a></li>
+            <li><a href="#cookies" className="text-blue-600 hover:underline">9. Cookies</a></li>
           </ul>
         </nav>
 
@@ -396,8 +397,94 @@ export default function PrivacyPolicy() {
           </div>
         </section>
 
+        <section id="youtube" className="mb-12">
+          <h2 className="text-2xl font-bold mb-4 text-gray-900">8. Vídeos de YouTube y Servicios de Google</h2>
+
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">🎥 Integración de Vídeos de YouTube</h3>
+              <p className="text-gray-700 mb-4">
+                Esta web inserta vídeos alojados en YouTube mediante el reproductor estándar de YouTube. Estos vídeos pueden estar integrados tanto de forma embebida como mediante enlaces directos a youtube-nocookie.com.
+              </p>
+
+              <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 mb-4">
+                <h4 className="font-semibold text-gray-800 mb-2">⚠️ Importante sobre tus datos en YouTube</h4>
+                <p className="text-sm text-gray-700 mb-2">
+                  <strong>Cuando reproduces un vídeo de YouTube en esta web:</strong>
+                </p>
+                <ul className="text-sm text-gray-700 list-disc list-inside ml-2 space-y-1">
+                  <li>YouTube/Google puede recopilar datos sobre tu navegación y reproducción de vídeos</li>
+                  <li>Google utiliza cookies propias para rastrear tu actividad</li>
+                  <li>Los términos de servicio y política de privacidad de Google aplican a esa reproducción</li>
+                  <li>Ester Berbel Pedrosa (titular de esta web) NO controla qué datos recopila Google</li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">📋 Términos del Servicio de YouTube</h3>
+              <p className="text-gray-700 mb-3">
+                Al reproducir vídeos de YouTube en esta web, aceptas los Términos del Servicio de YouTube:
+              </p>
+              <div className="bg-gray-50 p-4 rounded-lg border border-gray-300">
+                <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-semibold">
+                  https://www.youtube.com/t/terms
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">🔒 Política de Privacidad de Google</h3>
+              <p className="text-gray-700 mb-3">
+                Para conocer cómo Google trata tus datos al reproducir vídeos:
+              </p>
+              <div className="bg-gray-50 p-4 rounded-lg border border-gray-300">
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-semibold">
+                  https://policies.google.com/privacy
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">🛠️ Uso de la API de YouTube</h3>
+              <p className="text-gray-700 mb-4">
+                Ester Berbel Pedrosa utiliza los Servicios de API de YouTube para gestionar y publicar vídeos en el canal oficial de Método FyQ.
+                <strong> Es importante que sepas:</strong>
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-gray-700 ml-2">
+                <li>La herramienta de subida de vídeos accede <strong>únicamente al canal propio</strong> de Método FyQ</li>
+                <li>NO accede a datos de cuentas de YouTube de los usuarios de esta web</li>
+                <li>NO almacena credenciales ni datos de otros usuarios de YouTube</li>
+                <li>NO comparte acceso a tus datos de YouTube con terceros</li>
+                <li>Los vídeos que subes a través de esta plataforma se publican en el canal de Método FyQ según sus términos</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">🔄 Revocar Acceso a tu Cuenta de Google</h3>
+              <p className="text-gray-700 mb-3">
+                Si en algún momento autorizaste a esta web o a Método FyQ a acceder a tu cuenta de Google/YouTube, puedes revocar ese acceso en cualquier momento:
+              </p>
+              <div className="bg-gray-50 p-4 rounded-lg border border-gray-300">
+                <p className="font-semibold text-gray-800 mb-2">Revoca el acceso aquí:</p>
+                <a href="https://security.google.com/settings/security/permissions" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline break-all">
+                  https://security.google.com/settings/security/permissions
+                </a>
+                <p className="text-sm text-gray-600 mt-2">Busca "Método FyQ" o "metodofyq" en la lista de aplicaciones conectadas y haz clic en "Eliminar acceso".</p>
+              </div>
+            </div>
+
+            <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-500">
+              <h4 className="font-semibold text-gray-800 mb-2">⚠️ Reproducción sin Google</h4>
+              <p className="text-sm text-gray-700">
+                Esta web intenta usar <code className="bg-gray-100 px-2 py-1 rounded">youtube-nocookie.com</code> cuando es posible, que reduce el rastreo de Google pero no lo elimina completamente. Si prefieres evitar YouTube completamente, puedes contactar a <a href="mailto:metodofyq@metodofyq.com" className="text-blue-600 hover:underline">metodofyq@metodofyq.com</a> para solicitar contenido alternativo.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <section id="cookies" className="mb-12">
-          <h2 className="text-2xl font-bold mb-4 text-gray-900">8. Cookies y Tecnologías de Rastreo</h2>
+          <h2 className="text-2xl font-bold mb-4 text-gray-900">9. Cookies y Tecnologías de Rastreo</h2>
 
           <p className="text-gray-700 mb-4">
             Este sitio web usa cookies para mejorar la experiencia de navegación y analizar el uso.
